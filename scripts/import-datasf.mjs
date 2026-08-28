@@ -94,7 +94,7 @@ export async function importSource(sourceId, options = {}) {
 
   const retrievedAt = new Date().toISOString();
   const rows = await fetchAllRows(source, {
-    contact: options.contact ?? process.env.SF_PARKS_CONTACT,
+    contact: options.contact ?? process.env["SF_PARKS_CONTACT"],
     fetchImpl: options.fetchImpl
   });
   if (rows.length === 0) throw new Error(`${source.id}: refusing to publish an empty import.`);
@@ -144,4 +144,3 @@ if (isCli) {
     }
   }
 }
-

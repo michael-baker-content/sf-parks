@@ -883,7 +883,7 @@ properly attributed.
   no horizontal overflow at the 320-pixel support floor.
 
 - **Validation result:** The complete static site builds successfully, the
-  automated suite contains 71 passing tests, and focused browser checks cover
+  automated suite contains 74 passing tests, and focused browser checks cover
   the minimum-width header, global-search flow, transit selector, anchor menu,
   and ultra-wide centering.
 
@@ -908,7 +908,7 @@ properly attributed.
 
 - **Current evidence:** The prototype statically generates 249 destination
   pages, contains reviewed evergreen context for 133 destinations, normalizes
-  3,314 transit stops and stations across 85 routes, and passes 71 automated
+  3,314 transit stops and stations across 85 routes, and passes 74 automated
   tests. These are measures of implementation breadth and reliability—not yet
   evidence that residents complete tasks faster or more successfully.
 

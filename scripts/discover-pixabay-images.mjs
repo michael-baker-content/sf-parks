@@ -109,7 +109,7 @@ if (process.argv.includes("--plan")) {
 
 let env = {};
 try { env = parseEnv(await readFile(envUrl, "utf8")); } catch {}
-const apiKey = process.env.PIXABAY_API_KEY || env.PIXABAY_API_KEY;
+const apiKey = process.env["PIXABAY_API_KEY"] || env.PIXABAY_API_KEY;
 if (!apiKey) {
   console.error("PIXABAY_API_KEY is not configured. Add it to .env.local, then rerun this command.");
   process.exit(1);

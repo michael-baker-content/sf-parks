@@ -34,16 +34,18 @@ npm run build
 
 The deployable static site is written to `out/`.
 
-## Optional configuration
+## Vercel and optional configuration
 
-Copy `.env.example` to `.env.local` and add only the services you intend to
-use. The Google Maps key is used by the browser and must be restricted to the
-Maps Embed API and approved website referrers. The 511 and Pixabay tokens remain
-server-side and must never use a `NEXT_PUBLIC_` prefix.
+The deployed static site needs no required environment variables. To enable the
+on-demand Google Maps embed, add `NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY` in
+Vercel and restrict the key to the Maps Embed API and approved website
+referrers. The results map uses the project's reviewed OpenFreeMap style and
+does not require configuration.
 
-The application builds without optional map keys. The committed normalized,
-presentation, and search datasets allow a fresh clone to run without repeating
-the source imports.
+Do not add `511_API_KEY`, `SF_PARKS_CONTACT`, or `PIXABAY_API_KEY` to Vercel.
+Those values are used only by local data-maintenance scripts, not by the public
+site or production build. The committed normalized, presentation, and search
+datasets allow Vercel and a fresh clone to build without repeating imports.
 
 ## Refresh data
 
@@ -63,6 +65,11 @@ Refresh scheduled regional transit data with:
 npm run import:transit
 npm run normalize:transit
 ```
+
+For local refreshes, place `511_API_KEY` in `.env.local`, provide
+`SF_PARKS_CONTACT` when running DataSF imports, and add `PIXABAY_API_KEY` only
+when intentionally rerunning the deferred image-discovery pilot. These private
+values must not use a `NEXT_PUBLIC_` prefix.
 
 All sources must be declared and approved in `data/sources.json`. Validate that
 registry with `npm run validate:sources` before publishing refreshed data.

@@ -120,7 +120,7 @@ time, producing a fast static site.
 form labels, mobile disclosures, reduced-motion behavior, non-map browsing, and
 a 320-pixel support floor have influenced the component design from the start.
 
-The current automated suite contains 71 passing tests, and all 249 destination
+The current automated suite contains 74 passing tests, and all 249 destination
 pages complete a production build. Focused browser checks cover mobile search,
 anchor navigation, transit selection, minimum-width behavior, and ultra-wide
 centering.
