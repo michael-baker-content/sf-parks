@@ -17,6 +17,11 @@
     { "destinationId": "noe-beaver-mini-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Noe-Beaver-Mini-Park-Community-Garden-71", "reason": "Reviewed facility-page name that adds the destination's community-garden use." },
     { "destinationId": "guy-place-mini-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Guy-Place-339", "reason": "Reviewed shortened directory name with matching Guy Place address." },
     { "destinationId": "park-presidio-blvd", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Park-Presidio-Boulevard-195", "reason": "Reviewed abbreviation expansion for the same boulevard open space." },
-    { "destinationId": "signal-point", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Signal-Point-Park-477", "reason": "Reviewed park suffix variant with matching Signal Road location." }
+    { "destinationId": "signal-point", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Signal-Point-Park-477", "reason": "Reviewed park suffix variant with matching Signal Road location." },
+    { "destinationId": "palega-playground", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Palega-Recreation-Center-103", "reason": "Reviewed official recreation-center page describes the encompassing Palega Playground at the same Felton Street destination." },
+    { "destinationId": "garfield-square", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Garfield-Recreation-Center-441", "reason": "Reviewed official recreation-center page explicitly identifies the surrounding destination as Garfield Square at 26th and Harrison streets." },
+    { "destinationId": "cityside-parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Cityside-Park-481", "reason": "Reviewed singular public facility name for the Cityside Parks source property on Treasure Island." },
+    { "destinationId": "un-plaza", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/United-Nations-Plaza-458", "reason": "Reviewed expansion of the familiar UN abbreviation for the same Civic Center plaza." },
+    { "destinationId": "bay-view-park", "url": "https://sfrecpark.org/Facilities/Facility/Details/Bayview-Park-149", "reason": "Reviewed spacing variant for the Bay View Park source property at LeConte Avenue." }
   ]
 }

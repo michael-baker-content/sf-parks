@@ -41,6 +41,17 @@ function quantityText(amenity: Amenity) {
   return `${amenity.quantity} ${(amenity.quantity === 1 ? amenity.label : `${amenity.label}s`).toLowerCase()}`;
 }
 function readableDate(value: string) { return new Intl.DateTimeFormat("en-US", { dateStyle: "medium" }).format(new Date(value.includes("T") ? value : `${value}T00:00:00`)); }
+function EvergreenSources({ record }: { record: EvergreenRecord }) {
+  const reviewed = <><span>Reviewed </span><time dateTime={record.review.reviewedAt}>{readableDate(record.review.reviewedAt)}</time></>;
+  if (record.sources.length === 1) {
+    const source = record.sources[0];
+    return <p className="usa-hint app-evergreen__sources app-evergreen__sources--single">Context from <a href={source.url} rel="external">{source.title} <span aria-hidden="true">↗</span></a> · {reviewed}</p>;
+  }
+  return <aside className="app-evergreen__sources app-evergreen__sources--multiple" aria-labelledby="context-sources-title">
+    <div className="app-evergreen__sources-heading"><h3 id="context-sources-title">Sources for this overview</h3><p className="usa-hint">{reviewed}</p></div>
+    <ul>{record.sources.map((source) => <li key={source.id}><a href={source.url} rel="external"><span>{source.title}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+  </aside>;
+}
 
 export default async function DestinationPage({ params }: { params: Promise<{ id: string }> }) {
   const destination = destinations.get((await params).id); if (!destination) notFound();
@@ -82,7 +93,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
       {evergreen.physicalFacts?.length ? <dl className="app-evergreen__facts">{evergreen.physicalFacts.map((fact) => <div key={`${fact.category}-${fact.label}`}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl> : null}
       {evergreen.highlights?.length ? <><h3>Highlights</h3><ul className="app-evergreen__highlights">{evergreen.highlights.map((highlight) => <li key={`${highlight.category}-${highlight.label}`}><strong>{highlight.label}</strong><span>{highlight.description}</span></li>)}</ul></> : null}
       {evergreen.history && <><h3>History</h3><p>{evergreen.history.text}</p></>}
-      <p className="usa-hint app-evergreen__sources">Context from {evergreen.sources.map((source, index) => <span key={source.id}>{index > 0 && ", "}<a href={source.url} rel="external">{source.title} <span aria-hidden="true">↗</span></a></span>)} · Reviewed <time dateTime={evergreen.review.reviewedAt}>{readableDate(evergreen.review.reviewedAt)}</time></p>
+      <EvergreenSources record={evergreen} />
     </section>}
     {destination.displayPoint && <DestinationMap name={destination.publicName} latitude={destination.displayPoint.latitude} longitude={destination.displayPoint.longitude} apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY} />}
     <section id="amenities" aria-labelledby="amenities-title"><h2 id="amenities-title">What is listed here</h2><p className="usa-hint">{content.quantityNotice}</p><div className="app-amenity-groups">{groups.map(([id, items]) => <section key={id}><h3>{order.get(id)?.label ?? id}</h3><ul>{items.map((item) => <li key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}</ul></section>)}</div></section>

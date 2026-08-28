@@ -115,7 +115,6 @@ function ResultCard({ destination, record, state, returnPath }: { destination: D
       {amenities.map((item) => <li className={matches.has(item.label) ? "is-matched" : undefined} key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}
       {more > 0 && <li>+{more} more</li>}
     </ul>
-    {destination.coverage === "official-page-reviewed" && <p className="app-coverage">{content.coverage["official-page-reviewed"].shortLabel}</p>}
   </article>;
 }
 

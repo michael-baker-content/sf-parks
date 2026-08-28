@@ -13,7 +13,20 @@ Francisco.
 - MapLibre results and optional Google Maps embeds
 - Build-time Muni, BART, and Caltrain guidance from 511 SF Bay
 - Official program and reservation handoffs
+- Statement-level source links, with a scannable panel when an overview uses
+  multiple references
 - Keyboard-accessible, responsive layouts supporting 320 CSS pixels and wider
+
+## Current project status
+
+- 249 statically generated destination pages
+- Official-page review complete for every destination: 209 enriched, 29
+  reviewed with no additions, and 11 without a matching official page
+- 198 destinations with approved evergreen narrative records; the broader
+  enriched total also includes reviewed facility-directory features
+- 3,314 transit stops and stations across 85 routes
+- 15 approved images across 13 destinations, with a generic placeholder used
+  elsewhere rather than an unverified location image
 
 ## Run locally
 
@@ -73,6 +86,15 @@ values must not use a `NEXT_PUBLIC_` prefix.
 
 All sources must be declared and approved in `data/sources.json`. Validate that
 registry with `npm run validate:sources` before publishing refreshed data.
+Regenerate the destination-review summary with:
+
+```sh
+npm run report:official-page-review
+```
+
+The report distinguishes published enrichment, completed reviews with no useful
+additions, missing official pages, and genuinely pending work. A completed
+“no additions” result is not an unfinished review.
 
 ## Project documentation
 

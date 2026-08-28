@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    { "destinationId": "49-s-van-ness-avenue", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official sources identify this as a municipal office building rather than a visitor-facing park destination; no suitable destination page was found." },
+    { "destinationId": "berkeley-way-open-space", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official searches found inventory and maintenance references only, not a destination-specific public page with durable descriptive content." },
+    { "destinationId": "buckeye-grove", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "The place appears in broader island materials, but no destination-specific City of San Francisco visitor page with durable descriptive content was found." },
+    { "destinationId": "chapel-grove", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official planning documents describe a proposed park concept, but no current destination-specific visitor page suitable for evergreen publication was found." },
+    { "destinationId": "chestnut-kearny-open-space", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official searches found no destination-specific public page beyond the source inventory record." },
+    { "destinationId": "clipper-cove-park", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official sources describe this park in planning and approvals materials, but no current destination-specific visitor page suitable for evergreen publication was found." },
+    { "destinationId": "fallen-bridge-mini-park", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official searches found no destination-specific public page beyond the source inventory record." },
+    { "destinationId": "grand-view-open-space", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official searches found no destination-specific public page that clearly matches this source record." },
+    { "destinationId": "potrero-hill-mini-park", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official searches found map and inventory references only, not a destination-specific public page with durable descriptive content." },
+    { "destinationId": "willow-bridge-gardens", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official searches found no destination-specific public page beyond the source inventory record." },
+    { "destinationId": "yerba-buena-natural-areas", "reviewedAt": "2026-08-28", "reviewedBy": "project-content-review", "reason": "Official sources discuss Yerba Buena Island habitat and open-space planning broadly, but no visitor page matching this combined source record was found." }
+  ]
+}

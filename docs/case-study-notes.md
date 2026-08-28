@@ -883,7 +883,7 @@ properly attributed.
   no horizontal overflow at the 320-pixel support floor.
 
 - **Validation result:** The complete static site builds successfully, the
-  automated suite contains 74 passing tests, and focused browser checks cover
+  automated suite contains 79 passing tests, and focused browser checks cover
   the minimum-width header, global-search flow, transit selector, anchor menu,
   and ultra-wide centering.
 
@@ -907,11 +907,55 @@ properly attributed.
   available to a fresh clone.
 
 - **Current evidence:** The prototype statically generates 249 destination
-  pages, contains reviewed evergreen context for 133 destinations, normalizes
-  3,314 transit stops and stations across 85 routes, and passes 74 automated
-  tests. These are measures of implementation breadth and reliability—not yet
-  evidence that residents complete tasks faster or more successfully.
+  pages, contains approved evergreen narrative records for 198 destinations,
+  normalizes 3,314 transit stops and stations across 85 routes, and passes 79
+  automated tests. The broader official-page report classifies 209 destinations
+  as enriched because it also counts reviewed facility-directory features.
+  These are measures of implementation breadth and reliability—not yet evidence
+  that residents complete tasks faster or more successfully.
 
 - **Next evidence gap:** A formal accessibility audit and task-based usability
   sessions remain necessary before making comparative claims about improved
   findability, comprehension, or task completion.
+
+## Session update: closing the content-review phase
+
+- **Review completion:** Completed an official-page disposition for all 249
+  destinations. The final report records 209 as reviewed and enriched, 29 as
+  reviewed with no useful additions, 11 as having no matching official page,
+  and zero as awaiting review. This made “no additions” an explicit completed
+  outcome rather than an ambiguous backlog state.
+
+- **Selective alternate-source enrichment:** Used Wikipedia, LocalWiki, and
+  underlying official documents to fill high-value gaps such as Mount Olympus,
+  Maritime Plaza, Portsmouth Square, Victoria Manalo Draves Park, Sue Bierman
+  Park, Jefferson Square, and O’Shaughnessy Hollow. Wiki material remained a
+  discovery and provenance layer rather than permission to reproduce long
+  passages.
+
+- **Content-budget decision:** Tested richer source coverage on Golden Gate Park
+  and applied the same ceiling to other well-documented destinations: one short
+  overview, one short history passage, no more than four representative
+  highlights, and no more than three physical facts. This prevents famous parks
+  from becoming dramatically longer than less documented neighborhood spaces.
+
+- **Source-integrity decision:** Small open spaces, stairs, playgrounds, and
+  gardens were not padded merely to create visual parity. When alternate-source
+  searches produced only directory listings, generic templates, temporary
+  notices, or weak travel writing, the existing structured data was judged
+  sufficient.
+
+- **Structural exceptions:** Shipyard Parks and Mission Bay Park remain
+  documented modeling issues because each source record represents a collection
+  of spaces rather than one straightforward visitor destination. More prose
+  would not resolve that underlying identity problem.
+
+- **Citation presentation:** Replaced consecutive inline outbound links with a
+  reusable multi-source panel. Each reference now has a separate, responsive tap
+  target, while single-source pages keep a compact citation line. The review date
+  remains visible without competing with the source titles.
+
+- **Imagery status:** The reviewed media collection remains intentionally small
+  at 15 images across 13 destinations. Pages without approved location imagery
+  use a generic park placeholder; this avoids presenting unrelated stock
+  photography as evidence of a specific place.

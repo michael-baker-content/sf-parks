@@ -27,6 +27,7 @@
     "discover:localwiki-images": "node scripts/discover-localwiki-images.mjs",
     "discover:pixabay-images": "node scripts/discover-pixabay-images.mjs",
     "report:image-coverage": "node scripts/build-image-coverage-report.mjs",
+    "report:official-page-review": "node scripts/build-official-page-review-report.mjs",
     "build:directory-features": "node scripts/build-directory-feature-enrichments.mjs",
     "test": "node --test",
     "check": "tsc --noEmit"
