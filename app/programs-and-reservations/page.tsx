@@ -1,0 +1,32 @@
+import type { Metadata } from "next";
+import handoffs from "../../data/content/official-service-handoffs.json";
+
+export const metadata: Metadata = {
+  title: "Programs and reservations",
+  description: "Find the appropriate official San Francisco Recreation and Parks program, permit, or reservation service.",
+};
+
+function HandoffList({ items }: { items: (typeof handoffs.programs | typeof handoffs.reservations) }) {
+  return <div className="app-handoff-grid">{items.map((item) => <article className="app-handoff-card" key={item.id}>
+    <h3><a href={item.url} rel="external">{item.label}<span className="usa-sr-only"> — official San Francisco Recreation and Parks website</span> <span aria-hidden="true">↗</span></a></h3>
+    <p>{item.description}</p>
+    <p className="app-handoff-card__source">Official San Francisco Recreation and Parks website</p>
+  </article>)}</div>;
+}
+
+export default function ProgramsAndReservationsPage() {
+  return <article className="app-service-guide">
+    <header>
+      <p className="app-eyebrow">Guided official handoff</p>
+      <h1>Find a program or reservation service</h1>
+      <p className="app-lede">Choose what you are trying to do, then continue to the relevant official San Francisco Recreation and Parks page.</p>
+    </header>
+    <div className="usa-alert usa-alert--info app-service-guide__notice"><div className="usa-alert__body">
+      <h2 className="usa-alert__heading">Live details stay on the official website</h2>
+      <p className="usa-alert__text">This guide does not reproduce schedules, availability, fees, deadlines, eligibility, or registration. Confirm those details after following an official link.</p>
+    </div></div>
+    <section id="programs" aria-labelledby="programs-title"><h2 id="programs-title">I want to join a program</h2><HandoffList items={handoffs.programs} /></section>
+    <section id="reservations" aria-labelledby="reservations-title"><h2 id="reservations-title">I want to reserve a space or request a permit</h2><HandoffList items={handoffs.reservations} /></section>
+    <p className="usa-hint app-service-guide__review">Official links reviewed <time dateTime={handoffs.reviewedAt}>August 27, 2026</time>.</p>
+  </article>;
+}

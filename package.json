@@ -1,0 +1,50 @@
+{
+  "name": "sf-parks-explorer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/copy-maplibre-worker.mjs",
+    "import:datasf": "node scripts/import-datasf.mjs",
+    "import:transit": "node --env-file=.env.local scripts/import-511-transit.mjs",
+    "normalize:transit": "node scripts/normalize-transit.mjs",
+    "normalize": "node scripts/normalize.mjs",
+    "build:destinations": "node scripts/build-destinations.mjs",
+    "build:search": "node scripts/build-search-index.mjs",
+    "build:data": "npm run normalize && npm run build:destinations && npm run build:search",
+    "dev": "next dev --port 4173",
+    "prebuild": "node scripts/copy-maplibre-worker.mjs",
+    "build": "next build",
+    "start": "node scripts/serve.mjs out",
+    "validate:sources": "node scripts/validate-sources.mjs",
+    "validate:content": "node scripts/validate-ui-content.mjs",
+    "validate:media": "node scripts/validate-media-manifest.mjs",
+    "validate:evergreen": "node scripts/validate-evergreen-content.mjs",
+    "validate:handoffs": "node scripts/validate-official-handoffs.mjs",
+    "extract:evergreen": "node scripts/extract-evergreen-candidates.mjs",
+    "discover:evergreen": "node scripts/discover-evergreen-sources.mjs",
+    "audit:facility-features": "node scripts/audit-facility-features.mjs",
+    "discover:localwiki-images": "node scripts/discover-localwiki-images.mjs",
+    "discover:pixabay-images": "node scripts/discover-pixabay-images.mjs",
+    "report:image-coverage": "node scripts/build-image-coverage-report.mjs",
+    "build:directory-features": "node scripts/build-directory-feature-enrichments.mjs",
+    "test": "node --test",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@uswds/uswds": "latest",
+    "maplibre-gl": "^6.6.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

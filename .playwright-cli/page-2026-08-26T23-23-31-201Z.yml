@@ -1,0 +1,23 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip to main content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - link "SF Parks Explorer" [ref=f8e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f8e6]:
+        - list [ref=f8e7]:
+          - listitem [ref=f8e8]:
+            - link "Explore" [ref=f8e9] [cursor=pointer]:
+              - /url: /explore/
+          - listitem [ref=f8e10]:
+            - link "Activities" [ref=f8e11] [cursor=pointer]:
+              - /url: /#activities
+          - listitem [ref=f8e12]:
+            - link "About the data" [ref=f8e13] [cursor=pointer]:
+              - /url: /about/
+  - main [ref=f8e14]:
+    - paragraph [ref=f8e15]: Loading park information…
+  - contentinfo [ref=f8e16]:
+    - paragraph [ref=f8e18]: Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source.
+  - button "Open Next.js Dev Tools" [ref=f8e24] [cursor=pointer]

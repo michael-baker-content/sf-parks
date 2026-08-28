@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "resultCard": {
+    "visibleAmenityLimit": 4,
+    "showMatchedAmenitiesFirst": true,
+    "showVerifiedQuantitiesOnly": true,
+    "locationFallback": "Location details not listed",
+    "moreAmenitiesTemplate": "+{count} more"
+  },
+  "amenityGroups": [
+    { "id": "playgrounds", "label": "Playgrounds and kids", "order": 10 },
+    { "id": "picnic", "label": "Picnic", "order": 20 },
+    { "id": "sports", "label": "Sports", "order": 30 },
+    { "id": "fitness", "label": "Fitness", "order": 40 },
+    { "id": "swimming", "label": "Swimming", "order": 50 },
+    { "id": "dogs", "label": "Dog play", "order": 60 },
+    { "id": "recreation-centers", "label": "Recreation facilities", "order": 70 },
+    { "id": "gardens-nature", "label": "Gardens and nature", "order": 80 },
+    { "id": "arts-culture", "label": "Arts and culture", "order": 90 },
+    { "id": "visitor-services", "label": "Visitor services", "order": 100 }
+  ],
+  "coverage": {
+    "official-page-reviewed": {
+      "shortLabel": "Official page reviewed",
+      "description": "Some details were checked against a linked SF Recreation and Parks page.",
+      "missingInformation": "Features not shown may still be available. Verify important details on the official page."
+    },
+    "open-data-only": {
+      "shortLabel": "Based on City of San Francisco open data",
+      "description": "Details come from open data published by the City of San Francisco and may not include every public feature.",
+      "missingInformation": "Not listed does not mean unavailable. No official page has been used to enrich the listed features yet."
+    }
+  },
+  "quantity": {
+    "official-page-verified": "Quantity verified on an official page",
+    "not-stated": "Listed without a quantity",
+    "not-verified": "Listed in source data; exact quantity not verified"
+  },
+  "quantityNotice": "Counts are shown only when verified on an official page.",
+  "officialActions": {
+    "information-page": { "label": "View official Parks information", "external": true },
+    "facility-page": { "label": "View official facility page", "external": true },
+    "schedule": { "label": "View official schedule", "external": true },
+    "registration": { "label": "Continue to official registration", "external": true },
+    "reservation": { "label": "Continue to official reservations", "external": true },
+    "pdf": { "label": "Open official PDF", "external": true },
+    "maintenance": { "label": "Report an issue through the official service", "external": true }
+  },
+  "handoffNotice": "You are leaving this independent explorer and continuing on an official or linked service.",
+  "emptyOfficialActions": "No destination-specific official page has been reviewed yet.",
+  "independenceNotice": "Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source."
+}

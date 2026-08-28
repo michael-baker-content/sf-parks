@@ -1,0 +1,3064 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-26T22:13:14.387Z",
+  "counts": {
+    "properties": 255,
+    "facilities": 2103,
+    "publicFacilities": 849,
+    "functionalAreas": 6857,
+    "publicFunctionalAreas": 2112,
+    "publicAssetSummaries": 1103
+  },
+  "unresolvedRelationships": {
+    "facilitiesWithoutProperty": [
+      "74507",
+      "10558",
+      "11510",
+      "981114",
+      "12457",
+      "102417",
+      "980581",
+      "9804662",
+      "980273"
+    ],
+    "functionalAreasWithoutProperty": [
+      "95645",
+      "95644",
+      "102411",
+      "94240",
+      "95643",
+      "94326",
+      "94327",
+      "94260",
+      "93333",
+      "95652",
+      "94259",
+      "18251",
+      "18250",
+      "18244",
+      "18253",
+      "94261",
+      "94328",
+      "1262010",
+      "1262011",
+      "1262012",
+      "1262013",
+      "18248",
+      "18241",
+      "95641",
+      "18242",
+      "18239",
+      "1260288",
+      "18246",
+      "94329",
+      "18243",
+      "95640",
+      "1257011",
+      "95639",
+      "95642",
+      "95653",
+      "94243",
+      "35724",
+      "18252",
+      "100606",
+      "94330",
+      "102412",
+      "18249",
+      "18240",
+      "1257161"
+    ],
+    "functionalAreasWithoutFacility": [
+      "1260900",
+      "1260901",
+      "1260902",
+      "1260903",
+      "1260904",
+      "1260905",
+      "1260906",
+      "96109",
+      "94463",
+      "1260907",
+      "1260908",
+      "1260909",
+      "1260910",
+      "1260911",
+      "1260912",
+      "1260913",
+      "1260914",
+      "1260915",
+      "1262067",
+      "1262068",
+      "107379",
+      "373650",
+      "1260097",
+      "1260098",
+      "1261571",
+      "1258984",
+      "93351",
+      "94207",
+      "1258325",
+      "141015",
+      "1259447",
+      "95020",
+      "94462",
+      "94368",
+      "1261601",
+      "94382",
+      "1261142",
+      "1260262",
+      "1260263",
+      "1261119",
+      "1262076",
+      "1262077",
+      "1262078",
+      "1262079",
+      "1262081",
+      "1262065",
+      "96056",
+      "96055",
+      "1257932",
+      "1257936",
+      "1257939",
+      "1257947",
+      "1258005",
+      "1261647",
+      "1261648",
+      "1261649",
+      "1261650",
+      "89823",
+      "1259145",
+      "1259490",
+      "1259495",
+      "1260286",
+      "1260330",
+      "1260331",
+      "1260442",
+      "1260443",
+      "1260464",
+      "1260465",
+      "1260466",
+      "1260467",
+      "1260469",
+      "1260478",
+      "1260479",
+      "1260480",
+      "1260481",
+      "1260482",
+      "1261106",
+      "1261107",
+      "1257746",
+      "1260332",
+      "1260436",
+      "1257747",
+      "1260333",
+      "1260437",
+      "1261724",
+      "1260445",
+      "1259410",
+      "1260441",
+      "1261231",
+      "1261232",
+      "1261233",
+      "1261234",
+      "1261235",
+      "1261236",
+      "1260447",
+      "1259060",
+      "1259063",
+      "1259061",
+      "1259064",
+      "58868",
+      "1259065",
+      "1259062",
+      "1261228",
+      "23246",
+      "93323",
+      "138307",
+      "1262084",
+      "1262085",
+      "1258006",
+      "10324",
+      "1261312",
+      "1261672",
+      "89759",
+      "1261823",
+      "90391",
+      "94479",
+      "234",
+      "93202",
+      "93207",
+      "93204",
+      "93203",
+      "93274",
+      "95517",
+      "1261120",
+      "1259443",
+      "562",
+      "255079",
+      "1261827",
+      "1259440",
+      "12537",
+      "1261224",
+      "1260838",
+      "1262004",
+      "1261996",
+      "1261999",
+      "1262000",
+      "1262002",
+      "191331",
+      "1260221",
+      "1261920",
+      "1258330",
+      "35323",
+      "105012",
+      "1260433",
+      "1259365",
+      "26644",
+      "1261222",
+      "1259034",
+      "1260005",
+      "35739",
+      "915210",
+      "915213",
+      "915731",
+      "915732",
+      "915733",
+      "915734",
+      "915735",
+      "915736",
+      "915738",
+      "915739",
+      "915740",
+      "915741",
+      "915750",
+      "915751",
+      "915752",
+      "915753",
+      "1258987",
+      "94446",
+      "96053",
+      "94457",
+      "94304",
+      "96122",
+      "1259003",
+      "1259057",
+      "23587",
+      "1261676",
+      "348",
+      "346",
+      "1260732",
+      "1261575",
+      "1261673",
+      "138310",
+      "1262074",
+      "1262080",
+      "1262073",
+      "1262093",
+      "1262072",
+      "1262069",
+      "457",
+      "1261620",
+      "1261207",
+      "1261848",
+      "108944",
+      "58841",
+      "1261726",
+      "1259059",
+      "1261237",
+      "11874",
+      "12853",
+      "1257598",
+      "271883",
+      "1260322",
+      "191330",
+      "542",
+      "1260672",
+      "1260483",
+      "94301",
+      "1261944",
+      "188363",
+      "1258001",
+      "1257998",
+      "1257417",
+      "18247",
+      "97779",
+      "1260680",
+      "1260681",
+      "1260381",
+      "100620",
+      "1261737",
+      "12709",
+      "97780",
+      "94486",
+      "97781",
+      "1261364",
+      "1261194",
+      "93352",
+      "93354",
+      "94208",
+      "94234",
+      "1262066",
+      "94466",
+      "12847",
+      "1257999",
+      "1258002",
+      "11915",
+      "1257011",
+      "100944",
+      "100945",
+      "1259982",
+      "94478",
+      "90490",
+      "12703",
+      "11522",
+      "11531",
+      "12414",
+      "1261066",
+      "1261122",
+      "1261123",
+      "1261124",
+      "1259452",
+      "1258390",
+      "1261164",
+      "1258391",
+      "1261165",
+      "1258392",
+      "1261166",
+      "1258393",
+      "1261167",
+      "1258394",
+      "1261168",
+      "462",
+      "1257002",
+      "1257620",
+      "1257442",
+      "1258335",
+      "1261229",
+      "58837",
+      "94251",
+      "1259442",
+      "1258401",
+      "1261512",
+      "1260194",
+      "94445",
+      "1261833",
+      "1258016",
+      "62416",
+      "1259035",
+      "1259028",
+      "541624",
+      "105560",
+      "12673",
+      "12740",
+      "1261707",
+      "83324",
+      "1261582",
+      "94369",
+      "1260349",
+      "1258009",
+      "1258000",
+      "1257478",
+      "1257477",
+      "89760",
+      "1260500",
+      "58838",
+      "1260502",
+      "1258003",
+      "1258004",
+      "1260716",
+      "1261225",
+      "1261226",
+      "1256945",
+      "1260119",
+      "1261909",
+      "1261658",
+      "1260731",
+      "1259984",
+      "146103",
+      "1261659",
+      "1261667",
+      "1261669",
+      "1261495",
+      "1258007",
+      "1258008",
+      "1262096",
+      "94450",
+      "108948",
+      "75597",
+      "89359",
+      "94307",
+      "94312",
+      "94449",
+      "96380",
+      "315305",
+      "1257171",
+      "1258395",
+      "1261654",
+      "1262071",
+      "1262070",
+      "1261566",
+      "10340",
+      "616",
+      "94300",
+      "1258045",
+      "1257211",
+      "12854",
+      "1257418",
+      "1262075",
+      "1261671"
+    ]
+  },
+  "conflicts": {
+    "facilities": [
+      {
+        "id": "980331",
+        "conflicts": {
+          "facility_name": [
+            "Academy of Science Landscape",
+            "Academy of Sciences"
+          ],
+          "facility_type": [
+            "Arts/Activity Center",
+            "Landscaped Area"
+          ]
+        }
+      },
+      {
+        "id": "10453",
+        "conflicts": {
+          "facility_name": [
+            "AIDS Memorial Grove",
+            "GGP7 AIDS GroveMemorial",
+            "GGP7 AIDS Memorial Grove - Dirt Trail Path"
+          ],
+          "facility_type": [
+            "Hardscaped Area",
+            "Ornamental Garden"
+          ]
+        }
+      },
+      {
+        "id": "12517",
+        "conflicts": {
+          "facility_name": [
+            "Bercut Maintenance Bldgs 1",
+            "GGP6 Bercut Maintenance Bldgs"
+          ],
+          "facility_type": [
+            "Maintenance Building",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "673441",
+        "conflicts": {
+          "facility_name": [
+            "Bierman Maintenance Yard",
+            "Maintenance Building"
+          ],
+          "facility_type": [
+            "Children's Play Area",
+            "Maintenance Building"
+          ]
+        }
+      },
+      {
+        "id": "918835",
+        "conflicts": {
+          "facility_type": [
+            "Hardscaped Area",
+            "Road"
+          ]
+        }
+      },
+      {
+        "id": "980367",
+        "conflicts": {
+          "facility_name": [
+            "Boat CPA Restroom",
+            "GGP6 Boat CPA Restroom"
+          ],
+          "facility_type": [
+            "Hardscaped Area",
+            "Restroom"
+          ]
+        }
+      },
+      {
+        "id": "981034",
+        "conflicts": {
+          "facility_name": [
+            "Cabin 49 - (Hostess Cabin)",
+            "Hostess Cabin"
+          ]
+        }
+      },
+      {
+        "id": "508",
+        "conflicts": {
+          "facility_name": [
+            "Children's Play Area",
+            "Picnic Area"
+          ]
+        }
+      },
+      {
+        "id": "981160",
+        "conflicts": {
+          "facility_name": [
+            "Cityside Greenspace",
+            "Cityside Landscaped Areas"
+          ],
+          "facility_type": [
+            "Landscaped Area",
+            "Non-landscaped Greenspace"
+          ]
+        }
+      },
+      {
+        "id": "263",
+        "conflicts": {
+          "facility_name": [
+            "Civic Center Plaza Landscape",
+            "Landscaped Areas"
+          ]
+        }
+      },
+      {
+        "id": "679",
+        "conflicts": {
+          "facility_name": [
+            "Coit Tower",
+            "Coit Tower Cafe"
+          ],
+          "facility_type": [
+            "Retail Space",
+            "Structure, Historic: Bldg-Other"
+          ]
+        }
+      },
+      {
+        "id": "980384",
+        "conflicts": {
+          "facility_name": [
+            "Concrete Pad",
+            "Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "980419",
+        "conflicts": {
+          "facility_name": [
+            "Container 1",
+            "Glen Park Container 2"
+          ]
+        }
+      },
+      {
+        "id": "980478",
+        "conflicts": {
+          "facility_name": [
+            "COTTAGE #4 - PARK RANGER",
+            "COTTAGE #4 - PARK RANGER Shed"
+          ]
+        }
+      },
+      {
+        "id": "97791",
+        "conflicts": {
+          "facility_name": [
+            "CPA Maintenance Facility",
+            "Koret CPA Maintenance Facility"
+          ],
+          "facility_type": [
+            "Maintenance Building",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "374",
+        "conflicts": {
+          "facility_name": [
+            "DPA",
+            "GGP7 Dog Play Area"
+          ]
+        }
+      },
+      {
+        "id": "804433",
+        "conflicts": {
+          "facility_name": [
+            "Gasoline storage",
+            "Poison shed",
+            "Storage",
+            "Warehouse",
+            "Warehouse 4"
+          ],
+          "facility_type": [
+            "Maintenance Building",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "97797",
+        "conflicts": {
+          "facility_name": [
+            "GGP1 Kezar Stadium Landscape",
+            "Landscaped Areas"
+          ],
+          "property_id": [
+            "756665",
+            "957231"
+          ]
+        }
+      },
+      {
+        "id": "11789",
+        "conflicts": {
+          "facility_name": [
+            "GGP2 Music Concourse",
+            "GGP2 Music Concourse Hardscape",
+            "Paved Playfields"
+          ],
+          "facility_type": [
+            "Hardscaped Area",
+            "Multi-Use Paved"
+          ]
+        }
+      },
+      {
+        "id": "122",
+        "conflicts": {
+          "facility_name": [
+            "GGP4 Mothers Meadow Bathroom",
+            "Mother's Meadow Restroom - Male Restroom"
+          ],
+          "facility_type": [
+            "Hardscaped Area",
+            "Restroom"
+          ]
+        }
+      },
+      {
+        "id": "98153",
+        "conflicts": {
+          "facility_name": [
+            "GGP7 Nursery Shade Houses",
+            "Nursery: Shade House 1 =main"
+          ]
+        }
+      },
+      {
+        "id": "11787",
+        "conflicts": {
+          "facility_name": [
+            "Glen Park Landscape",
+            "Landscaped Areas"
+          ]
+        }
+      },
+      {
+        "id": "94472",
+        "conflicts": {
+          "facility_name": [
+            "GGP1 Golden Gate Park Non Landscaped Greenspace",
+            "Greenspace"
+          ],
+          "property_id": [
+            "756665",
+            "957231"
+          ]
+        }
+      },
+      {
+        "id": "162415",
+        "conflicts": {
+          "facility_name": [
+            "Greenspace",
+            "Sunset Dunes Greenspace"
+          ]
+        }
+      },
+      {
+        "id": "217190",
+        "conflicts": {
+          "facility_name": [
+            "Harding Park Lot",
+            "Harding Parking Lot"
+          ]
+        }
+      },
+      {
+        "id": "18497",
+        "conflicts": {
+          "facility_name": [
+            "Hardscaped Areas",
+            "Palega Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "36376",
+        "conflicts": {
+          "facility_name": [
+            "Hardscaped Areas",
+            "St Mary's Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "57203",
+        "conflicts": {
+          "facility_name": [
+            "Hardscaped Areas",
+            "McLaren East Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "57204",
+        "conflicts": {
+          "facility_name": [
+            "Hardscaped Areas",
+            "McLaren Park - Group Picnic Hardscaped Area"
+          ]
+        }
+      },
+      {
+        "id": "89828",
+        "conflicts": {
+          "facility_name": [
+            "Hardscaped Areas",
+            "Sunset Dunes Hardscaped Areas"
+          ],
+          "facility_type": [
+            "Hardscaped Area",
+            "Road"
+          ],
+          "property_name": [
+            "Lower Great Highway",
+            "Sunset Dunes"
+          ]
+        }
+      },
+      {
+        "id": "93299",
+        "conflicts": {
+          "property_id": [
+            "163",
+            "756670"
+          ]
+        }
+      },
+      {
+        "id": "94435",
+        "conflicts": {
+          "property_id": [
+            "756667",
+            "957231"
+          ]
+        }
+      },
+      {
+        "id": "94470",
+        "conflicts": {
+          "facility_type": [
+            "Hardscaped Area",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "981094",
+        "conflicts": {
+          "facility_name": [
+            "Hillpoint Landscape",
+            "HPS Hillpoint Landscape",
+            "HPS Innes Ct. CPA Landscape",
+            "Innes Court Landscaped Areas",
+            "Innes Ct. CPA Landscape"
+          ],
+          "facility_type": [
+            "Landscaped Area",
+            "Multi-Use Turf"
+          ],
+          "property_name": [
+            "Hunter’s Point Shipyard Parks",
+            "Shipyard Parks"
+          ]
+        }
+      },
+      {
+        "id": "981099",
+        "conflicts": {
+          "facility_name": [
+            "Hilltop Overlook Platform",
+            "HPS Hillpoint Platform"
+          ],
+          "property_name": [
+            "Hunter’s Point Shipyard Parks",
+            "Shipyard Parks"
+          ]
+        }
+      },
+      {
+        "id": "10457",
+        "conflicts": {
+          "facility_name": [
+            "Japanese Tea Garden",
+            "Japanese Tea Garden Maint Yard"
+          ],
+          "facility_type": [
+            "Maintenance Facility",
+            "Ornamental Garden"
+          ]
+        }
+      },
+      {
+        "id": "11841",
+        "conflicts": {
+          "facility_name": [
+            "Lake Merced Landscape",
+            "Landscaped Areas"
+          ]
+        }
+      },
+      {
+        "id": "93286",
+        "conflicts": {
+          "property_id": [
+            "163",
+            "756670"
+          ]
+        }
+      },
+      {
+        "id": "94272",
+        "conflicts": {
+          "facility_name": [
+            "GGP5 Section 5 Landscape",
+            "Landscaped Areas"
+          ]
+        }
+      },
+      {
+        "id": "97467",
+        "conflicts": {
+          "facility_name": [
+            "Landscaped Areas",
+            "South Lake Meadow"
+          ]
+        }
+      },
+      {
+        "id": "23747",
+        "conflicts": {
+          "facility_name": [
+            "Lincoln Park Pump Station",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "141",
+        "conflicts": {
+          "facility_type": [
+            "Maintenance Building",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "12640",
+        "conflicts": {
+          "facility_name": [
+            "Maintenance Facility",
+            "Maintenance Facility 2"
+          ]
+        }
+      },
+      {
+        "id": "12579",
+        "conflicts": {
+          "facility_name": [
+            "McLaren Natural Areas",
+            "Natural Areas"
+          ]
+        }
+      },
+      {
+        "id": "980477",
+        "conflicts": {
+          "facility_name": [
+            "Moore Cottage",
+            "Moore Cottage ADU"
+          ]
+        }
+      },
+      {
+        "id": "980388",
+        "conflicts": {
+          "facility_name": [
+            "Multi Purpose Rooms",
+            "St Mary's Square Garage"
+          ],
+          "facility_type": [
+            "Parking Lot",
+            "Structure, Historic: Bldg-Other"
+          ]
+        }
+      },
+      {
+        "id": "350",
+        "conflicts": {
+          "facility_name": [
+            "Bernal Heights Park Natural Areas",
+            "Natural Areas"
+          ]
+        }
+      },
+      {
+        "id": "980576",
+        "conflicts": {
+          "facility_name": [
+            "Noe Square Restrooms",
+            "Noe Valley Town Square Restroom Bldg."
+          ]
+        }
+      },
+      {
+        "id": "90649",
+        "conflicts": {
+          "facility_name": [
+            "Performance Space",
+            "St Mary's Sq Performance Space"
+          ]
+        }
+      },
+      {
+        "id": "413",
+        "conflicts": {
+          "facility_name": [
+            "Garfield Square Picnic Areas",
+            "Picnic Areas"
+          ]
+        }
+      },
+      {
+        "id": "980968",
+        "conflicts": {
+          "facility_name": [
+            "Pool Building",
+            "Pump House 2"
+          ]
+        }
+      },
+      {
+        "id": "980361",
+        "conflicts": {
+          "facility_name": [
+            "SMY Mower Bays",
+            "SMY Mowers Shop"
+          ],
+          "facility_type": [
+            "Administration Building",
+            "Maintenance Building"
+          ]
+        }
+      },
+      {
+        "id": "981014",
+        "conflicts": {
+          "facility_name": [
+            "SW Outside Shelley NLG",
+            "SW Outside Shelley Non-Landscaped Grnspc"
+          ]
+        }
+      },
+      {
+        "id": "804436",
+        "conflicts": {
+          "facility_name": [
+            "Tank",
+            "Water Plant"
+          ],
+          "facility_type": [
+            "Maintenance Building",
+            "Maintenance Facility"
+          ]
+        }
+      },
+      {
+        "id": "634",
+        "conflicts": {
+          "facility_name": [
+            "Tennis Courts",
+            "Tennis/Pickleball Courts"
+          ],
+          "facility_type": [
+            "Tennis Court",
+            "Tennis/Pickleball Court"
+          ]
+        }
+      },
+      {
+        "id": "980900",
+        "conflicts": {
+          "facility_name": [
+            "UN Plaza",
+            "UN Plaza Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "90654",
+        "conflicts": {
+          "address": [
+            "235 Stockton St",
+            "333 Post St"
+          ]
+        }
+      }
+    ],
+    "functionalAreas": [
+      {
+        "id": "1258527",
+        "conflicts": {
+          "tma_name": [
+            "1F Rec Building",
+            "Rec 2nd Floor Walls"
+          ]
+        }
+      },
+      {
+        "id": "1257786",
+        "conflicts": {
+          "tma_name": [
+            "2F East Stairs",
+            "East Stair - S201"
+          ]
+        }
+      },
+      {
+        "id": "10089",
+        "conflicts": {
+          "tma_name": [
+            "2nd Floor Structure",
+            "First Floor Structure"
+          ]
+        }
+      },
+      {
+        "id": "1261357",
+        "conflicts": {
+          "tma_name": [
+            "6th St Median Sidewalk",
+            "6th St Sidewalk"
+          ]
+        }
+      },
+      {
+        "id": "93292",
+        "conflicts": {
+          "tma_name": [
+            "45th Ave Lawn",
+            "Lincoln/45th Ave CPA Lawns"
+          ]
+        }
+      },
+      {
+        "id": "1257009",
+        "conflicts": {
+          "tma_name": [
+            "ADA Access Ramp",
+            "Ramp"
+          ]
+        }
+      },
+      {
+        "id": "56153",
+        "conflicts": {
+          "tma_name": [
+            "AIDS Memorial Grove Paths",
+            "Dirt Trail Path"
+          ]
+        }
+      },
+      {
+        "id": "1261151",
+        "conflicts": {
+          "tma_name": [
+            "All Gender Restroom",
+            "Janitor Closet"
+          ]
+        }
+      },
+      {
+        "id": "1261515",
+        "conflicts": {
+          "tma_name": [
+            "All Gender Restroom",
+            "All Gender Restroom - SE"
+          ]
+        }
+      },
+      {
+        "id": "99808",
+        "conflicts": {
+          "tma_name": [
+            "Alta Plaza Pathways",
+            "Asphalt Pathway"
+          ],
+          "facility_id": [
+            "19319",
+            "19321"
+          ]
+        }
+      },
+      {
+        "id": "21014",
+        "conflicts": {
+          "tma_name": [
+            "Alvord Lake Lawn",
+            "Turf"
+          ],
+          "facility_id": [
+            "96133",
+            "98108"
+          ]
+        }
+      },
+      {
+        "id": "98112",
+        "conflicts": {
+          "tma_name": [
+            "Alvord Perennial Beds",
+            "Perennial Bed"
+          ]
+        }
+      },
+      {
+        "id": "1261571",
+        "conflicts": {
+          "tma_name": [
+            "Amphitheatre Non Landscaped Greenspace",
+            "Amphitheatre Non-Landscaped Grnspc"
+          ]
+        }
+      },
+      {
+        "id": "89333",
+        "conflicts": {
+          "tma_name": [
+            "Annual Beds",
+            "Perennial Beds"
+          ]
+        }
+      },
+      {
+        "id": "56633",
+        "conflicts": {
+          "tma_name": [
+            "Asphalt Path",
+            "Asphalt Paths"
+          ]
+        }
+      },
+      {
+        "id": "1258367",
+        "conflicts": {
+          "tma_name": [
+            "Asphalt Path",
+            "Pioneere Sidewalk"
+          ],
+          "functional_area_type": [
+            "Path",
+            "Sidewalk"
+          ]
+        }
+      },
+      {
+        "id": "183312",
+        "conflicts": {
+          "tma_name": [
+            "Asphalt Pathway",
+            "Embarcadero Bocce Court"
+          ]
+        }
+      },
+      {
+        "id": "1259496",
+        "conflicts": {
+          "tma_name": [
+            "Athletic Fitness Area",
+            "Fitness Area"
+          ]
+        }
+      },
+      {
+        "id": "100947",
+        "conflicts": {
+          "tma_name": [
+            "Ballfield 2 Bleachers",
+            "Bleacher 2"
+          ]
+        }
+      },
+      {
+        "id": "1260590",
+        "conflicts": {
+          "tma_name": [
+            "Bandshell",
+            "Bandshell Bldg"
+          ],
+          "functional_area_type": [
+            "Performance Space",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "1257189",
+        "conflicts": {
+          "tma_name": [
+            "Baseball Field - Dugout",
+            "Sunset Dugout 1"
+          ]
+        }
+      },
+      {
+        "id": "10242",
+        "conflicts": {
+          "tma_name": [
+            "Basement Structural",
+            "Main Floor Structural",
+            "Restroom Structural"
+          ]
+        }
+      },
+      {
+        "id": "803797",
+        "conflicts": {
+          "tma_name": [
+            "Bath House B",
+            "Bath House B Female RR/Shower",
+            "Bath House B Heater Room",
+            "Bath House B Male RR/Shower"
+          ],
+          "functional_area_type": [
+            "Interior - Mechanical",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "803802",
+        "conflicts": {
+          "tma_name": [
+            "Bath House C - Restroom Chase",
+            "Bath House C - Structural"
+          ],
+          "functional_area_type": [
+            "Interior - Custodial",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "803786",
+        "conflicts": {
+          "tma_name": [
+            "Bath House D",
+            "Camp Office - Interior"
+          ]
+        }
+      },
+      {
+        "id": "290816",
+        "conflicts": {
+          "functional_area_type": [
+            "Ditch",
+            "Natural Area"
+          ]
+        }
+      },
+      {
+        "id": "83283",
+        "conflicts": {
+          "tma_name": [
+            "Bench Hardscape",
+            "Hardscape Area"
+          ]
+        }
+      },
+      {
+        "id": "93333",
+        "conflicts": {
+          "tma_name": [
+            "Bercut Grounds",
+            "Bercut Lawn"
+          ],
+          "property_id": [
+            "755670",
+            "756670"
+          ]
+        }
+      },
+      {
+        "id": "1259444",
+        "conflicts": {
+          "tma_name": [
+            "Bierman Office Bldg",
+            "Office"
+          ],
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "1261121",
+        "conflicts": {
+          "tma_name": [
+            "Bike Rack Pad",
+            "Concrete Pad"
+          ]
+        }
+      },
+      {
+        "id": "402",
+        "conflicts": {
+          "tma_name": [
+            "Boathouse Parking",
+            "Harding Road"
+          ]
+        }
+      },
+      {
+        "id": "1260002",
+        "conflicts": {
+          "tma_name": [
+            "Bowling Green Picnic Area",
+            "Koret Picnic Area"
+          ],
+          "facility_id": [
+            "10428",
+            "980524"
+          ]
+        }
+      },
+      {
+        "id": "254110",
+        "conflicts": {
+          "tma_name": [
+            "Brick Path",
+            "UKBED"
+          ]
+        }
+      },
+      {
+        "id": "10204",
+        "conflicts": {
+          "tma_name": [
+            "Building",
+            "Joseph Lee Rc Center Structure"
+          ],
+          "functional_area_type": [
+            "Interior - Structural",
+            "Structural"
+          ],
+          "facility_id": [
+            "40",
+            "584"
+          ],
+          "property_id": [
+            "40",
+            "584"
+          ]
+        }
+      },
+      {
+        "id": "809401",
+        "conflicts": {
+          "tma_name": [
+            "Building",
+            "Commissioner's Cabin"
+          ]
+        }
+      },
+      {
+        "id": "1258800",
+        "conflicts": {
+          "tma_name": [
+            "Building",
+            "Randall !st Floor",
+            "Randall Room"
+          ]
+        }
+      },
+      {
+        "id": "89408",
+        "conflicts": {
+          "tma_name": [
+            "Burrows Peru Half Court",
+            "Half Court 2"
+          ]
+        }
+      },
+      {
+        "id": "809471",
+        "conflicts": {
+          "tma_name": [
+            "Cabin 30",
+            "Cabin 31"
+          ]
+        }
+      },
+      {
+        "id": "1257894",
+        "conflicts": {
+          "functional_area_type": [
+            "Interior - Recreational",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "745114",
+        "conflicts": {
+          "tma_name": [
+            "Cabin 44",
+            "Cabin 44: Building"
+          ],
+          "functional_area_type": [
+            "Interior - Recreational",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "1257934",
+        "conflicts": {
+          "tma_name": [
+            "Cabin 92: Building",
+            "Cabin 92: Interior"
+          ]
+        }
+      },
+      {
+        "id": "1257976",
+        "conflicts": {
+          "tma_name": [
+            "Cabin 121: Interior",
+            "Cabin 122: Interior"
+          ],
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Interior - Recreational"
+          ]
+        }
+      },
+      {
+        "id": "12567",
+        "conflicts": {
+          "tma_name": [
+            "Cargo Container",
+            "Jackson Cargo Container"
+          ]
+        }
+      },
+      {
+        "id": "1259068",
+        "conflicts": {
+          "tma_name": [
+            "Cargo Container",
+            "Hellman Cargo Container"
+          ],
+          "functional_area_type": [
+            "Interior - Storage",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "1260319",
+        "conflicts": {
+          "tma_name": [
+            "Cargo Container",
+            "Cargo Container 1"
+          ]
+        }
+      },
+      {
+        "id": "1260321",
+        "conflicts": {
+          "tma_name": [
+            "Cargo Container",
+            "Cargo Container 3"
+          ]
+        }
+      },
+      {
+        "id": "1260473",
+        "conflicts": {
+          "tma_name": [
+            "Cargo Container",
+            "Cargo Container 6"
+          ]
+        }
+      },
+      {
+        "id": "18463",
+        "conflicts": {
+          "tma_name": [
+            "Cement Pathway",
+            "Concrete Path"
+          ]
+        }
+      },
+      {
+        "id": "501",
+        "conflicts": {
+          "tma_name": [
+            "Children's Play Area 1",
+            "Children's Play Area 3"
+          ]
+        }
+      },
+      {
+        "id": "503",
+        "conflicts": {
+          "tma_name": [
+            "Children's Play Area 1",
+            "Picnic Area 3"
+          ]
+        }
+      },
+      {
+        "id": "90646",
+        "conflicts": {
+          "functional_area_type": [
+            "Childrens Play Area",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "1262087",
+        "conflicts": {
+          "tma_name": [
+            "Cityside Asphalt Pathways",
+            "Cityside Shoreline Pathway"
+          ]
+        }
+      },
+      {
+        "id": "1261910",
+        "conflicts": {
+          "tma_name": [
+            "Clubhouse ADA Parking",
+            "Driving range ADA Parking"
+          ]
+        }
+      },
+      {
+        "id": "10120",
+        "conflicts": {
+          "tma_name": [
+            "Clubhouse Walls",
+            "Pool Walls"
+          ]
+        }
+      },
+      {
+        "id": "237",
+        "conflicts": {
+          "tma_name": [
+            "Concourse Parking Median",
+            "Music Concourse",
+            "Music Concourse Driveway"
+          ]
+        }
+      },
+      {
+        "id": "188224",
+        "conflicts": {
+          "tma_name": [
+            "Concourse Planted Bed",
+            "Perennial Bed",
+            "UKBED"
+          ]
+        }
+      },
+      {
+        "id": "106726",
+        "conflicts": {
+          "functional_area_type": [
+            "Path",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "83783",
+        "conflicts": {
+          "tma_name": [
+            "Concrete Paths",
+            "Presidio Wall Concrete Path"
+          ]
+        }
+      },
+      {
+        "id": "83810",
+        "conflicts": {
+          "functional_area_type": [
+            "Path",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "1256959",
+        "conflicts": {
+          "tma_name": [
+            "Concrete Planter",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "1257760",
+        "conflicts": {
+          "tma_name": [
+            "Concrete Seatwall",
+            "Fillmore & Turk Seatwalls"
+          ]
+        }
+      },
+      {
+        "id": "94500",
+        "conflicts": {
+          "tma_name": [
+            "Conservatory Greensp",
+            "Conservatory Greenspace",
+            "Conservatory Non-Landscaped Green"
+          ]
+        }
+      },
+      {
+        "id": "78837",
+        "conflicts": {
+          "tma_name": [
+            "Conservatory Staff Bathroom Bldg",
+            "GGP3 Conservatory Staff Bathroom - Building"
+          ]
+        }
+      },
+      {
+        "id": "95683",
+        "conflicts": {
+          "functional_area_type": [
+            "Retaining Wall",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "96126",
+        "conflicts": {
+          "tma_name": [
+            "Court Hardscaped Area",
+            "Tennis Ctr Deck"
+          ]
+        }
+      },
+      {
+        "id": "1257672",
+        "conflicts": {
+          "tma_name": [
+            "CPA Path",
+            "Hardscape"
+          ],
+          "functional_area_type": [
+            "Hardscape Area",
+            "Path"
+          ]
+        }
+      },
+      {
+        "id": "1262007",
+        "conflicts": {
+          "tma_name": [
+            "CPA Seatwall",
+            "Sand Play Seat Wall",
+            "Seatwall"
+          ]
+        }
+      },
+      {
+        "id": "88424",
+        "conflicts": {
+          "tma_name": [
+            "Crocker Amazon - Perennial bed",
+            "Perennial bed"
+          ]
+        }
+      },
+      {
+        "id": "1257120",
+        "conflicts": {
+          "tma_name": [
+            "Crocker Amazon Picnic Area - North",
+            "Picnic Area 1"
+          ],
+          "functional_area_type": [
+            "Childrens Play Area",
+            "Table Seating Area"
+          ],
+          "facility_id": [
+            "452",
+            "88429"
+          ]
+        }
+      },
+      {
+        "id": "1257033",
+        "conflicts": {
+          "tma_name": [
+            "Custodial",
+            "Gymnasium Closet #2"
+          ]
+        }
+      },
+      {
+        "id": "1258126",
+        "conflicts": {
+          "tma_name": [
+            "Custodial",
+            "Utility Area"
+          ],
+          "functional_area_type": [
+            "Interior - Custodial",
+            "Interior - Mechanical"
+          ]
+        }
+      },
+      {
+        "id": "56490",
+        "conflicts": {
+          "tma_name": [
+            "Don Chee Way Hardscape",
+            "Embarcadero Plaza"
+          ]
+        }
+      },
+      {
+        "id": "1260264",
+        "conflicts": {
+          "tma_name": [
+            "Driveway",
+            "Group Picnic Driveway"
+          ]
+        }
+      },
+      {
+        "id": "1259185",
+        "conflicts": {
+          "tma_name": [
+            "Dutch Windmill Maintenance - Int Green",
+            "Pump House (green)"
+          ],
+          "functional_area_type": [
+            "Interior - Mechanical",
+            "Interior - Storage"
+          ]
+        }
+      },
+      {
+        "id": "1259184",
+        "conflicts": {
+          "tma_name": [
+            "Dutch Windmill Maintenance - Int White",
+            "Pump house (white)"
+          ],
+          "functional_area_type": [
+            "Interior - Mechanical",
+            "Interior - Storage"
+          ]
+        }
+      },
+      {
+        "id": "1259762",
+        "conflicts": {
+          "tma_name": [
+            "E Berth 258A/260A",
+            "East Marina Berth 258 -G8"
+          ]
+        }
+      },
+      {
+        "id": "1257984",
+        "conflicts": {
+          "tma_name": [
+            "Engineer's Cabin",
+            "FOCM Cabin"
+          ],
+          "facility_id": [
+            "804442",
+            "980480"
+          ]
+        }
+      },
+      {
+        "id": "1261528",
+        "conflicts": {
+          "tma_name": [
+            "Event Space",
+            "Multi-Purpose"
+          ]
+        }
+      },
+      {
+        "id": "10359",
+        "conflicts": {
+          "tma_name": [
+            "Exploratorium Bldg",
+            "Expo Structure"
+          ]
+        }
+      },
+      {
+        "id": "192150",
+        "conflicts": {
+          "tma_name": [
+            "Female Restroom",
+            "Female Restroom - Basement"
+          ]
+        }
+      },
+      {
+        "id": "96136",
+        "conflicts": {
+          "tma_name": [
+            "Fern Dell Maintenance Facility",
+            "Maintenance Facility"
+          ],
+          "functional_area_type": [
+            "Interior - Storage",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "1260078",
+        "conflicts": {
+          "tma_name": [
+            "First Floor Mission Arts NW Stairs",
+            "NE Stairs"
+          ]
+        }
+      },
+      {
+        "id": "1261593",
+        "conflicts": {
+          "tma_name": [
+            "Fitness Area",
+            "Lake Merced Fitness Area"
+          ]
+        }
+      },
+      {
+        "id": "1261920",
+        "conflicts": {
+          "tma_name": [
+            "Fitness Area",
+            "Foosball"
+          ],
+          "functional_area_type": [
+            "Adult Fitness Area",
+            "Outdoor Athletic Course"
+          ],
+          "facility_id": [
+            "957477",
+            "980900"
+          ]
+        }
+      },
+      {
+        "id": "89464",
+        "conflicts": {
+          "tma_name": [
+            "Fitness Area Planted Beds",
+            "Perennial Beds"
+          ]
+        }
+      },
+      {
+        "id": "1258241",
+        "conflicts": {
+          "tma_name": [
+            "Flag and Monument",
+            "Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "144",
+        "conflicts": {
+          "functional_area_type": [
+            "Basketball Court",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "1259194",
+        "conflicts": {
+          "tma_name": [
+            "Gardener's Shed",
+            "Presidio Wall Gardener Shed"
+          ],
+          "functional_area_type": [
+            "Maintenance Structure",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "10180",
+        "conflicts": {
+          "tma_name": [
+            "Gas Meter",
+            "St Marys Rec Bldg"
+          ]
+        }
+      },
+      {
+        "id": "96132",
+        "conflicts": {
+          "tma_name": [
+            "GGP Tennis Court Turf",
+            "Tennis Court Lawn",
+            "Tennis Ctr Lawn"
+          ]
+        }
+      },
+      {
+        "id": "94492",
+        "conflicts": {
+          "tma_name": [
+            "GGP1 McLaren Lodge Grounds - perennial bed",
+            "Lodge Perennial Beds",
+            "McLaren Grounds Planted Beds",
+            "McLaren Lodge Grounds Perennical Beds",
+            "Perennial Bed"
+          ]
+        }
+      },
+      {
+        "id": "1259945",
+        "conflicts": {
+          "tma_name": [
+            "GGP6 Millwright's Cottage - Stairway",
+            "Stairs"
+          ],
+          "functional_area_type": [
+            "Interior - Structural",
+            "Stairway or Steps"
+          ]
+        }
+      },
+      {
+        "id": "1259133",
+        "conflicts": {
+          "tma_name": [
+            "Great Highway Roadway- LW to Sloat",
+            "Sunset Dunes Roadway- LW to Sloat"
+          ]
+        }
+      },
+      {
+        "id": "1260265",
+        "conflicts": {
+          "tma_name": [
+            "Group Picnic Retaining Wall",
+            "Group Picnic Seatwalls"
+          ]
+        }
+      },
+      {
+        "id": "1257037",
+        "conflicts": {
+          "tma_name": [
+            "Gymnasium Closet #1",
+            "Gymnasium Closet #3"
+          ]
+        }
+      },
+      {
+        "id": "184",
+        "conflicts": {
+          "tma_name": [
+            "Harding Golf Cart House",
+            "Harding Golf Course"
+          ]
+        }
+      },
+      {
+        "id": "1257262",
+        "conflicts": {
+          "tma_name": [
+            "Harding Maintenance Yard",
+            "Harding:  Parking lot - maintenance yard"
+          ],
+          "functional_area_type": [
+            "Maintenance Yard",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "12626",
+        "conflicts": {
+          "tma_name": [
+            "Hardscape",
+            "Upper Asphalt Area"
+          ]
+        }
+      },
+      {
+        "id": "85418",
+        "conflicts": {
+          "functional_area_type": [
+            "Planted Bed",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "138277",
+        "conflicts": {
+          "tma_name": [
+            "Hayward Retaining Wall",
+            "Retaining Walls"
+          ]
+        }
+      },
+      {
+        "id": "93289",
+        "conflicts": {
+          "tma_name": [
+            "Hedge",
+            "Perennial Bed"
+          ]
+        }
+      },
+      {
+        "id": "57174",
+        "conflicts": {
+          "tma_name": [
+            "Hilltop Park Paths",
+            "Path"
+          ]
+        }
+      },
+      {
+        "id": "161886",
+        "conflicts": {
+          "tma_name": [
+            "Horseshoe Pit Area Non-Landscaped",
+            "Horseshoe Pits Greenspace"
+          ]
+        }
+      },
+      {
+        "id": "108944",
+        "conflicts": {
+          "tma_name": [
+            "Interior Greenspace",
+            "Interior Grenenbelt Non-Landscaped"
+          ]
+        }
+      },
+      {
+        "id": "1257180",
+        "conflicts": {
+          "tma_name": [
+            "Janitor closet",
+            "Sunset:  Recreation Center - janitor supply"
+          ]
+        }
+      },
+      {
+        "id": "97800",
+        "conflicts": {
+          "tma_name": [
+            "Kezar Stadium Lawns and Turf",
+            "Kezar Stadium Turf"
+          ],
+          "functional_area_type": [
+            "Lawn",
+            "Multi-Use Turf"
+          ]
+        }
+      },
+      {
+        "id": "307",
+        "conflicts": {
+          "tma_name": [
+            "Kimball Lawn",
+            "Multipurpose Althetic Turf"
+          ]
+        }
+      },
+      {
+        "id": "12692",
+        "conflicts": {
+          "tma_name": [
+            "Kimball Perennial bed",
+            "Perennial Beds"
+          ]
+        }
+      },
+      {
+        "id": "1261586",
+        "conflicts": {
+          "tma_name": [
+            "La Grande Water Tower Asphalt Paths",
+            "Wilde Tower Asphalt Paths"
+          ]
+        }
+      },
+      {
+        "id": "166655",
+        "conflicts": {
+          "tma_name": [
+            "Lake Bath House",
+            "Lake Bath House-Men's RR",
+            "Lake Bath House-Women's RR"
+          ]
+        }
+      },
+      {
+        "id": "313825",
+        "conflicts": {
+          "tma_name": [
+            "Lake Merced Asphalt Path",
+            "Lake Merced Natural Area - Asphalt Path"
+          ],
+          "functional_area_type": [
+            "Path",
+            "Retaining Wall"
+          ],
+          "facility_id": [
+            "12603",
+            "36243"
+          ]
+        }
+      },
+      {
+        "id": "10192",
+        "conflicts": {
+          "tma_name": [
+            "Lake Merced Maint Bldg 2",
+            "Lake Merced Park MF 2 Bldg"
+          ]
+        }
+      },
+      {
+        "id": "211",
+        "conflicts": {
+          "tma_name": [
+            "Lawn",
+            "Lawns"
+          ]
+        }
+      },
+      {
+        "id": "19325",
+        "conflicts": {
+          "functional_area_type": [
+            "Lawn",
+            "Planted Bed"
+          ]
+        }
+      },
+      {
+        "id": "1258125",
+        "conflicts": {
+          "tma_name": [
+            "LL Storage",
+            "Storage"
+          ]
+        }
+      },
+      {
+        "id": "15131",
+        "conflicts": {
+          "tma_name": [
+            "Lodge Annex 1st Floor Bldg",
+            "Lodge Annex 2nd Floor Bldg"
+          ]
+        }
+      },
+      {
+        "id": "94473",
+        "conflicts": {
+          "tma_name": [
+            "Lodge Grounds Asphalt Paths",
+            "UKBED"
+          ]
+        }
+      },
+      {
+        "id": "1257246",
+        "conflicts": {
+          "tma_name": [
+            "Low Steps",
+            "Midtown Stairways"
+          ]
+        }
+      },
+      {
+        "id": "1261523",
+        "conflicts": {
+          "tma_name": [
+            "Lower Hardscape Area",
+            "Merced Heights Lawn"
+          ]
+        }
+      },
+      {
+        "id": "1260638",
+        "conflicts": {
+          "tma_name": [
+            "Main Office",
+            "Office"
+          ]
+        }
+      },
+      {
+        "id": "13829",
+        "conflicts": {
+          "tma_name": [
+            "Maintenance Shed 2",
+            "Rhododendron Dell Maint Shed Bldg 2"
+          ]
+        }
+      },
+      {
+        "id": "192149",
+        "conflicts": {
+          "tma_name": [
+            "Male Restroom",
+            "Male Restroom - Basement"
+          ]
+        }
+      },
+      {
+        "id": "19108",
+        "conflicts": {
+          "tma_name": [
+            "Marina Green West",
+            "West Lawn"
+          ]
+        }
+      },
+      {
+        "id": "15126",
+        "conflicts": {
+          "tma_name": [
+            "McLaren Lodge 1st Floor",
+            "McLaren Lodge 2nd Floor",
+            "McLaren Lodge Attic"
+          ]
+        }
+      },
+      {
+        "id": "11871",
+        "conflicts": {
+          "tma_name": [
+            "McLaren Lodge Lawn",
+            "McLaren Lodge Lawn Area"
+          ]
+        }
+      },
+      {
+        "id": "12581",
+        "conflicts": {
+          "tma_name": [
+            "McLaren Natural Areas",
+            "McLaren Park Natural Area"
+          ],
+          "functional_area_type": [
+            "Natural Area",
+            "Non-landscaped Greenspace"
+          ]
+        }
+      },
+      {
+        "id": "1261946",
+        "conflicts": {
+          "tma_name": [
+            "Men's Shower",
+            "Men's Shower-Staff"
+          ]
+        }
+      },
+      {
+        "id": "1258888",
+        "conflicts": {
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Interior - Custodial"
+          ]
+        }
+      },
+      {
+        "id": "559",
+        "conflicts": {
+          "tma_name": [
+            "Miraloma Childrens Play Area",
+            "Miraloma CPA"
+          ]
+        }
+      },
+      {
+        "id": "1260087",
+        "conflicts": {
+          "tma_name": [
+            "Mission Arts Second Floor Stairs",
+            "Stairs"
+          ],
+          "functional_area_type": [
+            "Stairway or Steps",
+            "Structural"
+          ],
+          "facility_id": [
+            "587",
+            "11640"
+          ]
+        }
+      },
+      {
+        "id": "1260086",
+        "conflicts": {
+          "tma_name": [
+            "Mission Arts Second Floor Stairs South",
+            "Vestibule"
+          ],
+          "functional_area_type": [
+            "Stairway or Steps",
+            "Structural"
+          ],
+          "facility_id": [
+            "587",
+            "11640"
+          ]
+        }
+      },
+      {
+        "id": "1258550",
+        "conflicts": {
+          "tma_name": [
+            "Mission Arts Second Floor Walls",
+            "Mission Arts Structure"
+          ]
+        }
+      },
+      {
+        "id": "1259007",
+        "conflicts": {
+          "tma_name": [
+            "Mission Dolores South Restroom - Building",
+            "South Restroom Bldg"
+          ]
+        }
+      },
+      {
+        "id": "664",
+        "conflicts": {
+          "tma_name": [
+            "Multi-Use Play Area",
+            "West Sunset Playground"
+          ],
+          "functional_area_type": [
+            "Multi-Use Paved",
+            "Volleyball"
+          ]
+        }
+      },
+      {
+        "id": "745428",
+        "conflicts": {
+          "functional_area_type": [
+            "Interior - Recreational",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "91403",
+        "conflicts": {
+          "tma_name": [
+            "Beach",
+            "Natural Area"
+          ],
+          "functional_area_type": [
+            "Natural Area",
+            "Non-landscaped Greenspace"
+          ]
+        }
+      },
+      {
+        "id": "208",
+        "conflicts": {
+          "tma_name": [
+            "North Meadow",
+            "South Meadow"
+          ]
+        }
+      },
+      {
+        "id": "1260083",
+        "conflicts": {
+          "tma_name": [
+            "NW First Floor Storage",
+            "Storage"
+          ],
+          "facility_id": [
+            "587",
+            "11640"
+          ]
+        }
+      },
+      {
+        "id": "100945",
+        "conflicts": {
+          "tma_name": [
+            "Palace Rotunda - Plinth (Base)",
+            "Palace Rotunda Plinth"
+          ]
+        }
+      },
+      {
+        "id": "34887",
+        "conflicts": {
+          "tma_name": [
+            "Bay View Sidewalk",
+            "Pathway"
+          ],
+          "functional_area_type": [
+            "Retaining Wall",
+            "Sidewalk"
+          ]
+        }
+      },
+      {
+        "id": "34963",
+        "conflicts": {
+          "tma_name": [
+            "Pathways",
+            "Presidio Wall Asphalt Path"
+          ]
+        }
+      },
+      {
+        "id": "11950",
+        "conflicts": {
+          "tma_name": [
+            "Perennial Bed",
+            "Perennial Beds"
+          ]
+        }
+      },
+      {
+        "id": "1259441",
+        "conflicts": {
+          "tma_name": [
+            "Perennial Bed",
+            "Potrero Planted Beds"
+          ]
+        }
+      },
+      {
+        "id": "1261440",
+        "conflicts": {
+          "tma_name": [
+            "Perennial Bed",
+            "Planted Beds"
+          ]
+        }
+      },
+      {
+        "id": "85726",
+        "conflicts": {
+          "tma_name": [
+            "Picnic Area",
+            "Stern Grove Picnic Area"
+          ]
+        }
+      },
+      {
+        "id": "1261773",
+        "conflicts": {
+          "facility_id": [
+            "34886",
+            "409055"
+          ]
+        }
+      },
+      {
+        "id": "85965",
+        "conflicts": {
+          "tma_name": [
+            "Plaza",
+            "West Sunset Plaza"
+          ],
+          "functional_area_type": [
+            "Hardscape Area",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "1261896",
+        "conflicts": {
+          "tma_name": [
+            "Pocket 11 Greenspace",
+            "Pocket 12 Greenspace"
+          ],
+          "facility_id": [
+            "981102",
+            "981103"
+          ]
+        }
+      },
+      {
+        "id": "93328",
+        "conflicts": {
+          "tma_name": [
+            "GGP5 Polo Fields - Greenspace",
+            "Polo Field Area NonLandscaped"
+          ]
+        }
+      },
+      {
+        "id": "11870",
+        "conflicts": {
+          "tma_name": [
+            "Polo Field Lawn",
+            "Polo Field Turf"
+          ]
+        }
+      },
+      {
+        "id": "1259503",
+        "conflicts": {
+          "tma_name": [
+            "Polo Field Tower Bldg",
+            "Polo Tower"
+          ],
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "426386",
+        "conflicts": {
+          "tma_name": [
+            "Pool Deck",
+            "Swimming Pool"
+          ]
+        }
+      },
+      {
+        "id": "37276",
+        "conflicts": {
+          "tma_name": [
+            "Portola Open Space Greenspace",
+            "Portola Openspace Greenspace"
+          ]
+        }
+      },
+      {
+        "id": "1259497",
+        "conflicts": {
+          "tma_name": [
+            "Pump house",
+            "Sewer Pump House"
+          ]
+        }
+      },
+      {
+        "id": "1257176",
+        "conflicts": {
+          "tma_name": [
+            "Rec Center Lobby",
+            "Sunset:  Recreation Center - lobby"
+          ],
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Interior - Structural"
+          ]
+        }
+      },
+      {
+        "id": "1259085",
+        "conflicts": {
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Interior - Restroom"
+          ]
+        }
+      },
+      {
+        "id": "1257735",
+        "conflicts": {
+          "tma_name": [
+            "Planted Bed Wall",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "1261807",
+        "conflicts": {
+          "tma_name": [
+            "Rossi Pickleball D",
+            "Stern Grove Pickleball Court D"
+          ],
+          "facility_id": [
+            "662",
+            "666"
+          ],
+          "property_id": [
+            "83",
+            "105"
+          ]
+        }
+      },
+      {
+        "id": "1261979",
+        "conflicts": {
+          "tma_name": [
+            "Santiago Hammock Area",
+            "Taraval Hammocks"
+          ]
+        }
+      },
+      {
+        "id": "1260077",
+        "conflicts": {
+          "tma_name": [
+            "SE Stairs",
+            "South Stairs"
+          ],
+          "facility_id": [
+            "587",
+            "11640"
+          ]
+        }
+      },
+      {
+        "id": "10059",
+        "conflicts": {
+          "tma_name": [
+            "First Floor Walls",
+            "Second Floor Walls"
+          ]
+        }
+      },
+      {
+        "id": "10265",
+        "conflicts": {
+          "tma_name": [
+            "Senior Center Bldg",
+            "Senior Center Bldg - Basement",
+            "Senior Center Bldg - First Floor"
+          ]
+        }
+      },
+      {
+        "id": "94467",
+        "conflicts": {
+          "tma_name": [
+            "Shakespeare Garden Grteenspace",
+            "Shakespeare Non-Landscaped Green"
+          ]
+        }
+      },
+      {
+        "id": "89252",
+        "conflicts": {
+          "tma_name": [
+            "Soccer - Bleachers 2 - 3-Row",
+            "Soccer Pitch 2 - Bleachers"
+          ]
+        }
+      },
+      {
+        "id": "1260714",
+        "conflicts": {
+          "tma_name": [
+            "Soccer - Stairway",
+            "Stairs"
+          ],
+          "facility_id": [
+            "618",
+            "36219"
+          ]
+        }
+      },
+      {
+        "id": "1261582",
+        "conflicts": {
+          "tma_name": [
+            "South of Mansell East Asphalt Paths",
+            "South of Mansell West Asphalt Paths"
+          ]
+        }
+      },
+      {
+        "id": "422",
+        "conflicts": {
+          "tma_name": [
+            "Bandshell Stage",
+            "Spreckels Temple of Music"
+          ],
+          "functional_area_type": [
+            "Interior - Administrative",
+            "Performance Space"
+          ]
+        }
+      },
+      {
+        "id": "57211",
+        "conflicts": {
+          "functional_area_type": [
+            "Path",
+            "Stairway or Steps"
+          ]
+        }
+      },
+      {
+        "id": "86045",
+        "conflicts": {
+          "tma_name": [
+            "Stairs",
+            "Stairways"
+          ]
+        }
+      },
+      {
+        "id": "1260701",
+        "conflicts": {
+          "tma_name": [
+            "Stairs",
+            "Wong Stairs"
+          ],
+          "functional_area_type": [
+            "Interior - Structural",
+            "Stairway or Steps"
+          ]
+        }
+      },
+      {
+        "id": "415",
+        "conflicts": {
+          "tma_name": [
+            "Stern Grove Parking Lot",
+            "UKBED"
+          ],
+          "functional_area_type": [
+            "Path",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "85736",
+        "conflicts": {
+          "tma_name": [
+            "Stern Grove Planted Beds",
+            "UKBED"
+          ]
+        }
+      },
+      {
+        "id": "1258806",
+        "conflicts": {
+          "tma_name": [
+            "Sunnyside CH LL Walls",
+            "Sunnyside PG CH Upper Level Walls"
+          ]
+        }
+      },
+      {
+        "id": "1261967",
+        "conflicts": {
+          "tma_name": [
+            "Sunset Dunes East Hardscape",
+            "Sunset Dunes West Hardscape"
+          ]
+        }
+      },
+      {
+        "id": "10234",
+        "conflicts": {
+          "tma_name": [
+            "Tennis & Pro Shop",
+            "Tennis Ctr Bldg"
+          ],
+          "functional_area_type": [
+            "Interior - Retail Space",
+            "Structural"
+          ]
+        }
+      },
+      {
+        "id": "1258855",
+        "conflicts": {
+          "tma_name": [
+            "Theater Storage",
+            "Theatre Storage"
+          ]
+        }
+      },
+      {
+        "id": "1258854",
+        "conflicts": {
+          "tma_name": [
+            "Theater Trailer",
+            "Theatre Trailer"
+          ]
+        }
+      },
+      {
+        "id": "166643",
+        "conflicts": {
+          "tma_name": [
+            "Bath House C - Male RR",
+            "Bath House C - Unisex Restroom",
+            "UKBED"
+          ]
+        }
+      },
+      {
+        "id": "1261566",
+        "conflicts": {
+          "tma_name": [
+            "Upper Reservoir NLG",
+            "Upper Resevoir Non-Landscaped Grnspc"
+          ]
+        }
+      },
+      {
+        "id": "12772",
+        "conflicts": {
+          "functional_area_type": [
+            "Hardscape Area",
+            "Path",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "247848",
+        "conflicts": {
+          "functional_area_type": [
+            "Path",
+            "Retaining Wall"
+          ]
+        }
+      },
+      {
+        "id": "330",
+        "conflicts": {
+          "tma_name": [
+            "West Marina",
+            "West Yacht Harbor"
+          ]
+        }
+      },
+      {
+        "id": "418",
+        "conflicts": {
+          "tma_name": [
+            "West Sunset Parking Lot",
+            "West Susnet ADA Parking"
+          ]
+        }
+      },
+      {
+        "id": "1261948",
+        "conflicts": {
+          "tma_name": [
+            "Women's Restroom",
+            "Women's Restroom-Staff"
+          ]
+        }
+      },
+      {
+        "id": "1261947",
+        "conflicts": {
+          "tma_name": [
+            "Women's Shower",
+            "Women's Shower-Staff"
+          ]
+        }
+      },
+      {
+        "id": "1260694",
+        "conflicts": {
+          "tma_name": [
+            "Wong Wood Bleachers",
+            "Wooden Bleachers"
+          ],
+          "functional_area_type": [
+            "Bleachers",
+            "Interior - Structural"
+          ]
+        }
+      },
+      {
+        "id": "138940",
+        "conflicts": {
+          "tma_name": [
+            "Perennial Bed",
+            "Yacht Harbor Planted Beds"
+          ],
+          "facility_id": [
+            "308",
+            "399"
+          ]
+        }
+      }
+    ]
+  },
+  "unmappedPublicCandidates": {
+    "facilityTypes": [
+      "Administration Building",
+      "Aggregate",
+      "Archery Field",
+      "Bocce Ball Court",
+      "Bowling Green",
+      "Bridge",
+      "Cabin",
+      "Campground",
+      "Card Shelter",
+      "Cargo Container",
+      "Clubhouse/Pool",
+      "Croquet Lawn",
+      "Disc Golf",
+      "Fountain",
+      "Handball/Racquetball Court",
+      "Hardscaped Area",
+      "Horseshoe Pit",
+      "Landscaped Area",
+      "Maintenance Building",
+      "Maintenance Facility",
+      "Maintenance Yard",
+      "Marina",
+      "Monument, Historic: Sculpture-Art",
+      "Multi-Use Court",
+      "Multi-Use Paved",
+      "Non-landscaped Greenspace",
+      "Office Trailer",
+      "Outdoor Sports Complex",
+      "Parking Lot",
+      "Petanque Court",
+      "Rec Center/Pool",
+      "Retail Space",
+      "Road",
+      "Stairway",
+      "Structure, Historic: Bldg-Other",
+      "Water Body",
+      "Yacht Club"
+    ],
+    "functionalAreaTypes": [
+      "Batting Cage",
+      "Bioswale Planting Area",
+      "Bleachers",
+      "Boardwalk",
+      "Boat Berth",
+      "Boat Dock",
+      "Bowling Green",
+      "Bridge",
+      "Cargo Container",
+      "Croquet Lawn",
+      "Curb",
+      "Deck",
+      "Decorative Fountain",
+      "Ditch",
+      "Dugout",
+      "Equestrian Area",
+      "Football",
+      "Golf Facility",
+      "Hardscape Area",
+      "Hardscape Area - concrete",
+      "Horseshoe Pit",
+      "INACTIVE Arbor",
+      "Interior - Administrative",
+      "Interior - Custodial",
+      "Interior - Mechanical",
+      "Interior - Retail Space",
+      "Interior - Storage",
+      "Interior - Structural",
+      "Interior - Trade",
+      "Lawn",
+      "Maintenance Structure",
+      "Maintenance Yard",
+      "Non-landscaped Greenspace",
+      "Outdoor Athletic Course",
+      "Parking",
+      "Path",
+      "Petanque Court",
+      "Pier",
+      "Planted Bed",
+      "Racquetball Court",
+      "Ramp",
+      "Retaining Wall",
+      "Road",
+      "Sculpture",
+      "Sidewalk",
+      "Skate Feature",
+      "Stairway or Steps",
+      "Structural",
+      "Trail Steps and Box Steps",
+      "Tunnel",
+      "Water Body"
+    ]
+  },
+  "inputs": {
+    "propertiesRetrievedAt": "2026-08-26T22:12:03.884Z",
+    "facilitiesRetrievedAt": "2026-08-26T22:12:46.533Z",
+    "functionalAreasRetrievedAt": "2026-08-26T22:12:58.354Z",
+    "assetsRetrievedAt": "2026-08-26T22:13:14.387Z",
+    "sources": [
+      {
+        "sourceId": "datasf-rec-park-properties",
+        "retrievedAt": "2026-08-26T22:12:03.884Z"
+      },
+      {
+        "sourceId": "datasf-rec-park-facilities",
+        "retrievedAt": "2026-08-26T22:12:46.533Z"
+      },
+      {
+        "sourceId": "datasf-rec-park-functional-areas",
+        "retrievedAt": "2026-08-26T22:12:58.354Z"
+      },
+      {
+        "sourceId": "datasf-rec-park-assets",
+        "retrievedAt": "2026-08-26T22:13:14.387Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "activities": [
+    {
+      "id": "play-with-kids",
+      "label": "Play with kids",
+      "icon": "🛝",
+      "match": "any",
+      "amenityLabels": ["Children's Play Area", "Play Structure", "Nature Exploration Area"]
+    },
+    {
+      "id": "have-a-picnic",
+      "label": "Have a picnic",
+      "icon": "🧺",
+      "match": "any",
+      "amenityLabels": ["Picnic Area", "Picnic Table"]
+    },
+    {
+      "id": "play-sports",
+      "label": "Play sports",
+      "icon": "⚽",
+      "match": "any",
+      "categories": ["sports"]
+    },
+    {
+      "id": "exercise",
+      "label": "Get exercise",
+      "icon": "🏃",
+      "match": "any",
+      "categories": ["fitness"]
+    },
+    {
+      "id": "swim",
+      "label": "Go swimming",
+      "icon": "🏊",
+      "match": "any",
+      "amenityLabels": ["Swimming Pool"]
+    },
+    {
+      "id": "bring-a-dog",
+      "label": "Bring your dog",
+      "icon": "🐕",
+      "match": "any",
+      "amenityLabels": ["Dog Play Area"]
+    },
+    {
+      "id": "gardens-and-nature",
+      "label": "Explore nature",
+      "icon": "🌿",
+      "match": "any",
+      "categories": ["gardens-nature"]
+    },
+    {
+      "id": "recreation-center",
+      "label": "Visit rec centers",
+      "icon": "🏠",
+      "match": "any",
+      "amenityLabels": ["Recreation Center", "Arts/Activity Center", "Clubhouse", "Fieldhouse", "Indoor Recreation Area"]
+    },
+    {
+      "id": "arts-and-culture",
+      "label": "Explore culture",
+      "icon": "🎨",
+      "match": "any",
+      "categories": ["arts-culture"]
+    }
+  ],
+  "amenityGroups": [
+    { "id": "playgrounds", "label": "Playgrounds", "categories": ["playgrounds"] },
+    { "id": "picnic", "label": "Picnic", "categories": ["picnic"] },
+    { "id": "sports", "label": "Sports", "categories": ["sports"] },
+    { "id": "recreation-centers", "label": "Recreation centers", "categories": ["recreation-centers"] },
+    { "id": "gardens-nature", "label": "Gardens and nature", "categories": ["gardens-nature"] },
+    { "id": "dogs", "label": "Dog play", "categories": ["dogs"] },
+    { "id": "fitness", "label": "Fitness", "categories": ["fitness"] },
+    { "id": "swimming", "label": "Swimming", "categories": ["swimming"] },
+    { "id": "arts-culture", "label": "Arts and culture", "categories": ["arts-culture"] },
+    { "id": "visitor-services", "label": "Visitor services", "categories": ["visitor-services"] }
+  ],
+  "filterLogic": {
+    "selectedAmenities": "all",
+    "selectedActivities": "all",
+    "valuesWithinNeighborhood": "any",
+    "valuesWithinPlaceType": "any",
+    "valuesWithinCoverage": "any"
+  }
+}

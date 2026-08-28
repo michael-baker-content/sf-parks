@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    { "destinationId": "john-mclaren-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/McLaren-Park-344", "reason": "Reviewed familiar-name variant with matching Mansell Street and John F. Shelley Drive location." },
+    { "destinationId": "sigmund-stern-recreation-grove", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sigmund-Stern-Grove-375", "reason": "Reviewed expansion of the same destination name and location." },
+    { "destinationId": "lake-merced-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Lake-Merced-349", "reason": "Reviewed familiar-name variant for the same lake park." },
+    { "destinationId": "mission-creek-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Creek-Park-North-and-South-449", "reason": "Reviewed official page covering the north and south portions of the destination." },
+    { "destinationId": "adam-rodgers-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Adam-Rogers-Park-144", "reason": "Reviewed source spelling variant with matching Ingalls and Oakdale location." },
+    { "destinationId": "eugene-friend-rec-center", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Gene-Friend-SoMa-Rec-Center-88", "reason": "Reviewed abbreviated familiar-name variant with matching recreation-center identity." },
+    { "destinationId": "rolph-nicol-playground", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Rolph-Nicol-Jr-Playground-266", "reason": "Reviewed suffix variant for the same Eucalyptus Drive and 25th Avenue playground." },
+    { "destinationId": "joseph-l-alioto-performing-arts-piazza", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Joseph-L-Alioto-Performing-Arts-Piazza-C-345", "reason": "Reviewed parenthetical Civic Center qualifier for the same piazza." },
+    { "destinationId": "telegraph-hill-pioneer-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Pioneer-Park-381", "reason": "Reviewed familiar public name for Pioneer Park on Telegraph Hill." },
+    { "destinationId": "collis-p-huntington-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Huntington-Park-438", "reason": "Reviewed shortened familiar name for the same park." },
+    { "destinationId": "hooker-alley-community-garden", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Nob-Hill-Hooker-Alley-Community-Garden-69", "reason": "Reviewed neighborhood-qualified name for the same community garden." },
+    { "destinationId": "howard-langton-mini-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Howard-Langton-Mini-Park-Community-Garde-70", "reason": "Reviewed facility-page name that adds the destination's community-garden use." },
+    { "destinationId": "interior-greenbelt", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Interior-Greenbelt-Trail-403", "reason": "Reviewed trail-qualified name for the same Interior Greenbelt location." },
+    { "destinationId": "noe-beaver-mini-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Noe-Beaver-Mini-Park-Community-Garden-71", "reason": "Reviewed facility-page name that adds the destination's community-garden use." },
+    { "destinationId": "guy-place-mini-park", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Guy-Place-339", "reason": "Reviewed shortened directory name with matching Guy Place address." },
+    { "destinationId": "park-presidio-blvd", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Park-Presidio-Boulevard-195", "reason": "Reviewed abbreviation expansion for the same boulevard open space." },
+    { "destinationId": "signal-point", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Signal-Point-Park-477", "reason": "Reviewed park suffix variant with matching Signal Road location." }
+  ]
+}

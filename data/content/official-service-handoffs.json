@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-27",
+  "programs": [
+    {
+      "id": "recreation-programs",
+      "label": "Classes, camps, and recreation programs",
+      "description": "Browse the official seasonal recreation program information and registration guidance.",
+      "url": "https://www.sfrecpark.org/406/Recreation-Programs"
+    },
+    {
+      "id": "aquatics",
+      "label": "Swimming and aquatic programs",
+      "description": "Find pools operated by the City of San Francisco, swim passes, classes, and aquatic program information.",
+      "url": "https://www.sfrecpark.org/482/Swimming-Pools"
+    },
+    {
+      "id": "therapeutic-recreation",
+      "label": "Therapeutic recreation and inclusion services",
+      "description": "Find specialized programs, inclusion services, and accommodation information.",
+      "url": "https://www.sfrecpark.org/1249/Therapeutic-Recreation"
+    },
+    {
+      "id": "volunteer-programs",
+      "label": "Volunteer opportunities",
+      "description": "Explore park, recreation, youth stewardship, and group volunteer programs.",
+      "url": "https://www.sfrecpark.org/780/Volunteer-Programs"
+    },
+    {
+      "id": "all-programs",
+      "label": "Browse all program categories",
+      "description": "Start with the official San Francisco Recreation and Parks program directory.",
+      "url": "https://www.sfrecpark.org/386/FIND-A-PROGRAM"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "picnic-rentals",
+      "label": "Picnic areas and group gatherings",
+      "description": "Find picnic-site directories, reservation tools, maps, and official guidance.",
+      "url": "https://www.sfrecpark.org/426/Picnic-Rentals"
+    },
+    {
+      "id": "athletic-fields",
+      "label": "Athletic fields and sports facilities",
+      "description": "Check the official pathway for athletic-field and sports-facility permits.",
+      "url": "https://www.sfrecpark.org/423/Athletic-Field-Reservations"
+    },
+    {
+      "id": "tennis-pickleball",
+      "label": "Tennis and pickleball",
+      "description": "Continue to official court reservation and participation information.",
+      "url": "https://www.sfrecpark.org/1880/Tennis-and-Pickleball"
+    },
+    {
+      "id": "indoor-facilities",
+      "label": "Indoor facilities",
+      "description": "Explore the official process for reserving eligible indoor spaces.",
+      "url": "https://www.sfrecpark.org/658/Indoor-Facility-Rentals"
+    },
+    {
+      "id": "special-events",
+      "label": "Special events",
+      "description": "Review official requirements for public events, amplified sound, special setups, and related uses.",
+      "url": "https://www.sfrecpark.org/424/Special-Events"
+    },
+    {
+      "id": "weddings",
+      "label": "Weddings",
+      "description": "Browse official indoor and outdoor wedding venue and application guidance.",
+      "url": "https://www.sfrecpark.org/427/Weddings"
+    },
+    {
+      "id": "film-photo",
+      "label": "Film, video, and professional photography",
+      "description": "Review the official production-permit pathway for park property.",
+      "url": "https://www.sfrecpark.org/428/Film-Video-and-Photo"
+    },
+    {
+      "id": "all-reservations",
+      "label": "Browse all permits and reservations",
+      "description": "Start with the complete official permit and reservation directory.",
+      "url": "https://www.sfrecpark.org/387/PERMITS-RESERVATIONS"
+    }
+  ]
+}

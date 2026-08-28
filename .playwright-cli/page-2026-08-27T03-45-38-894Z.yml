@@ -1,0 +1,54 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to main content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "SF Parks Explorer" [ref=f2e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f2e6]:
+        - list [ref=f2e7]:
+          - listitem [ref=f2e8]:
+            - link "Explore" [ref=f2e9] [cursor=pointer]:
+              - /url: /explore/
+          - listitem [ref=f2e10]:
+            - link "Activities" [ref=f2e11] [cursor=pointer]:
+              - /url: /#activities
+          - listitem [ref=f2e12]:
+            - link "About the data" [ref=f2e13] [cursor=pointer]:
+              - /url: /about/
+  - main [ref=f2e14]:
+    - link "Back to results" [ref=f2e15] [cursor=pointer]:
+      - /url: /explore/
+    - article [ref=f2e16]:
+      - generic [ref=f2e17]:
+        - paragraph [ref=f2e18]: Neighborhood Park or Playground
+        - heading "DuPont Tennis Courts" [level=1] [ref=f2e19]
+        - paragraph [ref=f2e20]: Outer Richmond · 336 31st Ave
+      - region [ref=f2e21]:
+        - heading "What is listed here" [level=2] [ref=f2e22]
+        - generic [ref=f2e23]:
+          - generic [ref=f2e24]:
+            - heading "Sports" [level=3] [ref=f2e25]
+            - list [ref=f2e26]:
+              - listitem [ref=f2e27]: Tennis Court (exact quantity not verified)
+          - generic [ref=f2e28]:
+            - heading "Visitor services" [level=3] [ref=f2e29]
+            - list [ref=f2e30]:
+              - listitem [ref=f2e31]: Bench (exact quantity not verified)
+              - listitem [ref=f2e32]: Drinking Fountain (exact quantity not verified)
+              - listitem [ref=f2e33]: Restrooms (exact quantity not verified)
+      - region [ref=f2e34]:
+        - heading "Official information and next steps" [level=2] [ref=f2e35]
+        - paragraph [ref=f2e36]: No destination-specific official page has been reviewed yet.
+      - region [ref=f2e37]:
+        - generic [ref=f2e38]:
+          - heading "Information coverage" [level=2] [ref=f2e39]
+          - paragraph [ref=f2e40]:
+            - strong [ref=f2e41]: Based on City open data
+          - paragraph [ref=f2e42]: Details come from City-published open data and may not include every public feature.
+          - paragraph [ref=f2e43]: Not listed does not mean unavailable. No official page has been used to enrich the listed features yet.
+      - group [ref=f2e44]:
+        - generic "Source details" [ref=f2e45]
+  - contentinfo [ref=f2e46]:
+    - paragraph [ref=f2e48]: Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source.
+  - button "Open Next.js Dev Tools" [ref=f2e54] [cursor=pointer]

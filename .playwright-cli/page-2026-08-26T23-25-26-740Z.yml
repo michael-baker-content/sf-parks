@@ -1,0 +1,423 @@
+- generic [active] [ref=f12e1]:
+  - link "Skip to main content" [ref=f12e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - link "SF Parks Explorer" [ref=f12e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f12e6]:
+        - list [ref=f12e7]:
+          - listitem [ref=f12e8]:
+            - link "Explore" [ref=f12e9] [cursor=pointer]:
+              - /url: /explore/
+          - listitem [ref=f12e10]:
+            - link "Activities" [ref=f12e11] [cursor=pointer]:
+              - /url: /#activities
+          - listitem [ref=f12e12]:
+            - link "About the data" [ref=f12e13] [cursor=pointer]:
+              - /url: /about/
+  - main [ref=f12e14]:
+    - search [ref=f12e15]:
+      - generic [ref=f12e16]: Search destinations
+      - generic [ref=f12e17]:
+        - searchbox "Search destinations" [ref=f12e18]
+        - button "Search" [ref=f12e19] [cursor=pointer]
+      - paragraph [ref=f12e20]: Search by place, neighborhood, activity, or amenity.
+    - generic [ref=f12e21]:
+      - complementary [ref=f12e22]:
+        - button "Show filters (1)" [ref=f12e23] [cursor=pointer]
+      - region [ref=f12e24]:
+        - generic [ref=f12e25]:
+          - generic [ref=f12e26]:
+            - heading "Explore parks and recreation" [level=1] [ref=f12e27]
+            - paragraph [ref=f12e28]: 110 destinations found
+            - paragraph [ref=f12e29]: 110 destinations
+          - generic [ref=f12e30]:
+            - text: Sort
+            - combobox "Sort" [ref=f12e31]:
+              - option "Relevance" [selected]
+              - option "Name"
+        - generic [ref=f12e32]:
+          - article [ref=f12e33]:
+            - heading [level=2] [ref=f12e34]:
+              - link "24th & York Mini Park" [ref=f12e35] [cursor=pointer]:
+                - /url: /parks/24th-york-mini-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e36]: Mission · 2810 24th St
+            - paragraph [ref=f12e37]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e38]:
+              - listitem [ref=f12e39]: Multi-use Paved Area
+              - listitem [ref=f12e40]: Children's Play Area
+            - paragraph [ref=f12e41]: Based on City open data
+          - article [ref=f12e42]:
+            - heading [level=2] [ref=f12e43]:
+              - link "900 Innes" [ref=f12e44] [cursor=pointer]:
+                - /url: /parks/900-innes/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e45]: Bayview Hunters Point · 900 Innes St
+            - paragraph [ref=f12e46]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e47]:
+              - listitem [ref=f12e48]: Multi-use Paved Area
+              - listitem [ref=f12e49]: Picnic Area
+              - listitem [ref=f12e50]: Arts/Activity Center
+              - listitem [ref=f12e51]: Indoor Recreation Area
+              - listitem [ref=f12e52]: +1 more
+            - paragraph [ref=f12e53]: Based on City open data
+          - article [ref=f12e54]:
+            - heading [level=2] [ref=f12e55]:
+              - link "Adam Rodgers Park" [ref=f12e56] [cursor=pointer]:
+                - /url: /parks/adam-rodgers-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e57]: Bayview Hunters Point · 1215 Quesada Ave
+            - paragraph [ref=f12e58]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e59]:
+              - listitem [ref=f12e60]: Basketball Court
+              - listitem [ref=f12e61]: Community Garden
+              - listitem [ref=f12e62]: Grill
+              - listitem [ref=f12e63]: Picnic Area
+              - listitem [ref=f12e64]: +3 more
+            - paragraph [ref=f12e65]: Based on City open data
+          - article [ref=f12e66]:
+            - heading [level=2] [ref=f12e67]:
+              - link "Alamo Square" [ref=f12e68] [cursor=pointer]:
+                - /url: /parks/alamo-square/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e69]: Hayes Valley · 1081 Fulton St
+            - paragraph [ref=f12e70]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e71]:
+              - listitem [ref=f12e72]: Tennis Court
+              - listitem [ref=f12e73]: Dog Play Area
+              - listitem [ref=f12e74]: Picnic Area
+              - listitem [ref=f12e75]: Table
+              - listitem [ref=f12e76]: +3 more
+            - paragraph [ref=f12e77]: Based on City open data
+          - article [ref=f12e78]:
+            - heading [level=2] [ref=f12e79]:
+              - link "Alice Chalmers Playground" [ref=f12e80] [cursor=pointer]:
+                - /url: /parks/alice-chalmers-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e81]: Excelsior · 670 Brunswick St
+            - paragraph [ref=f12e82]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e83]:
+              - listitem [ref=f12e84]: Ball Field
+              - listitem [ref=f12e85]: Basketball Court
+              - listitem [ref=f12e86]: Softball Field
+              - listitem [ref=f12e87]: Tennis Court
+              - listitem [ref=f12e88]: +5 more
+            - paragraph [ref=f12e89]: Based on City open data
+          - article [ref=f12e90]:
+            - heading [level=2] [ref=f12e91]:
+              - link "Alice Marble Courts" [ref=f12e92] [cursor=pointer]:
+                - /url: /parks/alice-marble-courts/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e93]: Russian Hill · 1200 Greenwich St
+            - paragraph [ref=f12e94]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e95]:
+              - listitem [ref=f12e96]: Basketball Court
+              - listitem [ref=f12e97]: Tennis Court
+              - listitem [ref=f12e98]: Bench
+            - paragraph [ref=f12e99]: Based on City open data
+          - article [ref=f12e100]:
+            - heading [level=2] [ref=f12e101]:
+              - link "Alta Plaza Park" [ref=f12e102] [cursor=pointer]:
+                - /url: /parks/alta-plaza-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e103]: Pacific Heights · 2501 Jackson St
+            - paragraph [ref=f12e104]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e105]:
+              - listitem [ref=f12e106]: Basketball Court
+              - listitem [ref=f12e107]: Pickleball Court
+              - listitem [ref=f12e108]: Tennis Court
+              - listitem [ref=f12e109]: Dog Play Area
+              - listitem [ref=f12e110]: +5 more
+            - paragraph [ref=f12e111]: Based on City open data
+          - article [ref=f12e112]:
+            - heading [level=2] [ref=f12e113]:
+              - link "Angelo J. Rossi Playground" [ref=f12e114] [cursor=pointer]:
+                - /url: /parks/angelo-j-rossi-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e115]: Lone Mountain/USF · 600 Arguello Blvd
+            - paragraph [ref=f12e116]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e117]:
+              - listitem [ref=f12e118]: Ball Field
+              - listitem [ref=f12e119]: Baseball Field
+              - listitem [ref=f12e120]: Basketball Court
+              - listitem [ref=f12e121]: Pickleball Court
+              - listitem [ref=f12e122]: +10 more
+            - paragraph [ref=f12e123]: Based on City open data
+          - article [ref=f12e124]:
+            - heading [level=2] [ref=f12e125]:
+              - link "Aptos Playground" [ref=f12e126] [cursor=pointer]:
+                - /url: /parks/aptos-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e127]: West of Twin Peaks · 139 Aptos Ave
+            - paragraph [ref=f12e128]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e129]:
+              - listitem [ref=f12e130]: Ball Field
+              - listitem [ref=f12e131]: Multi-use Paved Area
+              - listitem [ref=f12e132]: Softball Field
+              - listitem [ref=f12e133]: Tennis Court
+              - listitem [ref=f12e134]: +4 more
+            - paragraph [ref=f12e135]: Based on City open data
+          - article [ref=f12e136]:
+            - heading [level=2] [ref=f12e137]:
+              - link "Argonne Playground" [ref=f12e138] [cursor=pointer]:
+                - /url: /parks/argonne-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e139]: Outer Richmond · 455 18th Ave
+            - paragraph [ref=f12e140]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e141]:
+              - listitem [ref=f12e142]: Basketball Court
+              - listitem [ref=f12e143]: Multi-use Paved Area
+              - listitem [ref=f12e144]: Tennis Court
+              - listitem [ref=f12e145]: Picnic Area
+              - listitem [ref=f12e146]: +6 more
+            - paragraph [ref=f12e147]: Based on City open data
+          - article [ref=f12e148]:
+            - heading [level=2] [ref=f12e149]:
+              - link "Balboa Park" [ref=f12e150] [cursor=pointer]:
+                - /url: /parks/balboa-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e151]: Outer Mission · 51 Havelock St
+            - paragraph [ref=f12e152]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e153]:
+              - listitem [ref=f12e154]: Ball Field
+              - listitem [ref=f12e155]: Baseball Field
+              - listitem [ref=f12e156]: Basketball Court
+              - listitem [ref=f12e157]: Multi-Use Turf
+              - listitem [ref=f12e158]: +13 more
+            - paragraph [ref=f12e159]: Based on City open data
+          - article [ref=f12e160]:
+            - heading [level=2] [ref=f12e161]:
+              - link "Bayview K.C. Jones Playground" [ref=f12e162] [cursor=pointer]:
+                - /url: /parks/bayview-k-c-jones-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e163]: Bayview Hunters Point · 5701 3rd St
+            - paragraph [ref=f12e164]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e165]:
+              - listitem [ref=f12e166]: Ball Field
+              - listitem [ref=f12e167]: Baseball Field
+              - listitem [ref=f12e168]: Adult Fitness Area
+              - listitem [ref=f12e169]: Adult Fitness Court/Course
+              - listitem [ref=f12e170]: +9 more
+            - paragraph [ref=f12e171]: Based on City open data
+          - article [ref=f12e172]:
+            - heading [level=2] [ref=f12e173]:
+              - link "Bernal Heights Rec Center" [ref=f12e174] [cursor=pointer]:
+                - /url: /parks/bernal-heights-rec-center/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e175]: Bernal Heights · 500 Moultrie St
+            - paragraph [ref=f12e176]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e177]:
+              - listitem [ref=f12e178]: Basketball Court
+              - listitem [ref=f12e179]: Multi-use Paved Area
+              - listitem [ref=f12e180]: Picnic Area
+              - listitem [ref=f12e181]: Children's Play Area
+              - listitem [ref=f12e182]: +5 more
+            - paragraph [ref=f12e183]: Based on City open data
+          - article [ref=f12e184]:
+            - heading [level=2] [ref=f12e185]:
+              - link "Betty Ann Ong Rec Center" [ref=f12e186] [cursor=pointer]:
+                - /url: /parks/betty-ann-ong-rec-center/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e187]: Nob Hill · 1101 Washington St
+            - paragraph [ref=f12e188]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e189]:
+              - listitem [ref=f12e190]: Basketball Court
+              - listitem [ref=f12e191]: Children's Play Area
+              - listitem [ref=f12e192]: Play Structure
+              - listitem [ref=f12e193]: Indoor Recreation Area
+              - listitem [ref=f12e194]: +5 more
+            - paragraph [ref=f12e195]: Based on City open data
+          - article [ref=f12e196]:
+            - heading [level=2] [ref=f12e197]:
+              - link "Brooks Park" [ref=f12e198] [cursor=pointer]:
+                - /url: /parks/brooks-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e199]: Oceanview/Merced/Ingleside · 373 Ramsell St
+            - paragraph [ref=f12e200]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e201]:
+              - listitem [ref=f12e202]: Multi-use Paved Area
+              - listitem [ref=f12e203]: Community Garden
+              - listitem [ref=f12e204]: Natural Area
+              - listitem [ref=f12e205]: Picnic Area
+              - listitem [ref=f12e206]: +4 more
+            - paragraph [ref=f12e207]: Based on City open data
+          - article [ref=f12e208]:
+            - heading [level=2] [ref=f12e209]:
+              - link "Buchanan St Mall" [ref=f12e210] [cursor=pointer]:
+                - /url: /parks/buchanan-st-mall/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e211]: Western Addition, Hayes Valley · 1151 Buchanan St
+            - paragraph [ref=f12e212]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e213]:
+              - listitem [ref=f12e214]: Basketball Court
+              - listitem [ref=f12e215]: Children's Play Area
+              - listitem [ref=f12e216]: Bench
+            - paragraph [ref=f12e217]: Based on City open data
+          - article [ref=f12e218]:
+            - heading [level=2] [ref=f12e219]:
+              - link "Buena Vista Park" [ref=f12e220] [cursor=pointer]:
+                - /url: /parks/buena-vista-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e221]: Haight Ashbury · 1293 Haight St
+            - paragraph [ref=f12e222]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e223]:
+              - listitem [ref=f12e224]: Pickleball Court
+              - listitem [ref=f12e225]: Tennis Court
+              - listitem [ref=f12e226]: Tennis/Pickleball Court
+              - listitem [ref=f12e227]: Dog Play Area
+              - listitem [ref=f12e228]: +5 more
+            - paragraph [ref=f12e229]: Based on City open data
+          - article [ref=f12e230]:
+            - heading [level=2] [ref=f12e231]:
+              - link "Cabrillo Playground" [ref=f12e232] [cursor=pointer]:
+                - /url: /parks/cabrillo-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e233]: Outer Richmond · 851 38th Ave
+            - paragraph [ref=f12e234]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e235]:
+              - listitem [ref=f12e236]: Basketball Court
+              - listitem [ref=f12e237]: Multi-use Paved Area
+              - listitem [ref=f12e238]: Tennis Court
+              - listitem [ref=f12e239]: Picnic Area
+              - listitem [ref=f12e240]: +7 more
+            - paragraph [ref=f12e241]: Based on City open data
+          - article [ref=f12e242]:
+            - heading [level=2] [ref=f12e243]:
+              - link "Camp Mather" [ref=f12e244] [cursor=pointer]:
+                - /url: /parks/camp-mather/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e245]: 32560 Mather Road
+            - paragraph [ref=f12e246]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e247]:
+              - listitem [ref=f12e248]: Badminton Court
+              - listitem [ref=f12e249]: Ball Field
+              - listitem [ref=f12e250]: Basketball Court
+              - listitem [ref=f12e251]: Golf Facility
+              - listitem [ref=f12e252]: +18 more
+            - paragraph [ref=f12e253]: Based on City open data
+          - article [ref=f12e254]:
+            - heading [level=2] [ref=f12e255]:
+              - link "Carl Larsen Park" [ref=f12e256] [cursor=pointer]:
+                - /url: /parks/carl-larsen-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e257]: Sunset/Parkside · 2695 19th Ave
+            - paragraph [ref=f12e258]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e259]:
+              - listitem [ref=f12e260]: Ball Field
+              - listitem [ref=f12e261]: Baseball Field
+              - listitem [ref=f12e262]: Pickleball Court
+              - listitem [ref=f12e263]: Children's Play Area
+              - listitem [ref=f12e264]: +5 more
+            - paragraph [ref=f12e265]: Based on City open data
+          - article [ref=f12e266]:
+            - heading [level=2] [ref=f12e267]:
+              - link "Cayuga Playground" [ref=f12e268] [cursor=pointer]:
+                - /url: /parks/cayuga-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e269]: Outer Mission · 301 Naglee Ave
+            - paragraph [ref=f12e270]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e271]:
+              - listitem [ref=f12e272]: Basketball Court
+              - listitem [ref=f12e273]: Multi-Use Turf
+              - listitem [ref=f12e274]: Tennis Court
+              - listitem [ref=f12e275]: Picnic Area
+              - listitem [ref=f12e276]: +7 more
+            - paragraph [ref=f12e277]: Based on City open data
+          - article [ref=f12e278]:
+            - heading [level=2] [ref=f12e279]:
+              - link "Crocker Amazon Playground" [ref=f12e280] [cursor=pointer]:
+                - /url: /parks/crocker-amazon-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e281]: Excelsior, McLaren Park · 799 Moscow St
+            - paragraph [ref=f12e282]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e283]:
+              - listitem [ref=f12e284]: Ball Field
+              - listitem [ref=f12e285]: Baseball Field
+              - listitem [ref=f12e286]: Basketball Court
+              - listitem [ref=f12e287]: Bocce Ball Court
+              - listitem [ref=f12e288]: +19 more
+            - paragraph [ref=f12e289]: Based on City open data
+          - article [ref=f12e290]:
+            - heading [level=2] [ref=f12e291]:
+              - link "Douglass Playground" [ref=f12e292] [cursor=pointer]:
+                - /url: /parks/douglass-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e293]: Noe Valley · 1098 Douglass St
+            - paragraph [ref=f12e294]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e295]:
+              - listitem [ref=f12e296]: Athletic Field
+              - listitem [ref=f12e297]: 1 baseball diamond
+              - listitem [ref=f12e298]: Basketball Court
+              - listitem [ref=f12e299]: Tennis Court
+              - listitem [ref=f12e300]: +9 more
+            - paragraph [ref=f12e301]: Official page reviewed
+          - article [ref=f12e302]:
+            - heading [level=2] [ref=f12e303]:
+              - link "Duboce Park" [ref=f12e304] [cursor=pointer]:
+                - /url: /parks/duboce-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e305]: Haight Ashbury · 50 Scott St
+            - paragraph [ref=f12e306]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e307]:
+              - listitem [ref=f12e308]: Basketball Court
+              - listitem [ref=f12e309]: Multi-use Paved Area
+              - listitem [ref=f12e310]: Dog Play Area
+              - listitem [ref=f12e311]: Children's Play Area
+              - listitem [ref=f12e312]: +7 more
+            - paragraph [ref=f12e313]: Based on City open data
+          - article [ref=f12e314]:
+            - heading [level=2] [ref=f12e315]:
+              - link "DuPont Tennis Courts" [ref=f12e316] [cursor=pointer]:
+                - /url: /parks/dupont-tennis-courts/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e317]: Outer Richmond · 336 31st Ave
+            - paragraph [ref=f12e318]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e319]:
+              - listitem [ref=f12e320]: Tennis Court
+              - listitem [ref=f12e321]: Bench
+              - listitem [ref=f12e322]: Drinking Fountain
+              - listitem [ref=f12e323]: Restrooms
+            - paragraph [ref=f12e324]: Based on City open data
+          - article [ref=f12e325]:
+            - heading [level=2] [ref=f12e326]:
+              - link "Embarcadero Plaza" [ref=f12e327] [cursor=pointer]:
+                - /url: /parks/embarcadero-plaza/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e328]: Financial District/South Beach · 10 Market St
+            - paragraph [ref=f12e329]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e330]:
+              - listitem [ref=f12e331]: Bocce Ball Court
+            - paragraph [ref=f12e332]: Based on City open data
+          - article [ref=f12e333]:
+            - heading [level=2] [ref=f12e334]:
+              - link "Esprit Park" [ref=f12e335] [cursor=pointer]:
+                - /url: /parks/esprit-park/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e336]: Potrero Hill · 700 Minnesota St
+            - paragraph [ref=f12e337]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e338]:
+              - listitem [ref=f12e339]: Multi-Use Turf
+              - listitem [ref=f12e340]: Dog Play Area
+              - listitem [ref=f12e341]: Adult Fitness Area
+              - listitem [ref=f12e342]: Adult Fitness Court/Course
+              - listitem [ref=f12e343]: +2 more
+            - paragraph [ref=f12e344]: Based on City open data
+          - article [ref=f12e345]:
+            - heading [level=2] [ref=f12e346]:
+              - link "Eugene Friend Rec Center" [ref=f12e347] [cursor=pointer]:
+                - /url: /parks/eugene-friend-rec-center/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e348]: South of Market · 270 6th St
+            - paragraph [ref=f12e349]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e350]:
+              - listitem [ref=f12e351]: Basketball Court
+              - listitem [ref=f12e352]: Children's Play Area
+              - listitem [ref=f12e353]: Indoor Recreation Area
+              - listitem [ref=f12e354]: Recreation Center
+              - listitem [ref=f12e355]: +1 more
+            - paragraph [ref=f12e356]: Based on City open data
+          - article [ref=f12e357]:
+            - heading [level=2] [ref=f12e358]:
+              - link "Eureka Valley Rec Center" [ref=f12e359] [cursor=pointer]:
+                - /url: /parks/eureka-valley-rec-center/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e360]: Castro/Upper Market · 100 Collingwood St
+            - paragraph [ref=f12e361]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e362]:
+              - listitem [ref=f12e363]: Ball Field
+              - listitem [ref=f12e364]: Softball Field
+              - listitem [ref=f12e365]: Tennis Court
+              - listitem [ref=f12e366]: Dog Play Area
+              - listitem [ref=f12e367]: +6 more
+            - paragraph [ref=f12e368]: Based on City open data
+          - article [ref=f12e369]:
+            - heading [level=2] [ref=f12e370]:
+              - link "Excelsior Playground" [ref=f12e371] [cursor=pointer]:
+                - /url: /parks/excelsior-playground/?return=%2Fexplore%2F%3Factivity%3Dplay-sports
+            - paragraph [ref=f12e372]: Excelsior · 579 Madrid St
+            - paragraph [ref=f12e373]: Matches your filters
+            - list "Matching and listed amenities" [ref=f12e374]:
+              - listitem [ref=f12e375]: Ball Field
+              - listitem [ref=f12e376]: Basketball Court
+              - listitem [ref=f12e377]: Softball Field
+              - listitem [ref=f12e378]: Tennis Court
+              - listitem [ref=f12e379]: +8 more
+            - paragraph [ref=f12e380]: Based on City open data
+        - button "Show more results" [ref=f12e381] [cursor=pointer]
+  - contentinfo [ref=f12e382]:
+    - paragraph [ref=f12e384]: Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source.
+  - button "Open Next.js Dev Tools" [ref=f12e390] [cursor=pointer]
+  - alert [ref=f12e394]

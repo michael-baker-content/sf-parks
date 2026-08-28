@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "destinationId": "mission-dolores-park",
+      "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188"
+    },
+    {
+      "destinationId": "glen-canyon-park-recreation-center",
+      "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89"
+    },
+    {
+      "destinationId": "douglass-playground",
+      "url": "https://sfrecpark.org/facilities/facility/details/Douglass-Playground-237"
+    },
+    {
+      "destinationId": "alamo-square",
+      "url": "https://sfrecpark.org/facilities/facility/details/Alamo-Square-323/"
+    },
+    {
+      "destinationId": "alta-plaza-park",
+      "url": "https://www.sfrecpark.org/facilities/facility/details/Alta-Plaza-Park-147"
+    },
+    {
+      "destinationId": "duboce-park",
+      "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Duboce-Park-164"
+    },
+    {
+      "destinationId": "lafayette-park",
+      "url": "https://sfrecpark.org/facilities/facility/details/Lafayette-Park-182"
+    },
+    {
+      "destinationId": "buena-vista-park",
+      "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Buena-Vista-Park-155"
+    },
+    {
+      "destinationId": "lake-merced-park",
+      "url": "https://sfrecpark.org/facilities/facility/details/lakemerced-349"
+    },
+    {
+      "destinationId": "sigmund-stern-recreation-grove",
+      "url": "https://www.sfrecpark.org/facilities/facility/details/Sigmund-Stern-Grove-375"
+    },
+    {
+      "destinationId": "ina-coolbrith-park",
+      "url": "https://sfrecpark.org/Facilities/Facility/Details/Ina-Coolbrith-Park-175"
+    },
+    {
+      "destinationId": "golden-gate-park",
+      "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
+    },
+    {
+      "destinationId": "bernal-heights-park",
+      "url": "https://sfrecpark.org/facilities/facility/details/bernalheightspark-151"
+    },
+    {
+      "destinationId": "corona-heights-park",
+      "url": "https://sfrecpark.org/facilities/facility/details/Corona-Heights-Park-328"
+    },
+    {
+      "destinationId": "cayuga-playground",
+      "url": "https://sfrecpark.org/Facilities/Facility/Details/Cayuga-Playground-234"
+    }
+  ]
+}

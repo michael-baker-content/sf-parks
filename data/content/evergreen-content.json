@@ -1,0 +1,1715 @@
+{
+  "schemaVersion": 1,
+  "reviewPolicy": "docs/evergreen-content-enrichment-policy.md",
+  "records": [
+    {
+      "destinationId": "mission-dolores-park",
+      "overview": {
+        "text": "Mission Dolores Park is a nearly 16-acre neighborhood gathering place known for broad lawns, tall palms, active recreation, and views toward the San Francisco skyline.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "The park takes its name from nearby Mission Dolores. The City of San Francisco acquired the former Jewish cemetery land in 1905, and the site sheltered more than 1,600 residents after the 1906 earthquake and fire.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Lawns and skyline views",
+          "description": "Open lawns and the park's elevated setting provide room to gather along with broad views across San Francisco.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Neighborhood gathering place",
+          "description": "The park has a long-standing role as a setting for recreation, picnics, performances, and community events.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Size",
+          "value": "Nearly 16 acres",
+          "category": "acreage",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Established",
+          "value": "1905",
+          "category": "established-year",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Mission Dolores Park — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary limited to durable landscape, cultural, size, and historical facts supported by the official facility page."
+      }
+    },
+    {
+      "destinationId": "glen-canyon-park-recreation-center",
+      "overview": {
+        "text": "Glen Canyon Park Recreation Center sits at the foot of Glen Canyon, connecting indoor and field recreation with one of San Francisco's distinctive natural landscapes.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "The recreation center reopened in 2017 following a major renovation. Its climbing wall was introduced as San Francisco's first public climbing wall.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Urban canyon",
+          "description": "Beyond the recreation facilities, Glen Canyon includes chert rock formations, grassland and scrub slopes, creekside vegetation, and wildlife habitat.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Islais Creek",
+          "description": "The canyon contains Islais Creek, one of the few remaining free-flowing creeks in San Francisco.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Trails and wildflowers",
+          "description": "A network of trails crosses creekside habitat and the canyon's steep eastern slope, where wildflowers appear in spring.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Natural area",
+          "value": "Approximately 60 acres",
+          "category": "acreage",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Setting",
+          "value": "Recreation center at the foot of an urban canyon",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Glen Canyon Park Recreation Center — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary excludes schedules, fees, registration details, and changing program lists."
+      }
+    },
+    {
+      "destinationId": "douglass-playground",
+      "overview": {
+        "text": "Douglass Playground is arranged across two terraces in Noe Valley, pairing an upper dog-play landscape and downtown view with recreation and picnic spaces below.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Upper terrace",
+          "description": "A rocky wall helps separate the upper dog-play area from the street, while the hillside setting opens toward downtown San Francisco.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Lower terrace",
+          "description": "The lower level groups the playground, courts, picnic areas, and clubhouse into a distinct recreation space.",
+          "category": "destination-relationship",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Terrain",
+          "value": "Two hillside terraces",
+          "category": "terrain",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Douglass Playground — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/facilities/facility/details/Douglass-Playground-237",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary preserves the durable two-terrace layout and excludes programs and reservation information."
+      }
+    },
+    {
+      "destinationId": "alamo-square",
+      "overview": {
+        "text": "Alamo Square is a landscaped hilltop park known for its lawns, flowerbeds, mature willows, walking paths, and views of the Painted Ladies along Postcard Row.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Painted Ladies view",
+          "description": "The park provides one of San Francisco's best-known views of the Victorian houses on Postcard Row and has appeared in numerous film and television productions.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Lawns and paths",
+          "description": "Lawns, flowerbeds, willows, walking trails, and a dual-level playground give the hilltop a mix of scenic and neighborhood recreation spaces.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Natural springs",
+          "description": "Springs and seeps beneath the park form part of the larger Hayes Creek watershed.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Setting",
+          "value": "Landscaped hilltop",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Alamo Square — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/facilities/facility/details/Alamo-Square-323/",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary retains durable landscape, cultural, and watershed context; accessibility and operating details remain outside the evergreen layer."
+      }
+    },
+    {
+      "destinationId": "alta-plaza-park",
+      "overview": {
+        "text": "Alta Plaza Park climbs a steep Pacific Heights hillside through formal terraces and a broad southern staircase, ending in panoramic views across San Francisco and the bay.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "The City of San Francisco purchased the nearly 12-acre former quarry in 1877. Major improvements followed in the 1890s, when Park Superintendent John McLaren implemented terraces designed by Rudolph Ulrich. The park later sheltered residents displaced by the 1906 earthquake and fire.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Grand staircase and terraces",
+          "description": "A broad staircase rises through the park's designed southern terraces toward the summit.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Panoramic views",
+          "description": "Viewing areas near the summit look south across San Francisco and north toward the bay.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Size",
+          "value": "Nearly 12 acres",
+          "category": "acreage",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Terrain",
+          "value": "Steep terraced hillside",
+          "category": "terrain",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Alta Plaza Park — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/facilities/facility/details/Alta-Plaza-Park-147",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary focuses on durable topography, designed landscape, acreage, and historical use."
+      }
+    },
+    {
+      "destinationId": "duboce-park",
+      "overview": {
+        "text": "Duboce Park is a compact community gathering place that brings together play areas, courts, dog recreation, the Harvey Milk Recreational Arts Center, and a neighborhood-built labyrinth.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "Established in 1900, Duboce Park became a tent settlement after the 1906 earthquake and sheltered residents displaced from across San Francisco.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Scott Street labyrinth",
+          "description": "A labyrinth built by Friends of Duboce Park adds a distinctive community-made feature to the park.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Arts-center setting",
+          "description": "The Harvey Milk Recreational Arts Center overlooks and forms part of the park's broader community setting.",
+          "category": "destination-relationship",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Established",
+          "value": "1900",
+          "category": "established-year",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Duboce Park — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Duboce-Park-164",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary excludes popularity, renovation recency, designation, and program claims while retaining permanent relationships and history."
+      }
+    },
+    {
+      "destinationId": "lafayette-park",
+      "overview": {
+        "text": "Lafayette Park is a hilly Pacific Heights park where grassy lawns, city and bay views, play and picnic spaces, courts, and dog recreation share a four-block landscape.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "San Francisco reserved the land for park use in 1855 and established the park in 1867 after a prolonged ownership dispute. The West Coast's first astronomical observatory was built here in 1879, and displaced residents camped in the park after the 1906 earthquake.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Hilltop landscape",
+          "description": "The park's grassy slopes and elevated setting provide views across San Francisco and the bay.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Observatory history",
+          "description": "Surveyor George Davidson built the first astronomical observatory on the West Coast in the park in 1879.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Established",
+          "value": "1867",
+          "category": "established-year",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Terrain",
+          "value": "Hilly four-block park",
+          "category": "terrain",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Lafayette Park — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/facilities/facility/details/Lafayette-Park-182",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary condenses the documented establishment, land dispute, observatory, and 1906 refuge history without operational details."
+      }
+    },
+    {
+      "destinationId": "buena-vista-park",
+      "overview": {
+        "text": "Buena Vista Park rises near the center of San Francisco with secluded winding trails, views from its upper slopes, and one of the city's few remaining coast live oak groves.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "Some trail drainages and gutters contain fragments of historic headstones. As San Francisco removed most of its cemeteries between 1914 and the 1940s, unclaimed stone was reused in public works, including structures in Buena Vista Park.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Coast live oak grove",
+          "description": "The northern natural area protects a surviving coast live oak woodland that supports birds, small mammals, insects, and other wildlife.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Winding hillside trails",
+          "description": "Secluded paths climb through the park toward views from the upper slopes.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Setting",
+          "value": "Wooded hill near the center of San Francisco",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Buena Vista Park — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Buena-Vista-Park-155",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary preserves durable landscape, ecology, and documented material-history context without current project information."
+      }
+    },
+    {
+      "destinationId": "lake-merced-park",
+      "overview": {
+        "text": "Lake Merced is a large freshwater lake at the center of a 614-acre park in southwestern San Francisco, combining shoreline recreation with significant wetland and bird habitat.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Lake loop",
+          "description": "A paved trail of approximately 4.5 miles follows the lake's perimeter past picnic areas, a boathouse, fishing pier, and boat launch.",
+          "category": "recreation-character",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Pacific Flyway habitat",
+          "description": "The lake is an important stop for migratory birds traveling along the Pacific Flyway.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Natural-resource landscape",
+          "description": "More than half of the park is managed to protect habitat for birds and other wildlife while maintaining its trail network.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Size",
+          "value": "614 acres",
+          "category": "acreage",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Setting",
+          "value": "Freshwater lake and surrounding parkland",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Lake Merced — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/facilities/facility/details/lakemerced-349",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary focuses on durable scale, landscape, trail, facility, and habitat facts."
+      }
+    },
+    {
+      "destinationId": "sigmund-stern-recreation-grove",
+      "overview": {
+        "text": "Sigmund Stern Recreation Grove combines a wooded concert meadow with a broad outdoor recreation complex of fields, courts, play space, picnic areas, and dog recreation.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Concert meadow",
+          "description": "A groomed lawn framed by eucalyptus and redwood groves forms the outdoor performance setting associated with the long-running Stern Grove Festival.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Wooded recreation complex",
+          "description": "Athletic fields, courts, a children's playground, picnic spaces, and dog recreation extend beyond the concert setting.",
+          "category": "recreation-character",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Setting",
+          "value": "Concert meadow within eucalyptus and redwood groves",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Sigmund Stern Grove — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/facilities/facility/details/Sigmund-Stern-Grove-375",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary treats the established performance landscape and permanent recreation complex as evergreen while omitting event schedules."
+      }
+    },
+    {
+      "destinationId": "ina-coolbrith-park",
+      "overview": {
+        "text": "Ina Coolbrith Park is a small, steeply sloped Russian Hill park whose paths and hillside setting open toward expansive views of downtown San Francisco and the bay.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "City and bay views",
+          "description": "The elevated hillside provides broad views across downtown San Francisco and toward the bay.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Hidden hillside park",
+          "description": "Its compact scale and steep approach create a tucked-away park experience within Russian Hill.",
+          "category": "recreation-character",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Size",
+          "value": "0.8 acre",
+          "category": "acreage",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Terrain",
+          "value": "Steep hillside",
+          "category": "terrain",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Ina Coolbrith Park — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/Facilities/Facility/Details/Ina-Coolbrith-Park-175",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary is limited to durable scale, terrain, setting, and view characteristics."
+      }
+    },
+    {
+      "destinationId": "golden-gate-park",
+      "overview": {
+        "text": "Golden Gate Park is a 1,017-acre urban landscape containing museums, gardens, lakes, meadows, recreation spaces, monuments, and cultural landmarks across San Francisco's west side.",
+        "sourceRefs": ["official-points-of-interest"]
+      },
+      "highlights": [
+        {
+          "label": "Bison Paddock",
+          "description": "American bison have been part of Golden Gate Park since 1892, with the herd established in its western meadow location in 1899.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-points-of-interest"]
+        },
+        {
+          "label": "Conservatory of Flowers",
+          "description": "Opened in 1879, the Victorian wood-and-glass conservatory is the oldest building in Golden Gate Park and houses extensive aquatic and tropical plant collections.",
+          "category": "landmark",
+          "sourceRefs": ["official-points-of-interest"]
+        },
+        {
+          "label": "Japanese Tea Garden",
+          "description": "Created for the 1894 California Midwinter International Exposition, the 3.5-acre garden is the oldest Japanese tea garden in the United States.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-points-of-interest"]
+        },
+        {
+          "label": "Coast live oaks",
+          "description": "Remnants of San Francisco's original oak woodland survive in the park's northeast corner, including some of the city's oldest coast live oaks.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-points-of-interest"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Size",
+          "value": "1,017 acres",
+          "category": "acreage",
+          "sourceRefs": ["official-points-of-interest"]
+        },
+        {
+          "label": "Setting",
+          "value": "Large urban park extending across western San Francisco",
+          "category": "setting",
+          "sourceRefs": ["official-points-of-interest"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-points-of-interest",
+          "title": "Golden Gate Park Points of Interest — SF Recreation and Parks",
+          "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "A small representative set of durable natural and cultural landmarks was selected rather than reproducing the full official directory."
+      }
+    },
+    {
+      "destinationId": "bernal-heights-park",
+      "overview": {
+        "text": "Bernal Heights Park preserves the windswept summit and native grasslands of Bernal Hill, with a 360-degree panorama across San Francisco, the bay, and surrounding hills.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "Bernal Hill formed part of a large land grant awarded to José Cornelio de Bernal, a member of Juan Bautista de Anza's 1776 expedition. The surrounding neighborhood developed in the mid-1800s, while the hill continued to support ranching and later became the site of San Francisco's first authorized grassland habitat-restoration project.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Summit panorama",
+          "description": "The hilltop provides views of downtown, San Francisco Bay, the Golden Gate Bridge, San Bruno Mountain, and the East Bay hills.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Native grassland",
+          "description": "Purple needlegrass, red fescue, seasonal wildflowers, rocky outcrops, and open slopes support a wide variety of birds and other wildlife.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Summit trails",
+          "description": "A paved limited-access road and a network of dirt trails circle the hill and lead to the summit.",
+          "category": "recreation-character",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Terrain",
+          "value": "Steep, windswept grassland hill",
+          "category": "terrain",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Bernal Heights Park — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/facilities/facility/details/bernalheightspark-151",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary condenses durable views, grassland ecology, trails, land history, and restoration history while omitting wildlife advisories and volunteer solicitations."
+      }
+    },
+    {
+      "destinationId": "corona-heights-park",
+      "overview": {
+        "text": "Corona Heights Park is a rocky grassland hill with panoramic views, seasonal native wildflowers, and a compact trail system connecting the summit, Bill Kraus Meadow, and nearby park destinations.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "Bill Kraus Meadow and Bill Kraus Pathway were dedicated in 1986 in honor of the prominent San Francisco political leader and gay-rights activist.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Hilltop wildflowers",
+          "description": "The grasslands support checkerbloom, California poppy, Douglas iris, mule's ears, Johnny jump-up, and butterflies including the anise swallowtail.",
+          "category": "natural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Summit trail",
+          "description": "A roughly one-mile network of dirt paths and box-step staircases climbs around the hill toward a 360-degree view of the San Francisco Bay Area.",
+          "category": "recreation-character",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Bill Kraus Meadow",
+          "description": "A triangular lawn and connecting pathway at the Museum Way and Roosevelt Way entrance commemorate Bill Kraus.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Trail network",
+          "value": "Approximately one mile",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Terrain",
+          "value": "Sometimes-steep dirt paths, loose gravel, and staircases",
+          "category": "terrain",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Corona Heights Park — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/facilities/facility/details/Corona-Heights-Park-328",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary uses durable trail, terrain, habitat, view, and commemoration facts and excludes transit, parking, and trail-condition claims."
+      }
+    },
+    {
+      "destinationId": "cayuga-playground",
+      "overview": {
+        "text": "Cayuga Playground is a tucked-away Outer Mission park where recreation spaces meet themed gardens, unusual trails, and a collection of whimsical hand-carved wooden sculptures.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "history": {
+        "text": "Longtime park gardener Demetrio Braceros transformed Cayuga's naturalistic landscape with themed gardens and woodcarvings that became central to the park's identity.",
+        "sourceRefs": ["official-facility-page"]
+      },
+      "highlights": [
+        {
+          "label": "Sculpture gardens",
+          "description": "Braceros's hand-carved figures and themed plantings turn the park landscape into an outdoor collection of community art.",
+          "category": "cultural-feature",
+          "sourceRefs": ["official-facility-page"]
+        },
+        {
+          "label": "Hidden urban setting",
+          "description": "Housing, Interstate 280, and elevated BART tracks surround a park of gardens, trails, play areas, courts, and open recreation space.",
+          "category": "landscape",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "physicalFacts": [
+        {
+          "label": "Setting",
+          "value": "Park landscape between housing, Interstate 280, and BART tracks",
+          "category": "setting",
+          "sourceRefs": ["official-facility-page"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "official-facility-page",
+          "title": "Cayuga Playground — SF Recreation and Parks",
+          "url": "https://sfrecpark.org/Facilities/Facility/Details/Cayuga-Playground-234",
+          "retrievedAt": "2026-08-27"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Original summary centers the durable art landscape and unusual urban setting without copying promotional language or operational details."
+      }
+    },
+    {
+      "destinationId": "crocker-amazon-playground",
+      "overview": { "text": "Crocker Amazon Playground is a large outdoor sports complex whose fields and courts support several kinds of team and individual play.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Field complex", "description": "Five full-size soccer fields anchor a broader collection of baseball, softball, tennis, basketball, and bocce facilities.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Crocker Amazon Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Crocker-Amazon-Playground-236", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original durable summary excludes lighting schedules and availability claims." }
+    },
+    {
+      "destinationId": "moscone-rec-center",
+      "overview": { "text": "Moscone Recreation Center is a multi-sport neighborhood hub combining an indoor gym with an extensive collection of outdoor courts and ball fields.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Indoor and outdoor play", "description": "The recreation center connects an indoor basketball gym with tennis and pickleball courts and four ball diamonds.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Moscone Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Moscone-Rec-Center-101", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains permanent physical features and omits programs and schedules." }
+    },
+    {
+      "destinationId": "balboa-park",
+      "overview": { "text": "Balboa Park is an athletic destination organized around Boxer Stadium, multiple ball fields, an indoor pool, a playground, and a skateboard park.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Athletic campus", "description": "Large sports facilities and smaller play spaces share one park, giving the destination a broad recreation character.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Balboa Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Balboa-Park-148", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary is limited to durable destination character and permanent facilities." }
+    },
+    {
+      "destinationId": "minnie-and-lovie-ward-rec-center",
+      "overview": { "text": "Minnie and Lovie Ward Recreation Center combines indoor gathering and fitness rooms with a central courtyard and a surrounding 10-acre park.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Recreation center and park", "description": "A gymnasium, auditorium, multipurpose rooms, kitchen, and weight room sit alongside fields, courts, and a community garden.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Park setting", "value": "10 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Minnie and Lovie Ward Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Minnie-Lovie-Ward-Recreation-Center-97", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes changing class and program listings." }
+    },
+    {
+      "destinationId": "mission-playground",
+      "overview": { "text": "Mission Playground pairs outdoor swimming and court sports with lawn, play space, and the neighboring Mission Clubhouse.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Outdoor pool", "description": "The destination includes San Francisco's only outdoor public pool, alongside tennis, basketball, and a paved soccer area.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Mission Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Playground-260", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary avoids operational pool details and availability claims." }
+    },
+    {
+      "destinationId": "potrero-hill-rec-center",
+      "overview": { "text": "Potrero Hill Recreation Center is a neighborhood gathering place with indoor programming space and an outdoor mix of play, field, court, picnic, and dog areas.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Broad outdoor mix", "description": "The grounds bring together a playground, fields, courts, a dog-play area, picnic tables, and barbecue grills.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Potrero Hill Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Potrero-Hill-Rec-Center-275", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes changing programs, schedules, and reservation details." }
+    },
+    {
+      "destinationId": "st-mary-s-rec-center",
+      "overview": { "text": "St. Mary's Recreation Center is a three-tiered park and recreation complex with spaces for field sports, court sports, gardening, and children's play.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Tiered activity hub", "description": "The site's three levels organize a varied collection of active recreation and gathering spaces.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "St. Mary's Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/St-Marys-Rec-Center-109", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary avoids accessibility claims while retaining supported physical character." }
+    },
+    {
+      "destinationId": "jackson-playground",
+      "overview": { "text": "Jackson Playground is a Potrero Hill community park distinguished by a sand-floor play area and artwork made with neighborhood children.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Community mosaics", "description": "Mosaics mounted in the surrounding wall were created by neighborhood children with local artist Josh Sarantitis.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Jackson Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Jackson-Playground-247", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary focuses on durable play-space and public-art character." }
+    },
+    {
+      "destinationId": "sunset-rec-center",
+      "overview": { "text": "Sunset Recreation Center is an Outer Sunset community hub combining indoor recreation with courts, a ball field, play space, and places to sit outdoors.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Table tennis room", "description": "A dedicated table tennis room adds a distinctive indoor activity to the center's wider mix of court and field recreation.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Sunset Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunset-Rec-Center-110", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes current programs and promotional claims." }
+    },
+    {
+      "destinationId": "angelo-j-rossi-playground",
+      "overview": { "text": "Angelo J. Rossi Playground is a spacious recreation complex with ball diamonds, an indoor pool, courts, and a dual-level children's play area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Dual-level playground", "description": "Separate play levels provide distinct spaces for younger and older children within the larger athletic park.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Angelo J. Rossi Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Angelo-J-Rossi-Playground-229", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes maintenance reporting and operational language." }
+    },
+    {
+      "destinationId": "george-christopher-playground",
+      "overview": { "text": "George Christopher Playground is a Diamond Heights open space where walking trails connect neighborhood recreation facilities with nearby Glen Canyon.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Glen Canyon connection", "description": "Trails used by walkers and joggers extend from the playground toward the adjoining canyon landscape.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "history": { "text": "The playground is named for George Christopher, the 34th mayor of San Francisco.", "sourceRefs": ["official-facility-page"] },
+      "sources": [{ "id": "official-facility-page", "title": "George Christopher Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/George-Christopher-Playground-240", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary omits rental guidance and other operational details." }
+    },
+    {
+      "destinationId": "margaret-s-hayward-playground",
+      "overview": { "text": "Margaret S. Hayward Playground is a six-acre Western Addition park redesigned as a unified recreation and neighborhood gathering space.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The playground honors Margaret S. Hayward, an early advocate for public playgrounds and a charter member of San Francisco's playground commission.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Multigenerational plaza", "description": "A central plaza doubles as a neighborhood performance space near the children's play area and community clubhouse.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Size", "value": "6 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Margaret S. Hayward Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Margaret-S-Hayward-Playground-255", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary omits reopening status, funding details, and time-sensitive renovation language." }
+    },
+    {
+      "destinationId": "upper-noe-rec-center",
+      "overview": { "text": "Upper Noe Recreation Center is a compact neighborhood hub that brings an indoor gym and auditorium together with playground, court, field, picnic, patio, and dog-play spaces.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Shared indoor-outdoor hub", "description": "Indoor gathering and gym spaces sit beside a varied outdoor recreation landscape designed for several ages and activities.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Upper Noe Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Upper-Noe-Recreation-Center-112", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary is restricted to the facility's durable physical mix." }
+    },
+    {
+      "destinationId": "bayview-k-c-jones-playground",
+      "overview": { "text": "Bayview K.C. Jones Playground combines indoor swimming with a playground, softball field, and open lawn in San Francisco's Bayview neighborhood.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The playground was renamed in 2003 for San Francisco native K.C. Jones, an Olympic gold medalist, Hall of Fame basketball player, and championship coach who played here while growing up nearby.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "K.C. Jones legacy", "description": "The destination connects neighborhood recreation with the life of an athlete who won championships in college, professional, and international basketball.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Bayview K.C. Jones Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Bayview-KC-Jones-Playground-232", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary omits class availability and changing pool operations." }
+    },
+    {
+      "destinationId": "louis-sutter-playground",
+      "overview": { "text": "Louis Sutter Playground is a picnic and sports destination beside McNab Lake, where courts and fields share the landscape with bird habitat and gathering areas.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "McNab Lake", "description": "The neighboring lake gives visitors a place to watch ducks and other birds from the playground's many picnic areas.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Louis Sutter Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Louis-Sutter-Playground-254", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes rental guidance and changing availability." }
+    },
+    {
+      "destinationId": "merced-heights-playground",
+      "overview": { "text": "Merced Heights Playground is a small neighborhood park at Byxbee and Shields streets with children's play space, basketball courts, and open room for informal play.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "Just over 1 acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Merced Heights Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Merced-Heights-Playground-256", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes renovation links and operational information." }
+    },
+    {
+      "destinationId": "presidio-wall-playground",
+      "overview": { "text": "Presidio Wall Playground features a Parisian-inspired children's play landscape modeled on the character of Luxembourg Gardens.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "A 2003 renovation introduced the Julius Kahn play design, including wet-sand play and distinctive climbing equipment.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Parisian-style play area", "description": "The playground's design uses garden-inspired forms and unusual play equipment to create a distinctive setting.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Presidio Wall Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Presidio-Wall-Playground-251", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary focuses on durable design and history." }
+    },
+    {
+      "destinationId": "youngblood-coleman-playground",
+      "overview": { "text": "Youngblood Coleman Playground is a Bayview–Hunters Point sports park centered on synthetic-turf fields, courts, a play area, clubhouse, and picnic spaces.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The field was renovated in 2003 with a synthetic-turf surface, new fencing, and other site improvements.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Field-and-court complex", "description": "Soccer and softball fields share the site with basketball and tennis courts and a children's play area.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Youngblood Coleman Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Youngblood-Coleman-Playground-273", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes lighting, current-use, program, and facility-need claims." }
+    },
+    {
+      "destinationId": "parkside-square",
+      "overview": { "text": "Parkside Square is a 7.5-acre recreation complex bordering Stern Grove, with play areas, courts, a ball field, picnic space, and a dog-play area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Woodland-themed play", "description": "The children's area includes spaces for different ages along with a water feature, sandbox, climbing dome, whirl, and woodland walk.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Size", "value": "7.5 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Parkside Square — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Parkside-Square-196", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes the temporary closure and avoids an accessibility claim requiring separate verification." }
+    },
+    {
+      "destinationId": "excelsior-playground",
+      "overview": { "text": "Excelsior Playground is a neighborhood recreation space with age-separated children's play areas, courts, a ball field, clubhouse, and picnic tables.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Play areas for different ages", "description": "A gated sandbox and soft-surface play area serve younger children, with separate equipment intended for older children.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Excelsior Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Excelsior-Playground-238", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes program, lighting, and renovation-status details." }
+    },
+    {
+      "destinationId": "herz-playground",
+      "overview": { "text": "Herz Playground is a spacious Visitacion Valley park combining a clubhouse and picnic areas with playground, pool, field, and court recreation.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Broad recreation mix", "description": "Tennis, basketball, soccer, baseball, swimming, and a sand-floor playground share one neighborhood destination.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Herz Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Herz-Playground-245", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes lessons, programs, and operating hours." }
+    },
+    {
+      "destinationId": "richmond-playground",
+      "overview": { "text": "Richmond Playground is a longstanding community hub with a recreation center, sand-floor play area, sport courts, and picnic space.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Community recreation hub", "description": "Indoor gathering space and outdoor basketball, tennis, play, and picnic areas support a varied neighborhood recreation setting.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Richmond Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Richmond-Playground-264", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes renovation status, programs, demand, and availability." }
+    },
+    {
+      "destinationId": "silver-terrace-playground",
+      "overview": { "text": "Silver Terrace Playground is a spacious Bayview sports park with courts, a children's play area, and a community clubhouse.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Active play landscape", "description": "Slides, swings, and climbing structures sit alongside spaces for court sports and community gathering.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Silver Terrace Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Silver-Terrace-Playground-267", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary is limited to permanent physical character." }
+    },
+    {
+      "destinationId": "south-sunset-playground",
+      "overview": { "text": "South Sunset Playground is a neighborhood recreation center built around a synthetic-turf field, children's play area, and community clubhouse.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Modern play area", "description": "Bright play equipment and soft surfacing create a distinct children's zone beside the athletic field.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "South Sunset Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/South-Sunset-Playground-274", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes clubhouse programs and changing renovation language." }
+    },
+    {
+      "destinationId": "fulton-playground",
+      "overview": { "text": "Fulton Playground is a community recreation space with a clubhouse, sheltered sand play area, basketball and tennis courts, and picnic tables.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Sheltered sand play", "description": "A covered sand playground provides a distinctive children's area within the court-and-clubhouse complex.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Fulton Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Fulton-Playground-239", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes program lists and future project claims." }
+    },
+    {
+      "destinationId": "grattan-playground",
+      "overview": { "text": "Grattan Playground combines a soccer field, tennis and basketball courts, children's play equipment, picnic space, and a community clubhouse.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Neighborhood play and sports", "description": "Wooden play equipment and swings occupy the same destination as several court and field sports.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Grattan Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Grattan-Playground-242", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes availability and renovation-status wording." }
+    },
+    {
+      "destinationId": "hayes-valley-playground",
+      "overview": { "text": "Hayes Valley Playground is a quarter-acre neighborhood park and clubhouse that serves as a compact outdoor recreation and community gathering place.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Community clubhouse", "description": "The clubhouse provides a regular gathering space for residents in the surrounding Hayes Valley neighborhood.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Size", "value": "One quarter acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Hayes Valley Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Hayes-Valley-Playground-243", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes temporary repair closures and program claims." }
+    },
+    {
+      "destinationId": "junipero-serra-playground",
+      "overview": { "text": "Junipero Serra Playground is a neighborhood park with a children's play area, a 1,800-square-foot clubhouse, and public art integrated into the clubhouse exterior.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park was renovated in 2008, when the clubhouse and play landscape were renewed.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Islamic tile murals", "description": "Two murals by artist Laurey “Bean” Finneran, commissioned by the San Francisco Arts Commission, appear on the clubhouse's north and south walls.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Clubhouse", "value": "1,800 square feet", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Junipero Serra Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Junipero-Serra-Playground-252", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains stable art, size, and renovation history." }
+    },
+    {
+      "destinationId": "lincoln-park",
+      "overview": { "text": "Lincoln Park is a 100-acre park in northwestern San Francisco, known for coastal and city views, an 18-hole golf course, the Legion of Honor museum, public art, and trail connections.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The land served as a cemetery from 1868 until 1909, when it passed to the Park Commission and was dedicated as Lincoln Park. The municipal golf course was completed in 1917, and the Legion of Honor opened in 1924.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Legion of Honor", "description": "The fine arts museum is a scaled adaptation of Paris's Palais de la Légion d’Honneur and was founded by Alma de Bretteville Spreckels with Adolph Spreckels.", "category": "landmark", "sourceRefs": ["official-facility-page"] },
+        { "label": "Coastal trail connections", "description": "Trails connect west toward Lands End and the ocean and east toward Baker Beach and the Presidio.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [{ "label": "Size", "value": "100 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Lincoln Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Lincoln-Park-186", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes an obsolete playground-project notice and fee history." }
+    },
+    {
+      "destinationId": "miraloma-playground",
+      "overview": { "text": "Miraloma Playground is a neighborhood athletic park with a recreation center, ball field, basketball and tennis courts, and children's play and sand areas.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Shared athletic setting", "description": "Court and field recreation surround a children's play area and spacious indoor recreation center.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Miraloma Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Miraloma-Playground-259", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes program listings and changing renovation language." }
+    },
+    {
+      "destinationId": "willie-woo-woo-wong-playground",
+      "overview": { "text": "Willie “Woo Woo” Wong Playground is a half-acre Chinatown park whose play equipment, public art, clubhouse, courts, and pathways draw from Chinese and Chinese American cultural traditions.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Opened as Chinese Playground in 1927, the park was renamed in 2006 for Willie Wong, a Chinese American basketball player at the University of San Francisco from 1948 to 1950.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Mythology-inspired play", "description": "Custom equipment includes a climbable water dragon around a two-level tower and a phoenix bridging play zones for different ages.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Maiden's Dress mural", "description": "Julie Chang's clubhouse mural combines a peony, red knot, bamboo lines, and other traditional motifs connected to Chinatown's cultural heritage.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [{ "label": "Size", "value": "One half acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Willie “Woo Woo” Wong Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Willie-Woo-Woo-Wong-Playground-271", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary omits project status, funding, programs, accessibility claims, and promotional language." }
+    },
+    {
+      "destinationId": "argonne-playground",
+      "overview": { "text": "Argonne Playground is a historic neighborhood play space with children's equipment, lawn, picnic area, and basketball and tennis courts.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park was established in 1926.", "sourceRefs": ["official-facility-page"] },
+      "sources": [{ "id": "official-facility-page", "title": "Argonne Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Argonne-Playground-231", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes changing renovation and promotional wording." }
+    },
+    {
+      "destinationId": "eureka-valley-rec-center",
+      "overview": { "text": "Eureka Valley Recreation Center is an indoor-outdoor neighborhood gathering place with a gym, children's activity space, playground, and ball fields.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Rikki Streicher memorial", "description": "A plaque and renamed softball field honor Rikki Streicher, a founder of the Gay Olympics; the plaque was dedicated in 1996.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Mark Bingham gymnasium", "description": "The gymnasium honors Mark Bingham, who joined other passengers in resisting the hijackers aboard United Airlines Flight 93 on September 11, 2001.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Eureka Valley Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Eureka-Valley-Recreation-Center-86", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes current drop-in programs, contacts, and schedules." }
+    },
+    {
+      "destinationId": "father-alfred-boeddeker-park",
+      "overview": { "text": "Father Alfred Boeddeker Park is a Tenderloin plaza and recreation space with children's play equipment, a basketball half-court, a clubhouse, public art, and historic objects.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Opened in 1985, the park is named for Tenderloin pastor Father Alfred Boeddeker.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Art and historic objects", "description": "The plaza contains a historic clock and kiln, Anthony Smith's globe celebrating neighborhood heritage, and Bruce Hassan's bronze sculpture “Ark.”", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Father Alfred E. Boeddeker Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Father-Alfred-E-Boeddeker-Park-166", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, future renovation claims, and safety language." }
+    },
+    {
+      "destinationId": "hamilton-rec-center",
+      "overview": { "text": "Hamilton Recreation Center is a Western Addition neighborhood hub connected to Hamilton Swimming Pool and a broad collection of recreation spaces.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Pool and recreation center", "description": "The adjacent swimming facility includes two water slides and forms part of the larger recreation-center destination.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Hamilton Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Hamilton-Rec-Center-93", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes popularity and changing class or program listings." }
+    },
+    {
+      "destinationId": "hilltop-park",
+      "overview": { "text": "Hilltop Park is a landmark recreation space organized around a giant sundial, amphitheater, historic skate bowl, cement slides, and picnic areas.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Hilltop was San Francisco's first public skateboard park.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Giant sundial", "description": "A 70-foot sundial stands above a cement base that also serves as a stage for the surrounding amphitheater.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Hilltop Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Hilltop-Park-172", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes availability claims and uses durable landmark history." }
+    },
+    {
+      "destinationId": "holly-park",
+      "overview": { "text": "Holly Park is one of San Francisco's older hilltop parks, with a perimeter path, city views, children's play equipment, picnic areas, courts, and a ball field.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Hilltop circuit and views", "description": "A path circles the park's perimeter and climbs toward broad views across San Francisco.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Holly Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Holly-Park-173", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes renovation, ranking, availability, and event-use claims." }
+    },
+    {
+      "destinationId": "joe-dimaggio-playground",
+      "overview": { "text": "Joe DiMaggio Playground is a North Beach community recreation space named for the Hall of Fame baseball player who spent formative years playing in San Francisco parks.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Formerly North Beach Playground, the park was renamed for Joe DiMaggio in 2000. A 2005 renovation expanded its small clubhouse into a 2,200-square-foot community building.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Community building", "value": "2,200 square feet", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Joe DiMaggio Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Joe-DiMaggio-Playground-249", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains durable namesake and building history." }
+    },
+    {
+      "destinationId": "laurel-hill-playground",
+      "overview": { "text": "Laurel Hill Playground is a compact neighborhood park along Euclid Avenue with a playground, clubhouse, tennis court, baseball diamond, and full basketball court.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Compact recreation mix", "description": "Play, field, court, and indoor community spaces share a small site near the Bush Street corridor.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Laurel Hill Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Laurel-Hill-Playground-253", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes parking, condition, and promotional claims." }
+    },
+    {
+      "destinationId": "mountain-lake-park",
+      "overview": { "text": "Mountain Lake Park is a lakeside retreat with a walking and jogging route, fitness circuit, picnic areas, courts, children's play space, and an off-leash dog area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Lakeside recreation", "description": "A route around the lake links active recreation with picnic and play spaces in a natural setting.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Mountain Lake Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mountain-Lake-Park-189", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes reservation and popularity claims." }
+    },
+    {
+      "destinationId": "potrero-del-sol",
+      "overview": { "text": "Potrero del Sol is a neighborhood park with sweeping lawns, a skate park, community garden, picnic space, and an outdoor performance area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Skate park", "description": "The park contains one of San Francisco's relatively small number of dedicated skate parks.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] },
+        { "label": "Performance lawn", "description": "An outdoor performance area allows audiences to gather on the surrounding grass.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Potrero del Sol — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Potrero-Del-Sol-365", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary avoids event schedules and promotional wording." }
+    },
+    {
+      "destinationId": "rochambeau-playground",
+      "overview": { "text": "Rochambeau Playground is a Richmond District park and recreation center with age-separated play levels, climbing equipment, a sandpit, and a paved game area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Dual-level playground", "description": "Separate levels and a mix of climbing, sand, and paved play support different styles of children's recreation.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Rochambeau Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Rochambeau-Playground-265", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs and time-sensitive renovation language." }
+    },
+    {
+      "destinationId": "states-street-playground",
+      "overview": { "text": "States Street Playground is a tranquil hilltop park with city views, lawn, picnic space, courts, a community garden, and a children's play area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Hilltop setting", "description": "The elevated lawn and gathering spaces offer views across San Francisco near the adjacent Randall Museum.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "States Street Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/States-Street-Playground-268", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes changing renovation language and activity suggestions." }
+    },
+    {
+      "destinationId": "alice-chalmers-playground",
+      "overview": { "text": "Alice Chalmers Playground is a neighborhood recreation space where a longstanding community center sits beside children's play equipment and game courts.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Community center and play", "description": "Indoor community space and outdoor play and court areas form one compact destination.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Alice Chalmers Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Alice-Chalmers-Playground-228", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes after-school program information." }
+    },
+    {
+      "destinationId": "bernal-heights-rec-center",
+      "overview": { "text": "Bernal Heights Recreation Center is a family-oriented neighborhood hub with a clubhouse, gym, fenced playground, sandbox, and broad paved play area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Learning-to-ride blacktop", "description": "The large paved area has a long-standing neighborhood role as a place where children practice riding bicycles.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Bernal Heights Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Bernal-Heights-Recreation-Center-83", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, open-gym hours, calendars, and event listings." }
+    },
+    {
+      "destinationId": "betty-ann-ong-rec-center",
+      "overview": { "text": "Betty Ann Ong Recreation Center is a Chinatown community hub with spaces for indoor sports, table tennis, meetings, and neighborhood gathering.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Known locally as “Chinatown's Backyard,” the recreation center has served the neighborhood since 1950 and has since undergone major renovations.", "sourceRefs": ["official-facility-page"] },
+      "sources": [{ "id": "official-facility-page", "title": "Betty Ann Ong Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Betty-Ann-Ong-Recreation-Center-84", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary avoids state-of-the-art and availability claims." }
+    },
+    {
+      "destinationId": "carl-larsen-park",
+      "overview": { "text": "Carl Larsen Park is a Sunset District neighborhood park with a baseball diamond, pickleball complex, playground, and adjoining indoor pool.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Charlie Sava Pool", "description": "The indoor pool is named for Charlie Sava, a local swimming instructor remembered by generations of San Franciscans.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Carl Larsen Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Carl-Larsen-Park-157", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains permanent facilities and namesake context without renovation-status language." }
+    },
+    {
+      "destinationId": "j-p-murphy-playground",
+      "overview": { "text": "J.P. Murphy Playground is a compact neighborhood recreation space with a children's play structure, three tennis courts, and a basketball court.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Court-focused recreation", "description": "Tennis and basketball make up most of the site's active recreation alongside the play structure.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "J.P. Murphy Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/JP-Murphy-Playground-246", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary is limited to permanent physical features." }
+    },
+    {
+      "destinationId": "james-rolph-jr-playground",
+      "overview": { "text": "James Rolph Jr. Playground is a community recreation center with a clubhouse, children's play structures, an athletic field, and basketball and tennis courts.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Indoor-outdoor community hub", "description": "The clubhouse and play areas sit together with field and court recreation for a range of ages.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "James Rolph Jr. Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/James-Rolph-Jr-Playground-248", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, availability, and changing transformation language." }
+    },
+    {
+      "destinationId": "jose-coronado-playground",
+      "overview": { "text": "Jose Coronado Playground is an urban recreation space with paved soccer and baseball areas, a community clubhouse, basketball and tennis courts, and a children's play structure.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Paved neighborhood play", "description": "Blacktop field games and full-size courts give the compact site a strongly active character.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Jose Coronado Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Jose-Coronado-Playground-250", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes classes, availability, and recent-improvement language." }
+    },
+    {
+      "destinationId": "mission-recreation-center",
+      "overview": { "text": "Mission Recreation Center is an indoor athletic facility supporting court sports, strength and cardio training, racquet sports, table tennis, and children's play.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Wide indoor sports mix", "description": "The gymnasium, fitness areas, racquet courts, table tennis, and children's area provide several kinds of recreation under one roof.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Mission Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Recreation-Center-100", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary describes stable facility types without schedules or availability." }
+    },
+    {
+      "destinationId": "sunset-dunes",
+      "overview": { "text": "Sunset Dunes is a two-mile, 50-acre oceanfront park along San Francisco's western edge, designed for walking, bicycling, gathering, and connection with the Pacific coast.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park opened on April 12, 2025, as the largest pedestrianization project in California history.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [
+        { "label": "Length", "value": "2 miles", "category": "setting", "sourceRefs": ["official-facility-page"] },
+        { "label": "Size", "value": "50 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] },
+        { "label": "Extent", "value": "Sloat Boulevard to Lincoln Way", "category": "setting", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Sunset Dunes — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunset-Dunes-467", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary treats opening date and physical extent as durable history, not current operations." }
+    },
+    {
+      "destinationId": "aptos-playground",
+      "overview": { "text": "Aptos Playground is a 4.81-acre park near Aptos Middle School with a children's play structure, baseball diamond, tennis court, large paved area, and landscaped walking route.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park reopened after renovation in 2006.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "4.81 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Aptos Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Aptos-Playground-230", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes promotional and current-condition wording." }
+    },
+    {
+      "destinationId": "brooks-park",
+      "overview": { "text": "Brooks Park occupies a hill in southwestern San Francisco with sweeping views, native plants, a community garden, and a landscape restored through neighborhood stewardship.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The Brooks family acquired a half-acre hilltop site by the 1920s and practiced gardening, beekeeping, and environmental education there. San Francisco acquired the land in 1978; neighbors formed Friends of Brooks Park in 1987 and helped restore and expand it.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Hilltop views", "description": "The park looks toward the Pacific Ocean, Farallon Islands, and Mount Tamalpais.", "category": "landscape", "sourceRefs": ["official-facility-page"] },
+        { "label": "Native plant heritage", "description": "Surviving plants include Ithuriel's spear and blue dicks, bulbs historically gathered and eaten by Native people.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Brooks Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Brooks-Park-153", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes grant amounts, ongoing work-party schedules, and current-condition claims." }
+    },
+    {
+      "destinationId": "golden-gate-heights-park",
+      "overview": { "text": "Golden Gate Heights Park combines a neighborhood playground, tennis court, lawns, and trees with a remnant hilltop dune and ocean views.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Remnant dune habitat", "description": "The sandy natural area preserves dune plant life, including rare San Francisco spineflower and San Francisco wallflower.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Terrain", "value": "Hilltop remnant dune", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Golden Gate Heights Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Golden-Gate-Heights-Park-170", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes visitor instructions while retaining durable habitat facts." }
+    },
+    {
+      "destinationId": "helen-wills-playground",
+      "overview": { "text": "Helen Wills Playground combines a multipurpose clubhouse, distinctive children's play features, sport courts, landscaped grounds, and an elevated boardwalk.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Elevated boardwalk", "description": "A boardwalk provides an overhead view across the playground's landscaped grounds.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Helen Wills Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Helen-Wills-Playground-244", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary is limited to permanent physical features." }
+    },
+    {
+      "destinationId": "midtown-terrace-playground",
+      "overview": { "text": "Midtown Terrace Playground is a tree-lined Forest Hill recreation space with a clubhouse, modern play area, courts, grass field, and an unusual reservoir landscape.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Adolph Sutro once kept cattle on the land. The park's eastern bank is an earthen dam that creates a reservoir within the site's natural bowl.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Terrain", "value": "Natural bowl bounded by an earthen dam", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Midtown Terrace Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Midtown-Terrace-Playground-258", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, demand, condition, and promotional claims." }
+    },
+    {
+      "destinationId": "pine-lake-park",
+      "overview": { "text": "Pine Lake Park is an elongated, forested valley beside Stern Grove containing one of San Francisco's few remaining natural lakes and habitat for resident and migratory birds.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The Greene family acquired the broader property in the 1840s and planted eucalyptus around the lake. Rosalie Stern purchased adjoining land in 1931 to create a park honoring her husband, Sigmund Stern; Stern Grove opened in 1932.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Natural freshwater lake", "description": "Pine Lake is fed by the same aquifer as Lake Merced and is ringed by willow, tule, and other wetland vegetation.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Connected trail network", "description": "A lakeside loop connects with Stern Grove trails and a segment of the Bay Area Ridge Trail.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [{ "label": "Terrain", "value": "Elongated valley with steep forested slopes", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Pine Lake Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Pine-Lake-Park-197", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary omits operating history unrelated to the park and any visitor instructions." }
+    },
+    {
+      "destinationId": "presidio-heights-playground",
+      "overview": { "text": "Presidio Heights Playground is an urban recreation space centered on a full-length basketball court, children's play equipment, a sport court, and clubhouse.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Court-centered play", "description": "Basketball anchors a compact mix of swings, slide, sandbox, climbing equipment, and indoor community space.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Presidio Heights Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Presidio-Heights-Playground-262", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes availability and future renovation plans." }
+    },
+    {
+      "destinationId": "sunnyside-playground",
+      "overview": { "text": "Sunnyside Playground is a neighborhood recreation space with modern play equipment, a large sandbox, merry-go-round, fountain, clubhouse, lawn, and picnic area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Playground and lawn", "description": "A broad lawn and picnic space adjoin a children's area with varied play equipment and a fountain.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Sunnyside Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunnyside-Playground-269", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes program and pet-rule information." }
+    },
+    {
+      "destinationId": "francisco-park",
+      "overview": { "text": "Francisco Park is a 4.5-acre terraced park in Russian Hill with views of major San Francisco landmarks, native planting, open lawn, children's nature play, a community garden, and rainwater-capture infrastructure.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The site held the Francisco Reservoir, built in 1859 and closed in 1940. The park opened in April 2022, retaining part of the reservoir wall and brick floor and marking its original outline in the pathway paving.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Terraced landmark views", "description": "The park looks toward the Golden Gate Bridge, Ghirardelli Square, Alcatraz, and the Palace of Fine Arts.", "category": "landscape", "sourceRefs": ["official-facility-page"] },
+        { "label": "Reservoir remnants", "description": "Historic wall and brickwork survive near Hyde Street, with paving that traces the former reservoir.", "category": "landmark", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [{ "label": "Size", "value": "4.5 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Francisco Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Francisco-Park-442", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes accessibility, reservation, fundraising, maintenance, and promotional claims." }
+    },
+    {
+      "destinationId": "india-basin-shoreline-park",
+      "overview": { "text": "India Basin Shoreline Park is a Bayview–Hunters Point waterfront landscape where recreation space meets tidal salt-marsh habitat.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Tidal wetland habitat", "description": "Mudflats, ponds, channels, and salt marsh support plants such as cordgrass, toad rush, pickleweed, and marsh rosemary along with diverse wildlife.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Living shoreline", "description": "Healthy wetlands buffer erosion and wave action, trap pollutants and sediment, and improve habitat and water quality.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "India Basin Shoreline Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/India-Basin-Shoreline-Park-176", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary uses durable natural history and excludes project schedules, programs, and future-state claims." }
+    },
+    {
+      "destinationId": "michelangelo-playground",
+      "overview": { "text": "Michelangelo Playground is a 0.44-acre neighborhood park between North Beach and Russian Hill with a playground, basketball court, lawn, and picnic space.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "0.44 acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Michelangelo Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Michelangelo-Playground-257", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original concise summary removes promotional language." }
+    },
+    {
+      "destinationId": "shoreview-park",
+      "overview": { "text": "Shoreview Park is a 0.85-acre neighborhood green space with a landmark children's skywalk, lawn, picnic area, fitness equipment, native planting, and connections to nearby community institutions.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The San Francisco Redevelopment Agency built the park in 1979 for Shoreview Apartments residents. It transferred to the Recreation and Park Department in 2017 and underwent a community-guided renovation completed in 2021.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Playground skywalk", "description": "A custom elevated walkway connects a climbing net with a 25-foot slide and was the manufacturer's first installation of its kind in a California playground.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Size", "value": "0.85 acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Shoreview Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Shoreview-Park-444", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes funding, accessibility, current-condition, and promotional claims." }
+    },
+    {
+      "destinationId": "yik-oi-huang-peace-friendship-park",
+      "overview": { "text": "Yik Oi Huang Peace & Friendship Park is a Visitacion Valley recreation space with a clubhouse, sand-floor play area, climbing structure, courts, ball diamond, and multipurpose field.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park was renamed in 2022 to honor Yik Oi Huang, a longtime neighborhood resident and advocate who served the Visitacion Valley Friendship Club for more than 17 years.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "A legacy of community service", "description": "The park's name commemorates Huang's work supporting Chinese immigrant seniors and advocating for civic participation, AAPI issues, and emergency preparedness.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Yik Oi Huang Peace & Friendship Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Yik-Oi-Huang-Peace-Friendship-Park-Visit-270", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary respectfully centers the namesake's service, omits violent details, and excludes closures, programs, and reservations." }
+    },
+    {
+      "destinationId": "esprit-park",
+      "overview": { "text": "Esprit Park is a sunny Dogpatch green space with a lawn, redwood border, benches, picnic tables, and a fitness circuit.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The site was formerly a corporate garden and was given to San Francisco by Esprit Corporation.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Redwood-bordered lawn", "description": "Mature redwoods and benches frame the central field and give the former garden a sheltered character.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Esprit Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Esprit-Park-165", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes time-of-day usage and promotional phrasing." }
+    },
+    {
+      "destinationId": "little-hollywood-park",
+      "overview": { "text": "Little Hollywood Park is a neighborhood green space with landscaped paths, benches, barbecue grills, and open lawn.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park was renovated in 2015 with updated landscaping, irrigation, pathways, and gathering amenities.", "sourceRefs": ["official-facility-page"] },
+      "sources": [{ "id": "official-facility-page", "title": "Little Hollywood Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Little-Hollywood-Park-187", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary converts completed renovation language into durable history." }
+    },
+    {
+      "destinationId": "peixotto-playground",
+      "overview": { "text": "Peixotto Playground is a small play-and-tennis destination tucked into the northern hillside of Corona Heights near the Randall Museum.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Setting", "value": "North slope of Corona Heights at 15th and Roosevelt streets", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Peixotto Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Peixotto-Playground-261", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary is limited to durable setting and destination relationships." }
+    },
+    {
+      "destinationId": "tenderloin-rec-center",
+      "overview": { "text": "Tenderloin Recreation Center and its adjacent children's play area bring trees, planting beds, natural elements, and active recreation into a dense central-city neighborhood.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Nature within the neighborhood", "description": "The outdoor design uses planting areas and trees to create a greener recreation environment in the Tenderloin.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Tenderloin Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Tenderloin-Recreation-Center-111", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, nonprofit services, and unsupported superlatives." }
+    },
+    {
+      "destinationId": "palace-of-fine-arts",
+      "overview": { "text": "The Palace of Fine Arts is a monumental classical-style structure and lagoon landscape that has become one of San Francisco's best-known civic landmarks.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The Palace was originally built for the 1915 Panama-Pacific International Exposition.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Exposition landmark", "description": "Its monumental rotunda and colonnades preserve the architectural memory of San Francisco's 1915 world's fair.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Palace of Fine Arts — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Palace-of-Fine-Arts-423", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary provides concise durable landmark history." }
+    },
+    {
+      "destinationId": "selby-palou-mini-park",
+      "overview": { "text": "Selby Palou Mini Park is a small Bayview neighborhood recreation space with a basketball court, picnic area, and children's play equipment.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Compact gathering space", "description": "Court play, picnicking, and children's recreation share one small neighborhood site.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Selby Palou Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Selby-Palou-Mini-Park-202", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes promotional wording." }
+    },
+    {
+      "destinationId": "washington-hyde-mini-park",
+      "overview": { "text": "Washington-Hyde Mini Park is an enclosed, landscaped playground designed as a colorful child-scale city within the dense downtown area.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Child-size city", "description": "Play structures use streetscape-like forms and bright colors to create a miniature urban environment for children.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Washington-Hyde Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Washington-Hyde-Mini-Park-210", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary focuses on durable design character." }
+    },
+    {
+      "destinationId": "woh-hei-yuen-playground",
+      "overview": { "text": "Woh Hei Yuen Playground is one of the relatively few public parks in densely populated Chinatown; its name means “Garden of Peace and Joy.”", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Garden of Peace and Joy", "description": "The park's translated name expresses its role as neighborhood open space within Chinatown's dense urban fabric.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Woh Hei Yuen Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Woh-Hei-Yuen-Playground-272", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary uses the official meaning and durable neighborhood context." }
+    },
+    {
+      "destinationId": "alioto-mini-park",
+      "overview": { "text": "Alioto Mini Park is a small Mission neighborhood space with lawn, a gazebo, community gardens, and a children's play structure.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Garden and gazebo", "description": "Community garden plots and a gazebo give the compact park both green and gathering space.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Alioto Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Alioto-Mini-Park-145", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes the temporary resurfacing project." }
+    },
+    {
+      "destinationId": "cow-hollow-playground",
+      "overview": { "text": "Cow Hollow Playground is a very small, tree-covered neighborhood play space designed for toddlers and younger school-age children near Union Street.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Setting", "value": "Compact, tree-covered neighborhood site", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Cow Hollow Playground — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Cow-Hollow-Playground-235", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes promotional and commercial-district language." }
+    },
+    {
+      "destinationId": "heron-s-head-park",
+      "overview": { "text": "Heron's Head Park combines shoreline nature with the EcoCenter, an environmental learning space and outdoor nature-exploration area set against an industrial waterfront.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Outdoor nature exploration", "description": "Nature-based play areas include loose natural materials, a suspended rope bridge, and a tree cave for hands-on discovery.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "The EcoCenter at Heron's Head Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/The-EcoCenter-at-Herons-Head-Park-425", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, schedules, awards, forms, and safety claims." }
+    },
+    {
+      "destinationId": "joseph-lee-rec-center",
+      "overview": { "text": "Joseph Lee Recreation Center is a Bayview community hub with a clubhouse, multipurpose field, indoor games, court sports, and creative activity space.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Games and community space", "description": "Basketball, table games, field play, and arts space share one indoor-outdoor recreation center.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Joseph Lee Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Joseph-Lee-Recreation-Center-95", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes programs, classes, and availability." }
+    },
+    {
+      "destinationId": "koshland-park",
+      "overview": { "text": "Koshland Park is a leafy Hayes Valley plaza with a children's play area, basketball half-court, dog-play space, and Community Learning Garden.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Community Learning Garden", "description": "Garden beds provide a place for neighborhood students to learn about plants, food, and cultivation.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Koshland Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Koshland-Park-181", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes maintenance reporting and promotional claims." }
+    },
+    {
+      "destinationId": "precita-park",
+      "overview": { "text": "Precita Park is a neighborhood gathering place with a butterfly garden, gated children's play area, perimeter benches, and a broad grassy field.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Butterfly garden", "description": "A planted butterfly garden adds habitat and seasonal interest beside the play and lawn areas.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Precita Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Precita-Park-199", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes pet rules and activity suggestions." }
+    },
+    {
+      "destinationId": "sharp-park",
+      "overview": { "text": "Sharp Park is a San Francisco-managed park in Pacifica containing coastal wetlands, scrub, forest, grassland, an 18-hole golf course, and an archery range.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "From 1942 to 1946, the federal government used Sharp Park as a temporary detention station for Japanese, German, and Italian civilians before transferring them to internment camps.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Laguna Salada wetlands", "description": "Laguna Salada and Horsestable Pond support California red-legged frogs, San Francisco garter snakes, and diverse wetland plant and animal communities.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Regional habitat connections", "description": "The park lies between Milagra and Sweeney ridges and connects by trail toward Mori Point.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Sharp Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sharp-Park-205", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes current-status and promotional wording while preserving sensitive history in neutral language." }
+    },
+    {
+      "destinationId": "alice-marble-courts",
+      "overview": { "text": "Alice Marble Courts sit high on Russian Hill within George Sterling Park, with four tennis courts, a basketball court, practice wall, and broad city and bay views.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The courts honor Alice Marble, a San Francisco-raised tennis player who won 18 Grand Slam championships between 1936 and 1940.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Hilltop court views", "description": "The elevated courts overlook the Marina, North Beach, San Francisco, and the bay.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Alice Marble Courts — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Alice-Marble-Courts-324", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes promotional phrasing and retains supported namesake history." }
+    },
+    {
+      "destinationId": "buchanan-st-mall",
+      "overview": { "text": "Buchanan Street Mall is a five-block Fillmore neighborhood park shaped by decades of community planning, repair, art, gardens, and public-history work.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The San Francisco Redevelopment Agency built the mall, which opened in 1975 and transferred to the Recreation and Park Department in 1976. It underwent major renovations in the late 1980s and early 1990s, followed by additional repairs and community-led planning.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Neighborhood memory", "description": "Gardens, historic photographs, storytelling installations, and plans for a Memory Walk reflect the Fillmore community's role in shaping the park.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Buchanan Street Mall — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Buchanan-Street-Mall-482", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary distinguishes completed history from unbuilt concepts and excludes funding and project schedules." }
+    },
+    {
+      "destinationId": "lessing-sears-mini-park",
+      "overview": { "text": "Lessing Sears Mini Park is a small Outer Mission green space with a children's play structure, upgraded gathering amenities, and a community garden.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Community garden", "description": "A neighborhood-tended garden anchors the compact park beside the play space.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Lessing Sears Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Lessing-Sears-Mini-Park-185", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary converts recent-renovation wording into stable physical description." }
+    },
+    {
+      "destinationId": "palou-phelps-park",
+      "overview": { "text": "Palou Phelps Park is a steep grassland hill park with a small level playground, trails, city views, seasonal wildflowers, and bird habitat.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "A Catholic orphanage occupied the summit until the 1960s. A Caltrain tunnel now passes beneath the slopes.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Seasonal grassland", "description": "Winter rains turn the dry golden slopes green, followed in spring by California poppy, blue-eyed grass, checkerbloom, mule's ears, and other native flowers.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Terrain", "value": "Steep grassland hillside with a level northern entrance", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Palou Phelps Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Palou-Phelps-Park-194", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains durable terrain, ecology, and historical context." }
+    },
+    {
+      "destinationId": "prentiss-mini-park",
+      "overview": { "text": "Prentiss Mini Park is a 0.06-acre neighborhood space containing a small playground, lawn, benches, and picnic tables.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "0.06 acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Prentiss Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Prentiss-Mini-Park-200", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original concise summary preserves supported size and features." }
+    },
+    {
+      "destinationId": "richmond-rec-center",
+      "overview": { "text": "Richmond Recreation Center is an indoor neighborhood gathering and recreation facility with a gymnasium and spaces for table tennis, classes, camps, and community events.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Indoor neighborhood hub", "description": "Court sports, table games, learning, and community gathering share one recreation-center setting.", "category": "recreation-character", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Richmond Recreation Center — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Richmond-Recreation-Center-105", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary generalizes durable uses and excludes current classes, programs, and events." }
+    },
+    {
+      "destinationId": "seward-mini-park",
+      "overview": { "text": "Seward Mini Park is a neighborhood garden and play space known for a pair of long, steep concrete slides set among native plants.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Built in 1973 on land once proposed for development, the park's slides were designed by 14-year-old Kim Clark through a competition organized by sculptor Ruth Asawa.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Concrete slides", "description": "Two sculptural slides descend the hillside and form the park's defining landmark.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Seward Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Seward-Mini-Park-203", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes hours, rules, instructions, and safety guidance." }
+    },
+    {
+      "destinationId": "south-park",
+      "overview": { "text": "South Park is a tree-lined oval garden in SoMa with native planting, a hummingbird garden, children's play areas, and seating framed by the surrounding neighborhood.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Established in 1852 as a London-style residential garden, South Park later became a focal point of San Francisco's 1990s dot-com boom.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Oval garden plan", "description": "The park's distinctive elongated oval and perimeter streets preserve its nineteenth-century garden-square form.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "South Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/South-Park-206", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes current-condition, commercial, and time-of-day usage claims." }
+    },
+    {
+      "destinationId": "sunnyside-conservatory",
+      "overview": { "text": "Sunnyside Conservatory is a historic octagonal redwood building set within a century-old garden of drought-tolerant plants, succulents, and palms.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The conservatory dates to 1900 and has been renovated for continued public and cultural use.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Octagonal redwood conservatory", "description": "The unusual wood structure forms the architectural center of the surrounding historic garden.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Sunnyside Conservatory — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunnyside-Conservatory-427", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes reservations, event availability, and maintenance reporting." }
+    },
+    {
+      "destinationId": "10th-ave-clement-park",
+      "overview": { "text": "10th Avenue and Clement Mini Park is a small lawn-and-play space beside the Richmond Branch Library, with benches, swings, and soft-surface children's equipment.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Library-side green space", "description": "The park extends the library setting outdoors with lawn, seating, and children's play.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "10th Avenue and Clement Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/10th-Avenue-Clement-Mini-Park-141", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes renovation recency and activity suggestions." }
+    },
+    {
+      "destinationId": "24th-york-mini-park",
+      "overview": { "text": "24th and York Mini Park is a compact Mission neighborhood space with a children's play area, serpent-shaped play structure, picnic area, and benches.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Serpent play structure", "description": "A sculptural serpent gives the children's area a distinctive visual identity.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "24th and York Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/24th-York-Mini-Park-143", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes renovation recency and promotional wording." }
+    },
+    {
+      "destinationId": "kid-power-park",
+      "overview": { "text": "Kid Power Park is a Mission neighborhood retreat created from a former parking lot, with two-level children's play areas, seating, tables, and a community garden.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Neighborhood children advocated for the play space that ultimately transformed the former parking lot into a public park.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Youth-led origin", "description": "The park reflects local children's successful effort to create a dedicated place to play in their neighborhood.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Kid Power Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Kid-Power-Park-180", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary converts recent-development wording into durable community history." }
+    },
+    {
+      "destinationId": "muriel-leff-mini-park",
+      "overview": { "text": "Muriel Leff Mini Park is a pocket of green in the Inner Richmond with shaded picnic space, a sandbox, nature-exploration elements, new planting, and a public sculpture.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park reopened after renovation in April 2023 with new seating and nature-play elements developed with community participation.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Public sculpture and nature play", "description": "A distinctive sculpture and hands-on natural elements give the small children's area a character beyond conventional play equipment.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Muriel Leff Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Muriel-Leff-Mini-Park-192", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary converts completed project information into durable history and removes maintenance reporting." }
+    },
+    {
+      "destinationId": "15th-avenue-steps",
+      "overview": { "text": "The 15th Avenue Steps climb a steep natural hillside where native oaks provide habitat and open views across the Inner Sunset and Golden Gate Park.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Native oak habitat", "description": "Oaks along the stairway shelter both resident and migratory birds.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Hillside views", "description": "The elevated stairway looks toward St. Anne's Church, the Inner Sunset, Golden Gate Park, and the landscape beyond.", "category": "landscape", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [{ "label": "Terrain", "value": "Steep oak-covered hillside stairway", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "15th Avenue Steps — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/15th-Avenue-Steps-211", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains durable ecology, terrain, and views." }
+    },
+    {
+      "destinationId": "balboa-natural-area",
+      "overview": { "text": "Balboa Natural Area is a 1.8-acre foredune at Balboa Street and the Great Highway, adjoining Sutro Heights Park and facing Ocean Beach and the Pacific.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Foredune habitat", "description": "The sandy site preserves one of San Francisco's few foredune communities and the only example within the Recreation and Park Department's Natural Areas System.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [
+        { "label": "Size", "value": "1.8 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] },
+        { "label": "Terrain", "value": "Sensitive sandy foredune crossed by an elevated boardwalk", "category": "terrain", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Balboa Natural Area — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Balboa-Natural-Area-325", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary focuses on durable habitat, extent, and park relationships." }
+    },
+    {
+      "destinationId": "billy-goat-hill",
+      "overview": { "text": "Billy Goat Hill is a Diamond Heights hilltop park with city and bay views, steep trails, urban forest, grassland, and habitat for kestrels and other raptors.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Hilltop trail", "description": "A 0.2-mile network climbs steep switchbacks toward a viewpoint before leveling near Beacon Street.", "category": "landscape", "sourceRefs": ["official-facility-page"] },
+        { "label": "Raptor habitat", "description": "Grassland and forest support American kestrels and other birds of prey that hunt small mammals and reptiles.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [{ "label": "Trail network", "value": "0.2 mile", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Billy Goat Hill — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Billy-Goat-Hill-326", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes parking and transit guidance." }
+    },
+    {
+      "destinationId": "dorothy-erskine-park",
+      "overview": { "text": "Dorothy Erskine Park honors a San Francisco environmental activist whose work helped protect open space around the Bay Area.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "San Francisco acquired the park in 1977 and named it for Dorothy Erskine, founder of the organization now known as Greenbelt Alliance.", "sourceRefs": ["official-facility-page"] },
+      "sources": [{ "id": "official-facility-page", "title": "Dorothy Erskine Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Dorothy-Erskine-Park-163", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original concise summary retains supported acquisition and namesake history." }
+    },
+    {
+      "destinationId": "fay-park",
+      "overview": { "text": "Fay Park is a quarter-acre formal garden on Russian Hill, arranged as three hillside terraces with stonework, hedges, ornamental beds, gazebos, and a bay overlook.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Landscape architect Thomas Church designed the garden in 1957 for Mary Fay Berrigan and Brigadier General Paul Berrigan. The family bequeathed the property to San Francisco, and the garden opened as a public park in 2006.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Terraced formal garden", "description": "Stairs and ramps connect three levels lined with stone balustrades, retaining walls, boxwood hedges, and two latticed wooden gazebos.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Size", "value": "One quarter acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Fay Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Fay-Park-167", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes wedding popularity, building access, and accessibility claims." }
+    },
+    {
+      "destinationId": "hawk-hill",
+      "overview": { "text": "Hawk Hill is a remnant hilltop dune with ocean views, shifting sand, rare dune plants, and habitat for the green hairstreak butterfly.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "Ocean winds once replenished Hawk Hill with sand from western dunes. Development across the Sunset District cut off that natural sand source, leaving an isolated dune remnant.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Rare dune habitat", "description": "California croton and San Francisco wallflower grow here, and the ridge supports one of only two San Francisco populations of green hairstreak butterflies.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Terrain", "value": "Remnant hilltop dune", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Hawk Hill — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Hawk-Hill-340", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains durable geomorphology and habitat context." }
+    },
+    {
+      "destinationId": "lakeview-ashton-mini-park",
+      "overview": { "text": "Lakeview–Ashton Mini Park is a small rocky and grassy outcrop on a sandstone ridge between the Merced and Ingleside Heights neighborhoods.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Long-blooming native plants", "description": "Buckwheat, dudleya, farewell-to-spring, coast onion, and soap plant provide flowers and insect food through much of spring and summer.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Terrain", "value": "Grassy sandstone outcrop", "category": "terrain", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Lakeview–Ashton Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Lakeview-Ashton-Mini-Park-183", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes unsupported urgency while retaining supported plant and terrain facts." }
+    },
+    {
+      "destinationId": "mt-davidson-park",
+      "overview": { "text": "Mount Davidson Park contains San Francisco's highest point, a 103-foot summit cross, eucalyptus forest, coastal scrub and grassland, and a network of wooded hillside trails.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The formerly unnamed mountain was renamed in 1911 for surveyor and geographer George Davidson. Community advocacy led by Maddie Brown and local schoolchildren helped protect the peak from development.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Summit cross", "description": "A 103-foot concrete cross stands at the highest point in San Francisco.", "category": "landmark", "sourceRefs": ["official-facility-page"] },
+        { "label": "Forest and coastal scrub", "description": "Eucalyptus forest on the west contrasts with native scrub and grassland on the east, supporting resident and migratory birds.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [
+        { "label": "Elevation", "value": "938 feet", "category": "setting", "sourceRefs": ["official-facility-page"] },
+        { "label": "Urban forest", "value": "More than 30 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Mount Davidson Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mt-Davidson-Park-190", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary condenses extensive ecology and history into durable destination context." }
+    },
+    {
+      "destinationId": "ralph-d-house-community-park",
+      "overview": { "text": "Ralph D. House Community Park is a 0.16-acre mini park at the edge of Bayview Park with views across southeastern San Francisco.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The park was named in 2010 for Ralph Dewitt House, a longtime open-space advocate and founder of the Bayview Hill Neighborhood Association. It was renovated in 2019.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "0.16 acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Ralph D. House Community Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Ralph-D-House-Community-Park-428", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes promotional language and retains supported size, view, and namesake history." }
+    },
+    {
+      "destinationId": "soma-west-dog-park",
+      "overview": { "text": "SoMa West Dog Park is a 7,000-square-foot off-leash space created beneath the former Central Freeway corridor alongside SoMa West Skate Park.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The dog park and neighboring skate park opened in 2014 as part of a multi-agency effort to turn land formerly occupied by the Central Freeway into public recreation space.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "7,000 square feet", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "SoMa West Dog Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/SOMA-West-Dog-Park-433", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes rules and promotional claims while retaining stable size and site history." }
+    },
+    {
+      "destinationId": "soma-west-skate-park",
+      "overview": { "text": "SoMa West Skate Park is a 72,000-square-foot skateboarding space beneath a freeway structure, paired with a neighboring off-leash dog park.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The skate and dog parks opened in 2014 on land previously occupied by the Central Freeway as part of a multi-agency public-space project.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "72,000 square feet", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "SoMa West Skate Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/SOMA-West-Skate-Park-448", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes popularity and changing neighborhood-need language." }
+    },
+    {
+      "destinationId": "the-rocks-dog-park",
+      "overview": { "text": "The Rocks Dog Park is a fenced off-leash area on Treasure Island with coast live oak, native planting, and large natural rocks.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Natural play landscape", "description": "Oak, native vegetation, and large rocks distinguish the space from a conventional paved or turf dog run.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "The Rocks Dog Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/The-Rocks-Dog-Park-478", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes management-transition and future-development information." }
+    },
+    {
+      "destinationId": "twin-peaks",
+      "overview": { "text": "Twin Peaks is a 64-acre summit park where coastal scrub, grassland, rocky slopes, trails, and panoramic views preserve the character of San Francisco's hills before widespread development.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [
+        { "label": "Mission blue butterfly habitat", "description": "Rocky grasslands support the lupines used by the endangered mission blue butterfly for food and reproduction.", "category": "natural-feature", "sourceRefs": ["official-facility-page"] },
+        { "label": "Summit trail network", "description": "A 0.7-mile trail system crosses the two peaks and connects toward the Creek to Peaks route and Glen Canyon Park.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }
+      ],
+      "physicalFacts": [
+        { "label": "Size", "value": "64 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] },
+        { "label": "Trail network", "value": "0.7 mile across the two peaks", "category": "setting", "sourceRefs": ["official-facility-page"] }
+      ],
+      "sources": [{ "id": "official-facility-page", "title": "Twin Peaks — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Twin-Peaks-384", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes access notices, visitor instructions, and recovery-program status." }
+    },
+    {
+      "destinationId": "white-crane-springs-community-garden",
+      "overview": { "text": "White Crane Springs Community Garden is a Sunset District growing space with nearly 90 individual plots, shared areas, and sustainability features maintained by garden members.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "The garden has served the Sunset District since the 1970s.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Sustainable garden practices", "description": "Members use organic gardening, integrated pest management, composting, sheet mulching, and a cob shed with a living roof.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Garden plots", "value": "Nearly 90 individual plots", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "White Crane Springs Community Garden — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/White-Crane-Springs-Community-Garden-74", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes access and promotional claims while retaining destination-specific garden facts." }
+    },
+    {
+      "destinationId": "allyne-park",
+      "overview": { "text": "Allyne Park is a quarter-acre fenced and manicured neighborhood green space designed as a quiet retreat from surrounding city streets.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Size", "value": "One quarter acre", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Allyne Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Allyne-Park-146", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes promotional language while preserving size and landscape character." }
+    },
+    {
+      "destinationId": "beideman-o-farrell-mini-park",
+      "overview": { "text": "Beideman–O'Farrell Mini Park is a planted corner plaza in the Western Addition with benches arranged among flowerbeds, shrubs, and trees.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Planted corner plaza", "description": "Layered planting and seating turn a street corner into a small neighborhood garden.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Beideman–O'Farrell Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Beideman-OFarrell-Mini-Park-150", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes condition and activity language." }
+    },
+    {
+      "destinationId": "cayuga-lamartine-mini-park",
+      "overview": { "text": "Cayuga–Lamartine Mini Park is a shaded urban sitting garden beneath pine trees, with benches and beds of drought-tolerant plants.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Pine canopy", "description": "Mature pines shelter the compact seating and planting areas.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Cayuga–Lamartine Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Cayuga-Lamartine-Mini-Park-158", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains durable planting and shade character." }
+    },
+    {
+      "destinationId": "coso-precita-mini-park",
+      "overview": { "text": "Coso–Precita Mini Park is a small pocket of neighborhood green space between Bernal Heights and the Mission.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Setting", "value": "Urban mini park between Bernal Heights and the Mission", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Coso–Precita Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Coso-Precita-Mini-Park-161", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original concise summary is limited to supported destination setting." }
+    },
+    {
+      "destinationId": "cottage-row-mini-park",
+      "overview": { "text": "Cottage Row Mini Park is a landscaped brick walkway and garden beside a nationally recognized group of nineteenth-century Victorian buildings near Japantown and the Fillmore.", "sourceRefs": ["official-facility-page"] },
+      "history": { "text": "William Hollis built most of Cottage Row's 22 buildings in the late 1860s and 1870s. A later community partnership added a garden honoring the Issei, the first generation of Japanese immigrants in the United States.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Issei commemorative garden", "description": "The garden along Sutter Street adds Japanese American cultural history to the Victorian streetscape.", "category": "cultural-feature", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Cottage Row Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Cottage-Row-Mini-Park-162", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary converts completed renovation language into durable cultural and architectural context." }
+    },
+    {
+      "destinationId": "joost-baden-mini-park",
+      "overview": { "text": "Joost and Baden Mini Park is a Sunnyside stairway garden planted with a mix of drought-tolerant and California native species.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Stairway garden", "description": "Planting turns the neighborhood steps into a small linear landscape rather than a purely paved passage.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Joost and Baden Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Joost-and-Baden-Mini-Park-177", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary retains durable landscape character." }
+    },
+    {
+      "destinationId": "joseph-conrad-square",
+      "overview": { "text": "Joseph Conrad Square is a triangular pocket of green at Columbus Avenue, Beach Street, and Leavenworth Street between North Beach and Fisherman's Wharf.", "sourceRefs": ["official-facility-page"] },
+      "physicalFacts": [{ "label": "Setting", "value": "Triangular site near Aquatic Park and The Cannery", "category": "setting", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Joseph Conrad Square — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Joseph-Conrad-Square-178", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original concise summary removes promotional wording." }
+    },
+    {
+      "destinationId": "mullen-peralta-mini-park",
+      "overview": { "text": "Mullen–Peralta Mini Park is a small elevated green space near Bernal Heights Park, with stone benches, sloping lawn, trees, flowers, and a broad city view.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Elevated city view", "description": "The small hillside lawn opens toward a sweeping view across San Francisco.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Mullen–Peralta Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Mullen-Peralta-Mini-Park-191", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes waste-service and restroom details." }
+    },
+    {
+      "destinationId": "page-laguna-mini-park",
+      "overview": { "text": "Page–Laguna Mini Park is a Hayes Valley community garden tucked between Victorian buildings, with a winding path, flowering beds, apple trees, and benches.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Hidden garden path", "description": "A wrought-iron gate opens to a path winding through fruit trees and flower beds between neighboring Victorians.", "category": "landscape", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Page–Laguna Mini Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Page-Laguna-Mini-Park-193", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary removes activity suggestions and promotional language." }
+    },
+    {
+      "destinationId": "panorama-park",
+      "overview": { "text": "Panorama Park is a three-acre summit landscape on Yerba Buena Island with 360-degree views of San Francisco Bay and a monumental work by Hiroshi Sugimoto.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Point of Infinity", "description": "Hiroshi Sugimoto's sculpture forms a major visual landmark within the panoramic hilltop setting.", "category": "landmark", "sourceRefs": ["official-facility-page"] }],
+      "physicalFacts": [{ "label": "Size", "value": "3 acres", "category": "acreage", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Panorama Park — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Panorama-Park-476", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes management transition and future-development claims." }
+    },
+    {
+      "destinationId": "treasure-island-landing",
+      "overview": { "text": "Treasure Island Landing is a waterfront arrival space combining ferry-terminal access, a landscaped plaza, and multi-use paths linking Treasure Island with Yerba Buena Island and Cityside Park.", "sourceRefs": ["official-facility-page"] },
+      "highlights": [{ "label": "Island pathway connection", "description": "Multi-use paths extend from the ferry landing along Treasure Island Road toward Yerba Buena Island and neighboring parks.", "category": "destination-relationship", "sourceRefs": ["official-facility-page"] }],
+      "sources": [{ "id": "official-facility-page", "title": "Treasure Island Landing — SF Recreation and Parks", "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Treasure-Island-Landing-480", "retrievedAt": "2026-08-27" }],
+      "review": { "status": "approved", "reviewedAt": "2026-08-27", "reviewedBy": "project-content-review", "notes": "Original summary excludes management-transition and future-development information." }
+    }
+  ]
+}

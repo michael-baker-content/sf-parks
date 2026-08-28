@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SF Parks Explorer">
+  <rect width="64" height="64" rx="10" fill="#123f2a"/>
+  <path fill="#fff" d="M32 10 18 30h9l-11 16h12v9h8v-9h12L37 30h9L32 10Z"/>
+</svg>

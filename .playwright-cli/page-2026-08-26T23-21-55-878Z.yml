@@ -1,0 +1,57 @@
+- generic [active] [ref=f6e1]:
+  - link "Skip to main content" [ref=f6e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - link "SF Parks Explorer" [ref=f6e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f6e6]:
+        - list [ref=f6e7]:
+          - listitem [ref=f6e8]:
+            - link "Explore" [ref=f6e9] [cursor=pointer]:
+              - /url: /explore/
+          - listitem [ref=f6e10]:
+            - link "Activities" [ref=f6e11] [cursor=pointer]:
+              - /url: /#activities
+          - listitem [ref=f6e12]:
+            - link "About the data" [ref=f6e13] [cursor=pointer]:
+              - /url: /about/
+  - main [ref=f6e14]:
+    - region [ref=f6e15]:
+      - paragraph [ref=f6e16]: Independent public-data prototype
+      - heading "Find a park that fits your plans" [level=1] [ref=f6e17]
+      - paragraph [ref=f6e18]: Explore San Francisco parks, playgrounds, recreation centers, and listed amenities without learning the City's internal data structure.
+      - search [ref=f6e19]:
+        - generic [ref=f6e20]: Find a park or recreation destination
+        - generic [ref=f6e21]:
+          - searchbox "Find a park or recreation destination" [ref=f6e22]
+          - button "Search" [ref=f6e23] [cursor=pointer]
+        - paragraph [ref=f6e24]: Search by place, neighborhood, activity, or amenity.
+    - region [ref=f6e25]:
+      - heading "What would you like to do?" [level=2] [ref=f6e26]
+      - generic [ref=f6e27]:
+        - link "Play with kids" [ref=f6e28] [cursor=pointer]:
+          - /url: /explore/?activity=play-with-kids
+        - link "Have a picnic" [ref=f6e29] [cursor=pointer]:
+          - /url: /explore/?activity=have-a-picnic
+        - link "Play sports" [ref=f6e30] [cursor=pointer]:
+          - /url: /explore/?activity=play-sports
+        - link "Exercise" [ref=f6e31] [cursor=pointer]:
+          - /url: /explore/?activity=exercise
+        - link "Swim" [ref=f6e32] [cursor=pointer]:
+          - /url: /explore/?activity=swim
+        - link "Bring a dog" [ref=f6e33] [cursor=pointer]:
+          - /url: /explore/?activity=bring-a-dog
+        - link "Visit a garden or natural area" [ref=f6e34] [cursor=pointer]:
+          - /url: /explore/?activity=gardens-and-nature
+        - link "Find a recreation center" [ref=f6e35] [cursor=pointer]:
+          - /url: /explore/?activity=recreation-center
+        - link "See arts and cultural features" [ref=f6e36] [cursor=pointer]:
+          - /url: /explore/?activity=arts-and-culture
+    - region [ref=f6e37]:
+      - generic [ref=f6e38]:
+        - heading "About the information" [level=2] [ref=f6e39]
+        - paragraph [ref=f6e40]: Results use City-published open data. Features not shown may still be available, and only a small number of official facility pages have been reviewed so far.
+  - contentinfo [ref=f6e41]:
+    - paragraph [ref=f6e43]: Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source.
+  - button "Open Next.js Dev Tools" [ref=f6e49] [cursor=pointer]

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "enrichments": [
+    {
+      "destinationId": "mission-dolores-park",
+      "publicName": "Mission Dolores Park",
+      "propertyIds": ["63"],
+      "features": [
+        { "label": "Tennis Court", "category": "sports", "quantity": 6 },
+        { "label": "Dog Play Area", "category": "dogs", "quantity": 2 },
+        { "label": "Soccer Field", "category": "sports", "quantity": 1 }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188",
+      "actionType": "facility-page",
+      "retrievedAt": "2026-08-26",
+      "reviewedAt": "2026-08-26",
+      "reviewedBy": "project-owner",
+      "reason": "Official facility page confirms familiar amenities and quantities used as a regression fixture."
+    },
+    {
+      "destinationId": "glen-canyon-park-recreation-center",
+      "features": [
+        { "label": "Basketball", "category": "sports", "quantity": null },
+        { "label": "Pickleball (Indoor)", "category": "sports", "quantity": null },
+        { "label": "Ping Pong", "category": "sports", "quantity": null },
+        { "label": "Climbing Wall", "category": "fitness", "quantity": 1 },
+        { "label": "Community Rooms", "category": "recreation-centers", "quantity": null }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89",
+      "actionType": "facility-page",
+      "retrievedAt": "2026-08-26",
+      "reviewedAt": "2026-08-26",
+      "reviewedBy": "project-owner",
+      "reason": "Official facility page supplies resident-facing indoor features absent from open data."
+    },
+    {
+      "destinationId": "douglass-playground",
+      "publicName": "Douglass Playground",
+      "propertyIds": ["8"],
+      "features": [
+        { "label": "Athletic Field", "category": "sports", "quantity": null },
+        { "label": "Baseball Diamond", "category": "sports", "quantity": 1 }
+      ],
+      "sourceUrl": "https://sfrecpark.org/facilities/facility/details/Douglass-Playground-237",
+      "actionType": "facility-page",
+      "retrievedAt": "2026-08-26",
+      "reviewedAt": "2026-08-26",
+      "reviewedBy": "project-owner",
+      "reason": "Official facility page lists familiar features not represented in the open-data discovery taxonomy."
+    }
+  ]
+}

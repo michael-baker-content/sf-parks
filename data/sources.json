@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "projectTermsReview": {
+    "termsUrl": "https://www.sf.gov/reports--april-2017--datasf-terms-use",
+    "termsPublishedDate": "2017-04-21",
+    "reviewedAt": "2026-08-26",
+    "nextReviewBy": "2026-09-26"
+  },
+  "sources": [
+    {
+      "id": "datasf-rec-park-properties",
+      "name": "Recreation and Parks Properties",
+      "kind": "official_open_data",
+      "publisher": "City and County of San Francisco",
+      "datasetId": "gtr9-ntp6",
+      "sourceUrl": "https://data.sfgov.org/Culture-and-Recreation/Recreation-and-Parks-Properties/gtr9-ntp6",
+      "apiUrl": "https://data.sfgov.org/resource/gtr9-ntp6.json",
+      "termsUrl": "https://www.sf.gov/reports--april-2017--datasf-terms-use",
+      "license": {
+        "id": "PDDL-1.0",
+        "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+        "metadataCheckedAt": "2026-08-26"
+      },
+      "permittedUses": ["ingest", "transform", "display"],
+      "containsPersonLevelData": false,
+      "attributionLabel": "City and County of San Francisco via DataSF",
+      "freshness": {
+        "expectedUpdateFrequency": "weekly",
+        "staleAfterDays": 14
+      },
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-26",
+        "reviewedBy": "project-owner",
+        "notes": "Dataset metadata identifies the PDDL license; recheck metadata before production launch."
+      }
+    },
+    {
+      "id": "datasf-rec-park-facilities",
+      "name": "Recreation and Parks Facilities",
+      "kind": "official_open_data",
+      "publisher": "City and County of San Francisco",
+      "datasetId": "ib5c-xgwu",
+      "sourceUrl": "https://data.sfgov.org/Culture-and-Recreation/Recreation-and-Parks-Facilities/ib5c-xgwu",
+      "apiUrl": "https://data.sfgov.org/resource/ib5c-xgwu.json",
+      "termsUrl": "https://www.sf.gov/reports--april-2017--datasf-terms-use",
+      "license": {
+        "id": "PDDL-1.0",
+        "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+        "metadataCheckedAt": "2026-08-26"
+      },
+      "permittedUses": ["ingest", "transform", "display"],
+      "containsPersonLevelData": false,
+      "attributionLabel": "City and County of San Francisco via DataSF",
+      "freshness": {
+        "expectedUpdateFrequency": "unknown",
+        "staleAfterDays": 14
+      },
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-26",
+        "reviewedBy": "project-owner",
+        "notes": "Current Socrata metadata reports licenseId PDDL; recheck metadata before production launch."
+      }
+    },
+    {
+      "id": "datasf-rec-park-functional-areas",
+      "name": "Functional Areas maintained by Recreation and Parks Department",
+      "kind": "official_open_data",
+      "publisher": "City and County of San Francisco",
+      "datasetId": "38b7-6db3",
+      "sourceUrl": "https://data.sfgov.org/Culture-and-Recreation/Functional-Areas-maintained-by-Recreation-and-Park/38b7-6db3",
+      "apiUrl": "https://data.sfgov.org/resource/38b7-6db3.json",
+      "termsUrl": "https://www.sf.gov/reports--april-2017--datasf-terms-use",
+      "license": {
+        "id": "PDDL-1.0",
+        "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+        "metadataCheckedAt": "2026-08-26"
+      },
+      "permittedUses": ["ingest", "transform", "display"],
+      "containsPersonLevelData": false,
+      "attributionLabel": "City and County of San Francisco via DataSF",
+      "freshness": {
+        "expectedUpdateFrequency": "unknown",
+        "staleAfterDays": 14
+      },
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-26",
+        "reviewedBy": "project-owner",
+        "notes": "Current Socrata metadata reports licenseId PDDL; recheck metadata before production launch."
+      }
+    },
+    {
+      "id": "datasf-rec-park-assets",
+      "name": "Assets Maintained by the Recreation and Parks Department",
+      "kind": "official_open_data",
+      "publisher": "City and County of San Francisco",
+      "datasetId": "e3jj-mbb3",
+      "sourceUrl": "https://data.sfgov.org/Culture-and-Recreation/Assets-Maintained-by-the-Recreation-and-Parks-Depa/e3jj-mbb3",
+      "apiUrl": "https://data.sfgov.org/resource/e3jj-mbb3.json",
+      "termsUrl": "https://www.sf.gov/reports--april-2017--datasf-terms-use",
+      "license": {
+        "id": "PDDL-1.0",
+        "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+        "metadataCheckedAt": "2026-08-26"
+      },
+      "permittedUses": ["ingest", "transform", "display"],
+      "containsPersonLevelData": false,
+      "attributionLabel": "City and County of San Francisco via DataSF",
+      "freshness": {
+        "expectedUpdateFrequency": "weekly",
+        "staleAfterDays": 14
+      },
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-26",
+        "reviewedBy": "project-owner",
+        "notes": "Current Socrata metadata reports licenseId PDDL; recheck metadata before production launch."
+      }
+    },
+    {
+      "id": "511-regional-gtfs",
+      "name": "511 SF Bay Regional GTFS",
+      "kind": "official_open_data",
+      "publisher": "Metropolitan Transportation Commission",
+      "datasetId": "RG",
+      "sourceUrl": "https://511.org/open-data/transit",
+      "apiUrl": "https://api.511.org/transit/datafeeds",
+      "termsUrl": "https://511.org/about/terms",
+      "license": {
+        "id": "511-SF-Bay-Open-Data-Agreement-2026",
+        "url": "https://511.org/open-data/transit",
+        "metadataCheckedAt": "2026-08-27"
+      },
+      "permittedUses": ["ingest", "transform", "display"],
+      "containsPersonLevelData": false,
+      "attributionLabel": "511 SF Bay, Metropolitan Transportation Commission",
+      "freshness": {
+        "expectedUpdateFrequency": "weekly",
+        "staleAfterDays": 14
+      },
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-08-27",
+        "reviewedBy": "project-owner",
+        "notes": "Project owner obtained a 511 Open Data token. Use is limited to the authorized developer feed; retain attribution and recheck the current data agreement before production launch. Never expose the token in client code or generated data."
+      }
+    }
+  ]
+}

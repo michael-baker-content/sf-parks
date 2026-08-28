@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-27",
+  "reviews": [
+    {
+      "destinationId": "glen-canyon-park-recreation-center",
+      "pixabayId": 3863301,
+      "status": "rejected-location-mismatch",
+      "reason": "The photograph depicts Glen Canyon Dam in Arizona, not Glen Canyon Park in San Francisco."
+    },
+    {
+      "destinationId": "glen-canyon-park-recreation-center",
+      "pixabayId": 634396,
+      "status": "rejected-location-mismatch",
+      "reason": "The photograph depicts Glen Canyon Dam in Arizona, not Glen Canyon Park in San Francisco."
+    }
+  ]
+}

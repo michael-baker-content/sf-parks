@@ -1,0 +1,1459 @@
+{
+  "schemaVersion": 1,
+  "source": "SF Recreation and Parks CivicPlus public facility directory",
+  "sourceDirectoryUrl": "https://www.sfrecpark.org/Facilities?clear=True",
+  "records": [
+    {
+      "destinationId": "24th-york-mini-park",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/24th-York-Mini-Park-143",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "alice-chalmers-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Alice-Chalmers-Playground-228",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "alioto-mini-park",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Alioto-Mini-Park-145",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "bayview-k-c-jones-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Bayview-KC-Jones-Playground-232",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "bernal-heights-rec-center",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Bernal-Heights-Recreation-Center-83",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "billy-goat-hill",
+      "features": [
+        {
+          "sourceFeatureId": "61",
+          "sourceLabel": "Trail",
+          "label": "Trail",
+          "category": "gardens-nature",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Billy-Goat-Hill-326",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "corona-heights-park",
+      "features": [
+        {
+          "sourceFeatureId": "61",
+          "sourceLabel": "Trail",
+          "label": "Trail",
+          "category": "gardens-nature",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Corona-Heights-Park-328",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "cow-hollow-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Cow-Hollow-Playground-235",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "douglass-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Douglass-Playground-237",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "eugene-friend-rec-center",
+      "features": [
+        {
+          "sourceFeatureId": "101",
+          "sourceLabel": "Community Room",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Gene-Friend-SoMa-Rec-Center-88",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "eureka-valley-rec-center",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Eureka-Valley-Recreation-Center-86",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "excelsior-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Excelsior-Playground-238",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "fairmont-plaza",
+      "features": [
+        {
+          "sourceFeatureId": "48",
+          "sourceLabel": "Natural Area",
+          "label": "Natural Area",
+          "category": "gardens-nature",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Fairmont-Plaza-334",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "father-alfred-boeddeker-park",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Father-Alfred-E-Boeddeker-Park-166",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "fay-park",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Fay-Park-167",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "fillmore-turk-mini-park",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Fillmore-Turk-Mini-Park-168",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "franklin-square",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Franklin-Square-335",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "geneva-community-garden",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Geneva-Community-Garden-301",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "george-christopher-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/George-Christopher-Playground-240",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "grattan-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Grattan-Playground-242",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "hayes-valley-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Hayes-Valley-Playground-243",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "herz-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Herz-Playground-245",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "jackson-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "38",
+          "sourceLabel": "Bocce",
+          "label": "Bocce Ball Court",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Jackson-Playground-247",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "jefferson-square",
+      "features": [
+        {
+          "sourceFeatureId": "1",
+          "sourceLabel": "Restrooms",
+          "label": "Restrooms",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Jefferson-Square-343",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "john-mclaren-park",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "3",
+          "sourceLabel": "Baseball / Softball",
+          "label": "Ball Field",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/McLaren-Park-344",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "jose-coronado-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Jose-Coronado-Playground-250",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "joseph-conrad-square",
+      "features": [
+        {
+          "sourceFeatureId": "1",
+          "sourceLabel": "Restrooms",
+          "label": "Restrooms",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Joseph-Conrad-Square-178",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "kelloch-velasco-park",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Kelloch-Velasco-Mini-Park-179",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "kid-power-park",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Kid-Power-Park-180",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "laurel-hill-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Laurel-Hill-Playground-253",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "lincoln-park",
+      "features": [
+        {
+          "sourceFeatureId": "6",
+          "sourceLabel": "Parking",
+          "label": "Parking",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Lincoln-Park-186",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "louis-sutter-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Louis-Sutter-Playground-254",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "margaret-s-hayward-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Margaret-S-Hayward-Playground-255",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "mariposa-park",
+      "features": [
+        {
+          "sourceFeatureId": "93",
+          "sourceLabel": "Lawn Area",
+          "label": "Lawn Area",
+          "category": "gardens-nature",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Mariposa-Park-451",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "merced-heights-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Merced-Heights-Playground-256",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "miraloma-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Miraloma-Playground-259",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "mission-creek-park",
+      "features": [
+        {
+          "sourceFeatureId": "95",
+          "sourceLabel": "Amphitheater",
+          "label": "Amphitheater",
+          "category": "arts-culture",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Creek-Park-North-and-South-449",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "mission-dolores-park",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "mission-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Playground-260",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "mission-recreation-center",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "4",
+          "sourceLabel": "Basketball",
+          "label": "Basketball Court",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "44",
+          "sourceLabel": "Gymnasium",
+          "label": "Gymnasium",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Mission-Recreation-Center-100",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "noe-valley-courts",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Noe-Valley-Courts-357",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "palace-of-fine-arts",
+      "features": [
+        {
+          "sourceFeatureId": "6",
+          "sourceLabel": "Parking",
+          "label": "Parking",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Palace-of-Fine-Arts-423",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "panorama-park",
+      "features": [
+        {
+          "sourceFeatureId": "130",
+          "sourceLabel": "Panoramic Bay Views",
+          "label": "Bay Views",
+          "category": "gardens-nature",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "126",
+          "sourceLabel": "Public Art",
+          "label": "Public Art",
+          "category": "arts-culture",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "131",
+          "sourceLabel": "Seating",
+          "label": "Seating",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Panorama-Park-476",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "pine-lake-park",
+      "features": [
+        {
+          "sourceFeatureId": "6",
+          "sourceLabel": "Parking",
+          "label": "Parking",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Pine-Lake-Park-197",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "portsmouth-square",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Portsmouth-Square-364",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "potrero-del-sol",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Potrero-Del-Sol-365",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "potrero-hill-rec-center",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Potrero-Hill-Rec-Center-275",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "presidio-wall-playground",
+      "features": [
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Presidio-Wall-Playground-251",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "randolph-bright-mini-park",
+      "features": [
+        {
+          "sourceFeatureId": "8",
+          "sourceLabel": "Playground",
+          "label": "Children's Play Area",
+          "category": "playgrounds",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/RandolphBright-Mini-Park-201",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "richmond-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Richmond-Playground-264",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "richmond-rec-center",
+      "features": [
+        {
+          "sourceFeatureId": "4",
+          "sourceLabel": "Basketball",
+          "label": "Basketball Court",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Richmond-Recreation-Center-105",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "ridgetop-plaza",
+      "features": [
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Ridgetop-Plaza-368",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "rochambeau-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "7",
+          "sourceLabel": "Picnic Area",
+          "label": "Picnic Area",
+          "category": "picnic",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Rochambeau-Playground-265",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "sharp-park",
+      "features": [
+        {
+          "sourceFeatureId": "6",
+          "sourceLabel": "Parking",
+          "label": "Parking",
+          "category": "visitor-services",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "1",
+          "sourceLabel": "Restrooms",
+          "label": "Restrooms",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Sharp-Park-205",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "sigmund-stern-recreation-grove",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "127",
+          "sourceLabel": "Concert Meadow",
+          "label": "Concert Meadow",
+          "category": "arts-culture",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Sigmund-Stern-Grove-375",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "signal-point",
+      "features": [
+        {
+          "sourceFeatureId": "132",
+          "sourceLabel": "Bay Views",
+          "label": "Bay Views",
+          "category": "gardens-nature",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "133",
+          "sourceLabel": "Native Plantings",
+          "label": "Native Plantings",
+          "category": "gardens-nature",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Signal-Point-Park-477",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "silver-terrace-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Silver-Terrace-Playground-267",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "sue-bierman-park",
+      "features": [
+        {
+          "sourceFeatureId": "1",
+          "sourceLabel": "Restrooms",
+          "label": "Restrooms",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Sue-Bierman-Park-378",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "sunnyside-conservatory",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunnyside-Conservatory-427",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "sunnyside-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunnyside-Playground-269",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "sunset-dunes",
+      "features": [
+        {
+          "sourceFeatureId": "126",
+          "sourceLabel": "Public Art",
+          "label": "Public Art",
+          "category": "arts-culture",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Sunset-Dunes-467",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "tenderloin-rec-center",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "128",
+          "sourceLabel": "Nature Exploration Area (NEA)",
+          "label": "Nature Exploration Area",
+          "category": "playgrounds",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Tenderloin-Recreation-Center-111",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "the-rocks-dog-park",
+      "features": [
+        {
+          "sourceFeatureId": "132",
+          "sourceLabel": "Bay Views",
+          "label": "Bay Views",
+          "category": "gardens-nature",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "131",
+          "sourceLabel": "Seating",
+          "label": "Seating",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/The-Rocks-Dog-Park-478",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "treasure-island-landing",
+      "features": [
+        {
+          "sourceFeatureId": "132",
+          "sourceLabel": "Bay Views",
+          "label": "Bay Views",
+          "category": "gardens-nature",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "137",
+          "sourceLabel": "Pathways",
+          "label": "Pathways",
+          "category": "gardens-nature",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "131",
+          "sourceLabel": "Seating",
+          "label": "Seating",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Treasure-Island-Landing-480",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "twin-peaks",
+      "features": [
+        {
+          "sourceFeatureId": "61",
+          "sourceLabel": "Trail",
+          "label": "Trail",
+          "category": "gardens-nature",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Twin-Peaks-384",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "victoria-manalo-draves-park",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Victoria-Manalo-Draves-Park-386",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "west-portal-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/West-Portal-Playground-389",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "white-crane-springs-community-garden",
+      "features": [
+        {
+          "sourceFeatureId": "6",
+          "sourceLabel": "Parking",
+          "label": "Parking",
+          "category": "visitor-services",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/White-Crane-Springs-Community-Garden-74",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "woh-hei-yuen-playground",
+      "features": [
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Woh-Hei-Yuen-Playground-272",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "yik-oi-huang-peace-friendship-park",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Yik-Oi-Huang-Peace-Friendship-Park-Visit-270",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    },
+    {
+      "destinationId": "youngblood-coleman-playground",
+      "features": [
+        {
+          "sourceFeatureId": "46",
+          "sourceLabel": "Athletic Field",
+          "label": "Athletic Field",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "64",
+          "sourceLabel": "Baseball Diamond",
+          "label": "Baseball Diamond",
+          "category": "sports",
+          "quantity": null
+        },
+        {
+          "sourceFeatureId": "47",
+          "sourceLabel": "Community Room(s)",
+          "label": "Community Rooms",
+          "category": "recreation-centers",
+          "quantity": null
+        }
+      ],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Youngblood-Coleman-Playground-273",
+      "retrievedAt": "2026-08-27",
+      "reviewedAt": "2026-08-27",
+      "reviewedBy": "project-content-review",
+      "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
+    }
+  ]
+}

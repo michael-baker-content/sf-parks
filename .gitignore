@@ -1,0 +1,28 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+
+# Private local configuration
+.env
+.env.*
+!.env.example
+
+# Reproducible raw downloads and research caches
+data/imports/*
+!data/imports/.gitkeep
+data/content/generated/
+data/media/generated/
+public/maplibre/
+
+# Test, tool, and temporary output
+playwright-report/
+test-results/
+.tmp-*
+*.log
+npm-debug.log*
+
+# Operating-system files
+.DS_Store
+Thumbs.db

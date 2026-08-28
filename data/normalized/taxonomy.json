@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "principles": [
+    "Preserve familiar Recreation and Parks labels as public labels.",
+    "Use broader categories for filtering, not to replace source terminology.",
+    "Exclude maintenance-only classifications from public discovery without deleting source records."
+  ],
+  "facilityTypes": {
+    "Children's Play Area": {
+      "category": "playgrounds",
+      "publicLabel": "Children's Play Area"
+    },
+    "Childrens Play Area": {
+      "category": "playgrounds",
+      "publicLabel": "Children's Play Area"
+    },
+    "Nature Exploration Area": {
+      "category": "playgrounds",
+      "publicLabel": "Nature Exploration Area"
+    },
+    "Picnic Area": {
+      "category": "picnic",
+      "publicLabel": "Picnic Area"
+    },
+    "Basketball Court": {
+      "category": "sports",
+      "publicLabel": "Basketball Court"
+    },
+    "Tennis Court": {
+      "category": "sports",
+      "publicLabel": "Tennis Court"
+    },
+    "Tennis/Pickleball Court": {
+      "category": "sports",
+      "publicLabel": "Tennis/Pickleball Court"
+    },
+    "Pickleball Courts": {
+      "category": "sports",
+      "publicLabel": "Pickleball Courts"
+    },
+    "Ball Field": {
+      "category": "sports",
+      "publicLabel": "Ball Field"
+    },
+    "Soccer Field": {
+      "category": "sports",
+      "publicLabel": "Soccer Field"
+    },
+    "Multi-Use Turf": {
+      "category": "sports",
+      "publicLabel": "Multi-Use Turf"
+    },
+    "Multi-use Paved": {
+      "category": "sports",
+      "publicLabel": "Multi-use Paved Area"
+    },
+    "Adult Fitness Court/Course": {
+      "category": "fitness",
+      "publicLabel": "Adult Fitness Court/Course"
+    },
+    "Skatepark": {
+      "category": "sports",
+      "publicLabel": "Skatepark"
+    },
+    "Volleyball Court": {
+      "category": "sports",
+      "publicLabel": "Volleyball Court"
+    },
+    "Swimming Pool": {
+      "category": "swimming",
+      "publicLabel": "Swimming Pool"
+    },
+    "Rec Center": {
+      "category": "recreation-centers",
+      "publicLabel": "Recreation Center"
+    },
+    "Arts/Activity Center": {
+      "category": "recreation-centers",
+      "publicLabel": "Arts/Activity Center"
+    },
+    "Clubhouse": {
+      "category": "recreation-centers",
+      "publicLabel": "Clubhouse"
+    },
+    "Fieldhouse": {
+      "category": "recreation-centers",
+      "publicLabel": "Fieldhouse"
+    },
+    "Restroom": {
+      "category": "visitor-services",
+      "publicLabel": "Restroom"
+    },
+    "Dog Play Area": {
+      "category": "dogs",
+      "publicLabel": "Dog Play Area"
+    },
+    "Community Garden": {
+      "category": "gardens-nature",
+      "publicLabel": "Community Garden"
+    },
+    "Ornamental Garden": {
+      "category": "gardens-nature",
+      "publicLabel": "Ornamental Garden"
+    },
+    "Natural Resource Management Area": {
+      "category": "gardens-nature",
+      "publicLabel": "Natural Area"
+    },
+    "Performance Space": {
+      "category": "arts-culture",
+      "publicLabel": "Performance Space"
+    },
+    "Golf Facility": {
+      "category": "sports",
+      "publicLabel": "Golf Facility"
+    },
+    "Equestrian Facility": {
+      "category": "sports",
+      "publicLabel": "Equestrian Facility"
+    },
+    "Stadium": {
+      "category": "sports",
+      "publicLabel": "Stadium"
+    },
+    "Bike Park": {
+      "category": "sports",
+      "publicLabel": "Bike Park"
+    }
+  },
+  "functionalAreaTypes": {
+    "Childrens Play Area": {
+      "category": "playgrounds",
+      "publicLabel": "Children's Play Area"
+    },
+    "Table Seating Area": {
+      "category": "picnic",
+      "publicLabel": "Table Seating Area"
+    },
+    "Tennis Court": {
+      "category": "sports",
+      "publicLabel": "Tennis Court"
+    },
+    "Basketball Court": {
+      "category": "sports",
+      "publicLabel": "Basketball Court"
+    },
+    "Pickleball Court": {
+      "category": "sports",
+      "publicLabel": "Pickleball Court"
+    },
+    "Soccer": {
+      "category": "sports",
+      "publicLabel": "Soccer Field"
+    },
+    "Softball": {
+      "category": "sports",
+      "publicLabel": "Softball Field"
+    },
+    "Baseball": {
+      "category": "sports",
+      "publicLabel": "Baseball Field"
+    },
+    "Adult Fitness Area": {
+      "category": "fitness",
+      "publicLabel": "Adult Fitness Area"
+    },
+    "Dog Play Area": {
+      "category": "dogs",
+      "publicLabel": "Dog Play Area"
+    },
+    "Community Garden": {
+      "category": "gardens-nature",
+      "publicLabel": "Community Garden"
+    },
+    "Natural Area": {
+      "category": "gardens-nature",
+      "publicLabel": "Natural Area"
+    },
+    "Ornamental Garden": {
+      "category": "gardens-nature",
+      "publicLabel": "Ornamental Garden"
+    },
+    "Skatepark": {
+      "category": "sports",
+      "publicLabel": "Skatepark"
+    },
+    "Multi-Use Turf": {
+      "category": "sports",
+      "publicLabel": "Multi-Use Turf"
+    },
+    "Multi-Use Paved": {
+      "category": "sports",
+      "publicLabel": "Multi-Use Paved Area"
+    },
+    "Performance Space": {
+      "category": "arts-culture",
+      "publicLabel": "Performance Space"
+    },
+    "Swimming Pool": {
+      "category": "swimming",
+      "publicLabel": "Swimming Pool"
+    },
+    "Nature Exploration Area": {
+      "category": "playgrounds",
+      "publicLabel": "Nature Exploration Area"
+    },
+    "Volleyball": {
+      "category": "sports",
+      "publicLabel": "Volleyball Court"
+    },
+    "Bocce Ball": {
+      "category": "sports",
+      "publicLabel": "Bocce Ball Court"
+    },
+    "Track": {
+      "category": "sports",
+      "publicLabel": "Track"
+    },
+    "Archery Range": {
+      "category": "sports",
+      "publicLabel": "Archery Range"
+    },
+    "Badminton Court": {
+      "category": "sports",
+      "publicLabel": "Badminton Court"
+    },
+    "Disc Golf": {
+      "category": "sports",
+      "publicLabel": "Disc Golf"
+    },
+    "Handball Court": {
+      "category": "sports",
+      "publicLabel": "Handball Court"
+    },
+    "Interior - Recreational": {
+      "category": "recreation-centers",
+      "publicLabel": "Indoor Recreation Area"
+    },
+    "Interior - Restroom": {
+      "category": "visitor-services",
+      "publicLabel": "Restroom"
+    }
+  },
+  "assetTypes": {
+    "Bench": {
+      "category": "visitor-services",
+      "publicLabel": "Bench"
+    },
+    "Table": {
+      "category": "picnic",
+      "publicLabel": "Table"
+    },
+    "Picnic Table": {
+      "category": "picnic",
+      "publicLabel": "Picnic Table"
+    },
+    "Grill": {
+      "category": "picnic",
+      "publicLabel": "Grill"
+    },
+    "Drinking Fountain": {
+      "category": "visitor-services",
+      "publicLabel": "Drinking Fountain"
+    },
+    "Drinking Fountain/Cooler": {
+      "category": "visitor-services",
+      "publicLabel": "Drinking Fountain"
+    },
+    "Bicycle Rack": {
+      "category": "visitor-services",
+      "publicLabel": "Bicycle Rack"
+    },
+    "Bike Rack": {
+      "category": "visitor-services",
+      "publicLabel": "Bicycle Rack"
+    },
+    "Play Structure": {
+      "category": "playgrounds",
+      "publicLabel": "Play Structure"
+    },
+    "Shade Structure": {
+      "category": "visitor-services",
+      "publicLabel": "Shade Structure"
+    },
+    "Toilet": {
+      "category": "visitor-services",
+      "publicLabel": "Toilet"
+    },
+    "EV Charger": {
+      "category": "visitor-services",
+      "publicLabel": "EV Charger"
+    },
+    "Public Art": {
+      "category": "arts-culture",
+      "publicLabel": "Public Art"
+    },
+    "Statue": {
+      "category": "arts-culture",
+      "publicLabel": "Statue"
+    },
+    "Sculpture": {
+      "category": "arts-culture",
+      "publicLabel": "Sculpture"
+    }
+  }
+}

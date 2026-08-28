@@ -1,0 +1,413 @@
+- generic [ref=f8e1]:
+  - link "Skip to main content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - link "SF Parks Explorer" [ref=f8e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f8e6]:
+        - list [ref=f8e7]:
+          - listitem [ref=f8e8]:
+            - link "Explore" [ref=f8e9] [cursor=pointer]:
+              - /url: /explore/
+          - listitem [ref=f8e10]:
+            - link "Activities" [ref=f8e11] [cursor=pointer]:
+              - /url: /#activities
+          - listitem [ref=f8e12]:
+            - link "About the data" [ref=f8e13] [cursor=pointer]:
+              - /url: /about/
+  - main [ref=f8e14]:
+    - search [ref=f8e28]:
+      - generic [ref=f8e29]: Search destinations
+      - generic [ref=f8e30]:
+        - searchbox "Search destinations" [ref=f8e31]: tennis
+        - button "Search" [ref=f8e32] [cursor=pointer]
+      - paragraph [ref=f8e33]: Search by place, neighborhood, activity, or amenity.
+    - generic [ref=f8e34]:
+      - complementary [ref=f8e35]:
+        - button "Show filters" [ref=f8e36] [cursor=pointer]
+      - region [ref=f8e37]:
+        - generic [ref=f8e38]:
+          - generic [ref=f8e39]:
+            - heading "Explore parks and recreation" [level=1] [ref=f8e40]
+            - paragraph [ref=f8e41]: 67 destinations found
+            - paragraph [ref=f8e42]: 67 destinations
+          - generic [ref=f8e43]:
+            - text: Sort
+            - combobox "Sort" [ref=f8e44]:
+              - option "Relevance" [selected]
+              - option "Name"
+        - generic [ref=f8e45]:
+          - article [ref=f8e46]:
+            - heading [level=2] [ref=f8e47]:
+              - link "DuPont Tennis Courts" [ref=f8e48] [cursor=pointer]:
+                - /url: /parks/dupont-tennis-courts/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e49]: Outer Richmond · 336 31st Ave
+            - list "Listed amenities" [ref=f8e50]:
+              - listitem [ref=f8e51]: Tennis Court
+              - listitem [ref=f8e52]: Bench
+              - listitem [ref=f8e53]: Drinking Fountain
+              - listitem [ref=f8e54]: Restrooms
+            - paragraph [ref=f8e55]: Based on City open data
+          - article [ref=f8e56]:
+            - heading [level=2] [ref=f8e57]:
+              - link "Alamo Square" [ref=f8e58] [cursor=pointer]:
+                - /url: /parks/alamo-square/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e59]: Hayes Valley · 1081 Fulton St
+            - list "Listed amenities" [ref=f8e60]:
+              - listitem [ref=f8e61]: Dog Play Area
+              - listitem [ref=f8e62]: Picnic Area
+              - listitem [ref=f8e63]: Table
+              - listitem [ref=f8e64]: Children's Play Area
+              - listitem [ref=f8e65]: +3 more
+            - paragraph [ref=f8e66]: Based on City open data
+          - article [ref=f8e67]:
+            - heading [level=2] [ref=f8e68]:
+              - link "Alice Chalmers Playground" [ref=f8e69] [cursor=pointer]:
+                - /url: /parks/alice-chalmers-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e70]: Excelsior · 670 Brunswick St
+            - list "Listed amenities" [ref=f8e71]:
+              - listitem [ref=f8e72]: Children's Play Area
+              - listitem [ref=f8e73]: Clubhouse
+              - listitem [ref=f8e74]: Ball Field
+              - listitem [ref=f8e75]: Basketball Court
+              - listitem [ref=f8e76]: +5 more
+            - paragraph [ref=f8e77]: Based on City open data
+          - article [ref=f8e78]:
+            - heading [level=2] [ref=f8e79]:
+              - link "Alice Marble Courts" [ref=f8e80] [cursor=pointer]:
+                - /url: /parks/alice-marble-courts/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e81]: Russian Hill · 1200 Greenwich St
+            - list "Listed amenities" [ref=f8e82]:
+              - listitem [ref=f8e83]: Basketball Court
+              - listitem [ref=f8e84]: Tennis Court
+              - listitem [ref=f8e85]: Bench
+            - paragraph [ref=f8e86]: Based on City open data
+          - article [ref=f8e87]:
+            - heading [level=2] [ref=f8e88]:
+              - link "Alta Plaza Park" [ref=f8e89] [cursor=pointer]:
+                - /url: /parks/alta-plaza-park/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e90]: Pacific Heights · 2501 Jackson St
+            - list "Listed amenities" [ref=f8e91]:
+              - listitem [ref=f8e92]: Dog Play Area
+              - listitem [ref=f8e93]: Picnic Area
+              - listitem [ref=f8e94]: Table
+              - listitem [ref=f8e95]: Children's Play Area
+              - listitem [ref=f8e96]: +5 more
+            - paragraph [ref=f8e97]: Based on City open data
+          - article [ref=f8e98]:
+            - heading [level=2] [ref=f8e99]:
+              - link "Angelo J. Rossi Playground" [ref=f8e100] [cursor=pointer]:
+                - /url: /parks/angelo-j-rossi-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e101]: Lone Mountain/USF · 600 Arguello Blvd
+            - list "Listed amenities" [ref=f8e102]:
+              - listitem [ref=f8e103]: Picnic Area
+              - listitem [ref=f8e104]: Table
+              - listitem [ref=f8e105]: Children's Play Area
+              - listitem [ref=f8e106]: Indoor Recreation Area
+              - listitem [ref=f8e107]: +10 more
+            - paragraph [ref=f8e108]: Based on City open data
+          - article [ref=f8e109]:
+            - heading [level=2] [ref=f8e110]:
+              - link "Aptos Playground" [ref=f8e111] [cursor=pointer]:
+                - /url: /parks/aptos-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e112]: West of Twin Peaks · 139 Aptos Ave
+            - list "Listed amenities" [ref=f8e113]:
+              - listitem [ref=f8e114]: Picnic Area
+              - listitem [ref=f8e115]: Table
+              - listitem [ref=f8e116]: Children's Play Area
+              - listitem [ref=f8e117]: Ball Field
+              - listitem [ref=f8e118]: +4 more
+            - paragraph [ref=f8e119]: Based on City open data
+          - article [ref=f8e120]:
+            - heading [level=2] [ref=f8e121]:
+              - link "Argonne Playground" [ref=f8e122] [cursor=pointer]:
+                - /url: /parks/argonne-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e123]: Outer Richmond · 455 18th Ave
+            - list "Listed amenities" [ref=f8e124]:
+              - listitem [ref=f8e125]: Picnic Area
+              - listitem [ref=f8e126]: Table
+              - listitem [ref=f8e127]: Children's Play Area
+              - listitem [ref=f8e128]: Clubhouse
+              - listitem [ref=f8e129]: +6 more
+            - paragraph [ref=f8e130]: Based on City open data
+          - article [ref=f8e131]:
+            - heading [level=2] [ref=f8e132]:
+              - link "Balboa Park" [ref=f8e133] [cursor=pointer]:
+                - /url: /parks/balboa-park/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e134]: Outer Mission · 51 Havelock St
+            - list "Listed amenities" [ref=f8e135]:
+              - listitem [ref=f8e136]: Dog Play Area
+              - listitem [ref=f8e137]: Picnic Area
+              - listitem [ref=f8e138]: Table
+              - listitem [ref=f8e139]: Children's Play Area
+              - listitem [ref=f8e140]: +13 more
+            - paragraph [ref=f8e141]: Based on City open data
+          - article [ref=f8e142]:
+            - heading [level=2] [ref=f8e143]:
+              - link "Buena Vista Park" [ref=f8e144] [cursor=pointer]:
+                - /url: /parks/buena-vista-park/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e145]: Haight Ashbury · 1293 Haight St
+            - list "Listed amenities" [ref=f8e146]:
+              - listitem [ref=f8e147]: Dog Play Area
+              - listitem [ref=f8e148]: Natural Area
+              - listitem [ref=f8e149]: Table
+              - listitem [ref=f8e150]: Children's Play Area
+              - listitem [ref=f8e151]: +5 more
+            - paragraph [ref=f8e152]: Based on City open data
+          - article [ref=f8e153]:
+            - heading [level=2] [ref=f8e154]:
+              - link "Cabrillo Playground" [ref=f8e155] [cursor=pointer]:
+                - /url: /parks/cabrillo-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e156]: Outer Richmond · 851 38th Ave
+            - list "Listed amenities" [ref=f8e157]:
+              - listitem [ref=f8e158]: Picnic Area
+              - listitem [ref=f8e159]: Table
+              - listitem [ref=f8e160]: Children's Play Area
+              - listitem [ref=f8e161]: Play Structure
+              - listitem [ref=f8e162]: +7 more
+            - paragraph [ref=f8e163]: Based on City open data
+          - article [ref=f8e164]:
+            - heading [level=2] [ref=f8e165]:
+              - link "Camp Mather" [ref=f8e166] [cursor=pointer]:
+                - /url: /parks/camp-mather/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e167]: 32560 Mather Road
+            - list "Listed amenities" [ref=f8e168]:
+              - listitem [ref=f8e169]: Performance Space
+              - listitem [ref=f8e170]: Grill
+              - listitem [ref=f8e171]: Picnic Area
+              - listitem [ref=f8e172]: Picnic Table
+              - listitem [ref=f8e173]: +18 more
+            - paragraph [ref=f8e174]: Based on City open data
+          - article [ref=f8e175]:
+            - heading [level=2] [ref=f8e176]:
+              - link "Cayuga Playground" [ref=f8e177] [cursor=pointer]:
+                - /url: /parks/cayuga-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e178]: Outer Mission · 301 Naglee Ave
+            - list "Listed amenities" [ref=f8e179]:
+              - listitem [ref=f8e180]: Picnic Area
+              - listitem [ref=f8e181]: Table
+              - listitem [ref=f8e182]: Children's Play Area
+              - listitem [ref=f8e183]: Play Structure
+              - listitem [ref=f8e184]: +7 more
+            - paragraph [ref=f8e185]: Based on City open data
+          - article [ref=f8e186]:
+            - heading [level=2] [ref=f8e187]:
+              - link "Crocker Amazon Playground" [ref=f8e188] [cursor=pointer]:
+                - /url: /parks/crocker-amazon-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e189]: Excelsior, McLaren Park · 799 Moscow St
+            - list "Listed amenities" [ref=f8e190]:
+              - listitem [ref=f8e191]: Dog Play Area
+              - listitem [ref=f8e192]: Community Garden
+              - listitem [ref=f8e193]: Ornamental Garden
+              - listitem [ref=f8e194]: Picnic Area
+              - listitem [ref=f8e195]: +19 more
+            - paragraph [ref=f8e196]: Based on City open data
+          - article [ref=f8e197]:
+            - heading [level=2] [ref=f8e198]:
+              - link "Douglass Playground" [ref=f8e199] [cursor=pointer]:
+                - /url: /parks/douglass-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e200]: Noe Valley · 1098 Douglass St
+            - list "Listed amenities" [ref=f8e201]:
+              - listitem [ref=f8e202]: Dog Play Area
+              - listitem [ref=f8e203]: Picnic Area
+              - listitem [ref=f8e204]: Table
+              - listitem [ref=f8e205]: Children's Play Area
+              - listitem [ref=f8e206]: +9 more
+            - paragraph [ref=f8e207]: Official page reviewed
+          - article [ref=f8e208]:
+            - heading [level=2] [ref=f8e209]:
+              - link "Eureka Valley Rec Center" [ref=f8e210] [cursor=pointer]:
+                - /url: /parks/eureka-valley-rec-center/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e211]: Castro/Upper Market · 100 Collingwood St
+            - list "Listed amenities" [ref=f8e212]:
+              - listitem [ref=f8e213]: Dog Play Area
+              - listitem [ref=f8e214]: Children's Play Area
+              - listitem [ref=f8e215]: Play Structure
+              - listitem [ref=f8e216]: Indoor Recreation Area
+              - listitem [ref=f8e217]: +6 more
+            - paragraph [ref=f8e218]: Based on City open data
+          - article [ref=f8e219]:
+            - heading [level=2] [ref=f8e220]:
+              - link "Excelsior Playground" [ref=f8e221] [cursor=pointer]:
+                - /url: /parks/excelsior-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e222]: Excelsior · 579 Madrid St
+            - list "Listed amenities" [ref=f8e223]:
+              - listitem [ref=f8e224]: Picnic Area
+              - listitem [ref=f8e225]: Table
+              - listitem [ref=f8e226]: Children's Play Area
+              - listitem [ref=f8e227]: Clubhouse
+              - listitem [ref=f8e228]: +8 more
+            - paragraph [ref=f8e229]: Based on City open data
+          - article [ref=f8e230]:
+            - heading [level=2] [ref=f8e231]:
+              - link "Fulton Playground" [ref=f8e232] [cursor=pointer]:
+                - /url: /parks/fulton-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e233]: Outer Richmond · 855 27th Ave
+            - list "Listed amenities" [ref=f8e234]:
+              - listitem [ref=f8e235]: Picnic Area
+              - listitem [ref=f8e236]: Table
+              - listitem [ref=f8e237]: Children's Play Area
+              - listitem [ref=f8e238]: Play Structure
+              - listitem [ref=f8e239]: +7 more
+            - paragraph [ref=f8e240]: Based on City open data
+          - article [ref=f8e241]:
+            - heading [level=2] [ref=f8e242]:
+              - link "George Christopher Playground" [ref=f8e243] [cursor=pointer]:
+                - /url: /parks/george-christopher-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e244]: Glen Park · 5210 Diamond Heights Blvd
+            - list "Listed amenities" [ref=f8e245]:
+              - listitem [ref=f8e246]: Performance Space
+              - listitem [ref=f8e247]: Picnic Area
+              - listitem [ref=f8e248]: Table
+              - listitem [ref=f8e249]: Children's Play Area
+              - listitem [ref=f8e250]: +10 more
+            - paragraph [ref=f8e251]: Based on City open data
+          - article [ref=f8e252]:
+            - heading [level=2] [ref=f8e253]:
+              - link "Glen Canyon Park Recreation Center" [ref=f8e254] [cursor=pointer]:
+                - /url: /parks/glen-canyon-park-recreation-center/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e255]: Glen Park, West of Twin Peaks · 70 Elk St
+            - list "Listed amenities" [ref=f8e256]:
+              - listitem [ref=f8e257]: 1 climbing wall
+              - listitem [ref=f8e258]: Natural Area
+              - listitem [ref=f8e259]: Picnic Area
+              - listitem [ref=f8e260]: Table
+              - listitem [ref=f8e261]: +16 more
+            - paragraph [ref=f8e262]: Official page reviewed
+          - article [ref=f8e263]:
+            - heading [level=2] [ref=f8e264]:
+              - link "Golden Gate Heights Park" [ref=f8e265] [cursor=pointer]:
+                - /url: /parks/golden-gate-heights-park/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e266]: Inner Sunset · 2041 12th Ave
+            - list "Listed amenities" [ref=f8e267]:
+              - listitem [ref=f8e268]: Natural Area
+              - listitem [ref=f8e269]: Picnic Area
+              - listitem [ref=f8e270]: Table
+              - listitem [ref=f8e271]: Children's Play Area
+              - listitem [ref=f8e272]: +4 more
+            - paragraph [ref=f8e273]: Based on City open data
+          - article [ref=f8e274]:
+            - heading [level=2] [ref=f8e275]:
+              - link "Golden Gate Park" [ref=f8e276] [cursor=pointer]:
+                - /url: /parks/golden-gate-park/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e277]: Golden Gate Park · 501 Stanyan St
+            - list "Listed amenities" [ref=f8e278]:
+              - listitem [ref=f8e279]: Performance Space
+              - listitem [ref=f8e280]: Public Art
+              - listitem [ref=f8e281]: Dog Play Area
+              - listitem [ref=f8e282]: Adult Fitness Area
+              - listitem [ref=f8e283]: +32 more
+            - paragraph [ref=f8e284]: Based on City open data
+          - article [ref=f8e285]:
+            - heading [level=2] [ref=f8e286]:
+              - link "Grattan Playground" [ref=f8e287] [cursor=pointer]:
+                - /url: /parks/grattan-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e288]: Haight Ashbury · 1180 Stanyan St
+            - list "Listed amenities" [ref=f8e289]:
+              - listitem [ref=f8e290]: Children's Play Area
+              - listitem [ref=f8e291]: Play Structure
+              - listitem [ref=f8e292]: Clubhouse
+              - listitem [ref=f8e293]: Indoor Recreation Area
+              - listitem [ref=f8e294]: +7 more
+            - paragraph [ref=f8e295]: Based on City open data
+          - article [ref=f8e296]:
+            - heading [level=2] [ref=f8e297]:
+              - link "Hamilton Rec Center" [ref=f8e298] [cursor=pointer]:
+                - /url: /parks/hamilton-rec-center/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e299]: Japantown · 1900 Geary Blvd
+            - list "Listed amenities" [ref=f8e300]:
+              - listitem [ref=f8e301]: Table
+              - listitem [ref=f8e302]: Children's Play Area
+              - listitem [ref=f8e303]: Play Structure
+              - listitem [ref=f8e304]: Indoor Recreation Area
+              - listitem [ref=f8e305]: +6 more
+            - paragraph [ref=f8e306]: Based on City open data
+          - article [ref=f8e307]:
+            - heading [level=2] [ref=f8e308]:
+              - link "Hayes Valley Playground" [ref=f8e309] [cursor=pointer]:
+                - /url: /parks/hayes-valley-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e310]: Hayes Valley · 689 Hayes St
+            - list "Listed amenities" [ref=f8e311]:
+              - listitem [ref=f8e312]: Performance Space
+              - listitem [ref=f8e313]: Adult Fitness Area
+              - listitem [ref=f8e314]: Children's Play Area
+              - listitem [ref=f8e315]: Play Structure
+              - listitem [ref=f8e316]: +7 more
+            - paragraph [ref=f8e317]: Based on City open data
+          - article [ref=f8e318]:
+            - heading [level=2] [ref=f8e319]:
+              - link "Helen Wills Playground" [ref=f8e320] [cursor=pointer]:
+                - /url: /parks/helen-wills-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e321]: Russian Hill · 1401 Broadway
+            - list "Listed amenities" [ref=f8e322]:
+              - listitem [ref=f8e323]: Children's Play Area
+              - listitem [ref=f8e324]: Clubhouse
+              - listitem [ref=f8e325]: Basketball Court
+              - listitem [ref=f8e326]: Multi-use Paved Area
+              - listitem [ref=f8e327]: +4 more
+            - paragraph [ref=f8e328]: Based on City open data
+          - article [ref=f8e329]:
+            - heading [level=2] [ref=f8e330]:
+              - link "Holly Park" [ref=f8e331] [cursor=pointer]:
+                - /url: /parks/holly-park/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e332]: Bernal Heights · 625 Holly Park Cir
+            - list "Listed amenities" [ref=f8e333]:
+              - listitem [ref=f8e334]: Grill
+              - listitem [ref=f8e335]: Picnic Area
+              - listitem [ref=f8e336]: Table
+              - listitem [ref=f8e337]: Children's Play Area
+              - listitem [ref=f8e338]: +6 more
+            - paragraph [ref=f8e339]: Based on City open data
+          - article [ref=f8e340]:
+            - heading [level=2] [ref=f8e341]:
+              - link "J.P. Murphy Playground" [ref=f8e342] [cursor=pointer]:
+                - /url: /parks/j-p-murphy-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e343]: Inner Sunset · 1960 9th Ave
+            - list "Listed amenities" [ref=f8e344]:
+              - listitem [ref=f8e345]: Children's Play Area
+              - listitem [ref=f8e346]: Clubhouse
+              - listitem [ref=f8e347]: Basketball Court
+              - listitem [ref=f8e348]: Multi-use Paved Area
+              - listitem [ref=f8e349]: +5 more
+            - paragraph [ref=f8e350]: Based on City open data
+          - article [ref=f8e351]:
+            - heading [level=2] [ref=f8e352]:
+              - link "Jackson Playground" [ref=f8e353] [cursor=pointer]:
+                - /url: /parks/jackson-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e354]: Potrero Hill · 1645 17th St
+            - list "Listed amenities" [ref=f8e355]:
+              - listitem [ref=f8e356]: Public Art
+              - listitem [ref=f8e357]: Community Garden
+              - listitem [ref=f8e358]: Picnic Area
+              - listitem [ref=f8e359]: Children's Play Area
+              - listitem [ref=f8e360]: +11 more
+            - paragraph [ref=f8e361]: Based on City open data
+          - article [ref=f8e362]:
+            - heading [level=2] [ref=f8e363]:
+              - link "James Rolph Jr Playground" [ref=f8e364] [cursor=pointer]:
+                - /url: /parks/james-rolph-jr-playground/?return=%2Fexplore%2F%3Fq%3Dtennis
+            - paragraph [ref=f8e365]: Mission · 1451 Hampshire St
+            - list "Listed amenities" [ref=f8e366]:
+              - listitem [ref=f8e367]: Children's Play Area
+              - listitem [ref=f8e368]: Clubhouse
+              - listitem [ref=f8e369]: Indoor Recreation Area
+              - listitem [ref=f8e370]: Ball Field
+              - listitem [ref=f8e371]: +5 more
+            - paragraph [ref=f8e372]: Based on City open data
+        - button "Show more results" [ref=f8e373] [cursor=pointer]
+  - contentinfo [ref=f8e16]:
+    - paragraph [ref=f8e18]: Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source.
+  - generic [active]:
+    - menu "Next.js Dev Tools Items" [ref=f8e375]:
+      - generic [ref=f8e376]:
+        - menuitem "Route Static" [ref=f8e377] [cursor=pointer]:
+          - generic [ref=f8e378]: Route
+          - generic [ref=f8e379]: Static
+        - generic "Turbopack is enabled." [ref=f8e380]:
+          - generic [ref=f8e381]: Bundler
+          - generic [ref=f8e382]: Turbopack
+        - menuitem "Route Info" [ref=f8e383]
+      - menuitem "Preferences" [ref=f8e389]
+    - button "Close Next.js Dev Tools" [expanded] [ref=f8e394] [cursor=pointer]
+  - alert [ref=f8e374]

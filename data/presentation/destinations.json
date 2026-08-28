@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "destinations": [
+    {
+      "id": "golden-gate-park",
+      "publicName": "Golden Gate Park",
+      "kind": "virtual-property",
+      "propertyIds": ["756665", "756666", "756667", "756668", "756669", "756670", "957231"],
+      "principalFacilityIds": [],
+      "hiddenSourceAliases": [
+        "Golden Gate Park - Section 1",
+        "Golden Gate Park - Section 2",
+        "Golden Gate Park - Section 3",
+        "Golden Gate Park - Section 4",
+        "Golden Gate Park - Section 5",
+        "Golden Gate Park - Section 6",
+        "Golden Gate Park - Section 7"
+      ],
+      "reason": "The public Parks site presents Golden Gate Park as one destination rather than seven asset-management sections.",
+      "reviewedAt": "2026-08-26",
+      "reviewedBy": "project-owner",
+      "sourceUrl": "https://www.sfrecpark.org/1865/Golden-Gate-Park-Activities",
+      "actionType": "information-page"
+    },
+    {
+      "id": "glen-canyon-park-recreation-center",
+      "publicName": "Glen Canyon Park Recreation Center",
+      "kind": "property-with-principal-facility",
+      "propertyIds": ["1"],
+      "principalFacilityIds": ["576"],
+      "hiddenSourceAliases": ["Glen Canyon Park", "Glen Canyon Rec Center"],
+      "reason": "Combines the park and principal recreation center while retaining them as labeled subplaces.",
+      "reviewedAt": "2026-08-26",
+      "reviewedBy": "project-owner",
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89",
+      "actionType": "facility-page"
+    },
+    {
+      "id": "mission-recreation-center",
+      "publicName": "Mission Recreation Center",
+      "kind": "property-with-principal-facility",
+      "propertyIds": ["59"],
+      "principalFacilityIds": ["587"],
+      "hiddenSourceAliases": ["Mission Rec Center"],
+      "reason": "Avoids duplicate property and facility results for the same familiar recreation destination.",
+      "reviewedAt": "2026-08-26",
+      "reviewedBy": "project-owner",
+      "sourceUrl": "https://www.sfrecpark.org/Facilities",
+      "actionType": "information-page"
+    }
+  ]
+}

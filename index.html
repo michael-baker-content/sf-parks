@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore San Francisco parks and recreation destinations using City-published open data.">
+  <title>SF Parks Explorer</title>
+  <link rel="stylesheet" href="/src/styles.css">
+  <script type="module" src="/src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header"><div class="site-header__inner">
+    <a class="brand" href="/">SF Parks Explorer</a>
+    <nav aria-label="Primary"><a href="/?explore=1">Explore</a><a href="/#activities">Activities</a><a href="/?about=1">About the data</a></nav>
+  </div></header>
+  <main id="main-content" tabindex="-1"><div class="shell" id="app" aria-busy="true"><p>Loading park information…</p></div></main>
+  <div class="visually-hidden" id="live-region" aria-live="polite" aria-atomic="true"></div>
+  <footer class="site-footer"><div class="shell"><p>Uses public data published by the City and County of San Francisco through DataSF. This independent application is not affiliated with or endorsed by the City. Verify important details with the linked official source.</p></div></footer>
+  <noscript><p class="shell notice">JavaScript is currently required to search this prototype. The production version will provide server-rendered destination pages.</p></noscript>
+</body>
+</html>
+

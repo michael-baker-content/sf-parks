@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-27",
+  "reviews": [
+    { "destinationId": "bernal-heights-rec-center", "apiUrl": "https://localwiki.org/api/v4/files/9729/", "status": "rejected-subject-mismatch", "reason": "The distant neighborhood view does not depict the recreation center or its grounds." },
+    { "destinationId": "golden-gate-heights-park", "apiUrl": "https://localwiki.org/api/v4/files/48100/", "status": "rejected-source-missing", "reason": "The LocalWiki media URL no longer returns the referenced staircase image." },
+    { "destinationId": "corona-heights-park", "apiUrl": "https://localwiki.org/api/v4/files/9585/", "status": "rejected-source-missing", "reason": "The LocalWiki media URL no longer returns the referenced park image." },
+    { "destinationId": "palace-of-fine-arts", "apiUrl": "https://localwiki.org/api/v4/files/175363/", "status": "rejected-provenance", "reason": "The unlabeled screenshot does not provide sufficient image-specific provenance." },
+    { "destinationId": "palace-of-fine-arts", "apiUrl": "https://localwiki.org/api/v4/files/175362/", "status": "rejected-provenance", "reason": "The unlabeled screenshot does not provide sufficient image-specific provenance." },
+    { "destinationId": "palace-of-fine-arts", "apiUrl": "https://localwiki.org/api/v4/files/9360/", "status": "published-from-primary-source", "reason": "The same venue-focused image was verified and published from its better-documented Wikimedia Commons record." },
+    { "destinationId": "portsmouth-square", "apiUrl": "https://localwiki.org/api/v4/files/9600/", "status": "published", "reason": "The image depicts the park experience, and its histories show no exception to LocalWiki's default CC BY 4.0 license." },
+    { "destinationId": "south-park", "apiUrl": "https://localwiki.org/api/v4/files/9305/", "status": "rejected-visual-quality", "reason": "The file is incorrectly oriented and does not meet the presentation-quality threshold." },
+    { "destinationId": "twin-peaks", "apiUrl": "https://localwiki.org/api/v4/files/118220/", "status": "rejected-subject-fit", "reason": "The tourist-focused image does not explain the destination's landscape or grounds." },
+    { "destinationId": "twin-peaks", "apiUrl": "https://localwiki.org/api/v4/files/118218/", "status": "rejected-provenance", "reason": "The file has no image-specific caption or attribution and is not needed to fill a unique content gap." },
+    { "destinationId": "telegraph-hill-pioneer-park", "apiUrl": "https://localwiki.org/api/v4/files/48114/", "status": "held-rights", "reason": "The park-focused image is promising, but its CC BY-SA caption omits the exact license version." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189106/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189105/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189104/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189102/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189101/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189100/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189099/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189098/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "union-square", "apiUrl": "https://localwiki.org/api/v4/files/189097/", "status": "rejected-provenance", "reason": "The generic filename and absent caption do not provide sufficient image-specific provenance." },
+    { "destinationId": "city-hall", "apiUrl": "https://localwiki.org/api/v4/files/9529/", "status": "deferred-low-priority", "reason": "The building image is valid but lower priority than park and recreation destinations with visitor amenities." },
+    { "destinationId": "city-hall", "apiUrl": "https://localwiki.org/api/v4/files/9528/", "status": "deferred-low-priority", "reason": "The doorway image is valid but lower priority than park and recreation destinations with visitor amenities." }
+  ]
+}
