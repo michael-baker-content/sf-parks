@@ -110,7 +110,7 @@ function ResultCard({ destination, record, state, returnPath }: { destination: D
       }
     }}>{destination.publicName}</Link></h2>
     <p className="app-location">{[destination.neighborhood, destination.address].filter(Boolean).join(" · ") || content.resultCard.locationFallback}</p>
-    {match.reason && <p className="app-match-label">Why this matched: {match.reason}</p>}
+    {match.reason && <p className="app-match-label">{match.reason}{match.reason.startsWith("Matches your") ? ":" : ""}</p>}
     <ul className="app-chip-list" aria-label={matches.size ? "Matching and listed amenities" : "Listed amenities"}>
       {amenities.map((item) => <li className={matches.has(item.label) ? "is-matched" : undefined} key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}
       {more > 0 && <li>+{more} more</li>}
@@ -124,6 +124,7 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
   const state = useMemo(() => currentState(new URLSearchParams(params.toString())), [params]);
   const destinations = useMemo(() => new Map(destinationsDocument.records.map((item) => [item.id, item])), []);
   const results = useMemo(() => filterAndRank(index.records, state), [state]);
+  const hasSearchCriteria = Boolean(state.q || state.activity.length || state.amenity.length || state.neighborhood.length || state.zip.length || state.place.length || state.coverage.length);
   const visible = results.slice(0, state.page * 30);
   const shareableParams = new URLSearchParams(params.toString()); shareableParams.delete("focus");
   const returnPath = `/explore/${shareableParams.toString() ? `?${shareableParams.toString()}` : ""}`;
@@ -163,7 +164,7 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
       <div className="app-results-heading"><div><h1 id="results-title" ref={heading}>Explore parks and recreation</h1><p className="usa-sr-only" aria-live="polite">{results.length} destinations found</p><p aria-hidden="true">{results.length} {results.length === 1 ? "destination" : "destinations"}</p></div>
         <div className="app-result-tools">{mapStyleUrl && <button className="usa-button usa-button--outline" type="button" aria-expanded={state.view === "map"} aria-controls="results-map-panel" onClick={toggleMap}>{state.view === "map" ? "Hide map" : "Show map"}</button>}<label className="usa-label app-sort">Sort <select className="usa-select" value={state.sort} onChange={(event) => sort(event.target.value)}><option value="relevance">Relevance</option><option value="name">Name</option></select></label></div>
       </div>
-      {mapStyleUrl && state.view === "map" && <section id="results-map-panel" aria-label="Map view"><p className="usa-hint">The map shows destinations with listed coordinates. Use the complete results list below for accessible browsing.</p><ResultsMap key={params.toString()} styleUrl={mapStyleUrl} destinations={results.flatMap(({ record }: { record: IndexRecord }) => { const destination = destinations.get(record.id); return destination?.displayPoint ? [{ id: destination.id, name: destination.publicName, latitude: destination.displayPoint.latitude, longitude: destination.displayPoint.longitude, href: `/parks/${destination.id}/?return=${encodeURIComponent(resultReturnPath(shareableParams.toString(), destination.id))}` }] : []; })} /></section>}
+      {mapStyleUrl && state.view === "map" && <section id="results-map-panel" aria-label="Map view"><p className="usa-hint">The map shows destinations with usable listed coordinates. With no search or filters, it starts with San Francisco proper; relevant searches can expand to outlying Recreation and Parks properties. Use the complete results list below for accessible browsing.</p><ResultsMap key={params.toString()} styleUrl={mapStyleUrl} preferCoreCity={!hasSearchCriteria} destinations={results.flatMap(({ record }: { record: IndexRecord }) => { const destination = destinations.get(record.id); return destination?.displayPoint ? [{ id: destination.id, name: destination.publicName, latitude: destination.displayPoint.latitude, longitude: destination.displayPoint.longitude, href: `/parks/${destination.id}/?return=${encodeURIComponent(resultReturnPath(shareableParams.toString(), destination.id))}` }] : []; })} /></section>}
       {results.length ? <><div className="app-result-list">{visible.map(({ record }: { record: IndexRecord }) => <ResultCard key={record.id} destination={destinations.get(record.id)!} record={record} state={state} returnPath={returnPath} />)}</div>
         {visible.length < results.length && <button className="usa-button usa-button--outline app-more" type="button" onClick={nextPage}>Show more results</button>}</>
         : <div className="app-empty"><h2>No listed matches</h2><p>No destinations are currently listed with all selected features. This may reflect incomplete data rather than confirmed absence.</p><Link href="/explore/">Clear filters</Link></div>}

@@ -32,9 +32,15 @@
 - Keep the existing deferred registry and statement-level review requirements;
   do not weaken automatic matching or publish generic template copy.
 
-## Later: validation and case-study evidence
+## In progress: validation and case-study evidence
 
-- Run the formal accessibility and responsive audit.
+- Completed an initial rendered-page accessibility audit across the homepage,
+  Explore, a destination page, programs and reservations, and About the data.
+  The pass covers landmarks, heading structure, accessible control names, image
+  alternatives, duplicate IDs, interactive map and gallery states, keyboard
+  focus styling, and 320 CSS pixel reflow.
+- Complete screen-reader sessions, text-resize checks, and task-based manual
+  keyboard testing before treating the formal accessibility audit as finished.
 - Conduct task-based usability sessions and prioritize findings.
 - Capture final screens, flows, outcomes, and limitations for the case study.
 

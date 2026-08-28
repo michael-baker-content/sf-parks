@@ -883,7 +883,7 @@ properly attributed.
   no horizontal overflow at the 320-pixel support floor.
 
 - **Validation result:** The complete static site builds successfully, the
-  automated suite contains 79 passing tests, and focused browser checks cover
+  automated suite contains 90 passing tests, and focused browser checks cover
   the minimum-width header, global-search flow, transit selector, anchor menu,
   and ultra-wide centering.
 
@@ -908,15 +908,16 @@ properly attributed.
 
 - **Current evidence:** The prototype statically generates 249 destination
   pages, contains approved evergreen narrative records for 198 destinations,
-  normalizes 3,314 transit stops and stations across 85 routes, and passes 79
+  normalizes 3,314 transit stops and stations across 85 routes, and passes 90
   automated tests. The broader official-page report classifies 209 destinations
   as enriched because it also counts reviewed facility-directory features.
   These are measures of implementation breadth and reliability—not yet evidence
   that residents complete tasks faster or more successfully.
 
-- **Next evidence gap:** A formal accessibility audit and task-based usability
-  sessions remain necessary before making comparative claims about improved
-  findability, comprehension, or task completion.
+- **Next evidence gap:** An initial rendered-page accessibility audit is now
+  complete. Hands-on screen-reader, keyboard-only, text-resize, and physical-
+  device sessions remain necessary before making comparative claims about
+  improved findability, comprehension, or task completion.
 
 ## Session update: closing the content-review phase
 
@@ -959,3 +960,41 @@ properly attributed.
   at 15 images across 13 destinations. Pages without approved location imagery
   use a generic park placeholder; this avoids presenting unrelated stock
   photography as evidence of a specific place.
+
+## Session update: strengthening discovery and validation
+
+- **Official-service pathways:** Turned the programs and reservations page into
+  a clearer handoff guide for registration, aquatics, volunteering, rentals,
+  permits, and events. Three original watercolor illustrations add warmth and
+  distinguish program discovery from reservation planning without implying
+  that they document a specific event.
+
+- **Map corrections:** Excluded unusable zero coordinates that previously sent
+  the results map toward “Null Island.” With no search or filters, the map now
+  frames San Francisco proper and leaves Sharp Park and Camp Mather out of the
+  initial bounds. Relevant searches can still expand to either outlying
+  property. Additional bounds padding keeps markers clear of map attribution.
+
+- **More meaningful result explanations:** Replaced the generic filter message
+  with category-aware language such as “Matches your Amenities filter” or
+  “Matches your Neighborhoods filter.” Mixed filter categories retain a concise
+  combined explanation, and the same state carries through to destination
+  pages.
+
+- **Homepage discovery:** Expanded the featured-destination pool from four to
+  ten parks with approved images and detailed reviewed pages. Four distinct
+  destinations are selected on each homepage load, giving residents varied
+  entry points without weakening the inclusion standard.
+
+- **Accessibility baseline:** Audited representative rendered pages and the map
+  and gallery states for landmarks, headings, control names, image alternatives,
+  duplicate IDs, live-region behavior, focus restoration, and 320 CSS-pixel
+  reflow. Corrections removed a duplicate map region, eliminated minimum-width
+  overflow, and strengthened focus visibility across pale and dark surfaces.
+  Regression tests now protect the shared semantic structure and core WCAG AA
+  text-color pairs.
+
+- **Current validation:** Five source records, the UI content contract, the
+  15-image media manifest, and all 198 evergreen records pass their local
+  validators. The application passes 90 automated tests, TypeScript validation,
+  and a production build that emits all 256 static routes.

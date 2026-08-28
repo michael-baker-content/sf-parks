@@ -36,6 +36,20 @@ export function explainQueryMatch(record, query) {
   return { reason: "Related listing information", amenityLabels };
 }
 
+export function explainFilterMatch(state) {
+  const categories = [
+    ["activity", "Activities"],
+    ["amenity", "Amenities"],
+    ["neighborhood", "Neighborhoods"],
+    ["zip", "ZIP code"],
+    ["place", "Place type"],
+    ["coverage", "Information coverage"]
+  ].filter(([key]) => (state[key] ?? []).length > 0);
+  if (categories.length === 1) return `Matches your ${categories[0][1]} filter`;
+  if (categories.length > 1) return "Matches your selected filters";
+  return null;
+}
+
 export function explainMatch(record, destination, state, configuration) {
   const queryMatch = explainQueryMatch(record, state.q);
   const amenityLabels = new Set(queryMatch.amenityLabels);
@@ -50,7 +64,7 @@ export function explainMatch(record, destination, state, configuration) {
     }
   }
   return {
-    reason: queryMatch.reason ?? (amenityLabels.size ? "Matches your selected filters" : null),
+    reason: queryMatch.reason ?? explainFilterMatch(state),
     amenityLabels: [...amenityLabels]
   };
 }

@@ -12,8 +12,13 @@ export function DestinationMatch({ destinationId }: { destinationId: string }) {
   if (!returnPath?.startsWith("/explore/")) return null;
   const query = returnPath.includes("?") ? returnPath.slice(returnPath.indexOf("?") + 1) : "";
   const search = new URLSearchParams(query);
-  const state = { q: search.get("q")?.trim() ?? "", activity: search.getAll("activity"), amenity: search.getAll("amenity") };
-  if (!state.q && !state.activity.length && !state.amenity.length) return null;
+  const state = {
+    q: search.get("q")?.trim() ?? "",
+    activity: search.getAll("activity"), amenity: search.getAll("amenity"),
+    neighborhood: search.getAll("neighborhood"), zip: search.getAll("zip"),
+    place: search.getAll("place"), coverage: search.getAll("coverage")
+  };
+  if (!state.q && !state.activity.length && !state.amenity.length && !state.neighborhood.length && !state.zip.length && !state.place.length && !state.coverage.length) return null;
   const record = index.records.find((item) => item.id === destinationId);
   const destination = destinationsDocument.records.find((item) => item.id === destinationId);
   if (!record || !destination) return null;

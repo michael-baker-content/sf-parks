@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { explainMatch, explainQueryMatch, filterAndRank, normalizeSearchText, scoreRecord } from "../src/lib/search.js";
+import { explainFilterMatch, explainMatch, explainQueryMatch, filterAndRank, normalizeSearchText, scoreRecord } from "../src/lib/search.js";
 import { readState, stateUrl } from "../src/lib/url-state.js";
 import { resultFocusId, resultReturnPath } from "../src/lib/result-focus.js";
 import { googleMapsDirectionsUrl, googleMapsEmbedUrl, googleMapsSearchUrl } from "../src/lib/maps.js";
@@ -65,6 +65,21 @@ test("detail explanations preserve query and filter matches", () => {
     { activities: [{ id: "play-sports", categories: ["sports"], amenityLabels: [] }] });
   assert.equal(explanation.reason, "Tennis Court");
   assert.deepEqual(explanation.amenityLabels, ["Tennis Court"]);
+});
+
+test("single-category filter explanations name the selected category", () => {
+  const base = { q: "", activity: [], amenity: [], neighborhood: [], zip: [], place: [], coverage: [] };
+  assert.equal(explainFilterMatch({ ...base, activity: ["play-sports"] }), "Matches your Activities filter");
+  assert.equal(explainFilterMatch({ ...base, amenity: ["tennis-court", "restrooms"] }), "Matches your Amenities filter");
+  assert.equal(explainFilterMatch({ ...base, neighborhood: ["sunset"] }), "Matches your Neighborhoods filter");
+  assert.equal(explainFilterMatch({ ...base, zip: ["94117"] }), "Matches your ZIP code filter");
+  assert.equal(explainFilterMatch({ ...base, place: ["regional-park"] }), "Matches your Place type filter");
+  assert.equal(explainFilterMatch({ ...base, coverage: ["official-page-reviewed"] }), "Matches your Information coverage filter");
+});
+
+test("mixed filter categories retain the combined explanation", () => {
+  const state = { q: "", activity: [], amenity: ["tennis-court"], neighborhood: ["sunset"], zip: [], place: [], coverage: [] };
+  assert.equal(explainFilterMatch(state), "Matches your selected filters");
 });
 
 test("result return state identifies the originating destination", () => {

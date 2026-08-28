@@ -24,8 +24,20 @@ export default function ProgramsAndReservationsPage() {
       <h2 className="usa-alert__heading">All destination links lead to the official website</h2>
       <p className="usa-alert__text">Every link below continues to the San Francisco Recreation and Parks website. This guide does not reproduce schedules, availability, fees, deadlines, eligibility, or registration; confirm those details there.</p>
     </div></div>
-    <section id="programs" aria-labelledby="programs-title"><h2 id="programs-title">I want to join a program</h2><HandoffList items={handoffs.programs} /></section>
-    <section id="reservations" aria-labelledby="reservations-title"><h2 id="reservations-title">I want to reserve a space or request a permit</h2><HandoffList items={handoffs.reservations} /></section>
+    <section id="programs" aria-labelledby="programs-title">
+      <h2 id="programs-title">I want to join a program</h2>
+      <figure className="app-service-guide__illustration">
+        <img src="/media/programs-youth-gardening-watercolor.jpg" width="1696" height="929" alt="Watercolor illustration of city youths learning to plant and water a public community garden with two adult program instructors." />
+      </figure>
+      <HandoffList items={handoffs.programs} />
+    </section>
+    <section id="reservations" aria-labelledby="reservations-title">
+      <h2 id="reservations-title">I want to reserve a space or request a permit</h2>
+      <figure className="app-service-guide__illustration">
+        <img src="/media/programs-pickleball-watercolor.jpg" width="1696" height="929" alt="Watercolor illustration of four mature adults enjoying a doubles pickleball game on a public park court." />
+      </figure>
+      <HandoffList items={handoffs.reservations} />
+    </section>
     <p className="usa-hint app-service-guide__review">Official links reviewed <time dateTime={handoffs.reviewedAt}>August 27, 2026</time>.</p>
   </article>;
 }

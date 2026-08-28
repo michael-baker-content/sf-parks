@@ -13,9 +13,14 @@ Francisco.
 - MapLibre results and optional Google Maps embeds
 - Build-time Muni, BART, and Caltrain guidance from 511 SF Bay
 - Official program and reservation handoffs
+- A rotating set of four image-supported featured parks selected from ten
+  detailed destinations on each homepage load
 - Statement-level source links, with a scannable panel when an overview uses
   multiple references
 - Keyboard-accessible, responsive layouts supporting 320 CSS pixels and wider
+
+The current accessibility baseline and remaining manual checks are documented
+in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
 
 ## Current project status
 
@@ -27,6 +32,10 @@ Francisco.
 - 3,314 transit stops and stations across 85 routes
 - 15 approved images across 13 destinations, with a generic placeholder used
   elsewhere rather than an unverified location image
+- 3 generated editorial illustrations supporting the programs and reservations
+  guide
+- 90 passing automated tests, plus a successful TypeScript check and static
+  production build
 
 ## Run locally
 

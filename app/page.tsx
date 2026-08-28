@@ -4,11 +4,18 @@ import configuration from "../data/search/search-filters.json";
 import destinationsDocument from "../data/presentation/generated/destinations.json";
 import evergreenContent from "../data/content/evergreen-content.json";
 import mediaManifest from "../data/media/media-manifest.json";
+import { FeaturedParks } from "../components/FeaturedParks";
 
-const featuredIds = ["golden-gate-park", "mission-dolores-park", "sigmund-stern-recreation-grove", "lafayette-park"];
+const featuredIds = [
+  "golden-gate-park", "mission-dolores-park", "sigmund-stern-recreation-grove", "lafayette-park",
+  "alamo-square", "buena-vista-park", "alta-plaza-park", "duboce-park", "lake-merced-park", "palace-of-fine-arts"
+];
 const featuredParks = featuredIds.map((id) => ({
-  destination: destinationsDocument.records.find((item) => item.id === id)!,
-  context: evergreenContent.records.find((item) => item.destinationId === id)!,
+  id,
+  name: destinationsDocument.records.find((item) => item.id === id)!.publicName,
+  neighborhood: destinationsDocument.records.find((item) => item.id === id)!.neighborhood,
+  amenityCount: destinationsDocument.records.find((item) => item.id === id)!.amenities.length,
+  overview: evergreenContent.records.find((item) => item.destinationId === id)!.overview.text,
   image: mediaManifest.images.find((item) => item.destinationId === id)!,
 }));
 
@@ -39,20 +46,9 @@ export default function HomePage() {
     <section className="app-featured" aria-labelledby="featured-title">
       <div className="app-section-heading">
         <div><p className="app-eyebrow">Good places to start</p><h2 id="featured-title">Featured parks</h2></div>
-        <p>Explore destinations with photographs, detailed amenity listings, and additional reviewed context.</p>
+        <p className="app-section-heading__note">See what popular parks offer and decide which destination fits your day.</p>
       </div>
-      <div className="app-featured-grid">{featuredParks.map(({ destination, context, image }) =>
-        <article className="app-featured-card" key={destination.id}>
-          <div className="app-featured-card__image"><img src={image.localPath} width={image.width} height={image.height} alt={image.alt} /></div>
-          <div className="app-featured-card__body">
-            <h3><Link href={`/parks/${destination.id}/`}>{destination.publicName}</Link></h3>
-            <p className="app-location">{destination.neighborhood}</p>
-            <p>{context.overview.text}</p>
-            <p className="app-featured-card__meta">{destination.amenities.length} listed amenities</p>
-          </div>
-          <p className="app-featured-card__credit"><a href={image.filePageUrl} rel="external">{image.attribution} <span aria-hidden="true">↗</span></a> · <a href={image.licenseUrl} rel="license">{image.licenseId}</a></p>
-        </article>
-      )}</div>
+      <FeaturedParks parks={featuredParks} />
     </section>
     <section className="usa-alert usa-alert--info app-info" aria-labelledby="coverage-title"><div className="usa-alert__body">
       <h2 className="usa-alert__heading" id="coverage-title">About the information</h2>
