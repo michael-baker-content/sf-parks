@@ -75,7 +75,10 @@ export function filterAndRank(records, state) {
       && all(state.amenity, record.filters.amenityIds) && any(state.neighborhood, record.filters.neighborhoodIds)
       && any(state.zip ?? [], record.filters.zipcode ? [record.filters.zipcode] : [])
       && any(state.place, record.filters.placeTypeIds) && any(state.coverage, [record.filters.coverage]))
-    .sort((a, b) => state.sort === "name"
-      ? a.record.publicName.localeCompare(b.record.publicName)
-      : b.score - a.score || a.record.publicName.localeCompare(b.record.publicName));
+    .sort((a, b) => {
+      if (state.sort === "name") return a.record.publicName.localeCompare(b.record.publicName);
+      if (state.sort === "amenities") return b.record.filters.amenityLabels.length - a.record.filters.amenityLabels.length
+        || a.record.publicName.localeCompare(b.record.publicName);
+      return b.score - a.score || a.record.publicName.localeCompare(b.record.publicName);
+    });
 }

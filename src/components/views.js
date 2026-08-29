@@ -1,5 +1,6 @@
 import { escapeHtml, checked } from "../lib/html.js";
 import { stateUrl } from "../lib/url-state.js";
+import { RESULTS_PAGE_SIZE } from "../lib/pagination.js";
 
 const groupOrder = new Map();
 export function configureViews(content) { for (const group of content.amenityGroups) groupOrder.set(group.id, group); }
@@ -58,10 +59,10 @@ function resultCard(destination, indexRecord, state, content, configuration) {
 }
 
 export function exploreView(state, results, destinationsById, facets, configuration, content) {
-  const pageSize = 30; const visible = results.slice(0, state.page * pageSize);
+  const visible = results.slice(0, state.page * RESULTS_PAGE_SIZE);
   return `${searchForm(state, "Search destinations")}<div class="explore-layout"><aside>${filterPanel(state, facets, configuration.activities.map((item) => ({ ...item, count: facets.activities.find((facet) => facet.id === item.id)?.count ?? 0 })))}</aside>
     <section aria-labelledby="results-title"><div class="results-heading"><div><h1 id="results-title">Explore parks and recreation</h1><p>${results.length} ${results.length === 1 ? "destination" : "destinations"}</p></div>
-    <label>Sort <select name="sort" data-sort><option value="relevance"${state.sort === "relevance" ? " selected" : ""}>Relevance</option><option value="name"${state.sort === "name" ? " selected" : ""}>Name</option></select></label></div>
+    <label>Sort <select name="sort" data-sort><option value="relevance"${state.sort === "relevance" ? " selected" : ""}>Relevance</option><option value="name"${state.sort === "name" ? " selected" : ""}>Name</option><option value="amenities"${state.sort === "amenities" ? " selected" : ""}>Most amenities</option></select></label></div>
     ${results.length ? `<div class="result-list">${visible.map(({ record }) => resultCard(destinationsById.get(record.id), record, state, content, configuration)).join("")}</div>${visible.length < results.length ? `<a class="button secondary" href="${stateUrl({ ...state, page: state.page + 1 })}">Show more results</a>` : ""}`
       : `<div class="empty-state"><h2>No listed matches</h2><p>No destinations are currently listed with all selected features. This may reflect incomplete data rather than confirmed absence.</p><a href="/?explore=1">Clear filters</a></div>`}</section></div>`;
 }

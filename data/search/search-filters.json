@@ -23,6 +23,20 @@
       "categories": ["sports"]
     },
     {
+      "id": "play-basketball",
+      "label": "Play basketball",
+      "icon": "🏀",
+      "match": "any",
+      "amenityLabels": ["Basketball Court"]
+    },
+    {
+      "id": "play-tennis",
+      "label": "Play tennis",
+      "icon": "🎾",
+      "match": "any",
+      "amenityLabels": ["Tennis Court", "Tennis/Pickleball Court"]
+    },
+    {
       "id": "exercise",
       "label": "Get exercise",
       "icon": "🏃",
@@ -49,6 +63,13 @@
       "icon": "🌿",
       "match": "any",
       "categories": ["gardens-nature"]
+    },
+    {
+      "id": "visit-a-garden",
+      "label": "Visit a garden",
+      "icon": "🌻",
+      "match": "any",
+      "amenityLabels": ["Community Garden", "Ornamental Garden"]
     },
     {
       "id": "recreation-center",

@@ -883,7 +883,7 @@ properly attributed.
   no horizontal overflow at the 320-pixel support floor.
 
 - **Validation result:** The complete static site builds successfully, the
-  automated suite contains 90 passing tests, and focused browser checks cover
+  automated suite contains 94 passing tests, and focused browser checks cover
   the minimum-width header, global-search flow, transit selector, anchor menu,
   and ultra-wide centering.
 
@@ -908,7 +908,7 @@ properly attributed.
 
 - **Current evidence:** The prototype statically generates 249 destination
   pages, contains approved evergreen narrative records for 198 destinations,
-  normalizes 3,314 transit stops and stations across 85 routes, and passes 90
+  normalizes 3,314 transit stops and stations across 85 routes, and passes 94
   automated tests. The broader official-page report classifies 209 destinations
   as enriched because it also counts reviewed facility-directory features.
   These are measures of implementation breadth and reliability—not yet evidence
@@ -986,6 +986,21 @@ properly attributed.
   destinations are selected on each homepage load, giving residents varied
   entry points without weakening the inclusion standard.
 
+- **Faster activity and result scanning:** Expanded the activity vocabulary to
+  12 familiar goals, including basketball, tennis, and gardens. The homepage
+  presents them as a balanced two-column grid at the 320-pixel layout floor,
+  while Explore keeps them in a collapsible filter group. Initial result batches
+  were reduced from 30 to 15, with another 15 revealed on each request.
+
+- **Additional result control:** Added a concise “Most amenities” sort using
+  destination name as a stable tie-breaker. The choice is represented in the
+  URL alongside the established Relevance and Name options.
+
+- **Map hierarchy and interaction:** Introduced two marker sizes using a
+  documented threshold of 10 recorded amenities and added an accessible legend.
+  Hover and click behavior now evaluates movement between individual features
+  and chooses the nearest marker center when visible marker boundaries overlap.
+
 - **Accessibility baseline:** Audited representative rendered pages and the map
   and gallery states for landmarks, headings, control names, image alternatives,
   duplicate IDs, live-region behavior, focus restoration, and 320 CSS-pixel
@@ -996,5 +1011,5 @@ properly attributed.
 
 - **Current validation:** Five source records, the UI content contract, the
   15-image media manifest, and all 198 evergreen records pass their local
-  validators. The application passes 90 automated tests, TypeScript validation,
+  validators. The application passes 94 automated tests, TypeScript validation,
   and a production build that emits all 256 static routes.

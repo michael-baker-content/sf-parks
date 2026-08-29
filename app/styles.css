@@ -117,6 +117,10 @@ h2 { line-height: 1.15; }
 .app-result-tools { display: flex; align-items: end; flex-wrap: wrap; gap: .75rem 1rem; }
 .app-result-tools .usa-button { margin: 0 0 .5rem; }
 .app-results-map { height: clamp(20rem, 55vh, 36rem); margin-bottom: 2rem; max-width: 100%; min-width: 0; width: 100%; }
+.app-map-legend { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin: 0 0 .75rem; padding: .65rem .8rem; list-style: none; background: var(--app-green-light); font-size: .88rem; }
+.app-map-legend li { display: inline-flex; align-items: center; gap: .45rem; }
+.app-map-legend__dot { display: inline-block; width: .75rem; height: .75rem; flex: 0 0 auto; border: 2px solid #fff; border-radius: 50%; background: var(--app-green); box-shadow: 0 0 0 1px var(--app-green-dark); }
+.app-map-legend__dot--major { width: 1.05rem; height: 1.05rem; }
 .app-sort { min-width: 10rem; margin-top: 0; }
 .app-sort .usa-select { margin-top: .25rem; }
 .app-result-list { display: grid; gap: .85rem; padding-top: 1rem; }
@@ -285,6 +289,7 @@ h2 { line-height: 1.15; }
   .app-hero--image .app-search { margin-bottom: 0; }
   .app-search__input { font-size: 1rem; }
   .app-search .app-search__button { flex-basis: 5.75rem; width: 5.75rem !important; min-width: 5.75rem; padding-inline: .8rem; }
+  .app-activity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .app-section-heading { align-items: start; flex-direction: column; gap: .5rem; }
   .app-section-heading > .app-section-heading__note { width: 100%; max-width: none; }
   .app-featured-grid { grid-template-columns: 1fr; }
@@ -322,6 +327,8 @@ h2 { line-height: 1.15; }
 }
 
 @media (max-width: 24rem) {
+  .app-activity-grid { gap: .5rem; }
+  .app-activity-card { min-height: 6.25rem; flex-direction: column; justify-content: center; gap: .45rem; padding: .75rem .5rem; text-align: center; font-size: .9rem; }
   .app-search__controls { display: grid; gap: .5rem; }
   .app-search__input, .app-search .app-search__button { width: 100% !important; border-radius: var(--app-radius); }
   .app-gallery__button-label { display: none; }

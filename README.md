@@ -8,9 +8,11 @@ Francisco.
 
 ## What it includes
 
-- Conventional search, activity entry points, filters, and shareable URLs
+- Conventional search, 12 activity entry points, collapsible filters, shareable
+  URLs, and 15-result progressive batches
 - Permanent destination pages with amenities and reviewed evergreen context
-- MapLibre results and optional Google Maps embeds
+- MapLibre results with two-size destination markers and optional Google Maps
+  embeds
 - Build-time Muni, BART, and Caltrain guidance from 511 SF Bay
 - Official program and reservation handoffs
 - A rotating set of four image-supported featured parks selected from ten
@@ -34,7 +36,7 @@ in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
   elsewhere rather than an unverified location image
 - 3 generated editorial illustrations supporting the programs and reservations
   guide
-- 90 passing automated tests, plus a successful TypeScript check and static
+- 94 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally

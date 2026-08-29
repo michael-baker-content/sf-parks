@@ -1,10 +1,24 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { initialViewportDestinations, isUsableMapPoint } from "../src/lib/results-map.js";
+import { closestMapFeature, initialViewportDestinations, isMajorMapDestination, isUsableMapPoint } from "../src/lib/results-map.js";
 
 test("map points reject null-island placeholders", () => {
   assert.equal(isUsableMapPoint({ latitude: 0, longitude: 0 }), false);
   assert.equal(isUsableMapPoint({ latitude: 37.76, longitude: -122.44 }), true);
+});
+
+test("major map markers use the documented amenity threshold", () => {
+  assert.equal(isMajorMapDestination({ amenityCount: 9 }), false);
+  assert.equal(isMajorMapDestination({ amenityCount: 10 }), true);
+});
+
+test("overlapping marker hits select the center nearest the pointer", () => {
+  const features = [
+    { properties: { name: "First" }, geometry: { type: "Point", coordinates: [10, 10] } },
+    { properties: { name: "Second" }, geometry: { type: "Point", coordinates: [14, 10] } }
+  ];
+  const selected = closestMapFeature(features, { x: 13, y: 10 }, ([x, y]) => ({ x, y }));
+  assert.equal(selected.properties.name, "Second");
 });
 
 test("the untouched all-results viewport stays focused on San Francisco proper", () => {

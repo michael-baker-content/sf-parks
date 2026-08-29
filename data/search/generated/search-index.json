@@ -403,7 +403,9 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
-          "gardens-and-nature"
+          "play-basketball",
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "basketball-court",
@@ -489,6 +491,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-tennis",
           "bring-a-dog"
         ],
         "amenityIds": [
@@ -578,6 +581,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -660,7 +665,9 @@
       },
       "filters": {
         "activityIds": [
-          "play-sports"
+          "play-sports",
+          "play-basketball",
+          "play-tennis"
         ],
         "amenityIds": [
           "basketball-court",
@@ -730,7 +737,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -860,6 +868,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog"
         ],
         "amenityIds": [
@@ -961,6 +971,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "swim",
           "recreation-center"
         ],
@@ -1113,7 +1125,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-tennis"
         ],
         "amenityIds": [
           "ball-field",
@@ -1205,6 +1218,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -1284,7 +1299,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -1341,7 +1357,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -1483,6 +1500,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "swim",
           "bring-a-dog",
           "recreation-center"
@@ -1898,7 +1917,8 @@
       "filters": {
         "activityIds": [
           "bring-a-dog",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -1983,6 +2003,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -2078,6 +2099,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -2218,7 +2240,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "ornamental-garden"
@@ -2290,7 +2313,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -2369,7 +2393,8 @@
       "filters": {
         "activityIds": [
           "play-with-kids",
-          "play-sports"
+          "play-sports",
+          "play-basketball"
         ],
         "amenityIds": [
           "basketball-court",
@@ -2493,6 +2518,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-tennis",
           "bring-a-dog",
           "gardens-and-nature"
         ],
@@ -2648,6 +2674,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -2758,6 +2786,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "swim",
           "recreation-center",
           "arts-and-culture"
@@ -3019,6 +3049,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -3367,7 +3399,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -3540,7 +3573,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -3851,7 +3885,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -3943,8 +3978,11 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center"
         ],
         "amenityIds": [
@@ -4101,7 +4139,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -4238,6 +4277,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center"
         ],
@@ -4343,6 +4384,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "bring-a-dog",
           "recreation-center"
         ],
@@ -4488,7 +4530,8 @@
       },
       "filters": {
         "activityIds": [
-          "play-sports"
+          "play-sports",
+          "play-tennis"
         ],
         "amenityIds": [
           "bench",
@@ -4762,6 +4805,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -4899,6 +4943,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center"
         ],
@@ -5052,6 +5097,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -5262,8 +5309,10 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "exercise",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center"
         ],
         "amenityIds": [
@@ -5350,7 +5399,8 @@
       "filters": {
         "activityIds": [
           "have-a-picnic",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "ornamental-garden",
@@ -5486,7 +5536,8 @@
           "play-with-kids",
           "have-a-picnic",
           "bring-a-dog",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -5667,6 +5718,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -5766,6 +5819,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "swim",
           "recreation-center"
         ],
@@ -5910,7 +5964,8 @@
       "filters": {
         "activityIds": [
           "have-a-picnic",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden",
@@ -5993,6 +6048,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-tennis",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -6102,6 +6158,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "exercise",
           "recreation-center"
         ],
@@ -6217,6 +6274,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "gardens-and-nature",
           "recreation-center"
@@ -6384,6 +6443,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-tennis",
           "gardens-and-nature"
         ],
         "amenityIds": [
@@ -6520,9 +6580,12 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "bring-a-dog",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -6659,7 +6722,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -6844,6 +6908,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -6990,6 +7056,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -7145,6 +7213,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "recreation-center",
           "arts-and-culture"
@@ -7237,6 +7307,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "bring-a-dog"
         ],
         "amenityIds": [
@@ -7317,6 +7388,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -7485,6 +7558,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "swim",
           "recreation-center"
         ],
@@ -7691,7 +7765,9 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-basketball",
+          "play-tennis"
         ],
         "amenityIds": [
           "ball-field",
@@ -7769,7 +7845,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -7826,7 +7903,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -7943,6 +8021,7 @@
           "have-a-picnic",
           "exercise",
           "gardens-and-nature",
+          "visit-a-garden",
           "arts-and-culture"
         ],
         "amenityIds": [
@@ -8078,6 +8157,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "gardens-and-nature"
         ],
         "amenityIds": [
@@ -8282,6 +8362,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -8385,7 +8467,10 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -8498,6 +8583,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -8714,6 +8801,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "recreation-center"
         ],
@@ -8829,8 +8918,11 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -9012,6 +9104,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -9302,6 +9396,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -9453,7 +9549,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-basketball"
         ],
         "amenityIds": [
           "basketball-court",
@@ -9527,7 +9624,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -9658,7 +9756,9 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
-          "gardens-and-nature"
+          "play-basketball",
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "basketball-court",
@@ -9740,6 +9840,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-tennis",
           "bring-a-dog",
           "arts-and-culture"
         ],
@@ -9997,6 +10098,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -10083,7 +10186,8 @@
       "filters": {
         "activityIds": [
           "play-with-kids",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -10166,6 +10270,7 @@
           "have-a-picnic",
           "play-sports",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -10265,7 +10370,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-basketball"
         ],
         "amenityIds": [
           "basketball-court",
@@ -10360,6 +10466,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -10474,6 +10582,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -10695,6 +10805,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -10784,7 +10896,8 @@
           "play-with-kids",
           "have-a-picnic",
           "bring-a-dog",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -10925,6 +11038,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "bring-a-dog",
           "recreation-center"
@@ -11031,7 +11146,9 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
-          "gardens-and-nature"
+          "play-basketball",
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "basketball-court",
@@ -11117,6 +11234,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -11220,7 +11338,10 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center"
         ],
         "amenityIds": [
@@ -11339,6 +11460,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -11515,6 +11638,8 @@
       "filters": {
         "activityIds": [
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center",
           "arts-and-culture"
@@ -11616,6 +11741,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog"
         ],
         "amenityIds": [
@@ -11724,6 +11851,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "swim",
           "recreation-center"
         ],
@@ -11840,6 +11969,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -11955,6 +12085,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center"
         ],
@@ -12076,6 +12208,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "bring-a-dog"
         ],
@@ -12372,7 +12506,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -12442,7 +12577,9 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-basketball",
+          "play-tennis"
         ],
         "amenityIds": [
           "basketball-court",
@@ -12638,7 +12775,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -12743,7 +12881,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -12812,6 +12951,7 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -12913,7 +13053,10 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
         ],
@@ -13020,6 +13163,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "gardens-and-nature"
         ],
         "amenityIds": [
@@ -13203,7 +13347,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -13279,7 +13424,9 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-basketball",
+          "play-tennis"
         ],
         "amenityIds": [
           "ball-field",
@@ -13375,6 +13522,7 @@
           "play-with-kids",
           "have-a-picnic",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center"
         ],
         "amenityIds": [
@@ -13525,6 +13673,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -13834,6 +13983,7 @@
           "have-a-picnic",
           "play-sports",
           "gardens-and-nature",
+          "visit-a-garden",
           "arts-and-culture"
         ],
         "amenityIds": [
@@ -13989,8 +14139,11 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center"
         ],
         "amenityIds": [
@@ -14095,7 +14248,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -14241,6 +14395,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -14386,6 +14541,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -14477,7 +14634,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden"
@@ -14719,6 +14877,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -14813,6 +14973,7 @@
       "filters": {
         "activityIds": [
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -14959,6 +15120,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -15425,7 +15588,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "play-sports"
+          "play-sports",
+          "play-basketball"
         ],
         "amenityIds": [
           "basketball-court",
@@ -15496,7 +15660,8 @@
       "filters": {
         "activityIds": [
           "play-with-kids",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "bench",
@@ -15913,6 +16078,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center",
           "arts-and-culture"
@@ -16095,6 +16261,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -16385,6 +16553,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -16494,8 +16664,11 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "gardens-and-nature",
+          "visit-a-garden",
           "recreation-center"
         ],
         "amenityIds": [
@@ -16675,7 +16848,10 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
-          "gardens-and-nature"
+          "play-basketball",
+          "play-tennis",
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "basketball-court",
@@ -16903,6 +17079,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -17099,6 +17277,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "recreation-center"
         ],
@@ -17334,6 +17514,7 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
           "recreation-center"
         ],
         "amenityIds": [
@@ -17868,6 +18049,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center"
         ],
@@ -17980,7 +18163,9 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
-          "gardens-and-nature"
+          "play-basketball",
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "athletic-field",
@@ -18073,7 +18258,8 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic",
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -18150,6 +18336,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
           "bring-a-dog"
         ],
         "amenityIds": [
@@ -18425,6 +18612,7 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-tennis",
           "bring-a-dog",
           "recreation-center"
         ],
@@ -18534,6 +18722,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -18668,7 +18858,8 @@
       },
       "filters": {
         "activityIds": [
-          "gardens-and-nature"
+          "gardens-and-nature",
+          "visit-a-garden"
         ],
         "amenityIds": [
           "community-garden",
@@ -18745,6 +18936,8 @@
         "activityIds": [
           "play-with-kids",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "exercise",
           "recreation-center"
         ],
@@ -19186,6 +19379,8 @@
           "play-with-kids",
           "have-a-picnic",
           "play-sports",
+          "play-basketball",
+          "play-tennis",
           "recreation-center"
         ],
         "amenityIds": [
@@ -19277,6 +19472,16 @@
         "count": 111
       },
       {
+        "id": "play-basketball",
+        "label": "Play basketball",
+        "count": 81
+      },
+      {
+        "id": "play-tennis",
+        "label": "Play tennis",
+        "count": 67
+      },
+      {
         "id": "exercise",
         "label": "Get exercise",
         "count": 19
@@ -19295,6 +19500,11 @@
         "id": "gardens-and-nature",
         "label": "Explore nature",
         "count": 81
+      },
+      {
+        "id": "visit-a-garden",
+        "label": "Visit a garden",
+        "count": 47
       },
       {
         "id": "recreation-center",
