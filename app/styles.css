@@ -3,6 +3,7 @@
   --app-min-viewport: 19rem;
   --app-green: #1b5e3b;
   --app-green-dark: #123f2a;
+  --app-green-active: #0b2e1e;
   --app-green-light: #e9f3ec;
   --app-warm-light: #f5ece4;
   --app-blue-light: #dfeef3;
@@ -62,9 +63,20 @@ h2 { line-height: 1.15; }
 .app-search__input { flex: 1 1 auto; width: auto; max-width: none; min-width: 0; height: 3.25rem; margin: 0; border: 2px solid #6f777b; border-radius: var(--app-radius) 0 0 var(--app-radius); }
 .app-search .app-search__button { flex: 0 0 6.5rem; width: 6.5rem !important; min-width: 6.5rem; height: 3.25rem; margin: 0; border-radius: 0 var(--app-radius) var(--app-radius) 0; background: var(--app-green); }
 .app-search__hint { display: block; max-width: none; margin-top: .5rem; }
-.usa-button { background: var(--app-green); border-radius: var(--app-radius); }
-.usa-button:hover { background: var(--app-green-dark); }
-.usa-button--outline { background: transparent; color: var(--app-green); box-shadow: inset 0 0 0 2px var(--app-green); }
+.usa-button,
+.usa-button:visited { background: var(--app-green); color: #fff; border-radius: var(--app-radius); }
+.usa-button:hover { background: var(--app-green-dark); color: #fff; }
+.usa-button:active { background: var(--app-green-active); color: #fff; }
+.usa-button:focus-visible { outline: .25rem solid var(--app-focus); outline-offset: .15rem; box-shadow: 0 0 0 .1rem var(--app-ink); }
+.usa-button--outline,
+.usa-button--outline:visited { background: transparent; color: var(--app-green); box-shadow: inset 0 0 0 2px var(--app-green); }
+.usa-button--outline:hover { background: var(--app-green-dark); color: #fff; box-shadow: inset 0 0 0 2px var(--app-green-dark); }
+.usa-button--outline:active { background: var(--app-green-active); color: #fff; box-shadow: inset 0 0 0 2px var(--app-green-active); }
+.usa-button--outline:focus-visible { box-shadow: inset 0 0 0 2px var(--app-green), 0 0 0 .1rem var(--app-ink); }
+.usa-button:disabled,
+.usa-button[aria-disabled="true"] { background: #757575; color: #fff; box-shadow: none; cursor: not-allowed; opacity: 1; }
+.usa-button--outline:disabled,
+.usa-button--outline[aria-disabled="true"] { background: #f0f0f0; color: #5c5c5c; box-shadow: inset 0 0 0 2px #5c5c5c; }
 .app-activity-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: .75rem; }
 .app-activity-card { display: flex; align-items: center; gap: .7rem; min-height: 4.75rem; padding: 1.15rem; border: 1px solid var(--app-line); border-left: .3rem solid var(--app-green); border-radius: var(--app-radius); background: var(--app-green-light); box-shadow: var(--app-shadow); font-weight: 700; text-decoration: none; }
 .app-activity-icon { flex: 0 0 auto; font-size: 1.65rem; line-height: 1; }

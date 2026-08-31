@@ -47,3 +47,20 @@ test("the core text palette retains WCAG AA contrast", () => {
   assert.ok(contrast("#123f2a", white) >= 4.5, "dark green text on white");
   assert.ok(contrast(white, "#123f2a") >= 4.5, "white text on dark green");
 });
+
+test("button interaction states retain readable text and explicit styling", async () => {
+  const styles = await readFile(new URL("app/styles.css", root), "utf8");
+  const white = "#ffffff";
+
+  assert.ok(contrast(white, "#1b5e3b") >= 4.5, "filled button default");
+  assert.ok(contrast(white, "#123f2a") >= 4.5, "filled and outline button hover");
+  assert.ok(contrast(white, "#0b2e1e") >= 4.5, "filled and outline button active");
+  assert.ok(contrast("#1b5e3b", white) >= 4.5, "outline button default");
+  assert.ok(contrast(white, "#757575") >= 4.5, "disabled filled button");
+  assert.ok(contrast("#5c5c5c", "#f0f0f0") >= 4.5, "disabled outline button");
+  assert.match(styles, /\.usa-button--outline:hover\s*\{[^}]*color:\s*#fff/);
+  assert.match(styles, /\.usa-button--outline:active\s*\{[^}]*color:\s*#fff/);
+  assert.match(styles, /\.usa-button:focus-visible\s*\{[^}]*outline:/);
+  assert.match(styles, /\.usa-button--outline:focus-visible\s*\{[^}]*inset/);
+  assert.match(styles, /\.usa-button:disabled[\s\S]*?opacity:\s*1/);
+});

@@ -38,7 +38,7 @@ in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
 - 2 generated editorial illustrations supporting the programs and reservations
   guide
 - Official park-property area available for all 249 public destinations
-- 99 passing automated tests, plus a successful TypeScript check and static
+- 100 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally

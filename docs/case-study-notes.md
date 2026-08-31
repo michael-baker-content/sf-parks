@@ -883,7 +883,7 @@ properly attributed.
   no horizontal overflow at the 320-pixel support floor.
 
 - **Validation result:** The complete static site builds successfully, the
-  automated suite contains 99 passing tests, and focused browser checks cover
+  automated suite contains 100 passing tests, and focused browser checks cover
   the minimum-width header, global-search flow, transit selector, anchor menu,
   and ultra-wide centering.
 
@@ -908,7 +908,7 @@ properly attributed.
 
 - **Current evidence:** The prototype statically generates 249 destination
   pages, contains approved evergreen narrative records for 198 destinations,
-  normalizes 3,314 transit stops and stations across 85 routes, and passes 99
+  normalizes 3,314 transit stops and stations across 85 routes, and passes 100
   automated tests. The broader official-page report classifies 209 destinations
   as enriched because it also counts reviewed facility-directory features.
   These are measures of implementation breadth and reliability—not yet evidence
@@ -1011,7 +1011,7 @@ properly attributed.
 
 - **Current validation:** Five source records, the UI content contract, the
   15-image media manifest, and all 198 evergreen records pass their local
-  validators. The application passes 99 automated tests, TypeScript validation,
+  validators. The application passes 100 automated tests, TypeScript validation,
   and a production build that emits all 256 static routes.
 
 - **Quantitative discovery controls:** Added resident-controlled minimums for
@@ -1030,3 +1030,10 @@ properly attributed.
   with cross-boundary source neighborhood labels have explicit reviewed
   assignments, while Treasure Island and the two properties outside San
   Francisco remain distinct choices.
+
+- **Interactive-state correction:** A shared hover rule made outline-button
+  text difficult to read by placing green text on a dark green background.
+  Replaced the partial overrides with an explicit filled/outline state matrix
+  covering default, visited, hover, active, keyboard focus, and disabled states.
+  Automated contrast checks now protect the palette, and rendered verification
+  confirms white text on the dark-green outline-button hover treatment.

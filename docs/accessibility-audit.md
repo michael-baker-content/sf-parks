@@ -28,6 +28,13 @@ The sampled pages have:
 - Added source-level regression checks for the shared language declaration,
   landmarks, skip link and target, focus treatment, and layout floor.
 - Added WCAG AA regression checks for the core text palette.
+- Replaced partial button overrides with an explicit state matrix for filled
+  and outline buttons. Default, visited, hover, active, focus-visible, disabled,
+  and disabled-outline combinations now retain readable foreground/background
+  pairings and visible boundaries.
+- Corrected an outline-button hover collision that previously combined green
+  text with a dark green background.
+- Added contrast and selector regression checks for all shared button states.
 
 ## Task-flow checks completed
 
@@ -49,6 +56,5 @@ The sampled pages have:
 - Test representative pages with NVDA and VoiceOver, including announcements
   after client-side navigation.
 - Verify browser zoom and text-only resizing through 200 percent.
-- Review contrast for imagery overlays and every interactive state with a
-  dedicated contrast tool.
+- Review imagery overlays with a dedicated contrast tool.
 - Confirm touch-target comfort and orientation changes on physical phones.
