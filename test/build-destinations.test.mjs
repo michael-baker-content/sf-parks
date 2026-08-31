@@ -21,8 +21,8 @@ test("official enrichment may provide a verified quantity", () => {
 
 test("a configured virtual destination hides member properties but keeps aliases", () => {
   const properties = [
-    { id: "1", name: "Park - Section 1", address: "A", displayPoint: null },
-    { id: "2", name: "Park - Section 2", address: "A", displayPoint: null }
+    { id: "1", name: "Park - Section 1", address: "A", acres: 1, squareFeet: 43560, displayPoint: null },
+    { id: "2", name: "Park - Section 2", address: "A", acres: 2, squareFeet: 87120, displayPoint: null }
   ];
   const records = buildDestinations({
     properties,
@@ -40,11 +40,13 @@ test("a configured virtual destination hides member properties but keeps aliases
   assert.ok(records[0].searchableAliases.includes("Park - Section 2"));
   assert.equal(records[0].subplaces.length, 2);
   assert.equal(records[0].presentationReview.reason, "Public grouping");
+  assert.equal(records[0].acres, 3);
+  assert.equal(records[0].squareFeet, 130680);
   assert.deepEqual(records[0].officialActions, [{ type: "information-page", url: "https://example.test", reviewedAt: "2026-08-26", retrievedAt: null }]);
 });
 
 test("original amenity terminology remains searchable after labels collapse", () => {
-  const properties = [{ id: "1", name: "Park", address: "A", displayPoint: null }];
+  const properties = [{ id: "1", name: "Park", address: "A", acres: 1, squareFeet: 43560, displayPoint: null }];
   const records = buildDestinations({
     properties,
     facilities: [],

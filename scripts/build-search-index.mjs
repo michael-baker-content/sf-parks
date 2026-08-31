@@ -34,6 +34,11 @@ export function activityMatches(destination, activity) {
   return activity.match === "all" ? checks.every(Boolean) : checks.some(Boolean);
 }
 
+export function areaMatches(destination, area, neighborhoods) {
+  return (area.destinationIds ?? []).includes(destination.id)
+    || neighborhoods.some((neighborhood) => (area.neighborhoodLabels ?? []).includes(neighborhood));
+}
+
 export function createSearchRecord(destination, configuration) {
   const activityIds = configuration.activities
     .filter((activity) => activityMatches(destination, activity))
@@ -48,6 +53,12 @@ export function createSearchRecord(destination, configuration) {
   ]);
   const neighborhoods = uniqueSorted(String(destination.neighborhood ?? "")
     .split(",").map((item) => item.trim()));
+  const explicitAreaIds = (configuration.areas ?? [])
+    .filter((area) => (area.destinationIds ?? []).includes(destination.id))
+    .map((area) => area.id);
+  const areaIds = explicitAreaIds.length ? explicitAreaIds : (configuration.areas ?? [])
+    .filter((area) => neighborhoods.some((neighborhood) => (area.neighborhoodLabels ?? []).includes(neighborhood)))
+    .map((area) => area.id);
 
   return {
     id: destination.id,
@@ -70,6 +81,7 @@ export function createSearchRecord(destination, configuration) {
     },
     filters: {
       activityIds,
+      areaIds,
       amenityIds: amenityLabels.map(slugify),
       amenityLabels,
       amenityCategories,
@@ -84,6 +96,8 @@ export function createSearchRecord(destination, configuration) {
       neighborhood: destination.neighborhood,
       address: destination.address,
       zipcode: destination.zipcode,
+      acres: destination.acres,
+      squareFeet: destination.squareFeet,
       displayPoint: destination.displayPoint,
       coverage: destination.coverage
     }
@@ -97,6 +111,11 @@ export function buildSearchIndex(destinations, configuration) {
       id: activity.id,
       label: activity.label,
       count: records.filter((record) => record.filters.activityIds.includes(activity.id)).length
+    })),
+    areas: (configuration.areas ?? []).map((area) => ({
+      id: area.id,
+      label: area.label,
+      count: records.filter((record) => record.filters.areaIds.includes(area.id)).length
     })),
     amenities: [...new Set(records.flatMap((record) => record.filters.amenityLabels))]
       .sort().map((label) => ({

@@ -25,6 +25,25 @@
 - On mobile, the header and hero occupy the first viewport and the activity
   browsing section begins below the fold.
 
+## Completed: amenity and acreage thresholds
+
+- Added minimum amenity-count and minimum acreage controls to Explore.
+- Used acreage published in the official park-property data.
+- Summed source-supported area for destinations composed of multiple park
+  properties and failed closed when positive size evidence is unavailable.
+- Encoded both thresholds in shareable URLs and exposed the matching counts on
+  result cards.
+
+## Completed: broad area browsing
+
+- Added nine resident-facing areas above the existing neighborhood and ZIP
+  filters, using familiar neighborhood anchors rather than numbered districts.
+- Assigned every destination to exactly one reviewed area, including explicit
+  handling for Treasure Island, Sharp Park, Camp Mather, and six destinations
+  whose source neighborhood labels cross an area boundary.
+- Encoded area selections in shareable URLs and reused the established filter
+  explanation behavior.
+
 ## Next: alternate-source content gaps
 
 - Research authoritative alternate sources for high-value destinations whose

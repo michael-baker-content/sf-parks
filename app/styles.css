@@ -100,13 +100,15 @@ h2 { line-height: 1.15; }
 .app-criterion span[aria-hidden="true"] { font-size: 1.3rem; line-height: 1; }
 .app-explore-layout { display: grid; grid-template-columns: minmax(15rem, 19rem) 1fr; gap: 2.5rem; align-items: start; }
 .app-filter-toggle { display: none; }
-.app-filters[hidden] { display: block; }
 .app-filters { padding: 1.25rem; border: 1px solid var(--app-line); border-radius: var(--app-radius); background: #fff; }
 .app-filters h2 { margin-top: 0; }
 .app-filters .usa-legend { margin-top: 0; font-size: 1.05rem; }
 .app-filters details { padding-block: .35rem; border-top: 1px solid var(--app-line); }
 .app-filters summary { padding-block: .5rem; font-weight: 700; cursor: pointer; }
 .app-filters .usa-checkbox { background: transparent; }
+.app-threshold-grid .usa-input { max-width: 12rem; margin-top: .35rem; }
+.app-threshold-grid .usa-label:not(:first-of-type) { margin-top: 1rem; }
+.app-threshold-grid .usa-hint { margin-bottom: .25rem; }
 .app-check-label { display: flex; justify-content: space-between; gap: .65rem; padding-right: 0; }
 .app-filter-icon { display: inline-block; width: 1.35rem; margin-right: .15rem; text-align: center; }
 .app-facet-count { color: var(--app-muted); font-variant-numeric: tabular-nums; }
@@ -128,6 +130,7 @@ h2 { line-height: 1.15; }
 .app-result-card h2 { margin-block: 0 .35rem; }
 .app-location, .app-muted { color: var(--app-muted); }
 .app-match-label { margin-bottom: -.25rem; color: var(--app-green-dark); font-size: .92rem; font-weight: 800; }
+.app-threshold-match { margin-block: .45rem -.15rem; color: var(--app-muted); font-size: .9rem; font-weight: 700; }
 .app-chip-list { display: flex; flex-wrap: wrap; gap: .4rem; list-style: none; padding: 0; }
 .app-chip-list li { padding: .3rem .7rem; border-radius: 99rem; background: #f0f0f0; font-size: .9rem; }
 .app-chip-list .is-matched { background: var(--app-green-light); box-shadow: inset 0 0 0 1px var(--app-green); }
@@ -305,7 +308,7 @@ h2 { line-height: 1.15; }
   .app-active-criteria { margin-top: -1rem; }
   .app-active-criteria__heading { align-items: flex-start; flex-direction: column; gap: .35rem; }
   .app-filter-toggle { display: inline-block; width: 100%; margin: 0 0 1rem; }
-  .app-filters[hidden] { display: none; }
+  .app-filters[data-expanded="false"] { display: none; }
   .app-filters { margin-bottom: 1rem; }
   .app-results-heading { align-items: start; flex-direction: column; }
   .app-result-tools { align-items: stretch; flex-direction: column; width: 100%; }

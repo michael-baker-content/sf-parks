@@ -14,11 +14,13 @@ export function DestinationMatch({ destinationId }: { destinationId: string }) {
   const search = new URLSearchParams(query);
   const state = {
     q: search.get("q")?.trim() ?? "",
-    activity: search.getAll("activity"), amenity: search.getAll("amenity"),
+    activity: search.getAll("activity"), amenity: search.getAll("amenity"), area: search.getAll("area"),
     neighborhood: search.getAll("neighborhood"), zip: search.getAll("zip"),
-    place: search.getAll("place"), coverage: search.getAll("coverage")
+    place: search.getAll("place"), coverage: search.getAll("coverage"),
+    minAmenities: Math.max(0, Number.parseInt(search.get("minAmenities") ?? "0", 10) || 0),
+    minAcres: Math.max(0, Number.parseFloat(search.get("minAcres") ?? "0") || 0)
   };
-  if (!state.q && !state.activity.length && !state.amenity.length && !state.neighborhood.length && !state.zip.length && !state.place.length && !state.coverage.length) return null;
+  if (!state.q && !state.activity.length && !state.amenity.length && !state.area.length && !state.neighborhood.length && !state.zip.length && !state.place.length && !state.coverage.length && !state.minAmenities && !state.minAcres) return null;
   const record = index.records.find((item) => item.id === destinationId);
   const destination = destinationsDocument.records.find((item) => item.id === destinationId);
   if (!record || !destination) return null;

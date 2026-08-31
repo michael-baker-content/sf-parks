@@ -4,6 +4,7 @@ export function normalizeSearchText(value) {
 }
 const all = (selected, available) => selected.every((value) => available.includes(value));
 const any = (selected, available) => !selected.length || selected.some((value) => available.includes(value));
+const threshold = (value) => Math.max(0, Number(value) || 0);
 
 export function scoreRecord(record, query) {
   const q = normalizeSearchText(query);
@@ -40,11 +41,14 @@ export function explainFilterMatch(state) {
   const categories = [
     ["activity", "Activities"],
     ["amenity", "Amenities"],
+    ["area", "Area"],
     ["neighborhood", "Neighborhoods"],
     ["zip", "ZIP code"],
     ["place", "Place type"],
     ["coverage", "Information coverage"]
   ].filter(([key]) => (state[key] ?? []).length > 0);
+  if (threshold(state.minAmenities) > 0) categories.push(["minAmenities", "Amenity count"]);
+  if (threshold(state.minAcres) > 0) categories.push(["minAcres", "Park size"]);
   if (categories.length === 1) return `Matches your ${categories[0][1]} filter`;
   if (categories.length > 1) return "Matches your selected filters";
   return null;
@@ -72,9 +76,13 @@ export function explainMatch(record, destination, state, configuration) {
 export function filterAndRank(records, state) {
   return records.map((record) => ({ record, score: scoreRecord(record, state.q) }))
     .filter(({ record, score }) => score >= 0 && all(state.activity, record.filters.activityIds)
-      && all(state.amenity, record.filters.amenityIds) && any(state.neighborhood, record.filters.neighborhoodIds)
+      && all(state.amenity, record.filters.amenityIds) && any(state.area ?? [], record.filters.areaIds ?? [])
+      && any(state.neighborhood, record.filters.neighborhoodIds)
       && any(state.zip ?? [], record.filters.zipcode ? [record.filters.zipcode] : [])
-      && any(state.place, record.filters.placeTypeIds) && any(state.coverage, [record.filters.coverage]))
+      && any(state.place, record.filters.placeTypeIds) && any(state.coverage, [record.filters.coverage])
+      && record.filters.amenityLabels.length >= threshold(state.minAmenities)
+      && (threshold(state.minAcres) === 0 || Number.isFinite(record.display.acres)
+        && record.display.acres >= threshold(state.minAcres)))
     .sort((a, b) => {
       if (state.sort === "name") return a.record.publicName.localeCompare(b.record.publicName);
       if (state.sort === "amenities") return b.record.filters.amenityLabels.length - a.record.filters.amenityLabels.length

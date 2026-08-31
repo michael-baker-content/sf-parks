@@ -25,9 +25,14 @@ function filterPanel(state, facets, activities) {
   return `<form class="filters" data-filter-form><h2>Filter results</h2>
     <fieldset><legend>Activities</legend>${checkboxList("activity", activities, state.activity)}</fieldset>
     <details><summary>Amenities</summary><fieldset><legend class="visually-hidden">Amenities</legend>${checkboxList("amenity", facets.amenities, state.amenity)}</fieldset></details>
+    <details><summary>Areas</summary><fieldset><legend class="visually-hidden">Areas</legend><p class="hint">Broad browsing areas assembled from the neighborhoods listed in the park data.</p>${checkboxList("area", facets.areas, state.area)}</fieldset></details>
     <details><summary>Neighborhoods</summary><fieldset><legend class="visually-hidden">Neighborhoods</legend>${checkboxList("neighborhood", facets.neighborhoods, state.neighborhood)}</fieldset></details>
     <details><summary>ZIP codes</summary><fieldset><legend class="visually-hidden">ZIP codes</legend>${checkboxList("zip", facets.zipcodes, state.zip)}</fieldset></details>
     <details><summary>Place type</summary><fieldset><legend class="visually-hidden">Place type</legend>${checkboxList("place", facets.placeTypes, state.place)}</fieldset></details>
+    <details><summary>Minimum size and amenities</summary><fieldset><legend class="visually-hidden">Minimum size and amenities</legend>
+      <label>Minimum amenities <input name="minAmenities" type="number" min="0" step="1" value="${state.minAmenities}"></label>
+      <label>Minimum park size in acres <input name="minAcres" type="number" min="0" step="0.1" value="${state.minAcres}"></label>
+      <p class="hint">Park size comes from the official park-property dataset.</p></fieldset></details>
     <div class="filter-actions"><button type="submit">Apply filters</button><a href="/?explore=1">Clear all</a></div></form>`;
 }
 function quantityText(amenity) {

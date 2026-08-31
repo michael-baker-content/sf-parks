@@ -41,3 +41,11 @@ test("normalization output is deterministic for identical inputs", () => {
   };
   assert.deepEqual(normalizeDatasets(input), normalizeDatasets(input));
 });
+
+test("property normalization preserves source area and derives square feet only as a fallback", () => {
+  const base = { facilities: [], functionalAreas: [], assets: [], taxonomy: { facilityTypes: {}, functionalAreaTypes: {}, assetTypes: {} } };
+  const sourced = normalizeDatasets({ ...base, properties: [{ data: { objectid: "1", property_id: "P1", property_name: "Park", acres: "2", squarefeet: "90000" } }] });
+  const derived = normalizeDatasets({ ...base, properties: [{ data: { objectid: "2", property_id: "P2", property_name: "Park 2", acres: "2" } }] });
+  assert.equal(sourced.properties[0].squareFeet, 90000);
+  assert.equal(derived.properties[0].squareFeet, 87120);
+});

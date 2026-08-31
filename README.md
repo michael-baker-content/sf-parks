@@ -8,8 +8,9 @@ Francisco.
 
 ## What it includes
 
-- Conventional search, 12 activity entry points, collapsible filters, shareable
-  URLs, and 15-result progressive batches
+- Conventional search, 12 activity entry points, nine broad browsing areas,
+  collapsible filters, shareable URLs, minimum amenity and acreage thresholds,
+  and 15-result progressive batches
 - Permanent destination pages with amenities and reviewed evergreen context
 - MapLibre results with two-size destination markers and optional Google Maps
   embeds
@@ -36,7 +37,8 @@ in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
   elsewhere rather than an unverified location image
 - 3 generated editorial illustrations supporting the programs and reservations
   guide
-- 94 passing automated tests, plus a successful TypeScript check and static
+- Official park-property area available for all 249 public destinations
+- 99 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally

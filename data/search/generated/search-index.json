@@ -4,6 +4,7 @@
   "filterLogic": {
     "selectedAmenities": "all",
     "selectedActivities": "all",
+    "valuesWithinArea": "any",
     "valuesWithinNeighborhood": "any",
     "valuesWithinPlaceType": "any",
     "valuesWithinCoverage": "any"
@@ -31,6 +32,9 @@
       "filters": {
         "activityIds": [
           "play-with-kids"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -62,6 +66,8 @@
         "neighborhood": "Inner Richmond",
         "address": "351 Ninth Ave",
         "zipcode": "94118",
+        "acres": 0.93242788,
+        "squareFeet": 40616.72096963,
         "displayPoint": {
           "latitude": 37.78184902,
           "longitude": -122.46811226,
@@ -92,6 +98,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -120,6 +129,8 @@
         "neighborhood": "Inner Sunset",
         "address": "1060 Kirkham St",
         "zipcode": "94122",
+        "acres": 0.50806563,
+        "squareFeet": 22131.42752968,
         "displayPoint": {
           "latitude": 37.75956994,
           "longitude": -122.47228105,
@@ -157,6 +168,9 @@
           "have-a-picnic",
           "play-sports"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "multi-use-paved-area",
@@ -191,6 +205,8 @@
         "neighborhood": "Mission",
         "address": "2810 24th St",
         "zipcode": "94110",
+        "acres": 0.13317206,
+        "squareFeet": 5800.9980371,
         "displayPoint": {
           "latitude": 37.75304904,
           "longitude": -122.40858706,
@@ -216,6 +232,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -238,6 +257,8 @@
         "neighborhood": "Noe Valley",
         "address": "1701 Diamond St",
         "zipcode": "94131",
+        "acres": 0.93141186,
+        "squareFeet": 40572.46279866,
         "displayPoint": {
           "latitude": 37.74358663,
           "longitude": -122.43526588,
@@ -263,6 +284,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -285,6 +309,8 @@
         "neighborhood": "Mission",
         "address": "49 Van Ness Ave",
         "zipcode": "94103",
+        "acres": 2.53339019,
+        "squareFeet": 110354.9179414,
         "displayPoint": {
           "latitude": 37.77419146,
           "longitude": -122.41813985,
@@ -323,6 +349,9 @@
           "have-a-picnic",
           "play-sports",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -363,6 +392,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "900 Innes St",
         "zipcode": "94124",
+        "acres": 1.623,
+        "squareFeet": 70737.76539901,
         "displayPoint": {
           "latitude": 37.73288716,
           "longitude": -122.37517919,
@@ -406,6 +437,9 @@
           "play-basketball",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "basketball-court",
@@ -451,6 +485,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1215 Quesada Ave",
         "zipcode": "94124",
+        "acres": 2.76858023,
+        "squareFeet": 120599.83727921,
         "displayPoint": {
           "latitude": 37.73101787,
           "longitude": -122.38386381,
@@ -493,6 +529,9 @@
           "play-sports",
           "play-tennis",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "bench",
@@ -538,6 +577,8 @@
         "neighborhood": "Hayes Valley",
         "address": "1081 Fulton St",
         "zipcode": "94117",
+        "acres": 13.64929367,
+        "squareFeet": 594565.61040444,
         "displayPoint": {
           "latitude": 37.77634695,
           "longitude": -122.43468604,
@@ -584,6 +625,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "ball-field",
@@ -636,6 +680,8 @@
         "neighborhood": "Excelsior",
         "address": "670 Brunswick St",
         "zipcode": "94112",
+        "acres": 1.81590783,
+        "squareFeet": 79101.26151115,
         "displayPoint": {
           "latitude": 37.70982341,
           "longitude": -122.44665863,
@@ -668,6 +714,9 @@
           "play-sports",
           "play-basketball",
           "play-tennis"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "basketball-court",
@@ -702,6 +751,8 @@
         "neighborhood": "Russian Hill",
         "address": "1200 Greenwich St",
         "zipcode": "94109",
+        "acres": 0.83992372,
+        "squareFeet": 36587.22352899,
         "displayPoint": {
           "latitude": 37.80146337,
           "longitude": -122.42009519,
@@ -739,6 +790,9 @@
           "have-a-picnic",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "bench",
@@ -779,6 +833,8 @@
         "neighborhood": "Mission",
         "address": "3460 20th St",
         "zipcode": "94110",
+        "acres": 0.21154127000000003,
+        "squareFeet": 9214.77468037,
         "displayPoint": {
           "latitude": 37.75888932,
           "longitude": -122.41821465,
@@ -804,6 +860,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -826,6 +885,8 @@
         "neighborhood": "Marina",
         "address": "2609 Gough St",
         "zipcode": "94123",
+        "acres": 0.88362876,
+        "squareFeet": 38491.02258084,
         "displayPoint": {
           "latitude": 37.79744847,
           "longitude": -122.42758433,
@@ -871,6 +932,9 @@
           "play-basketball",
           "play-tennis",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "basketball-court",
@@ -920,6 +984,8 @@
         "neighborhood": "Pacific Heights",
         "address": "2501 Jackson St",
         "zipcode": "94115",
+        "acres": 12.935002050000001,
+        "squareFeet": 563450.94288623,
         "displayPoint": {
           "latitude": 37.79117837,
           "longitude": -122.43768317,
@@ -975,6 +1041,9 @@
           "play-tennis",
           "swim",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "ball-field",
@@ -1035,6 +1104,8 @@
         "neighborhood": "Lone Mountain/USF",
         "address": "600 Arguello Blvd",
         "zipcode": "94118",
+        "acres": 7.08433275,
+        "squareFeet": 308594.76900828,
         "displayPoint": {
           "latitude": 37.77874981,
           "longitude": -122.45749604,
@@ -1060,6 +1131,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "richmond-presidio"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -1082,6 +1156,8 @@
         "neighborhood": "Outer Richmond",
         "address": "550 37th Ave",
         "zipcode": "94121",
+        "acres": 0.24376816,
+        "squareFeet": 10618.5837366,
         "displayPoint": {
           "latitude": 37.77853641,
           "longitude": -122.4972188,
@@ -1128,6 +1204,9 @@
           "play-sports",
           "play-tennis"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "ball-field",
           "children-s-play-area",
@@ -1173,6 +1252,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "139 Aptos Ave",
         "zipcode": "94127",
+        "acres": 4.9857799,
+        "squareFeet": 217181.44117268,
         "displayPoint": {
           "latitude": 37.72852771,
           "longitude": -122.46657164,
@@ -1221,6 +1302,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -1272,6 +1356,8 @@
         "neighborhood": "Outer Richmond",
         "address": "455 18th Ave",
         "zipcode": "94121",
+        "acres": 0.92315503,
+        "squareFeet": 40212.79388034,
         "displayPoint": {
           "latitude": 37.77942003,
           "longitude": -122.47771293,
@@ -1302,6 +1388,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -1330,6 +1419,8 @@
         "neighborhood": "Potrero Hill",
         "address": null,
         "zipcode": "94107",
+        "acres": 0.12946478,
+        "squareFeet": 5639.50848906,
         "displayPoint": {
           "latitude": 37.75736361,
           "longitude": -122.39765273,
@@ -1360,6 +1451,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -1388,6 +1482,8 @@
         "neighborhood": "Glen Park",
         "address": null,
         "zipcode": "94110",
+        "acres": 0.12555599,
+        "squareFeet": 5469.2406825,
         "displayPoint": {
           "latitude": 37.73704633,
           "longitude": -122.42638937,
@@ -1418,6 +1514,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "richmond-presidio"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -1446,6 +1545,8 @@
         "neighborhood": "Outer Richmond",
         "address": null,
         "zipcode": "94121",
+        "acres": 1.8432519,
+        "squareFeet": 80292.37402772,
         "displayPoint": {
           "latitude": 37.7759179,
           "longitude": -122.51105271,
@@ -1505,6 +1606,9 @@
           "swim",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -1572,6 +1676,8 @@
         "neighborhood": "Outer Mission",
         "address": "51 Havelock St",
         "zipcode": "94112",
+        "acres": 24.86336884,
+        "squareFeet": 1083052.67897958,
         "displayPoint": {
           "latitude": 37.72495974,
           "longitude": -122.44462514,
@@ -1602,6 +1708,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -1630,6 +1739,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "900 Key Ave",
         "zipcode": "94124",
+        "acres": 46.64177327,
+        "squareFeet": 2031723.77067683,
         "displayPoint": {
           "latitude": 37.71518495,
           "longitude": -122.39251458,
@@ -1683,6 +1794,9 @@
           "exercise",
           "swim",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -1744,6 +1858,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "5701 3rd St",
         "zipcode": "94124",
+        "acres": 3.9087788,
+        "squareFeet": 170267.08546595,
         "displayPoint": {
           "latitude": 37.72594209,
           "longitude": -122.39329981,
@@ -1769,6 +1885,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -1791,6 +1910,8 @@
         "neighborhood": "Western Addition",
         "address": "84 Beideman St",
         "zipcode": "94115",
+        "acres": 0.08773144,
+        "squareFeet": 3821.5969587,
         "displayPoint": {
           "latitude": 37.78240944,
           "longitude": -122.43861159,
@@ -1816,6 +1937,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -1838,6 +1962,8 @@
         "neighborhood": "Glen Park",
         "address": "298 Berkeley Way",
         "zipcode": "94131",
+        "acres": 0.83122668,
+        "squareFeet": 36208.37883926,
         "displayPoint": {
           "latitude": 37.73957202,
           "longitude": -122.43997224,
@@ -1863,6 +1989,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -1885,6 +2014,8 @@
         "neighborhood": "Bernal Heights",
         "address": "500 Cortland Ave",
         "zipcode": "94110",
+        "acres": 0.21318552000000002,
+        "squareFeet": 9286.39850843,
         "displayPoint": {
           "latitude": 37.73885485,
           "longitude": -122.41613392,
@@ -1919,6 +2050,9 @@
           "bring-a-dog",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "bench",
@@ -1956,6 +2090,8 @@
         "neighborhood": "Bernal Heights",
         "address": null,
         "zipcode": "94110",
+        "acres": 26.342816420000002,
+        "squareFeet": 1147497.67341524,
         "displayPoint": {
           "latitude": 37.74313673,
           "longitude": -122.41426524,
@@ -2005,6 +2141,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -2058,6 +2197,8 @@
         "neighborhood": "Bernal Heights",
         "address": "500 Moultrie St",
         "zipcode": "94110",
+        "acres": 0.8346184,
+        "squareFeet": 36356.122923,
         "displayPoint": {
           "latitude": 37.73845177,
           "longitude": -122.41617543,
@@ -2101,6 +2242,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "basketball-court",
@@ -2151,6 +2295,8 @@
         "neighborhood": "Nob Hill",
         "address": "1101 Washington St",
         "zipcode": "94108",
+        "acres": 0.7514173700000001,
+        "squareFeet": 32731.87134806,
         "displayPoint": {
           "latitude": 37.79423135,
           "longitude": -122.41177669,
@@ -2183,6 +2329,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "natural-area",
           "trail"
@@ -2213,6 +2362,8 @@
         "neighborhood": "Glen Park",
         "address": "294 Beacon St",
         "zipcode": "94131",
+        "acres": 3.6688939,
+        "squareFeet": 159817.65773665,
         "displayPoint": {
           "latitude": 37.74141293,
           "longitude": -122.43321192,
@@ -2243,6 +2394,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [
           "ornamental-garden"
         ],
@@ -2271,6 +2425,8 @@
         "neighborhood": "Russian Hill",
         "address": "1201 Broadway",
         "zipcode": "94109",
+        "acres": 0.1245258,
+        "squareFeet": 5424.36568421,
         "displayPoint": {
           "latitude": 37.7964406,
           "longitude": -122.41743636,
@@ -2315,6 +2471,9 @@
           "play-sports",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "bench",
@@ -2362,6 +2521,8 @@
         "neighborhood": "Oceanview/Merced/Ingleside",
         "address": "373 Ramsell St",
         "zipcode": "94132",
+        "acres": 3.79028119,
+        "squareFeet": 165105.30914229,
         "displayPoint": {
           "latitude": 37.71728548,
           "longitude": -122.46679189,
@@ -2395,6 +2556,9 @@
           "play-with-kids",
           "play-sports",
           "play-basketball"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "basketball-court",
@@ -2432,6 +2596,8 @@
         "neighborhood": "Western Addition, Hayes Valley",
         "address": "1151 Buchanan St",
         "zipcode": "94102",
+        "acres": 1.9706335400000001,
+        "squareFeet": 85841.1404493,
         "displayPoint": {
           "latitude": 37.77951424,
           "longitude": -122.42858096,
@@ -2457,6 +2623,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "treasure-island"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -2479,6 +2648,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 2.13435855,
+        "squareFeet": 92972.65840839,
         "displayPoint": {
           "latitude": 37.81238394,
           "longitude": -122.37078917,
@@ -2521,6 +2692,9 @@
           "play-tennis",
           "bring-a-dog",
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "bench",
@@ -2571,6 +2745,8 @@
         "neighborhood": "Haight Ashbury",
         "address": "1293 Haight St",
         "zipcode": "94117",
+        "acres": 38.34512762,
+        "squareFeet": 1670320.44040611,
         "displayPoint": {
           "latitude": 37.76856416,
           "longitude": -122.44139746,
@@ -2601,6 +2777,9 @@
         "activityIds": [
           "have-a-picnic"
         ],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [
           "picnic-area"
         ],
@@ -2629,6 +2808,8 @@
         "neighborhood": "Pacific Heights",
         "address": "2748 Bush St",
         "zipcode": "94115",
+        "acres": 0.19535678,
+        "squareFeet": 8509.77552882,
         "displayPoint": {
           "latitude": 37.78559708,
           "longitude": -122.4425508,
@@ -2677,6 +2858,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -2730,6 +2914,8 @@
         "neighborhood": "Outer Richmond",
         "address": "851 38th Ave",
         "zipcode": "94121",
+        "acres": 1.00858201,
+        "squareFeet": 43934.00799477,
         "displayPoint": {
           "latitude": 37.77287238,
           "longitude": -122.49871358,
@@ -2791,6 +2977,9 @@
           "swim",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "outside-san-francisco"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -2864,6 +3053,8 @@
         "neighborhood": null,
         "address": "32560 Mather Road",
         "zipcode": "95321",
+        "acres": 337.99797984,
+        "squareFeet": 14723250.8947625,
         "displayPoint": {
           "latitude": 37.88160756,
           "longitude": -119.85077279,
@@ -2909,6 +3100,9 @@
           "play-sports",
           "swim",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "ball-field",
@@ -2958,6 +3152,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "2695 19th Ave",
         "zipcode": "94116",
+        "acres": 7.339430640000001,
+        "squareFeet": 319706.87758725,
         "displayPoint": {
           "latitude": 37.73928981,
           "longitude": -122.4759929,
@@ -2983,6 +3179,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3005,6 +3204,8 @@
         "neighborhood": "Outer Mission",
         "address": "185 Cayuga Ave",
         "zipcode": "94112",
+        "acres": 0.15415614000000002,
+        "squareFeet": 6715.06836513,
         "displayPoint": {
           "latitude": 37.73034855,
           "longitude": -122.4329585,
@@ -3052,6 +3253,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -3105,6 +3309,8 @@
         "neighborhood": "Outer Mission",
         "address": "301 Naglee Ave",
         "zipcode": "94112",
+        "acres": 3.56475182,
+        "squareFeet": 155281.21029227,
         "displayPoint": {
           "latitude": 37.71389148,
           "longitude": -122.45035425,
@@ -3130,6 +3336,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "treasure-island"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3152,6 +3361,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 2.71380134,
+        "squareFeet": 118213.18627911,
         "displayPoint": {
           "latitude": 37.8181344,
           "longitude": -122.37199718,
@@ -3177,6 +3388,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3199,6 +3413,8 @@
         "neighborhood": "North Beach",
         "address": "225 Chestnut St",
         "zipcode": "94133",
+        "acres": 0.04732612,
+        "squareFeet": 2061.53424821,
         "displayPoint": {
           "latitude": 37.80464044,
           "longitude": -122.40711737,
@@ -3224,6 +3440,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3246,6 +3465,8 @@
         "neighborhood": "Tenderloin",
         "address": "1 Carlton B. Goodlett Place",
         "zipcode": "94102",
+        "acres": 0.80652683,
+        "squareFeet": 35132.44912699,
         "displayPoint": {
           "latitude": 37.77914173,
           "longitude": -122.41926539,
@@ -3283,6 +3504,9 @@
           "have-a-picnic",
           "gardens-and-nature",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "treasure-island"
         ],
         "amenityIds": [
           "drinking-fountain",
@@ -3325,6 +3549,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 6.59931788,
+        "squareFeet": 287466.28703331,
         "displayPoint": {
           "latitude": 37.8198053,
           "longitude": -122.3739576,
@@ -3350,6 +3576,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "treasure-island"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3372,6 +3601,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 1.39286897,
+        "squareFeet": 60673.37215545,
         "displayPoint": {
           "latitude": 37.81330567,
           "longitude": -122.37040706,
@@ -3402,6 +3633,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -3430,6 +3664,8 @@
         "neighborhood": "Noe Valley",
         "address": "855 Clipper Terrace",
         "zipcode": "94114",
+        "acres": 0.4677895,
+        "squareFeet": 20376.99207843,
         "displayPoint": {
           "latitude": 37.74784807,
           "longitude": -122.4431957,
@@ -3460,6 +3696,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "children-s-play-area"
         ],
@@ -3488,6 +3727,8 @@
         "neighborhood": "Bernal Heights",
         "address": "90 Coleridge St",
         "zipcode": "94110",
+        "acres": 0.23009548000000002,
+        "squareFeet": 10022.99940487,
         "displayPoint": {
           "latitude": 37.74441806,
           "longitude": -122.41965561,
@@ -3518,6 +3759,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "children-s-play-area"
         ],
@@ -3546,6 +3790,8 @@
         "neighborhood": "Nob Hill",
         "address": "1000 Taylor St",
         "zipcode": "94108",
+        "acres": 1.29616036,
+        "squareFeet": 56460.97130208,
         "displayPoint": {
           "latitude": 37.79216622,
           "longitude": -122.4121807,
@@ -3576,6 +3822,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -3604,6 +3853,8 @@
         "neighborhood": "Potrero Hill",
         "address": "699 Connecticut St",
         "zipcode": "94107",
+        "acres": 0.13554906,
+        "squareFeet": 5904.54051769,
         "displayPoint": {
           "latitude": 37.75740481,
           "longitude": -122.39730975,
@@ -3644,6 +3895,9 @@
           "bring-a-dog",
           "gardens-and-nature",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -3688,6 +3942,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "199 Museum Way",
         "zipcode": "94114",
+        "acres": 13.24973014,
+        "squareFeet": 577160.55337726,
         "displayPoint": {
           "latitude": 37.76498176,
           "longitude": -122.43881015,
@@ -3713,6 +3969,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3735,6 +3994,8 @@
         "neighborhood": "Bernal Heights",
         "address": null,
         "zipcode": "94110",
+        "acres": 0.15050869,
+        "squareFeet": 6556.18497843,
         "displayPoint": {
           "latitude": 37.74624859,
           "longitude": -122.41813353,
@@ -3760,6 +4021,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -3782,6 +4046,8 @@
         "neighborhood": "Pacific Heights",
         "address": null,
         "zipcode": "94115",
+        "acres": 0.17142016,
+        "squareFeet": 7467.09197094,
         "displayPoint": {
           "latitude": 37.78656476,
           "longitude": -122.43232104,
@@ -3819,6 +4085,9 @@
         "activityIds": [
           "play-with-kids",
           "recreation-center"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -3858,6 +4127,8 @@
         "neighborhood": "Marina",
         "address": "1 Miley St",
         "zipcode": "94123",
+        "acres": 0.14948525000000001,
+        "squareFeet": 6511.60364603,
         "displayPoint": {
           "latitude": 37.79734341,
           "longitude": -122.44486464,
@@ -3888,6 +4159,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -3916,6 +4190,8 @@
         "neighborhood": "Glen Park",
         "address": "2 Crags Ct",
         "zipcode": "94131",
+        "acres": 0.43651079,
+        "squareFeet": 19014.48620272,
         "displayPoint": {
           "latitude": 37.74142764,
           "longitude": -122.44067677,
@@ -3984,6 +4260,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "ball-field",
@@ -4065,6 +4344,8 @@
         "neighborhood": "Excelsior, McLaren Park",
         "address": "799 Moscow St",
         "zipcode": "94134",
+        "acres": 57.523356299999996,
+        "squareFeet": 2505727.42331007,
         "displayPoint": {
           "latitude": 37.7140419,
           "longitude": -122.42928813,
@@ -4090,6 +4371,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -4112,6 +4396,8 @@
         "neighborhood": "Glen Park",
         "address": null,
         "zipcode": "94131",
+        "acres": 0.07942271,
+        "squareFeet": 3459.66709417,
         "displayPoint": {
           "latitude": 37.73880732,
           "longitude": -122.43432662,
@@ -4142,6 +4428,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -4170,6 +4459,8 @@
         "neighborhood": "Bernal Heights",
         "address": "114 Brewster St",
         "zipcode": "94110",
+        "acres": 0.30290238,
+        "squareFeet": 13194.48058128,
         "displayPoint": {
           "latitude": 37.74504697,
           "longitude": -122.40717609,
@@ -4200,6 +4491,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -4228,6 +4522,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "7 Martha Ave",
         "zipcode": "94131",
+        "acres": 1.60282348,
+        "squareFeet": 69819.27022283,
         "displayPoint": {
           "latitude": 37.73391837,
           "longitude": -122.43945927,
@@ -4281,6 +4577,9 @@
           "play-tennis",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "athletic-field",
@@ -4341,6 +4640,8 @@
         "neighborhood": "Noe Valley",
         "address": "1098 Douglass St",
         "zipcode": "94131",
+        "acres": 7.88730383,
+        "squareFeet": 343572.32909164,
         "displayPoint": {
           "latitude": 37.74729064,
           "longitude": -122.43892205,
@@ -4387,6 +4688,9 @@
           "play-basketball",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -4440,6 +4744,8 @@
         "neighborhood": "Haight Ashbury",
         "address": "50 Scott St",
         "zipcode": "94117",
+        "acres": 4.78759191,
+        "squareFeet": 208548.33768072,
         "displayPoint": {
           "latitude": 37.76961523,
           "longitude": -122.43345618,
@@ -4470,6 +4776,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -4498,6 +4807,8 @@
         "neighborhood": "Noe Valley",
         "address": "592 Duncan St",
         "zipcode": "94131",
+        "acres": 0.65081602,
+        "squareFeet": 28349.65922991,
         "displayPoint": {
           "latitude": 37.74597219,
           "longitude": -122.43340907,
@@ -4532,6 +4843,9 @@
         "activityIds": [
           "play-sports",
           "play-tennis"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "bench",
@@ -4568,6 +4882,8 @@
         "neighborhood": "Outer Richmond",
         "address": "336 31st Ave",
         "zipcode": "94121",
+        "acres": 0.9268219600000001,
+        "squareFeet": 40372.52621639,
         "displayPoint": {
           "latitude": 37.78269292,
           "longitude": -122.49084631,
@@ -4598,6 +4914,9 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -4630,6 +4949,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": null,
         "zipcode": "94127",
+        "acres": 2.41942505,
+        "squareFeet": 105390.57673154,
         "displayPoint": {
           "latitude": 37.74203947,
           "longitude": -122.45978223,
@@ -4660,6 +4981,9 @@
         "activityIds": [
           "play-sports"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "bocce-ball-court"
         ],
@@ -4688,6 +5012,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "10 Market St",
         "zipcode": "94105",
+        "acres": 4.13652822,
+        "squareFeet": 180187.89000043,
         "displayPoint": {
           "latitude": 37.79492396,
           "longitude": -122.39478498,
@@ -4723,6 +5049,9 @@
           "play-sports",
           "exercise",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -4766,6 +5095,8 @@
         "neighborhood": "Potrero Hill",
         "address": "700 Minnesota St",
         "zipcode": "94107",
+        "acres": 2.22949667,
+        "squareFeet": 97117.26354625,
         "displayPoint": {
           "latitude": 37.76099117,
           "longitude": -122.39100688,
@@ -4807,6 +5138,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "basketball-court",
@@ -4851,6 +5185,8 @@
         "neighborhood": "South of Market",
         "address": "270 6th St",
         "zipcode": "94103",
+        "acres": 1.16261065,
+        "squareFeet": 50643.5225893,
         "displayPoint": {
           "latitude": 37.77863923,
           "longitude": -122.40634866,
@@ -4876,6 +5212,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -4898,6 +5237,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "3555 16th St",
         "zipcode": "94114",
+        "acres": 0.43147927,
+        "squareFeet": 18795.31234328,
         "displayPoint": {
           "latitude": 37.76401373,
           "longitude": -122.43197454,
@@ -4946,6 +5287,9 @@
           "play-tennis",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "ball-field",
@@ -5001,6 +5345,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "100 Collingwood St",
         "zipcode": "94114",
+        "acres": 2.25481227,
+        "squareFeet": 98220.01557264,
         "displayPoint": {
           "latitude": 37.75977273,
           "longitude": -122.43648654,
@@ -5026,6 +5372,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -5048,6 +5397,8 @@
         "neighborhood": "Glen Park",
         "address": "61 Everson St",
         "zipcode": "94131",
+        "acres": 1.2687575199999999,
+        "squareFeet": 55267.29877601,
         "displayPoint": {
           "latitude": 37.73809212,
           "longitude": -122.43179489,
@@ -5100,6 +5451,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "ball-field",
@@ -5159,6 +5513,8 @@
         "neighborhood": "Excelsior",
         "address": "579 Madrid St",
         "zipcode": "94112",
+        "acres": 1.90615221,
+        "squareFeet": 83032.32233463,
         "displayPoint": {
           "latitude": 37.72034899,
           "longitude": -122.43324049,
@@ -5189,6 +5545,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -5217,6 +5576,8 @@
         "neighborhood": "Glen Park",
         "address": "26 Amatista Ln",
         "zipcode": "94131",
+        "acres": 0.86592145,
+        "squareFeet": 37719.68903171,
         "displayPoint": {
           "latitude": 37.7385081,
           "longitude": -122.42912802,
@@ -5242,6 +5603,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -5264,6 +5628,8 @@
         "neighborhood": "Mission",
         "address": "551 Utah St",
         "zipcode": "94110",
+        "acres": 0.31978069000000003,
+        "squareFeet": 13929.7025816,
         "displayPoint": {
           "latitude": 37.76232205,
           "longitude": -122.40606709,
@@ -5314,6 +5680,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -5369,6 +5738,8 @@
         "neighborhood": "Tenderloin",
         "address": "246 Eddy St",
         "zipcode": "94102",
+        "acres": 1.093675,
+        "squareFeet": 47640.67336253,
         "displayPoint": {
           "latitude": 37.78438652,
           "longitude": -122.41208747,
@@ -5402,6 +5773,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [
           "ornamental-garden",
           "picnic-area"
@@ -5433,6 +5807,8 @@
         "neighborhood": "Russian Hill",
         "address": "2366 Leavenworth St",
         "zipcode": "94133",
+        "acres": 0.32959382000000004,
+        "squareFeet": 14357.16425452,
         "displayPoint": {
           "latitude": 37.80291182,
           "longitude": -122.41788656,
@@ -5465,6 +5841,9 @@
           "have-a-picnic",
           "arts-and-culture"
         ],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [
           "performance-space",
           "picnic-area"
@@ -5496,6 +5875,8 @@
         "neighborhood": "Western Addition",
         "address": "1140 Fillmore St",
         "zipcode": "94115",
+        "acres": 0.25969231,
+        "squareFeet": 11312.24239097,
         "displayPoint": {
           "latitude": 37.78019554,
           "longitude": -122.43180917,
@@ -5538,6 +5919,9 @@
           "bring-a-dog",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "bench",
@@ -5583,6 +5967,8 @@
         "neighborhood": "Russian Hill",
         "address": "2745 Larkin St",
         "zipcode": "94109",
+        "acres": 4.89328892,
+        "squareFeet": 213152.51804277,
         "displayPoint": {
           "latitude": 37.80397142,
           "longitude": -122.42087848,
@@ -5625,6 +6011,9 @@
           "have-a-picnic",
           "play-sports",
           "exercise"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -5674,6 +6063,8 @@
         "neighborhood": "Mission",
         "address": "2500 17th St",
         "zipcode": "94110",
+        "acres": 5.60397,
+        "squareFeet": 244109.9097303,
         "displayPoint": {
           "latitude": 37.76501382,
           "longitude": -122.40935317,
@@ -5721,6 +6112,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -5774,6 +6168,8 @@
         "neighborhood": "Outer Richmond",
         "address": "855 27th Ave",
         "zipcode": "94121",
+        "acres": 0.92342215,
+        "squareFeet": 40224.42986087,
         "displayPoint": {
           "latitude": 37.77338725,
           "longitude": -122.48694726,
@@ -5822,6 +6218,9 @@
           "play-basketball",
           "swim",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -5876,6 +6275,8 @@
         "neighborhood": "Mission",
         "address": "3100 26th St",
         "zipcode": "94110",
+        "acres": 3.4567257600000003,
+        "squareFeet": 150575.57645095,
         "displayPoint": {
           "latitude": 37.75020974,
           "longitude": -122.4122493,
@@ -5906,6 +6307,9 @@
         "activityIds": [
           "recreation-center"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "indoor-recreation-area"
         ],
@@ -5934,6 +6338,8 @@
         "neighborhood": "Outer Mission",
         "address": "2301 San Jose Ave",
         "zipcode": "94112",
+        "acres": 0.35235001,
+        "squareFeet": 15348.42767186,
         "displayPoint": {
           "latitude": 37.72021667,
           "longitude": -122.44674949,
@@ -5967,6 +6373,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden",
           "picnic-area"
@@ -5998,6 +6407,8 @@
         "neighborhood": "Outer Mission",
         "address": "545 Geneva Ave",
         "zipcode": "94112",
+        "acres": 0.29349566,
+        "squareFeet": 12784.72206944,
         "displayPoint": {
           "latitude": 37.72044701,
           "longitude": -122.44546095,
@@ -6051,6 +6462,9 @@
           "play-tennis",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -6113,6 +6527,8 @@
         "neighborhood": "Glen Park",
         "address": "5210 Diamond Heights Blvd",
         "zipcode": "94131",
+        "acres": 6.97162064,
+        "squareFeet": 303685.00967457,
         "displayPoint": {
           "latitude": 37.74347991,
           "longitude": -122.44054794,
@@ -6161,6 +6577,9 @@
           "play-basketball",
           "exercise",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -6213,6 +6632,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "993 Gilman Ave",
         "zipcode": "94124",
+        "acres": 4.859213520000001,
+        "squareFeet": 211668.18745436,
         "displayPoint": {
           "latitude": 37.71722092,
           "longitude": -122.38806931,
@@ -6279,6 +6700,9 @@
           "exercise",
           "gardens-and-nature",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -6356,6 +6780,8 @@
         "neighborhood": "Glen Park, West of Twin Peaks",
         "address": "70 Elk St",
         "zipcode": "94131",
+        "acres": 70.70205415,
+        "squareFeet": 3079793.79774424,
         "displayPoint": {
           "latitude": 37.73708591,
           "longitude": -122.44080042,
@@ -6381,6 +6807,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -6403,6 +6832,8 @@
         "neighborhood": "Western Addition",
         "address": "1392 Golden Gate Ave",
         "zipcode": "94115",
+        "acres": 0.11507146,
+        "squareFeet": 5012.53300041,
         "displayPoint": {
           "latitude": 37.77957209,
           "longitude": -122.43348704,
@@ -6445,6 +6876,9 @@
           "play-sports",
           "play-tennis",
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -6492,6 +6926,8 @@
         "neighborhood": "Inner Sunset",
         "address": "2041 12th Ave",
         "zipcode": "94116",
+        "acres": 6.9612378999999995,
+        "squareFeet": 303232.73584136,
         "displayPoint": {
           "latitude": 37.749991,
           "longitude": -122.46941641,
@@ -6588,6 +7024,9 @@
           "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -6695,6 +7134,8 @@
         "neighborhood": "Golden Gate Park",
         "address": "501 Stanyan St",
         "zipcode": "94117",
+        "acres": 1031.84617465,
+        "squareFeet": 44947399.157418005,
         "displayPoint": {
           "latitude": 37.77139097,
           "longitude": -122.45529391,
@@ -6725,6 +7166,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -6753,6 +7197,8 @@
         "neighborhood": "Bernal Heights",
         "address": "100 Cortland Avenue",
         "zipcode": "94110",
+        "acres": 0.04552904,
+        "squareFeet": 1983.24516458,
         "displayPoint": {
           "latitude": 37.74002734,
           "longitude": -122.42099278,
@@ -6778,6 +7224,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -6800,6 +7249,8 @@
         "neighborhood": "Inner Sunset",
         "address": null,
         "zipcode": "94122",
+        "acres": 0.7939106100000001,
+        "squareFeet": 34582.88443598,
         "displayPoint": {
           "latitude": 37.75504478,
           "longitude": -122.47234138,
@@ -6829,6 +7280,9 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -6861,6 +7315,8 @@
         "neighborhood": "Inner Sunset",
         "address": "1730 15th Ave",
         "zipcode": "94122",
+        "acres": 4.1444643,
+        "squareFeet": 180533.58703145,
         "displayPoint": {
           "latitude": 37.75646274,
           "longitude": -122.47181036,
@@ -6911,6 +7367,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "athletic-field",
@@ -6967,6 +7426,8 @@
         "neighborhood": "Haight Ashbury",
         "address": "1180 Stanyan St",
         "zipcode": "94117",
+        "acres": 1.87097396,
+        "squareFeet": 81499.95188592,
         "displayPoint": {
           "latitude": 37.76259819,
           "longitude": -122.45148972,
@@ -6992,6 +7453,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -7014,6 +7478,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "4 Guy Pl",
         "zipcode": "94105",
+        "acres": 0.09001658000000001,
+        "squareFeet": 3921.13781893,
         "displayPoint": {
           "latitude": 37.78668187,
           "longitude": -122.39439836,
@@ -7059,6 +7525,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "basketball-court",
@@ -7110,6 +7579,8 @@
         "neighborhood": "Japantown",
         "address": "1900 Geary Blvd",
         "zipcode": "94115",
+        "acres": 3.65430877,
+        "squareFeet": 159182.32689294,
         "displayPoint": {
           "latitude": 37.78442364,
           "longitude": -122.43601635,
@@ -7140,6 +7611,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -7168,6 +7642,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "390 San Marcos Ave",
         "zipcode": "94116",
+        "acres": 4.85063362,
+        "squareFeet": 211294.4456761,
         "displayPoint": {
           "latitude": 37.74659138,
           "longitude": -122.46874625,
@@ -7218,6 +7694,9 @@
           "exercise",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -7274,6 +7753,8 @@
         "neighborhood": "Hayes Valley",
         "address": "689 Hayes St",
         "zipcode": "94102",
+        "acres": 0.75325012,
+        "squareFeet": 32811.7065521,
         "displayPoint": {
           "latitude": 37.77606887,
           "longitude": -122.42740647,
@@ -7309,6 +7790,9 @@
           "play-sports",
           "play-basketball",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "basketball-court",
@@ -7347,6 +7831,8 @@
         "neighborhood": "Oceanview/Merced/Ingleside",
         "address": "300 Head St",
         "zipcode": "94132",
+        "acres": 0.5196217500000001,
+        "squareFeet": 22634.8141555,
         "displayPoint": {
           "latitude": 37.71263119,
           "longitude": -122.46423249,
@@ -7391,6 +7877,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "basketball-court",
@@ -7437,6 +7926,8 @@
         "neighborhood": "Russian Hill",
         "address": "1401 Broadway",
         "zipcode": "94109",
+        "acres": 0.91679834,
+        "squareFeet": 39935.89559512,
         "displayPoint": {
           "latitude": 37.79579519,
           "longitude": -122.42065279,
@@ -7471,6 +7962,9 @@
         "activityIds": [
           "play-with-kids",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -7508,6 +8002,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "32 Jennings St",
         "zipcode": "94124",
+        "acres": 0.58300596,
+        "squareFeet": 25395.84135028,
         "displayPoint": {
           "latitude": 37.73986494,
           "longitude": -122.375717,
@@ -7561,6 +8057,9 @@
           "play-basketball",
           "swim",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "athletic-field",
@@ -7625,6 +8124,8 @@
         "neighborhood": "McLaren Park, Visitacion Valley",
         "address": "1701 Visitacion Ave",
         "zipcode": "94134",
+        "acres": 6.9967099699999995,
+        "squareFeet": 304777.90557355,
         "displayPoint": {
           "latitude": 37.71350451,
           "longitude": -122.41659553,
@@ -7670,6 +8171,9 @@
           "play-sports",
           "exercise",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -7722,6 +8226,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "2 Willie B Kennedy Dr",
         "zipcode": "94124",
+        "acres": 3.8280115100000005,
+        "squareFeet": 166748.84837565,
         "displayPoint": {
           "latitude": 37.73293151,
           "longitude": -122.38350381,
@@ -7768,6 +8274,9 @@
           "play-sports",
           "play-basketball",
           "play-tennis"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -7818,6 +8327,8 @@
         "neighborhood": "Bernal Heights",
         "address": "625  Holly Park Cir",
         "zipcode": "94110",
+        "acres": 8.14671198,
+        "squareFeet": 354872.19341857,
         "displayPoint": {
           "latitude": 37.73721401,
           "longitude": -122.41995329,
@@ -7848,6 +8359,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -7876,6 +8390,8 @@
         "neighborhood": "Nob Hill",
         "address": "1 Hooker Alley",
         "zipcode": "94108",
+        "acres": 0.05516923000000001,
+        "squareFeet": 2403.18144917,
         "displayPoint": {
           "latitude": 37.79043858,
           "longitude": -122.41018584,
@@ -7906,6 +8422,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -7934,6 +8453,8 @@
         "neighborhood": "South of Market",
         "address": "1129 Howard St",
         "zipcode": "94103",
+        "acres": 0.27830188,
+        "squareFeet": 12122.87838073,
         "displayPoint": {
           "latitude": 37.77726009,
           "longitude": -122.40983188,
@@ -7959,6 +8480,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -7981,6 +8505,8 @@
         "neighborhood": "Russian Hill",
         "address": "1825 Hyde St",
         "zipcode": "94109",
+        "acres": 0.1128114,
+        "squareFeet": 4914.08429446,
         "displayPoint": {
           "latitude": 37.79764436,
           "longitude": -122.41909195,
@@ -8023,6 +8549,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -8071,6 +8600,8 @@
         "neighborhood": "Mission",
         "address": "2080 Folsom St",
         "zipcode": "94110",
+        "acres": 0.85530419,
+        "squareFeet": 37257.19971332,
         "displayPoint": {
           "latitude": 37.76391619,
           "longitude": -122.4157528,
@@ -8096,6 +8627,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -8118,6 +8652,8 @@
         "neighborhood": "Nob Hill",
         "address": "1700 Taylor St",
         "zipcode": "94133",
+        "acres": 0.86687177,
+        "squareFeet": 37761.08521235,
         "displayPoint": {
           "latitude": 37.7981701,
           "longitude": -122.41339661,
@@ -8159,6 +8695,9 @@
           "play-sports",
           "play-basketball",
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "basketball-court",
@@ -8204,6 +8743,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "915 Hudson Ave",
         "zipcode": "94124",
+        "acres": 11.78006227,
+        "squareFeet": 513141.5649618,
         "displayPoint": {
           "latitude": 37.73366807,
           "longitude": -122.37378414,
@@ -8234,6 +8775,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "children-s-play-area"
         ],
@@ -8262,6 +8806,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "1649 Ocean Avenue",
         "zipcode": "94112",
+        "acres": 0.36141428999999997,
+        "squareFeet": 15743.26964022,
         "displayPoint": {
           "latitude": 37.72415838,
           "longitude": -122.45614197,
@@ -8291,6 +8837,9 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "natural-area"
@@ -8322,6 +8871,8 @@
         "neighborhood": "Inner Sunset, Twin Peaks",
         "address": null,
         "zipcode": "94131",
+        "acres": 21.37444821,
+        "squareFeet": 931067.239711,
         "displayPoint": {
           "latitude": 37.76077946,
           "longitude": -122.4532141,
@@ -8365,6 +8916,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "basketball-court",
@@ -8413,6 +8967,8 @@
         "neighborhood": "Inner Sunset",
         "address": "1960 9th Ave",
         "zipcode": "94116",
+        "acres": 1.33077004,
+        "squareFeet": 57968.57487538,
         "displayPoint": {
           "latitude": 37.75180377,
           "longitude": -122.4650326,
@@ -8473,6 +9029,9 @@
           "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "ball-field",
@@ -8542,6 +9101,8 @@
         "neighborhood": "Potrero Hill",
         "address": "1645 17th St",
         "zipcode": "94107",
+        "acres": 4.938932090000001,
+        "squareFeet": 215140.7423991,
         "displayPoint": {
           "latitude": 37.76431708,
           "longitude": -122.39962279,
@@ -8586,6 +9147,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -8634,6 +9198,8 @@
         "neighborhood": "Mission",
         "address": "1451 Hampshire St",
         "zipcode": "94110",
+        "acres": 2.92992063,
+        "squareFeet": 127627.85305141,
         "displayPoint": {
           "latitude": 37.74973246,
           "longitude": -122.40624443,
@@ -8663,6 +9229,9 @@
         "activityIds": [
           "arts-and-culture"
         ],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [
           "performance-space"
         ],
@@ -8691,6 +9260,8 @@
         "neighborhood": "Japantown",
         "address": "1610 Geary Blvd",
         "zipcode": "94115",
+        "acres": 0.8039862600000001,
+        "squareFeet": 35021.78175167,
         "displayPoint": {
           "latitude": 37.78522059,
           "longitude": -122.42976491,
@@ -8722,6 +9293,9 @@
       "filters": {
         "activityIds": [
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "bench",
@@ -8756,6 +9330,8 @@
         "neighborhood": "Western Addition",
         "address": "950 Gough St",
         "zipcode": "94102",
+        "acres": 6.430115570000001,
+        "squareFeet": 280096.95480307,
         "displayPoint": {
           "latitude": 37.78180437,
           "longitude": -122.42567952,
@@ -8805,6 +9381,9 @@
           "play-tennis",
           "exercise",
           "recreation-center"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -8856,6 +9435,8 @@
         "neighborhood": "North Beach",
         "address": "651 Lombard Street",
         "zipcode": "94133",
+        "acres": 2.9199723800000004,
+        "squareFeet": 127194.50576788,
         "displayPoint": {
           "latitude": 37.80249695,
           "longitude": -122.41216884,
@@ -8925,6 +9506,9 @@
           "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -9013,6 +9597,8 @@
         "neighborhood": "McLaren Park, Visitacion Valley, Excelsior, Portola",
         "address": "100 John F Shelley Dr",
         "zipcode": "94134",
+        "acres": 278.01067407,
+        "squareFeet": 12110144.9625387,
         "displayPoint": {
           "latitude": 37.71809698,
           "longitude": -122.41908038,
@@ -9038,6 +9624,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -9060,6 +9649,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "246 Joost Ave",
         "zipcode": "94131",
+        "acres": 0.14135551000000002,
+        "squareFeet": 6157.47062377,
         "displayPoint": {
           "latitude": 37.73273784,
           "longitude": -122.4408549,
@@ -9107,6 +9698,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -9157,6 +9751,8 @@
         "neighborhood": "Mission",
         "address": "2498 Folsom St",
         "zipcode": "94110",
+        "acres": 0.9714546500000001,
+        "squareFeet": 42316.73401586,
         "displayPoint": {
           "latitude": 37.75753089,
           "longitude": -122.41511679,
@@ -9185,6 +9781,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [
           "restrooms"
         ],
@@ -9213,6 +9812,8 @@
         "neighborhood": "Russian Hill",
         "address": "601 Beach St",
         "zipcode": "94133",
+        "acres": 0.15427579,
+        "squareFeet": 6720.28049013,
         "displayPoint": {
           "latitude": 37.8066775,
           "longitude": -122.41907594,
@@ -9245,6 +9846,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "restrooms"
@@ -9276,6 +9880,8 @@
         "neighborhood": "Tenderloin",
         "address": "355 McAllister St",
         "zipcode": "94102",
+        "acres": 5.38412296,
+        "squareFeet": 234533.33410773,
         "displayPoint": {
           "latitude": 37.77948576,
           "longitude": -122.41761127,
@@ -9312,6 +9918,9 @@
         "activityIds": [
           "play-with-kids",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -9351,6 +9960,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1551 Newcomb Ave",
         "zipcode": "94124",
+        "acres": 0.9187404600000001,
+        "squareFeet": 40020.49466194,
         "displayPoint": {
           "latitude": 37.73473606,
           "longitude": -122.3897433,
@@ -9399,6 +10010,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "ball-field",
@@ -9452,6 +10066,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "300 Stonecrest Dr",
         "zipcode": "94132",
+        "acres": 1.74952259,
+        "squareFeet": 76209.50901279,
         "displayPoint": {
           "latitude": 37.72481504,
           "longitude": -122.47386448,
@@ -9482,6 +10098,9 @@
       "filters": {
         "activityIds": [
           "play-with-kids"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "bench",
@@ -9514,6 +10133,8 @@
         "neighborhood": "Mission",
         "address": "324 San Jose Ave",
         "zipcode": "94110",
+        "acres": 0.32420151999999997,
+        "squareFeet": 14122.27474002,
         "displayPoint": {
           "latitude": 37.74950897,
           "longitude": -122.42200565,
@@ -9551,6 +10172,9 @@
           "have-a-picnic",
           "play-sports",
           "play-basketball"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "basketball-court",
@@ -9591,6 +10215,8 @@
         "neighborhood": "Visitacion Valley",
         "address": "199 Kelloch Ave",
         "zipcode": "94134",
+        "acres": 1.95902415,
+        "squareFeet": 85335.43323716,
         "displayPoint": {
           "latitude": 37.70853932,
           "longitude": -122.41315618,
@@ -9627,6 +10253,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "community-garden",
@@ -9661,6 +10290,8 @@
         "neighborhood": "Mission",
         "address": "45 Hoff Street",
         "zipcode": "94110",
+        "acres": 0.25956440000000003,
+        "squareFeet": 11306.67061648,
         "displayPoint": {
           "latitude": 37.76415832,
           "longitude": -122.42031034,
@@ -9691,6 +10322,9 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "bench",
@@ -9723,6 +10357,8 @@
         "neighborhood": "Twin Peaks",
         "address": "10 Stanton St",
         "zipcode": "94114",
+        "acres": 2.8734699200000002,
+        "squareFeet": 125168.85035926,
         "displayPoint": {
           "latitude": 37.75824558,
           "longitude": -122.44167469,
@@ -9759,6 +10395,9 @@
           "play-basketball",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "basketball-court",
@@ -9797,6 +10436,8 @@
         "neighborhood": "Hayes Valley",
         "address": "363 Page St",
         "zipcode": "94102",
+        "acres": 0.96157746,
+        "squareFeet": 41886.48150636,
         "displayPoint": {
           "latitude": 37.77327033,
           "longitude": -122.42677179,
@@ -9843,6 +10484,9 @@
           "play-tennis",
           "bring-a-dog",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "bench",
@@ -9895,6 +10539,8 @@
         "neighborhood": "Pacific Heights",
         "address": "2101 Washington St",
         "zipcode": "94109",
+        "acres": 12.48255602,
+        "squareFeet": 543742.31535399,
         "displayPoint": {
           "latitude": 37.79155487,
           "longitude": -122.42768677,
@@ -9941,6 +10587,9 @@
           "exercise",
           "gardens-and-nature",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -9995,6 +10644,8 @@
         "neighborhood": "Lakeshore",
         "address": "1 Harding Rd",
         "zipcode": "94132",
+        "acres": 608.5808581199999,
+        "squareFeet": 26509888.219014,
         "displayPoint": {
           "latitude": 37.7218412,
           "longitude": -122.49239057,
@@ -10025,6 +10676,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -10053,6 +10707,8 @@
         "neighborhood": "Oceanview/Merced/Ingleside",
         "address": "799 Lakeview Ave",
         "zipcode": "94132",
+        "acres": 0.51492393,
+        "squareFeet": 22430.17613695,
         "displayPoint": {
           "latitude": 37.71809649,
           "longitude": -122.46258591,
@@ -10101,6 +10757,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "ball-field",
@@ -10155,6 +10814,8 @@
         "neighborhood": "Presidio Heights",
         "address": "251 Euclid Ave",
         "zipcode": "94118",
+        "acres": 1.61019533,
+        "squareFeet": 70140.38930729,
         "displayPoint": {
           "latitude": 37.78395928,
           "longitude": -122.45093716,
@@ -10188,6 +10849,9 @@
           "play-with-kids",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "bench",
@@ -10223,6 +10887,8 @@
         "neighborhood": "Outer Mission",
         "address": "10 Lessing St",
         "zipcode": "94112",
+        "acres": 0.16886261,
+        "squareFeet": 7355.68458007,
         "displayPoint": {
           "latitude": 37.70862323,
           "longitude": -122.45533612,
@@ -10273,6 +10939,9 @@
           "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -10334,6 +11003,8 @@
         "neighborhood": "Lincoln Park, Outer Richmond, Seacliff",
         "address": "100 34th Ave",
         "zipcode": "94121",
+        "acres": 112.82207948,
+        "squareFeet": 4914549.44049736,
         "displayPoint": {
           "latitude": 37.78424485,
           "longitude": -122.49832821,
@@ -10372,6 +11043,9 @@
           "have-a-picnic",
           "play-sports",
           "play-basketball"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "basketball-court",
@@ -10414,6 +11088,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": null,
         "zipcode": "94134",
+        "acres": 1.4722266,
+        "squareFeet": 64130.44722954,
         "displayPoint": {
           "latitude": 37.70999032,
           "longitude": -122.39823747,
@@ -10469,6 +11145,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "athletic-field",
@@ -10532,6 +11211,8 @@
         "neighborhood": "McLaren Park",
         "address": "599 Yale St",
         "zipcode": "94134",
+        "acres": 14.34392909,
+        "squareFeet": 624824.05063233,
         "displayPoint": {
           "latitude": 37.7224796,
           "longitude": -122.41393339,
@@ -10585,6 +11266,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "athletic-field",
@@ -10646,6 +11330,8 @@
         "neighborhood": "Western Addition",
         "address": "1016 Laguna St",
         "zipcode": "94102",
+        "acres": 5.8488473999999995,
+        "squareFeet": 254776.81177915,
         "displayPoint": {
           "latitude": 37.78087014,
           "longitude": -122.42542743,
@@ -10681,6 +11367,9 @@
           "have-a-picnic",
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "lawn-area",
@@ -10715,6 +11404,8 @@
         "neighborhood": "Potrero Hill",
         "address": null,
         "zipcode": "94158",
+        "acres": 2.65784166,
+        "squareFeet": 115776.04562545,
         "displayPoint": {
           "latitude": 37.76462447,
           "longitude": -122.39177276,
@@ -10740,6 +11431,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -10762,6 +11456,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "285 Washington St",
         "zipcode": "94111",
+        "acres": 2.01307708,
+        "squareFeet": 87689.98826612,
         "displayPoint": {
           "latitude": 37.79561019,
           "longitude": -122.39925209,
@@ -10808,6 +11504,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "ball-field",
@@ -10859,6 +11558,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "2354 24th Ave",
         "zipcode": "94116",
+        "acres": 7.9149034700000005,
+        "squareFeet": 344774.5743046,
         "displayPoint": {
           "latitude": 37.7438434,
           "longitude": -122.48009851,
@@ -10898,6 +11599,9 @@
           "bring-a-dog",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "bench",
@@ -10941,6 +11645,8 @@
         "neighborhood": "Potrero Hill",
         "address": "2311 20th St",
         "zipcode": "94107",
+        "acres": 2.86724662,
+        "squareFeet": 124897.76236096,
         "displayPoint": {
           "latitude": 37.75916375,
           "longitude": -122.40469672,
@@ -10966,6 +11672,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -10988,6 +11697,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "155 Winston Drive",
         "zipcode": "94132",
+        "acres": 0.30769532000000005,
+        "squareFeet": 13403.26170521,
         "displayPoint": {
           "latitude": 37.72661671,
           "longitude": -122.47449444,
@@ -11043,6 +11754,9 @@
           "exercise",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -11106,6 +11820,8 @@
         "neighborhood": "Oceanview/Merced/Ingleside",
         "address": "801 Shields St",
         "zipcode": "94132",
+        "acres": 1.2332518000000001,
+        "squareFeet": 53720.6634114,
         "displayPoint": {
           "latitude": 37.71752783,
           "longitude": -122.47029461,
@@ -11149,6 +11865,9 @@
           "play-basketball",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "basketball-court",
@@ -11194,6 +11913,8 @@
         "neighborhood": "Russian Hill",
         "address": "1055 Greenwich St",
         "zipcode": "94133",
+        "acres": 0.48377232000000003,
+        "squareFeet": 21073.20664737,
         "displayPoint": {
           "latitude": 37.80112112,
           "longitude": -122.41691652,
@@ -11236,6 +11957,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "basketball-court",
@@ -11283,6 +12007,8 @@
         "neighborhood": "Twin Peaks",
         "address": "210 Olympia Way",
         "zipcode": "94131",
+        "acres": 1.61283982,
+        "squareFeet": 70255.30270939,
         "displayPoint": {
           "latitude": 37.75172131,
           "longitude": -122.45546265,
@@ -11343,6 +12069,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "ball-field",
@@ -11411,6 +12140,8 @@
         "neighborhood": "Oceanview/Merced/Ingleside",
         "address": "650 Capitol Ave",
         "zipcode": "94112",
+        "acres": 11.11763085,
+        "squareFeet": 484285.93683644,
         "displayPoint": {
           "latitude": 37.71576894,
           "longitude": -122.45758848,
@@ -11463,6 +12194,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "athletic-field",
@@ -11522,6 +12256,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "25 Omar Way",
         "zipcode": "94127",
+        "acres": 2.43050547,
+        "squareFeet": 105873.24193712,
         "displayPoint": {
           "latitude": 37.73864566,
           "longitude": -122.44931381,
@@ -11558,6 +12294,9 @@
           "play-with-kids",
           "have-a-picnic",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "bench",
@@ -11598,6 +12337,8 @@
         "neighborhood": "Mission Bay",
         "address": null,
         "zipcode": "94158",
+        "acres": 11.62264449,
+        "squareFeet": 506284.41902987,
         "displayPoint": {
           "latitude": 37.77069685,
           "longitude": -122.39276689,
@@ -11643,6 +12384,9 @@
           "bring-a-dog",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "amphitheater",
@@ -11693,6 +12437,8 @@
         "neighborhood": "Mission Bay",
         "address": "290 Channel St",
         "zipcode": "94158",
+        "acres": 17.168503570000002,
+        "squareFeet": 747863.00711899,
         "displayPoint": {
           "latitude": 37.77251887,
           "longitude": -122.39540704,
@@ -11744,6 +12490,9 @@
           "play-basketball",
           "play-tennis",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "athletic-field",
@@ -11799,6 +12548,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "646 Dolores St",
         "zipcode": "94114",
+        "acres": 15.98778553,
+        "squareFeet": 696430.72322454,
         "displayPoint": {
           "latitude": 37.75975462,
           "longitude": -122.42712797,
@@ -11855,6 +12606,9 @@
           "play-tennis",
           "swim",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -11921,6 +12675,8 @@
         "neighborhood": "Mission",
         "address": "3555 19th St",
         "zipcode": "94110",
+        "acres": 2.13927288,
+        "squareFeet": 93187.09939621,
         "displayPoint": {
           "latitude": 37.75931092,
           "longitude": -122.42231703,
@@ -11971,6 +12727,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -12027,6 +12786,8 @@
         "neighborhood": "Mission",
         "address": "2450 Harrison St",
         "zipcode": "94110",
+        "acres": 0.7079828300000001,
+        "squareFeet": 30839.85539532,
         "displayPoint": {
           "latitude": 37.75820281,
           "longitude": -122.41281904,
@@ -12089,6 +12850,9 @@
           "play-tennis",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -12165,6 +12929,8 @@
         "neighborhood": "Marina",
         "address": "1800 Chestnut St",
         "zipcode": "94123",
+        "acres": 12.7320657,
+        "squareFeet": 554611.00027632,
         "displayPoint": {
           "latitude": 37.80213066,
           "longitude": -122.4331224,
@@ -12212,6 +12978,9 @@
           "play-tennis",
           "exercise",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -12266,6 +13035,8 @@
         "neighborhood": "Inner Richmond, Presidio",
         "address": "1 11th Ave",
         "zipcode": "94118",
+        "acres": 12.96241818,
+        "squareFeet": 564645.194644,
         "displayPoint": {
           "latitude": 37.78724185,
           "longitude": -122.4691026,
@@ -12296,6 +13067,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -12324,6 +13098,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "150 Dalewood Way",
         "zipcode": "94127",
+        "acres": 40.71814397,
+        "squareFeet": 1773689.44609691,
         "displayPoint": {
           "latitude": 37.73906794,
           "longitude": -122.45466691,
@@ -12349,6 +13125,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -12371,6 +13150,8 @@
         "neighborhood": "Haight Ashbury",
         "address": "480 Upper Terrace",
         "zipcode": "94117",
+        "acres": 0.2051841,
+        "squareFeet": 8937.85500344,
         "displayPoint": {
           "latitude": 37.76331267,
           "longitude": -122.44555372,
@@ -12396,6 +13177,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -12418,6 +13202,8 @@
         "neighborhood": "Bernal Heights",
         "address": "124 Mullen Ave",
         "zipcode": "94110",
+        "acres": 0.45045589,
+        "squareFeet": 19621.93690992,
         "displayPoint": {
           "latitude": 37.74608143,
           "longitude": -122.40882028,
@@ -12447,6 +13233,9 @@
       "filters": {
         "activityIds": [
           "play-with-kids"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "bench",
@@ -12479,6 +13268,8 @@
         "neighborhood": "Inner Richmond",
         "address": "450 7th Ave",
         "zipcode": "94118",
+        "acres": 0.23791683,
+        "squareFeet": 10363.69866158,
         "displayPoint": {
           "latitude": 37.78006853,
           "longitude": -122.46504709,
@@ -12509,6 +13300,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -12537,6 +13331,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "1 Beaver St",
         "zipcode": "94114",
+        "acres": 0.10643145000000001,
+        "squareFeet": 4636.17244691,
         "displayPoint": {
           "latitude": 37.76494425,
           "longitude": -122.43342899,
@@ -12580,6 +13376,9 @@
           "play-sports",
           "play-basketball",
           "play-tennis"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -12626,6 +13425,8 @@
         "neighborhood": "Noe Valley",
         "address": "780 Douglass St",
         "zipcode": "94114",
+        "acres": 1.1042326100000002,
+        "squareFeet": 48100.56493191,
         "displayPoint": {
           "latitude": 37.75141364,
           "longitude": -122.43891427,
@@ -12659,6 +13460,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "restrooms"
@@ -12690,6 +13494,8 @@
         "neighborhood": "Noe Valley",
         "address": "3861 24th St",
         "zipcode": "94114",
+        "acres": 0.27605287,
+        "squareFeet": 12024.9112557,
         "displayPoint": {
           "latitude": 37.75138586,
           "longitude": -122.42898979,
@@ -12720,6 +13526,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -12748,6 +13557,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": null,
         "zipcode": "94127",
+        "acres": 10.97943057,
+        "squareFeet": 478265.90867151,
         "displayPoint": {
           "latitude": 37.73918097,
           "longitude": -122.44389046,
@@ -12778,6 +13589,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -12806,6 +13620,8 @@
         "neighborhood": "Bernal Heights",
         "address": "700 Ogden Ave",
         "zipcode": "94110",
+        "acres": 0.16972337,
+        "squareFeet": 7393.17960041,
         "displayPoint": {
           "latitude": 37.73580862,
           "longitude": -122.41204731,
@@ -12831,6 +13647,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -12853,6 +13672,8 @@
         "neighborhood": "Hayes Valley",
         "address": "281 Page St",
         "zipcode": "94102",
+        "acres": 0.17920747,
+        "squareFeet": 7806.30859878,
         "displayPoint": {
           "latitude": 37.77347729,
           "longitude": -122.42526321,
@@ -12883,6 +13704,9 @@
         "activityIds": [
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "bench",
@@ -12915,6 +13739,8 @@
         "neighborhood": "Hayes Valley",
         "address": "438 Page St",
         "zipcode": "94102",
+        "acres": 0.08966064,
+        "squareFeet": 3905.63309142,
         "displayPoint": {
           "latitude": 37.77361752,
           "longitude": -122.4281125,
@@ -12954,6 +13780,9 @@
           "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -12998,6 +13827,8 @@
         "neighborhood": "Marina, Presidio",
         "address": "3601 Lyon St",
         "zipcode": "94123",
+        "acres": 19.74090095,
+        "squareFeet": 859917.08514582,
         "displayPoint": {
           "latitude": 37.80300818,
           "longitude": -122.44850174,
@@ -13059,6 +13890,9 @@
           "visit-a-garden",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "ball-field",
@@ -13130,6 +13964,8 @@
         "neighborhood": "Portola",
         "address": "500 Felton St",
         "zipcode": "94134",
+        "acres": 5.40622384,
+        "squareFeet": 235496.05242849,
         "displayPoint": {
           "latitude": 37.7293471,
           "longitude": -122.40979319,
@@ -13166,6 +14002,9 @@
           "play-basketball",
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "basketball-court",
           "children-s-play-area",
@@ -13200,6 +14039,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1801 Palou Ave",
         "zipcode": "94124",
+        "acres": 2.78896476,
+        "squareFeet": 121487.79109323,
         "displayPoint": {
           "latitude": 37.73552432,
           "longitude": -122.39474893,
@@ -13232,6 +14073,9 @@
         "activityIds": [
           "gardens-and-nature",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "treasure-island"
         ],
         "amenityIds": [
           "bay-views",
@@ -13267,6 +14111,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 2.33548912,
+        "squareFeet": 101733.90606502,
         "displayPoint": {
           "latitude": 37.71286858,
           "longitude": -122.41617108,
@@ -13292,6 +14138,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "richmond-presidio"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -13320,6 +14169,8 @@
         "neighborhood": "Outer Richmond, Inner Richmond, Seacliff, Presidio",
         "address": null,
         "zipcode": "94118",
+        "acres": 20.38628898,
+        "squareFeet": 888030.29992123,
         "displayPoint": {
           "latitude": 37.78013983,
           "longitude": -122.47230061,
@@ -13350,6 +14201,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -13378,6 +14232,8 @@
         "neighborhood": "Bernal Heights",
         "address": null,
         "zipcode": "94110",
+        "acres": 0.046942010000000006,
+        "squareFeet": 2044.80230273,
         "displayPoint": {
           "latitude": 37.73647569,
           "longitude": -122.42578986,
@@ -13427,6 +14283,9 @@
           "play-sports",
           "play-basketball",
           "play-tennis"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "ball-field",
@@ -13483,6 +14342,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "2680 28th Ave",
         "zipcode": "94132",
+        "acres": 8.851842280000001,
+        "squareFeet": 385587.79203009,
         "displayPoint": {
           "latitude": 37.73797859,
           "longitude": -122.48393354,
@@ -13524,6 +14385,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "bench",
@@ -13569,6 +14433,8 @@
         "neighborhood": "Mission",
         "address": "3070 23rd St",
         "zipcode": "94110",
+        "acres": 0.6971327900000001,
+        "squareFeet": 30367.22596711,
         "displayPoint": {
           "latitude": 37.75437961,
           "longitude": -122.41357025,
@@ -13603,6 +14469,9 @@
           "play-with-kids",
           "have-a-picnic"
         ],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "picnic-area",
@@ -13636,6 +14505,8 @@
         "neighborhood": "Hayes Valley",
         "address": "489 Hayes St",
         "zipcode": "94102",
+        "acres": 0.47891084000000006,
+        "squareFeet": 20861.43965679,
         "displayPoint": {
           "latitude": 37.77622794,
           "longitude": -122.42442628,
@@ -13675,6 +14546,9 @@
           "play-sports",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -13717,6 +14591,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "2475 15th St",
         "zipcode": "94114",
+        "acres": 0.82012885,
+        "squareFeet": 35724.95556551,
         "displayPoint": {
           "latitude": 37.76580342,
           "longitude": -122.43792203,
@@ -13760,6 +14636,9 @@
           "bring-a-dog",
           "gardens-and-nature",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -13809,6 +14688,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "200 Crestlake Dr",
         "zipcode": "94132",
+        "acres": 30.767888810000002,
+        "squareFeet": 1340254.59745023,
         "displayPoint": {
           "latitude": 37.73631415,
           "longitude": -122.48593875,
@@ -13834,6 +14715,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -13858,6 +14742,8 @@
         "neighborhood": "Noe Valley, Twin Peaks",
         "address": null,
         "zipcode": "94131",
+        "acres": 0.8120188,
+        "squareFeet": 35371.68028509,
         "displayPoint": {
           "latitude": 37.74707923,
           "longitude": -122.44407264,
@@ -13897,6 +14783,9 @@
         "activityIds": [
           "play-with-kids",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "bench",
@@ -13938,6 +14827,8 @@
         "neighborhood": "Chinatown",
         "address": "745 Kearny St",
         "zipcode": "94108",
+        "acres": 1.48363715,
+        "squareFeet": 64627.49263186,
         "displayPoint": {
           "latitude": 37.79484118,
           "longitude": -122.4053557,
@@ -13985,6 +14876,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "athletic-field",
@@ -14039,6 +14933,8 @@
         "neighborhood": "Mission",
         "address": null,
         "zipcode": "94110",
+        "acres": 4.67952643,
+        "squareFeet": 203840.98654376,
         "displayPoint": {
           "latitude": 37.75060722,
           "longitude": -122.40509795,
@@ -14064,6 +14960,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -14086,6 +14985,8 @@
         "neighborhood": "Potrero Hill",
         "address": null,
         "zipcode": "94107",
+        "acres": 0.22471632,
+        "squareFeet": 9788.68224799,
         "displayPoint": {
           "latitude": 37.75740062,
           "longitude": -122.3966674,
@@ -14145,6 +15046,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "athletic-field",
@@ -14214,6 +15118,8 @@
         "neighborhood": "Potrero Hill",
         "address": "801 Arkansas St",
         "zipcode": "94107",
+        "acres": 10.07167616,
+        "squareFeet": 438723.9683969,
         "displayPoint": {
           "latitude": 37.75614147,
           "longitude": -122.39693963,
@@ -14251,6 +15157,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "ornamental-garden",
@@ -14287,6 +15196,8 @@
         "neighborhood": "Bernal Heights",
         "address": "3200 Folsom St",
         "zipcode": "94110",
+        "acres": 2.24636446,
+        "squareFeet": 97852.02736866,
         "displayPoint": {
           "latitude": 37.74706609,
           "longitude": -122.41205957,
@@ -14321,6 +15232,9 @@
           "play-with-kids",
           "have-a-picnic"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "picnic-area",
@@ -14354,6 +15268,8 @@
         "neighborhood": "Bernal Heights",
         "address": "193 Prentiss St",
         "zipcode": "94110",
+        "acres": 0.06867937,
+        "squareFeet": 2991.68514679,
         "displayPoint": {
           "latitude": 37.74022335,
           "longitude": -122.4118975,
@@ -14397,6 +15313,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -14444,6 +15363,8 @@
         "neighborhood": "Presidio Heights",
         "address": "3437 Clay St",
         "zipcode": "94118",
+        "acres": 0.48584834,
+        "squareFeet": 21163.63841435,
         "displayPoint": {
           "latitude": 37.78849618,
           "longitude": -122.4496145,
@@ -14469,6 +15390,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -14491,6 +15415,8 @@
         "neighborhood": "Pacific Heights",
         "address": "3150 Sacramento St",
         "zipcode": "94115",
+        "acres": 0.67872105,
+        "squareFeet": 29565.20733137,
         "displayPoint": {
           "latitude": 37.78892984,
           "longitude": -122.4448619,
@@ -14544,6 +15470,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "ball-field",
@@ -14607,6 +15536,8 @@
         "neighborhood": "Presidio, Presidio Heights",
         "address": "3550 Pacific Ave",
         "zipcode": "94118",
+        "acres": 12.383017019999999,
+        "squareFeet": 539406.37914179,
         "displayPoint": {
           "latitude": 37.79131812,
           "longitude": -122.45398596,
@@ -14637,6 +15568,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "community-garden"
         ],
@@ -14665,6 +15599,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "885 Le Conte Ave",
         "zipcode": "94124",
+        "acres": 0.16845868000000003,
+        "squareFeet": 7338.08931434,
         "displayPoint": {
           "latitude": 37.71768972,
           "longitude": -122.3958265,
@@ -14696,6 +15632,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "nature-exploration-area"
@@ -14726,6 +15665,8 @@
         "neighborhood": "Oceanview/Merced/Ingleside",
         "address": "100 Randolph St",
         "zipcode": "94132",
+        "acres": 0.13033013,
+        "squareFeet": 5677.20328532,
         "displayPoint": {
           "latitude": 37.7145015,
           "longitude": -122.463681,
@@ -14775,6 +15716,9 @@
           "have-a-picnic",
           "play-sports",
           "recreation-center"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "ball-field",
@@ -14830,6 +15774,8 @@
         "neighborhood": "Western Addition",
         "address": "1901 Geary Blvd",
         "zipcode": "94115",
+        "acres": 6.0195823,
+        "squareFeet": 262214.05395667,
         "displayPoint": {
           "latitude": 37.78294796,
           "longitude": -122.43512666,
@@ -14880,6 +15826,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -14937,6 +15886,8 @@
         "neighborhood": "Outer Richmond",
         "address": "149 18th Ave",
         "zipcode": "94121",
+        "acres": 0.92841564,
+        "squareFeet": 40441.94691315,
         "displayPoint": {
           "latitude": 37.78513522,
           "longitude": -122.4781249,
@@ -14975,6 +15926,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -15016,6 +15970,8 @@
         "neighborhood": "Outer Richmond",
         "address": "251 18th Ave",
         "zipcode": "94121",
+        "acres": 0.92842227,
+        "squareFeet": 40442.23579931,
         "displayPoint": {
           "latitude": 37.78327503,
           "longitude": -122.47798997,
@@ -15046,6 +16002,9 @@
         "activityIds": [
           "have-a-picnic"
         ],
+        "areaIds": [
+          "southeast-san-francisco"
+        ],
         "amenityIds": [
           "picnic-area"
         ],
@@ -15074,6 +16033,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": null,
         "zipcode": "94124",
+        "acres": 0.75391193,
+        "squareFeet": 32840.53511187,
         "displayPoint": {
           "latitude": 37.73391458,
           "longitude": -122.38350986,
@@ -15123,6 +16084,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "richmond-presidio"
         ],
         "amenityIds": [
           "basketball-court",
@@ -15178,6 +16142,8 @@
         "neighborhood": "Outer Richmond",
         "address": "250 25th Ave",
         "zipcode": "94121",
+        "acres": 0.9087681300000001,
+        "squareFeet": 39586.09809633,
         "displayPoint": {
           "latitude": 37.78484403,
           "longitude": -122.4845469,
@@ -15208,6 +16174,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "natural-area"
         ],
@@ -15236,6 +16205,8 @@
         "neighborhood": "Inner Sunset",
         "address": "1800 14th Ave",
         "zipcode": "94122",
+        "acres": 1.67139883,
+        "squareFeet": 72806.42445975,
         "displayPoint": {
           "latitude": 37.75384715,
           "longitude": -122.47087844,
@@ -15269,6 +16240,9 @@
         "activityIds": [
           "play-with-kids",
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -15306,6 +16280,8 @@
         "neighborhood": "Lakeshore",
         "address": null,
         "zipcode": "94132",
+        "acres": 3.62274957,
+        "squareFeet": 157807.60271348,
         "displayPoint": {
           "latitude": 37.73063451,
           "longitude": -122.48054619,
@@ -15331,6 +16307,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -15353,6 +16332,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "299 Henry St",
         "zipcode": "94114",
+        "acres": 0.38656205,
+        "squareFeet": 16838.71007538,
         "displayPoint": {
           "latitude": 37.76656233,
           "longitude": -122.43734119,
@@ -15382,6 +16363,9 @@
         "activityIds": [
           "recreation-center"
         ],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [
           "arts-activity-center"
         ],
@@ -15410,6 +16394,8 @@
         "neighborhood": "Russian Hill",
         "address": "500 Jefferson St",
         "zipcode": "94109",
+        "acres": 1.11306613,
+        "squareFeet": 48485.35445412,
         "displayPoint": {
           "latitude": 37.8079655,
           "longitude": -122.42127697,
@@ -15435,6 +16421,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -15457,6 +16446,8 @@
         "neighborhood": "Tenderloin",
         "address": "100 Larkin St",
         "zipcode": "94102",
+        "acres": 0.08680381000000001,
+        "squareFeet": 3781.18908015,
         "displayPoint": {
           "latitude": 37.77928802,
           "longitude": -122.41620254,
@@ -15482,6 +16473,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -15506,6 +16500,8 @@
         "neighborhood": "Lakeshore, Sunset/Parkside",
         "address": "1 Zoo Rd",
         "zipcode": "94132",
+        "acres": 131.53700095,
+        "squareFeet": 5729774.68050535,
         "displayPoint": {
           "latitude": 37.73159432,
           "longitude": -122.50382176,
@@ -15531,6 +16527,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -15553,6 +16552,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "70 Ord St",
         "zipcode": "94114",
+        "acres": 0.19406325,
+        "squareFeet": 8453.4291008,
         "displayPoint": {
           "latitude": 37.76272603,
           "longitude": -122.44054696,
@@ -15590,6 +16591,9 @@
           "have-a-picnic",
           "play-sports",
           "play-basketball"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "basketball-court",
@@ -15629,6 +16633,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1321 Selby St",
         "zipcode": "94124",
+        "acres": 0.42040069,
+        "squareFeet": 18312.72746194,
         "displayPoint": {
           "latitude": 37.73887303,
           "longitude": -122.40039427,
@@ -15662,6 +16668,9 @@
           "play-with-kids",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "bench",
@@ -15697,6 +16706,8 @@
         "neighborhood": "Twin Peaks",
         "address": "70 Corwin St",
         "zipcode": "94114",
+        "acres": 0.41645266,
+        "squareFeet": 18140.75038695,
         "displayPoint": {
           "latitude": 37.7576254,
           "longitude": -122.44006548,
@@ -15731,6 +16742,9 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "bench",
@@ -15768,6 +16782,8 @@
         "neighborhood": "Tenderloin",
         "address": "800 O'Farrell St",
         "zipcode": "94109",
+        "acres": 0.27778728,
+        "squareFeet": 12100.46223107,
         "displayPoint": {
           "latitude": 37.78540076,
           "longitude": -122.41819118,
@@ -15806,6 +16822,9 @@
           "gardens-and-nature",
           "recreation-center"
         ],
+        "areaIds": [
+          "outside-san-francisco"
+        ],
         "amenityIds": [
           "archery-range",
           "arts-activity-center",
@@ -15843,6 +16862,8 @@
         "neighborhood": null,
         "address": "1 Sharp Park Rd",
         "zipcode": "94044",
+        "acres": 409.75272024000003,
+        "squareFeet": 17848899.8891137,
         "displayPoint": {
           "latitude": 37.62439947,
           "longitude": -122.48190638,
@@ -15889,6 +16910,9 @@
           "play-sports",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "bench",
@@ -15943,6 +16967,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "100 Innes Court",
         "zipcode": "94124",
+        "acres": 7.95587612,
+        "squareFeet": 346557.96380079,
         "displayPoint": {
           "latitude": 37.72763731,
           "longitude": -122.36708736,
@@ -15981,6 +17007,9 @@
           "play-with-kids",
           "have-a-picnic",
           "exercise"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -16025,6 +17054,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1 Lillian St",
         "zipcode": "94124",
+        "acres": 0.951628,
+        "squareFeet": 41453.08170108,
         "displayPoint": {
           "latitude": 37.73186263,
           "longitude": -122.38106567,
@@ -16082,6 +17113,9 @@
           "bring-a-dog",
           "recreation-center",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "arts-activity-center",
@@ -16151,6 +17185,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "2899 19th Ave",
         "zipcode": "94132",
+        "acres": 34.77360918,
+        "squareFeet": 1514744.47488488,
         "displayPoint": {
           "latitude": 37.73609813,
           "longitude": -122.47829483,
@@ -16182,6 +17218,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "treasure-island"
+        ],
         "amenityIds": [
           "bay-views",
           "native-plantings"
@@ -16212,6 +17251,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 1.99927446,
+        "squareFeet": 87088.39529485,
         "displayPoint": {
           "latitude": 37.71286858,
           "longitude": -122.41617108,
@@ -16264,6 +17305,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "athletic-field",
@@ -16324,6 +17368,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1700 Silver Ave",
         "zipcode": "94124",
+        "acres": 5.5742696700000005,
+        "squareFeet": 242816.15830189,
         "displayPoint": {
           "latitude": 37.73287274,
           "longitude": -122.4031744,
@@ -16353,6 +17399,9 @@
         "activityIds": [
           "bring-a-dog"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "dog-play-area"
         ],
@@ -16381,6 +17430,8 @@
         "neighborhood": "Mission",
         "address": null,
         "zipcode": "94103",
+        "acres": 0.61650925,
+        "squareFeet": 26855.25032796,
         "displayPoint": {
           "latitude": 37.7704551,
           "longitude": -122.42200356,
@@ -16410,6 +17461,9 @@
         "activityIds": [
           "play-sports"
         ],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [
           "skatepark"
         ],
@@ -16438,6 +17492,8 @@
         "neighborhood": "Mission",
         "address": null,
         "zipcode": "94103",
+        "acres": 0.8712779300000001,
+        "squareFeet": 37953.01860041,
         "displayPoint": {
           "latitude": 37.77018778,
           "longitude": -122.42104261,
@@ -16471,6 +17527,9 @@
         "activityIds": [
           "play-with-kids",
           "have-a-picnic"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "bench",
@@ -16506,6 +17565,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "100 South Park St",
         "zipcode": "94107",
+        "acres": 1.1178723,
+        "squareFeet": 48694.71203046,
         "displayPoint": {
           "latitude": 37.78158458,
           "longitude": -122.39396542,
@@ -16556,6 +17617,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "ball-field",
@@ -16611,6 +17675,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "2601 40th Ave",
         "zipcode": "94116",
+        "acres": 4.10606077,
+        "squareFeet": 178860.7224617,
         "displayPoint": {
           "latitude": 37.73738883,
           "longitude": -122.49843918,
@@ -16670,6 +17736,9 @@
           "gardens-and-nature",
           "visit-a-garden",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -16737,6 +17806,8 @@
         "neighborhood": "Bernal Heights",
         "address": "95 Justin Dr",
         "zipcode": "94110",
+        "acres": 13.6037164,
+        "squareFeet": 592580.25688521,
         "displayPoint": {
           "latitude": 37.73367487,
           "longitude": -122.42067123,
@@ -16772,6 +17843,9 @@
           "play-with-kids",
           "arts-and-culture"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "performance-space",
@@ -16806,6 +17880,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "633 California St",
         "zipcode": "94108",
+        "acres": 1.44145528,
+        "squareFeet": 62790.04299174,
         "displayPoint": {
           "latitude": 37.79197897,
           "longitude": -122.40512268,
@@ -16852,6 +17928,9 @@
           "play-tennis",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "haight-castro-central"
         ],
         "amenityIds": [
           "basketball-court",
@@ -16902,6 +17981,8 @@
         "neighborhood": "Castro/Upper Market",
         "address": "122 States St",
         "zipcode": "94114",
+        "acres": 2.9114282,
+        "squareFeet": 126822.31963311,
         "displayPoint": {
           "latitude": 37.76379644,
           "longitude": -122.43786447,
@@ -16934,6 +18015,9 @@
         "activityIds": [
           "play-with-kids"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "restrooms"
@@ -16965,6 +18049,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "143 The Embarcadero",
         "zipcode": "94111",
+        "acres": 4.47281041,
+        "squareFeet": 194836.40101541,
         "displayPoint": {
           "latitude": 37.79592351,
           "longitude": -122.39657354,
@@ -16999,6 +18085,9 @@
       "filters": {
         "activityIds": [
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "community-rooms",
@@ -17035,6 +18124,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "236 Monterey Blvd",
         "zipcode": "94131",
+        "acres": 0.24625547,
+        "squareFeet": 10726.93121459,
         "displayPoint": {
           "latitude": 37.73192942,
           "longitude": -122.44078012,
@@ -17082,6 +18173,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "basketball-court",
@@ -17131,6 +18225,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "233 Melrose Avenue",
         "zipcode": "94127",
+        "acres": 2.6017107200000003,
+        "squareFeet": 113330.97215867,
         "displayPoint": {
           "latitude": 37.7336695,
           "longitude": -122.44747289,
@@ -17174,6 +18270,9 @@
           "play-with-kids",
           "play-sports",
           "arts-and-culture"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -17224,6 +18323,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "501 Stanyan St",
         "zipcode": "94132",
+        "acres": 50.602438516850704,
+        "squareFeet": 2204242.22179402,
         "displayPoint": {
           "latitude": 37.74993452,
           "longitude": -122.50849152,
@@ -17281,6 +18382,9 @@
           "play-tennis",
           "exercise",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -17345,6 +18449,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "2201 Lawton St",
         "zipcode": "94122",
+        "acres": 3.8795047200000004,
+        "squareFeet": 168991.90168571,
         "displayPoint": {
           "latitude": 37.75659386,
           "longitude": -122.48685659,
@@ -17375,6 +18481,9 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "bench",
@@ -17407,6 +18516,8 @@
         "neighborhood": "Inner Sunset",
         "address": "100 Twin Peaks Blvd",
         "zipcode": "94114",
+        "acres": 3.02368704,
+        "squareFeet": 131712.33431916,
         "displayPoint": {
           "latitude": 37.7599425,
           "longitude": -122.44768322,
@@ -17440,6 +18551,9 @@
         "activityIds": [
           "recreation-center"
         ],
+        "areaIds": [
+          "marina-north-beach"
+        ],
         "amenityIds": [
           "indoor-recreation-area",
           "restrooms"
@@ -17471,6 +18585,8 @@
         "neighborhood": "North Beach",
         "address": "1 Telegraph Hill Blvd",
         "zipcode": "94133",
+        "acres": 4.81974441,
+        "squareFeet": 209948.90627223,
         "displayPoint": {
           "latitude": 37.80279531,
           "longitude": -122.40585296,
@@ -17516,6 +18632,9 @@
           "play-sports",
           "play-basketball",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "basketball-court",
@@ -17564,6 +18683,8 @@
         "neighborhood": "Tenderloin",
         "address": "570 Ellis St",
         "zipcode": "94109",
+        "acres": 0.65914847,
+        "squareFeet": 28712.62207559,
         "displayPoint": {
           "latitude": 37.78480948,
           "longitude": -122.41541208,
@@ -17596,6 +18717,9 @@
         "activityIds": [
           "bring-a-dog",
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "treasure-island"
         ],
         "amenityIds": [
           "bay-views",
@@ -17631,6 +18755,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 0.19654275000000002,
+        "squareFeet": 8561.4023554,
         "displayPoint": {
           "latitude": 0,
           "longitude": 0,
@@ -17656,6 +18782,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "mission-bernal-noe"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -17678,6 +18807,8 @@
         "neighborhood": "Glen Park",
         "address": "100 Topaz Way",
         "zipcode": "94131",
+        "acres": 0.91640837,
+        "squareFeet": 39918.90840771,
         "displayPoint": {
           "latitude": 37.74171232,
           "longitude": -122.43616701,
@@ -17709,6 +18840,9 @@
       "filters": {
         "activityIds": [
           "gardens-and-nature"
+        ],
+        "areaIds": [
+          "treasure-island"
         ],
         "amenityIds": [
           "bay-views",
@@ -17743,6 +18877,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 2.28361109,
+        "squareFeet": 99474.0989148,
         "displayPoint": {
           "latitude": 37.81674726,
           "longitude": -122.37222507,
@@ -17777,6 +18913,9 @@
           "play-with-kids",
           "have-a-picnic"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "children-s-play-area",
           "picnic-area",
@@ -17810,6 +18949,8 @@
         "neighborhood": "Tenderloin",
         "address": "201 Hyde St",
         "zipcode": "94102",
+        "acres": 0.15400689,
+        "squareFeet": 6708.56686441,
         "displayPoint": {
           "latitude": 37.78273207,
           "longitude": -122.4159536,
@@ -17842,6 +18983,9 @@
         "activityIds": [
           "gardens-and-nature"
         ],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [
           "natural-area",
           "trail"
@@ -17872,6 +19016,8 @@
         "neighborhood": "Twin Peaks",
         "address": "501 Twin Peaks Blvd",
         "zipcode": "94131",
+        "acres": 32.24817773,
+        "squareFeet": 1404725.003052,
         "displayPoint": {
           "latitude": 37.7509044,
           "longitude": -122.44790861,
@@ -17905,6 +19051,9 @@
           "play-sports",
           "exercise",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -17943,6 +19092,8 @@
         "neighborhood": "Tenderloin",
         "address": "1150 Market St",
         "zipcode": "94102",
+        "acres": 2.6602428600000003,
+        "squareFeet": 115880.64245954,
         "displayPoint": {
           "latitude": 37.78008694,
           "longitude": -122.4139491,
@@ -17972,6 +19123,9 @@
         "activityIds": [
           "arts-and-culture"
         ],
+        "areaIds": [
+          "downtown-chinatown-soma"
+        ],
         "amenityIds": [
           "performance-space"
         ],
@@ -18000,6 +19154,8 @@
         "neighborhood": "Financial District/South Beach",
         "address": "333 Post St",
         "zipcode": "94108",
+        "acres": 2.6001148800000005,
+        "squareFeet": 113261.45717332,
         "displayPoint": {
           "latitude": 37.78793628,
           "longitude": -122.40751369,
@@ -18053,6 +19209,9 @@
           "play-tennis",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "ball-field",
@@ -18115,6 +19274,8 @@
         "neighborhood": "Noe Valley",
         "address": "295 Day St",
         "zipcode": "94131",
+        "acres": 2.91807067,
+        "squareFeet": 127111.66669119,
         "displayPoint": {
           "latitude": 37.74243925,
           "longitude": -122.42784323,
@@ -18166,6 +19327,9 @@
           "play-basketball",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "athletic-field",
@@ -18223,6 +19387,8 @@
         "neighborhood": "South of Market",
         "address": "55 Sherman St",
         "zipcode": "94103",
+        "acres": 2.69637816,
+        "squareFeet": 117454.70243174,
         "displayPoint": {
           "latitude": 37.77700902,
           "longitude": -122.40597932,
@@ -18260,6 +19426,9 @@
           "have-a-picnic",
           "gardens-and-nature",
           "visit-a-garden"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -18300,6 +19469,8 @@
         "neighborhood": "Visitacion Valley",
         "address": "103 Tucker Ave",
         "zipcode": "94134",
+        "acres": 2.4270373800000002,
+        "squareFeet": 105722.17130306,
         "displayPoint": {
           "latitude": 37.71477443,
           "longitude": -122.40614491,
@@ -18338,6 +19509,9 @@
           "play-sports",
           "play-basketball",
           "bring-a-dog"
+        ],
+        "areaIds": [
+          "mission-bernal-noe"
         ],
         "amenityIds": [
           "basketball-court",
@@ -18379,6 +19553,8 @@
         "neighborhood": "Glen Park",
         "address": "300 Addison St",
         "zipcode": "94131",
+        "acres": 4.625647740000001,
+        "squareFeet": 201494.02147229,
         "displayPoint": {
           "latitude": 37.74058745,
           "longitude": -122.43438377,
@@ -18404,6 +19580,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -18426,6 +19605,8 @@
         "neighborhood": "Hayes Valley",
         "address": "301 Van Ness Ave",
         "zipcode": "94102",
+        "acres": 0.76530419,
+        "squareFeet": 33336.7840759,
         "displayPoint": {
           "latitude": 37.77911127,
           "longitude": -122.42088424,
@@ -18459,6 +19640,9 @@
       "filters": {
         "activityIds": [
           "play-with-kids"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "bench",
@@ -18498,6 +19682,8 @@
         "neighborhood": "Russian Hill",
         "address": "1470 Washington St",
         "zipcode": "94109",
+        "acres": 0.16129288,
+        "squareFeet": 7025.94590919,
         "displayPoint": {
           "latitude": 37.79400105,
           "longitude": -122.41741052,
@@ -18530,6 +19716,9 @@
       "filters": {
         "activityIds": [
           "play-with-kids"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "children-s-play-area",
@@ -18564,6 +19753,8 @@
         "neighborhood": "North Beach, Chinatown",
         "address": "600 Columbus Ave",
         "zipcode": "94133",
+        "acres": 2.75453187,
+        "squareFeet": 119987.88811597,
         "displayPoint": {
           "latitude": 37.80083622,
           "longitude": -122.41005302,
@@ -18615,6 +19806,9 @@
           "play-tennis",
           "bring-a-dog",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "athletic-field",
@@ -18673,6 +19867,8 @@
         "neighborhood": "West of Twin Peaks",
         "address": "131 Lenox Way",
         "zipcode": "94127",
+        "acres": 1.30972879,
+        "squareFeet": 57052.01436115,
         "displayPoint": {
           "latitude": 37.74183821,
           "longitude": -122.46507956,
@@ -18725,6 +19921,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "sunset-westside"
         ],
         "amenityIds": [
           "ball-field",
@@ -18782,6 +19981,8 @@
         "neighborhood": "Sunset/Parkside",
         "address": "3223 Ortega St",
         "zipcode": "94116",
+        "acres": 17.78874033,
+        "squareFeet": 774880.62828374,
         "displayPoint": {
           "latitude": 37.74902491,
           "longitude": -122.49809427,
@@ -18807,6 +20008,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "haight-castro-central"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -18829,6 +20033,8 @@
         "neighborhood": "Japantown",
         "address": "1550 Scott Street",
         "zipcode": "94115",
+        "acres": 0.89918193,
+        "squareFeet": 39168.52174604,
         "displayPoint": {
           "latitude": 37.78422288,
           "longitude": -122.43757876,
@@ -18861,6 +20067,9 @@
           "gardens-and-nature",
           "visit-a-garden"
         ],
+        "areaIds": [
+          "sunset-westside"
+        ],
         "amenityIds": [
           "community-garden",
           "parking"
@@ -18892,6 +20101,8 @@
         "neighborhood": "Inner Sunset",
         "address": "1620 7th Ave",
         "zipcode": "94131",
+        "acres": 0.4614091,
+        "squareFeet": 20099.06091196,
         "displayPoint": {
           "latitude": 37.75662603,
           "longitude": -122.46316869,
@@ -18940,6 +20151,9 @@
           "play-tennis",
           "exercise",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -18993,6 +20207,8 @@
         "neighborhood": "Chinatown",
         "address": "850 Sacramento St",
         "zipcode": "94108",
+        "acres": 0.65634945,
+        "squareFeet": 28590.69636611,
         "displayPoint": {
           "latitude": 37.79358112,
           "longitude": -122.40718879,
@@ -19018,6 +20234,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "treasure-island"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -19040,6 +20259,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 1.76205064,
+        "squareFeet": 76754.92567359,
         "displayPoint": {
           "latitude": 37.81346645,
           "longitude": -122.36265558,
@@ -19079,6 +20300,9 @@
           "play-with-kids",
           "have-a-picnic",
           "recreation-center"
+        ],
+        "areaIds": [
+          "downtown-chinatown-soma"
         ],
         "amenityIds": [
           "bench",
@@ -19121,6 +20345,8 @@
         "neighborhood": "Chinatown",
         "address": "922 Jackson St",
         "zipcode": "94133",
+        "acres": 0.35612707000000005,
+        "squareFeet": 15512.95730744,
         "displayPoint": {
           "latitude": 37.79585942,
           "longitude": -122.41033816,
@@ -19153,6 +20379,9 @@
       "filters": {
         "activityIds": [
           "exercise"
+        ],
+        "areaIds": [
+          "marina-north-beach"
         ],
         "amenityIds": [
           "adult-fitness-area",
@@ -19189,6 +20418,8 @@
         "neighborhood": "Marina, Presidio",
         "address": "1 Marina Green Dr",
         "zipcode": "94123",
+        "acres": 165.47144441999998,
+        "squareFeet": 7207964.95092612,
         "displayPoint": {
           "latitude": 37.80796275,
           "longitude": -122.44119806,
@@ -19214,6 +20445,9 @@
       },
       "filters": {
         "activityIds": [],
+        "areaIds": [
+          "treasure-island"
+        ],
         "amenityIds": [],
         "amenityLabels": [],
         "amenityCategories": [],
@@ -19236,6 +20470,8 @@
         "neighborhood": "Treasure Island",
         "address": null,
         "zipcode": "94130",
+        "acres": 45.19309602,
+        "squareFeet": 1968611.26268815,
         "displayPoint": {
           "latitude": 37.811111,
           "longitude": -122.36763171,
@@ -19279,6 +20515,9 @@
           "play-with-kids",
           "play-sports",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "athletic-field",
@@ -19327,6 +20566,8 @@
         "neighborhood": "Visitacion Valley",
         "address": "251 Leland Ave",
         "zipcode": "94134",
+        "acres": 2.30918707,
+        "squareFeet": 100588.59096359,
         "displayPoint": {
           "latitude": 37.71240228,
           "longitude": -122.40907319,
@@ -19382,6 +20623,9 @@
           "play-basketball",
           "play-tennis",
           "recreation-center"
+        ],
+        "areaIds": [
+          "southeast-san-francisco"
         ],
         "amenityIds": [
           "athletic-field",
@@ -19445,6 +20689,8 @@
         "neighborhood": "Bayview Hunters Point",
         "address": "1398 Hudson Ave",
         "zipcode": "94124",
+        "acres": 6.44637851,
+        "squareFeet": 280805.37126656,
         "displayPoint": {
           "latitude": 37.73877408,
           "longitude": -122.38450283,
@@ -19515,6 +20761,53 @@
         "id": "arts-and-culture",
         "label": "Explore culture",
         "count": 23
+      }
+    ],
+    "areas": [
+      {
+        "id": "richmond-presidio",
+        "label": "Richmond & Presidio",
+        "count": 18
+      },
+      {
+        "id": "marina-north-beach",
+        "label": "Marina & North Beach",
+        "count": 24
+      },
+      {
+        "id": "downtown-chinatown-soma",
+        "label": "Downtown, Chinatown & SoMa",
+        "count": 25
+      },
+      {
+        "id": "haight-castro-central",
+        "label": "Haight, Castro & Central",
+        "count": 35
+      },
+      {
+        "id": "sunset-westside",
+        "label": "Sunset & Westside",
+        "count": 35
+      },
+      {
+        "id": "mission-bernal-noe",
+        "label": "Mission, Bernal & Noe",
+        "count": 56
+      },
+      {
+        "id": "southeast-san-francisco",
+        "label": "Southeast San Francisco",
+        "count": 44
+      },
+      {
+        "id": "treasure-island",
+        "label": "Treasure Island",
+        "count": 10
+      },
+      {
+        "id": "outside-san-francisco",
+        "label": "Outside San Francisco",
+        "count": 2
       }
     ],
     "amenities": [

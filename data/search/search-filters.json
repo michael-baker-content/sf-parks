@@ -86,6 +86,56 @@
       "categories": ["arts-culture"]
     }
   ],
+  "areas": [
+    {
+      "id": "richmond-presidio",
+      "label": "Richmond & Presidio",
+      "neighborhoodLabels": ["Inner Richmond", "Outer Richmond", "Presidio", "Presidio Heights", "Seacliff", "Lincoln Park", "Lone Mountain/USF"]
+    },
+    {
+      "id": "marina-north-beach",
+      "label": "Marina & North Beach",
+      "neighborhoodLabels": ["Marina", "Pacific Heights", "Russian Hill", "North Beach"],
+      "destinationIds": ["palace-of-fine-arts", "washington-square", "yacht-harbor-and-marina-green"]
+    },
+    {
+      "id": "downtown-chinatown-soma",
+      "label": "Downtown, Chinatown & SoMa",
+      "neighborhoodLabels": ["Chinatown", "Financial District/South Beach", "Nob Hill", "South of Market", "Tenderloin"]
+    },
+    {
+      "id": "haight-castro-central",
+      "label": "Haight, Castro & Central",
+      "neighborhoodLabels": ["Castro/Upper Market", "Haight Ashbury", "Hayes Valley", "Japantown", "Western Addition", "Twin Peaks"],
+      "destinationIds": ["interior-greenbelt"]
+    },
+    {
+      "id": "sunset-westside",
+      "label": "Sunset & Westside",
+      "neighborhoodLabels": ["Golden Gate Park", "Inner Sunset", "Sunset/Parkside", "Lakeshore", "West of Twin Peaks"]
+    },
+    {
+      "id": "mission-bernal-noe",
+      "label": "Mission, Bernal & Noe",
+      "neighborhoodLabels": ["Mission", "Bernal Heights", "Noe Valley", "Glen Park", "Outer Mission"],
+      "destinationIds": ["glen-canyon-park-recreation-center", "portola-open-space"]
+    },
+    {
+      "id": "southeast-san-francisco",
+      "label": "Southeast San Francisco",
+      "neighborhoodLabels": ["Bayview Hunters Point", "Excelsior", "McLaren Park", "Mission Bay", "Oceanview/Merced/Ingleside", "Portola", "Potrero Hill", "Visitacion Valley"]
+    },
+    {
+      "id": "treasure-island",
+      "label": "Treasure Island",
+      "neighborhoodLabels": ["Treasure Island"]
+    },
+    {
+      "id": "outside-san-francisco",
+      "label": "Outside San Francisco",
+      "destinationIds": ["camp-mather", "sharp-park"]
+    }
+  ],
   "amenityGroups": [
     { "id": "playgrounds", "label": "Playgrounds", "categories": ["playgrounds"] },
     { "id": "picnic", "label": "Picnic", "categories": ["picnic"] },
@@ -101,6 +151,7 @@
   "filterLogic": {
     "selectedAmenities": "all",
     "selectedActivities": "all",
+    "valuesWithinArea": "any",
     "valuesWithinNeighborhood": "any",
     "valuesWithinPlaceType": "any",
     "valuesWithinCoverage": "any"

@@ -20,9 +20,11 @@ type Amenity = { label: string; category: string; quantity: number | null; quant
 function currentState(params: URLSearchParams) {
   return {
     q: params.get("q")?.trim() ?? "",
-    activity: params.getAll("activity"), amenity: params.getAll("amenity"),
+    activity: params.getAll("activity"), amenity: params.getAll("amenity"), area: params.getAll("area"),
     neighborhood: params.getAll("neighborhood"), zip: params.getAll("zip"), place: params.getAll("place"),
     coverage: params.getAll("coverage"), sort: params.get("sort") ?? "relevance",
+    minAmenities: Math.max(0, Number.parseInt(params.get("minAmenities") ?? "0", 10) || 0),
+    minAcres: Math.max(0, Number.parseFloat(params.get("minAcres") ?? "0") || 0),
     page: Math.max(1, Number.parseInt(params.get("page") ?? "1", 10) || 1), view: params.get("view") === "map" ? "map" : "list",
   };
 }
@@ -37,20 +39,28 @@ function CheckList({ name, items, selected }: { name: string; items: Array<{ id:
   </div>);
 }
 
-function FilterPanel({ state, expanded, onToggle }: { state: ReturnType<typeof currentState>; expanded: boolean; onToggle: () => void }) {
+function FilterPanel({ state, expanded, onToggle, onSubmit }: { state: ReturnType<typeof currentState>; expanded: boolean; onToggle: () => void; onSubmit: (event: FormEvent<HTMLFormElement>) => void }) {
   const activityItems = configuration.activities.map((item) => ({ ...item, count: index.facets.activities.find((facet) => facet.id === item.id)?.count ?? 0 }));
-  const selectionCount = state.activity.length + state.amenity.length + state.neighborhood.length + state.zip.length + state.place.length + state.coverage.length;
+  const selectionCount = state.activity.length + state.amenity.length + state.area.length + state.neighborhood.length + state.zip.length + state.place.length + state.coverage.length + Number(state.minAmenities > 0) + Number(state.minAcres > 0);
   return <><button className="usa-button usa-button--outline app-filter-toggle" type="button" aria-expanded={expanded} aria-controls="result-filters" onClick={onToggle}>
     {expanded ? "Hide filters" : "Show filters"}{selectionCount ? ` (${selectionCount})` : ""}
-  </button><form className="app-filters" id="result-filters" action="/explore/" hidden={!expanded}>
+  </button><form className="app-filters" id="result-filters" action="/explore/" data-expanded={expanded} onSubmit={onSubmit}>
     {state.q && <input type="hidden" name="q" value={state.q} />}
     {state.view === "map" && <input type="hidden" name="view" value="map" />}
     <h2>Filter results</h2>
     <details><summary>Activities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Activities</legend><CheckList name="activity" items={activityItems} selected={state.activity} /></fieldset></details>
     <details><summary>Amenities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Amenities</legend><CheckList name="amenity" items={index.facets.amenities} selected={state.amenity} /></fieldset></details>
+    <details><summary>Areas</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Areas</legend><p className="usa-hint">Broad browsing areas assembled from the neighborhoods listed in the park data.</p><CheckList name="area" items={index.facets.areas} selected={state.area} /></fieldset></details>
     <details><summary>Neighborhoods</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Neighborhoods</legend><CheckList name="neighborhood" items={index.facets.neighborhoods} selected={state.neighborhood} /></fieldset></details>
     <details><summary>ZIP codes</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">ZIP codes</legend><CheckList name="zip" items={index.facets.zipcodes} selected={state.zip} /></fieldset></details>
     <details><summary>Place type</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Place type</legend><CheckList name="place" items={index.facets.placeTypes} selected={state.place} /></fieldset></details>
+    <details><summary>Minimum size and amenities</summary><fieldset className="usa-fieldset app-threshold-grid"><legend className="usa-sr-only">Minimum size and amenities</legend>
+      <label className="usa-label" htmlFor="minimum-amenities">Minimum amenities</label>
+      <input className="usa-input" id="minimum-amenities" name="minAmenities" type="number" min="0" step="1" inputMode="numeric" defaultValue={state.minAmenities} />
+      <label className="usa-label" htmlFor="minimum-acres">Minimum park size in acres</label>
+      <input className="usa-input" id="minimum-acres" name="minAcres" type="number" min="0" step="0.1" inputMode="decimal" defaultValue={state.minAcres} />
+      <p className="usa-hint">Park size comes from the official park-property dataset.</p>
+    </fieldset></details>
     <div className="app-filter-actions"><button className="usa-button" type="submit">Apply filters</button><Link href="/explore/">Clear all</Link></div>
   </form></>;
 }
@@ -72,6 +82,7 @@ function ActiveCriteria({ state, params }: { state: ReturnType<typeof currentSta
   const labels = {
     activity: new Map(configuration.activities.map((item) => [item.id, item.label])),
     amenity: new Map(index.facets.amenities.map((item) => [item.id, item.label])),
+    area: new Map(index.facets.areas.map((item) => [item.id, item.label])),
     neighborhood: new Map(index.facets.neighborhoods.map((item) => [item.id, item.label])),
     zip: new Map(index.facets.zipcodes.map((item) => [item.id, item.label])),
     place: new Map(index.facets.placeTypes.map((item) => [item.id, item.label])),
@@ -79,9 +90,11 @@ function ActiveCriteria({ state, params }: { state: ReturnType<typeof currentSta
   };
   const criteria: Array<{ key: string; value?: string; label: string }> = [];
   if (state.q) criteria.push({ key: "q", label: `Search: ${state.q}` });
-  for (const key of ["activity", "amenity", "neighborhood", "zip", "place", "coverage"] as const) {
+  for (const key of ["activity", "amenity", "area", "neighborhood", "zip", "place", "coverage"] as const) {
     for (const value of state[key]) criteria.push({ key, value, label: labels[key].get(value) ?? value });
   }
+  if (state.minAmenities > 0) criteria.push({ key: "minAmenities", label: `At least ${state.minAmenities} amenities` });
+  if (state.minAcres > 0) criteria.push({ key: "minAcres", label: `At least ${new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(state.minAcres)} acres` });
   if (!criteria.length) return null;
   return <section className="app-active-criteria" aria-labelledby="active-criteria-title">
     <div className="app-active-criteria__heading"><h2 id="active-criteria-title">Your search and filters</h2><Link href="/explore/">Clear all</Link></div>
@@ -112,6 +125,10 @@ function ResultCard({ destination, record, state, returnPath }: { destination: D
     }}>{destination.publicName}</Link></h2>
     <p className="app-location">{[destination.neighborhood, destination.address].filter(Boolean).join(" · ") || content.resultCard.locationFallback}</p>
     {match.reason && <p className="app-match-label">{match.reason}{match.reason.startsWith("Matches your") ? ":" : ""}</p>}
+    {(state.minAmenities > 0 || state.minAcres > 0) && <p className="app-threshold-match">{[
+      state.minAmenities > 0 ? `${destination.amenities.length} amenities` : null,
+      state.minAcres > 0 && destination.acres !== null ? `${new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(destination.acres)} acres` : null
+    ].filter(Boolean).join(" · ")}</p>}
     <ul className="app-chip-list" aria-label={matches.size ? "Matching and listed amenities" : "Listed amenities"}>
       {amenities.map((item) => <li className={matches.has(item.label) ? "is-matched" : undefined} key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}
       {more > 0 && <li>+{more} more</li>}
@@ -125,7 +142,7 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
   const state = useMemo(() => currentState(new URLSearchParams(params.toString())), [params]);
   const destinations = useMemo(() => new Map(destinationsDocument.records.map((item) => [item.id, item])), []);
   const results = useMemo(() => filterAndRank(index.records, state), [state]);
-  const hasSearchCriteria = Boolean(state.q || state.activity.length || state.amenity.length || state.neighborhood.length || state.zip.length || state.place.length || state.coverage.length);
+  const hasSearchCriteria = Boolean(state.q || state.activity.length || state.amenity.length || state.area.length || state.neighborhood.length || state.zip.length || state.place.length || state.coverage.length || state.minAmenities || state.minAcres);
   const visible = results.slice(0, state.page * RESULTS_PAGE_SIZE);
   const shareableParams = new URLSearchParams(params.toString()); shareableParams.delete("focus");
   const returnPath = `/explore/${shareableParams.toString() ? `?${shareableParams.toString()}` : ""}`;
@@ -154,6 +171,21 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
     const q = String(new FormData(event.currentTarget).get("q") ?? "").trim();
     if (q) next.set("q", q); else next.delete("q"); next.delete("focus"); next.delete("page"); router.push(`/explore/?${next}`);
   }
+  function applyFilters(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const next = new URLSearchParams(params.toString());
+    for (const key of ["activity", "amenity", "area", "neighborhood", "zip", "place", "coverage", "minAmenities", "minAcres", "focus", "page"]) next.delete(key);
+    for (const key of ["activity", "amenity", "area", "neighborhood", "zip", "place", "coverage"]) {
+      for (const value of data.getAll(key)) next.append(key, String(value));
+    }
+    const minAmenities = Math.max(0, Number.parseInt(String(data.get("minAmenities") ?? "0"), 10) || 0);
+    const minAcres = Math.max(0, Number.parseFloat(String(data.get("minAcres") ?? "0")) || 0);
+    if (minAmenities) next.set("minAmenities", String(minAmenities));
+    if (minAcres) next.set("minAcres", String(minAcres));
+    const query = next.toString();
+    router.push(query ? `/explore/?${query}` : "/explore/");
+  }
   function sort(value: string) { const next = new URLSearchParams(params.toString()); next.delete("focus"); if (value === "relevance") next.delete("sort"); else next.set("sort", value); next.delete("page"); router.push(`/explore/?${next}`); }
   function nextPage() { const next = new URLSearchParams(params.toString()); next.delete("focus"); next.set("page", String(state.page + 1)); router.push(`/explore/?${next}`); }
   function toggleMap() { const next = new URLSearchParams(params.toString()); next.delete("focus"); if (state.view === "map") next.delete("view"); else next.set("view", "map"); router.push(`/explore/?${next}`, { scroll: false }); }
@@ -161,7 +193,7 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
   return <>
     <SearchBox id="explore-search" label="Search destinations" defaultValue={state.q} key={state.q} onSubmit={search} />
     <ActiveCriteria state={state} params={shareableParams} />
-    <div className="app-explore-layout"><aside><FilterPanel state={state} expanded={filtersExpanded} onToggle={() => setFiltersExpanded((value) => !value)} /></aside><section aria-labelledby="results-title">
+    <div className="app-explore-layout"><aside><FilterPanel state={state} expanded={filtersExpanded} onToggle={() => setFiltersExpanded((value) => !value)} onSubmit={applyFilters} /></aside><section aria-labelledby="results-title">
       <div className="app-results-heading"><div><h1 id="results-title" ref={heading}>Explore parks and recreation</h1><p className="usa-sr-only" aria-live="polite">{results.length} destinations found</p><p aria-hidden="true">{results.length} {results.length === 1 ? "destination" : "destinations"}</p></div>
         <div className="app-result-tools">{mapStyleUrl && <button className="usa-button usa-button--outline" type="button" aria-expanded={state.view === "map"} aria-controls="results-map-panel" onClick={toggleMap}>{state.view === "map" ? "Hide map" : "Show map"}</button>}<label className="usa-label app-sort">Sort <select className="usa-select" value={state.sort} onChange={(event) => sort(event.target.value)}><option value="relevance">Relevance</option><option value="name">Name</option><option value="amenities">Most amenities</option></select></label></div>
       </div>

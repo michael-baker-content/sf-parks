@@ -61,11 +61,19 @@ is available only after the user explicitly supplies a location.
   with kids + Have a picnic requires each preset to match.
 - Alternative terms inside one preset use **OR** logic.
 - Multiple neighborhoods use **OR** logic.
+- Multiple broad areas use **OR** logic. Every destination belongs to exactly
+  one reviewed area; areas are transparent browsing groups rather than official
+  administrative boundaries.
 - A source value containing multiple comma-separated neighborhoods contributes
   each neighborhood as an individual filter value while retaining the complete
   source wording for display and search.
 - Multiple place types use **OR** logic.
 - Coverage values use **OR** logic.
+- Minimum amenity count requires at least that many distinct listed amenity
+  labels.
+- Minimum park size compares the threshold with acreage published in the
+  official park-property dataset. Multi-property destinations sum their member
+  property areas; a future record with incomplete area coverage fails closed.
 
 Filtering uses positive evidence. A destination excluded by a filter is not
 certified to lack that feature.
@@ -107,7 +115,7 @@ inventory.
 Use repeatable, human-readable parameters:
 
 ```text
-/explore?q=tennis&activity=play-sports&amenity=restrooms&neighborhood=mission&sort=relevance&view=list
+/explore?q=tennis&activity=play-sports&amenity=restrooms&area=sunset-westside&minAmenities=5&minAcres=1&sort=relevance&view=list
 ```
 
 Supported parameters:
@@ -115,9 +123,12 @@ Supported parameters:
 - `q`: text query;
 - `activity`: repeatable activity ID;
 - `amenity`: repeatable amenity ID;
+- `area`: repeatable broad-area ID;
 - `neighborhood`: repeatable neighborhood ID;
 - `place`: repeatable place-type ID;
 - `coverage`: repeatable coverage ID;
+- `minAmenities`: non-negative minimum count of distinct listed amenities;
+- `minAcres`: non-negative minimum park-property area in acres;
 - `near`: user-supplied coordinate or resolved place identifier;
 - `distance`: distance radius used with `near`;
 - `sort`: `relevance`, `name`, or `distance`;

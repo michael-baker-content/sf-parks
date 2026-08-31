@@ -116,6 +116,16 @@ function destinationEvidence(propertyIds, facilityIds, amenities) {
   return [...publicFacilities, ...functionalAreas, ...assetSummaries];
 }
 
+function combinedArea(properties) {
+  if (properties.some((property) => !Number.isFinite(property.acres) || !Number.isFinite(property.squareFeet))) {
+    return { acres: null, squareFeet: null };
+  }
+  return {
+    acres: properties.reduce((sum, property) => sum + property.acres, 0),
+    squareFeet: properties.reduce((sum, property) => sum + property.squareFeet, 0)
+  };
+}
+
 function destinationFromProperty(property, amenities, enrichment = null, directoryFeature = null) {
   const id = enrichment?.destinationId ?? slugify(property.name);
   const propertyIds = enrichment?.propertyIds ?? [property.id];
@@ -130,6 +140,8 @@ function destinationFromProperty(property, amenities, enrichment = null, directo
     address: property.address,
     zipcode: property.zipcode,
     neighborhood: property.neighborhood,
+    acres: property.acres,
+    squareFeet: property.squareFeet,
     placeTypes: [property.propertyType].filter(Boolean),
     displayPoint: property.displayPoint,
     searchableAliases: [property.name, property.id],
@@ -171,6 +183,7 @@ export function buildDestinations({ properties, facilities, amenities, configura
     const directoryFeature = directoryFeatureMap.get(config.id);
     const evidence = destinationEvidence(config.propertyIds, config.principalFacilityIds, amenities);
     const primary = memberProperties[0];
+    const area = combinedArea(memberProperties);
     output.push({
       id: config.id,
       publicName: config.publicName,
@@ -184,6 +197,8 @@ export function buildDestinations({ properties, facilities, amenities, configura
       address: principalFacilities[0]?.address ?? primary.address,
       zipcode: principalFacilities[0]?.zipcode ?? primary.zipcode,
       neighborhood: principalFacilities[0]?.neighborhood ?? primary.neighborhood,
+      acres: area.acres,
+      squareFeet: area.squareFeet,
       placeTypes: [...new Set(memberProperties.map((item) => item.propertyType).filter(Boolean))].sort(compareText),
       displayPoint: principalFacilities[0]?.displayPoint ?? primary.displayPoint,
       searchableAliases: [...new Set([

@@ -21,6 +21,8 @@
       "address": "351 Ninth Ave",
       "zipcode": "94118",
       "neighborhood": "Inner Richmond",
+      "acres": 0.93242788,
+      "squareFeet": 40616.72096963,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -122,6 +124,8 @@
       "address": "1060 Kirkham St",
       "zipcode": "94122",
       "neighborhood": "Inner Sunset",
+      "acres": 0.50806563,
+      "squareFeet": 22131.42752968,
       "placeTypes": [
         "Mini Park"
       ],
@@ -192,6 +196,8 @@
       "address": "2810 24th St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.13317206,
+      "squareFeet": 5800.9980371,
       "placeTypes": [
         "Mini Park"
       ],
@@ -318,6 +324,8 @@
       "address": "1701 Diamond St",
       "zipcode": "94131",
       "neighborhood": "Noe Valley",
+      "acres": 0.93141186,
+      "squareFeet": 40572.46279866,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -354,6 +362,8 @@
       "address": "49 Van Ness Ave",
       "zipcode": "94103",
       "neighborhood": "Mission",
+      "acres": 2.53339019,
+      "squareFeet": 110354.9179414,
       "placeTypes": [
         "Other Non-Park Property"
       ],
@@ -390,6 +400,8 @@
       "address": "900 Innes St",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 1.623,
+      "squareFeet": 70737.76539901,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -607,6 +619,8 @@
       "address": "1215 Quesada Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 2.76858023,
+      "squareFeet": 120599.83727921,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -901,6 +915,8 @@
       "address": "1081 Fulton St",
       "zipcode": "94117",
       "neighborhood": "Hayes Valley",
+      "acres": 13.64929367,
+      "squareFeet": 594565.61040444,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -1205,6 +1221,8 @@
       "address": "670 Brunswick St",
       "zipcode": "94112",
       "neighborhood": "Excelsior",
+      "acres": 1.81590783,
+      "squareFeet": 79101.26151115,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -1538,6 +1556,8 @@
       "address": "1200 Greenwich St",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 0.83992372,
+      "squareFeet": 36587.22352899,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -1729,6 +1749,8 @@
       "address": "3460 20th St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.21154127000000003,
+      "squareFeet": 9214.77468037,
       "placeTypes": [
         "Mini Park"
       ],
@@ -1895,6 +1917,8 @@
       "address": "2609 Gough St",
       "zipcode": "94123",
       "neighborhood": "Marina",
+      "acres": 0.88362876,
+      "squareFeet": 38491.02258084,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -1931,6 +1955,8 @@
       "address": "2501 Jackson St",
       "zipcode": "94115",
       "neighborhood": "Pacific Heights",
+      "acres": 12.935002050000001,
+      "squareFeet": 563450.94288623,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -2297,6 +2323,8 @@
       "address": "600 Arguello Blvd",
       "zipcode": "94118",
       "neighborhood": "Lone Mountain/USF",
+      "acres": 7.08433275,
+      "squareFeet": 308594.76900828,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -3052,6 +3080,8 @@
       "address": "550 37th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.24376816,
+      "squareFeet": 10618.5837366,
       "placeTypes": [
         "Library"
       ],
@@ -3088,6 +3118,8 @@
       "address": "139 Aptos Ave",
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 4.9857799,
+      "squareFeet": 217181.44117268,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -3376,6 +3408,8 @@
       "address": "455 18th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.92315503,
+      "squareFeet": 40212.79388034,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -3740,6 +3774,8 @@
       "address": null,
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 0.12946478,
+      "squareFeet": 5639.50848906,
       "placeTypes": [
         "Community Garden"
       ],
@@ -3799,6 +3835,8 @@
       "address": null,
       "zipcode": "94110",
       "neighborhood": "Glen Park",
+      "acres": 0.12555599,
+      "squareFeet": 5469.2406825,
       "placeTypes": [
         "Community Garden"
       ],
@@ -3868,6 +3906,8 @@
       "address": null,
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 1.8432519,
+      "squareFeet": 80292.37402772,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -3938,6 +3978,8 @@
       "address": "51 Havelock St",
       "zipcode": "94112",
       "neighborhood": "Outer Mission",
+      "acres": 24.86336884,
+      "squareFeet": 1083052.67897958,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -4891,6 +4933,8 @@
       "address": "900 Key Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 46.64177327,
+      "squareFeet": 2031723.77067683,
       "placeTypes": [
         "Regional Park"
       ],
@@ -4951,6 +4995,8 @@
       "address": "5701 3rd St",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 3.9087788,
+      "squareFeet": 170267.08546595,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -5571,6 +5617,8 @@
       "address": "84 Beideman St",
       "zipcode": "94115",
       "neighborhood": "Western Addition",
+      "acres": 0.08773144,
+      "squareFeet": 3821.5969587,
       "placeTypes": [
         "Mini Park"
       ],
@@ -5607,6 +5655,8 @@
       "address": "298 Berkeley Way",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 0.83122668,
+      "squareFeet": 36208.37883926,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -5643,6 +5693,8 @@
       "address": "500 Cortland Ave",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.21318552000000002,
+      "squareFeet": 9286.39850843,
       "placeTypes": [
         "Library"
       ],
@@ -5679,6 +5731,8 @@
       "address": null,
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 26.342816420000002,
+      "squareFeet": 1147497.67341524,
       "placeTypes": [
         "Regional Park"
       ],
@@ -5917,6 +5971,8 @@
       "address": "500 Moultrie St",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.8346184,
+      "squareFeet": 36356.122923,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -6259,6 +6315,8 @@
       "address": "1101 Washington St",
       "zipcode": "94108",
       "neighborhood": "Nob Hill",
+      "acres": 0.7514173700000001,
+      "squareFeet": 32731.87134806,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -6660,6 +6718,8 @@
       "address": "294 Beacon St",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 3.6688939,
+      "squareFeet": 159817.65773665,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -6753,6 +6813,8 @@
       "address": "1201 Broadway",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 0.1245258,
+      "squareFeet": 5424.36568421,
       "placeTypes": [
         "Mini Park"
       ],
@@ -6812,6 +6874,8 @@
       "address": "373 Ramsell St",
       "zipcode": "94132",
       "neighborhood": "Oceanview/Merced/Ingleside",
+      "acres": 3.79028119,
+      "squareFeet": 165105.30914229,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -7118,6 +7182,8 @@
       "address": "1151 Buchanan St",
       "zipcode": "94102",
       "neighborhood": "Western Addition, Hayes Valley",
+      "acres": 1.9706335400000001,
+      "squareFeet": 85841.1404493,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -7265,6 +7331,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 2.13435855,
+      "squareFeet": 92972.65840839,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -7301,6 +7369,8 @@
       "address": "1293 Haight St",
       "zipcode": "94117",
       "neighborhood": "Haight Ashbury",
+      "acres": 38.34512762,
+      "squareFeet": 1670320.44040611,
       "placeTypes": [
         "Regional Park"
       ],
@@ -7640,6 +7710,8 @@
       "address": "2748 Bush St",
       "zipcode": "94115",
       "neighborhood": "Pacific Heights",
+      "acres": 0.19535678,
+      "squareFeet": 8509.77552882,
       "placeTypes": [
         "Mini Park"
       ],
@@ -7710,6 +7782,8 @@
       "address": "851 38th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 1.00858201,
+      "squareFeet": 43934.00799477,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -8129,6 +8203,8 @@
       "address": "32560 Mather Road",
       "zipcode": "95321",
       "neighborhood": null,
+      "acres": 337.99797984,
+      "squareFeet": 14723250.8947625,
       "placeTypes": [
         "Family Camp"
       ],
@@ -10994,6 +11070,8 @@
       "address": "2695 19th Ave",
       "zipcode": "94116",
       "neighborhood": "Sunset/Parkside",
+      "acres": 7.339430640000001,
+      "squareFeet": 319706.87758725,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -11502,6 +11580,8 @@
       "address": "185 Cayuga Ave",
       "zipcode": "94112",
       "neighborhood": "Outer Mission",
+      "acres": 0.15415614000000002,
+      "squareFeet": 6715.06836513,
       "placeTypes": [
         "Mini Park"
       ],
@@ -11538,6 +11618,8 @@
       "address": "301 Naglee Ave",
       "zipcode": "94112",
       "neighborhood": "Outer Mission",
+      "acres": 3.56475182,
+      "squareFeet": 155281.21029227,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -11961,6 +12043,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 2.71380134,
+      "squareFeet": 118213.18627911,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -11997,6 +12081,8 @@
       "address": "225 Chestnut St",
       "zipcode": "94133",
       "neighborhood": "North Beach",
+      "acres": 0.04732612,
+      "squareFeet": 2061.53424821,
       "placeTypes": [
         "Mini Park"
       ],
@@ -12033,6 +12119,8 @@
       "address": "1 Carlton B. Goodlett Place",
       "zipcode": "94102",
       "neighborhood": "Tenderloin",
+      "acres": 0.80652683,
+      "squareFeet": 35132.44912699,
       "placeTypes": [
         "Other Non-Park Property"
       ],
@@ -12069,6 +12157,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 6.59931788,
+      "squareFeet": 287466.28703331,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -12275,6 +12365,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 1.39286897,
+      "squareFeet": 60673.37215545,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -12311,6 +12403,8 @@
       "address": "855 Clipper Terrace",
       "zipcode": "94114",
       "neighborhood": "Noe Valley",
+      "acres": 0.4677895,
+      "squareFeet": 20376.99207843,
       "placeTypes": [
         "Community Garden"
       ],
@@ -12380,6 +12474,8 @@
       "address": "90 Coleridge St",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.23009548000000002,
+      "squareFeet": 10022.99940487,
       "placeTypes": [
         "Mini Park"
       ],
@@ -12450,6 +12546,8 @@
       "address": "1000 Taylor St",
       "zipcode": "94108",
       "neighborhood": "Nob Hill",
+      "acres": 1.29616036,
+      "squareFeet": 56460.97130208,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -12520,6 +12618,8 @@
       "address": "699 Connecticut St",
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 0.13554906,
+      "squareFeet": 5904.54051769,
       "placeTypes": [
         "Community Garden"
       ],
@@ -12579,6 +12679,8 @@
       "address": "199 Museum Way",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 13.24973014,
+      "squareFeet": 577160.55337726,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -13054,6 +13156,8 @@
       "address": null,
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.15050869,
+      "squareFeet": 6556.18497843,
       "placeTypes": [
         "Mini Park"
       ],
@@ -13090,6 +13194,8 @@
       "address": null,
       "zipcode": "94115",
       "neighborhood": "Pacific Heights",
+      "acres": 0.17142016,
+      "squareFeet": 7467.09197094,
       "placeTypes": [
         "Mini Park"
       ],
@@ -13126,6 +13232,8 @@
       "address": "1 Miley St",
       "zipcode": "94123",
       "neighborhood": "Marina",
+      "acres": 0.14948525000000001,
+      "squareFeet": 6511.60364603,
       "placeTypes": [
         "Mini Park"
       ],
@@ -13304,6 +13412,8 @@
       "address": "2 Crags Ct",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 0.43651079,
+      "squareFeet": 19014.48620272,
       "placeTypes": [
         "Community Garden"
       ],
@@ -13373,6 +13483,8 @@
       "address": "799 Moscow St",
       "zipcode": "94134",
       "neighborhood": "Excelsior, McLaren Park",
+      "acres": 57.523356299999996,
+      "squareFeet": 2505727.42331007,
       "placeTypes": [
         "Regional Park"
       ],
@@ -14509,6 +14621,8 @@
       "address": null,
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 0.07942271,
+      "squareFeet": 3459.66709417,
       "placeTypes": [
         "Mini Park"
       ],
@@ -14545,6 +14659,8 @@
       "address": "114 Brewster St",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.30290238,
+      "squareFeet": 13194.48058128,
       "placeTypes": [
         "Community Garden"
       ],
@@ -14614,6 +14730,8 @@
       "address": "7 Martha Ave",
       "zipcode": "94131",
       "neighborhood": "West of Twin Peaks",
+      "acres": 1.60282348,
+      "squareFeet": 69819.27022283,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -14684,6 +14802,8 @@
       "address": "1098 Douglass St",
       "zipcode": "94131",
       "neighborhood": "Noe Valley",
+      "acres": 7.88730383,
+      "squareFeet": 343572.32909164,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -15172,6 +15292,8 @@
       "address": "50 Scott St",
       "zipcode": "94117",
       "neighborhood": "Haight Ashbury",
+      "acres": 4.78759191,
+      "squareFeet": 208548.33768072,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -15730,6 +15852,8 @@
       "address": "592 Duncan St",
       "zipcode": "94131",
       "neighborhood": "Noe Valley",
+      "acres": 0.65081602,
+      "squareFeet": 28349.65922991,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -15800,6 +15924,8 @@
       "address": "336 31st Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.9268219600000001,
+      "squareFeet": 40372.52621639,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -16014,6 +16140,8 @@
       "address": null,
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 2.41942505,
+      "squareFeet": 105390.57673154,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -16110,6 +16238,8 @@
       "address": "10 Market St",
       "zipcode": "94105",
       "neighborhood": "Financial District/South Beach",
+      "acres": 4.13652822,
+      "squareFeet": 180187.89000043,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -16175,6 +16305,8 @@
       "address": "700 Minnesota St",
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 2.22949667,
+      "squareFeet": 97117.26354625,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -16409,6 +16541,8 @@
       "address": "270 6th St",
       "zipcode": "94103",
       "neighborhood": "South of Market",
+      "acres": 1.16261065,
+      "squareFeet": 50643.5225893,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -16679,6 +16813,8 @@
       "address": "3555 16th St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 0.43147927,
+      "squareFeet": 18795.31234328,
       "placeTypes": [
         "Community Garden"
       ],
@@ -16715,6 +16851,8 @@
       "address": "100 Collingwood St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 2.25481227,
+      "squareFeet": 98220.01557264,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -17251,6 +17389,8 @@
       "address": "61 Everson St",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 1.2687575199999999,
+      "squareFeet": 55267.29877601,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -17287,6 +17427,8 @@
       "address": "579 Madrid St",
       "zipcode": "94112",
       "neighborhood": "Excelsior",
+      "acres": 1.90615221,
+      "squareFeet": 83032.32233463,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -17855,6 +17997,8 @@
       "address": "26 Amatista Ln",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 0.86592145,
+      "squareFeet": 37719.68903171,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -17916,6 +18060,8 @@
       "address": "551 Utah St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.31978069000000003,
+      "squareFeet": 13929.7025816,
       "placeTypes": [
         "Mini Park"
       ],
@@ -17952,6 +18098,8 @@
       "address": "246 Eddy St",
       "zipcode": "94102",
       "neighborhood": "Tenderloin",
+      "acres": 1.093675,
+      "squareFeet": 47640.67336253,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -18347,6 +18495,8 @@
       "address": "2366 Leavenworth St",
       "zipcode": "94133",
       "neighborhood": "Russian Hill",
+      "acres": 0.32959382000000004,
+      "squareFeet": 14357.16425452,
       "placeTypes": [
         "Mini Park"
       ],
@@ -18429,6 +18579,8 @@
       "address": "1140 Fillmore St",
       "zipcode": "94115",
       "neighborhood": "Western Addition",
+      "acres": 0.25969231,
+      "squareFeet": 11312.24239097,
       "placeTypes": [
         "Mini Park"
       ],
@@ -18521,6 +18673,8 @@
       "address": "2745 Larkin St",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 4.89328892,
+      "squareFeet": 213152.51804277,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -18905,6 +19059,8 @@
       "address": "2500 17th St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 5.60397,
+      "squareFeet": 244109.9097303,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -19210,6 +19366,8 @@
       "address": "855 27th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.92342215,
+      "squareFeet": 40224.42986087,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -19733,6 +19891,8 @@
       "address": "3100 26th St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 3.4567257600000003,
+      "squareFeet": 150575.57645095,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -20307,6 +20467,8 @@
       "address": "2301 San Jose Ave",
       "zipcode": "94112",
       "neighborhood": "Outer Mission",
+      "acres": 0.35235001,
+      "squareFeet": 15348.42767186,
       "placeTypes": [
         "Mini Park"
       ],
@@ -20387,6 +20549,8 @@
       "address": "545 Geneva Ave",
       "zipcode": "94112",
       "neighborhood": "Outer Mission",
+      "acres": 0.29349566,
+      "squareFeet": 12784.72206944,
       "placeTypes": [
         "Community Garden"
       ],
@@ -20479,6 +20643,8 @@
       "address": "5210 Diamond Heights Blvd",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 6.97162064,
+      "squareFeet": 303685.00967457,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -20959,6 +21125,8 @@
       "address": "993 Gilman Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 4.859213520000001,
+      "squareFeet": 211668.18745436,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -21325,6 +21493,8 @@
       "address": "70 Elk St",
       "zipcode": "94131",
       "neighborhood": "Glen Park, West of Twin Peaks",
+      "acres": 70.70205415,
+      "squareFeet": 3079793.79774424,
       "placeTypes": [
         "Regional Park"
       ],
@@ -21998,6 +22168,8 @@
       "address": "1392 Golden Gate Ave",
       "zipcode": "94115",
       "neighborhood": "Western Addition",
+      "acres": 0.11507146,
+      "squareFeet": 5012.53300041,
       "placeTypes": [
         "Mini Park"
       ],
@@ -22034,6 +22206,8 @@
       "address": "2041 12th Ave",
       "zipcode": "94116",
       "neighborhood": "Inner Sunset",
+      "acres": 6.9612378999999995,
+      "squareFeet": 303232.73584136,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -22389,6 +22563,8 @@
       "address": "501 Stanyan St",
       "zipcode": "94117",
       "neighborhood": "Golden Gate Park",
+      "acres": 1031.84617465,
+      "squareFeet": 44947399.157418005,
       "placeTypes": [
         "Regional Park"
       ],
@@ -28144,6 +28320,8 @@
       "address": "100 Cortland Avenue",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.04552904,
+      "squareFeet": 1983.24516458,
       "placeTypes": [
         "Community Garden"
       ],
@@ -28213,6 +28391,8 @@
       "address": null,
       "zipcode": "94122",
       "neighborhood": "Inner Sunset",
+      "acres": 0.7939106100000001,
+      "squareFeet": 34582.88443598,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -28249,6 +28429,8 @@
       "address": "1730 15th Ave",
       "zipcode": "94122",
       "neighborhood": "Inner Sunset",
+      "acres": 4.1444643,
+      "squareFeet": 180533.58703145,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -28329,6 +28511,8 @@
       "address": "1180 Stanyan St",
       "zipcode": "94117",
       "neighborhood": "Haight Ashbury",
+      "acres": 1.87097396,
+      "squareFeet": 81499.95188592,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -28756,6 +28940,8 @@
       "address": "4 Guy Pl",
       "zipcode": "94105",
       "neighborhood": "Financial District/South Beach",
+      "acres": 0.09001658000000001,
+      "squareFeet": 3921.13781893,
       "placeTypes": [
         "Mini Park"
       ],
@@ -28792,6 +28978,8 @@
       "address": "1900 Geary Blvd",
       "zipcode": "94115",
       "neighborhood": "Japantown",
+      "acres": 3.65430877,
+      "squareFeet": 159182.32689294,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -29394,6 +29582,8 @@
       "address": "390 San Marcos Ave",
       "zipcode": "94116",
       "neighborhood": "West of Twin Peaks",
+      "acres": 4.85063362,
+      "squareFeet": 211294.4456761,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -29464,6 +29654,8 @@
       "address": "689 Hayes St",
       "zipcode": "94102",
       "neighborhood": "Hayes Valley",
+      "acres": 0.75325012,
+      "squareFeet": 32811.7065521,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -29870,6 +30062,8 @@
       "address": "300 Head St",
       "zipcode": "94132",
       "neighborhood": "Oceanview/Merced/Ingleside",
+      "acres": 0.5196217500000001,
+      "squareFeet": 22634.8141555,
       "placeTypes": [
         "Mini Park"
       ],
@@ -30018,6 +30212,8 @@
       "address": "1401 Broadway",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 0.91679834,
+      "squareFeet": 39935.89559512,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -30294,6 +30490,8 @@
       "address": "32 Jennings St",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 0.58300596,
+      "squareFeet": 25395.84135028,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -30438,6 +30636,8 @@
       "address": "1701 Visitacion Ave",
       "zipcode": "94134",
       "neighborhood": "McLaren Park, Visitacion Valley",
+      "acres": 6.9967099699999995,
+      "squareFeet": 304777.90557355,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -31072,6 +31272,8 @@
       "address": "2 Willie B Kennedy Dr",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 3.8280115100000005,
+      "squareFeet": 166748.84837565,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -31489,6 +31691,8 @@
       "address": "625  Holly Park Cir",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 8.14671198,
+      "squareFeet": 354872.19341857,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -31882,6 +32086,8 @@
       "address": "1 Hooker Alley",
       "zipcode": "94108",
       "neighborhood": "Nob Hill",
+      "acres": 0.05516923000000001,
+      "squareFeet": 2403.18144917,
       "placeTypes": [
         "Community Garden"
       ],
@@ -31951,6 +32157,8 @@
       "address": "1129 Howard St",
       "zipcode": "94103",
       "neighborhood": "South of Market",
+      "acres": 0.27830188,
+      "squareFeet": 12122.87838073,
       "placeTypes": [
         "Community Garden"
       ],
@@ -32020,6 +32228,8 @@
       "address": "1825 Hyde St",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 0.1128114,
+      "squareFeet": 4914.08429446,
       "placeTypes": [
         "Mini Park"
       ],
@@ -32056,6 +32266,8 @@
       "address": "2080 Folsom St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.85530419,
+      "squareFeet": 37257.19971332,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -32334,6 +32546,8 @@
       "address": "1700 Taylor St",
       "zipcode": "94133",
       "neighborhood": "Nob Hill",
+      "acres": 0.86687177,
+      "squareFeet": 37761.08521235,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -32370,6 +32584,8 @@
       "address": "915 Hudson Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 11.78006227,
+      "squareFeet": 513141.5649618,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -32688,6 +32904,8 @@
       "address": "1649 Ocean Avenue",
       "zipcode": "94112",
       "neighborhood": "West of Twin Peaks",
+      "acres": 0.36141428999999997,
+      "squareFeet": 15743.26964022,
       "placeTypes": [
         "Library"
       ],
@@ -32758,6 +32976,8 @@
       "address": null,
       "zipcode": "94131",
       "neighborhood": "Inner Sunset, Twin Peaks",
+      "acres": 21.37444821,
+      "squareFeet": 931067.239711,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -32838,6 +33058,8 @@
       "address": "1960 9th Ave",
       "zipcode": "94116",
       "neighborhood": "Inner Sunset",
+      "acres": 1.33077004,
+      "squareFeet": 57968.57487538,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -33188,6 +33410,8 @@
       "address": "1645 17th St",
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 4.938932090000001,
+      "squareFeet": 215140.7423991,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -33745,6 +33969,8 @@
       "address": "1451 Hampshire St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 2.92992063,
+      "squareFeet": 127627.85305141,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -34126,6 +34352,8 @@
       "address": "1610 Geary Blvd",
       "zipcode": "94115",
       "neighborhood": "Japantown",
+      "acres": 0.8039862600000001,
+      "squareFeet": 35021.78175167,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -34195,6 +34423,8 @@
       "address": "950 Gough St",
       "zipcode": "94102",
       "neighborhood": "Western Addition",
+      "acres": 6.430115570000001,
+      "squareFeet": 280096.95480307,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -34313,6 +34543,8 @@
       "address": "651 Lombard Street",
       "zipcode": "94133",
       "neighborhood": "North Beach",
+      "acres": 2.9199723800000004,
+      "squareFeet": 127194.50576788,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -34843,6 +35075,8 @@
       "address": "100 John F Shelley Dr",
       "zipcode": "94134",
       "neighborhood": "McLaren Park, Visitacion Valley, Excelsior, Portola",
+      "acres": 278.01067407,
+      "squareFeet": 12110144.9625387,
       "placeTypes": [
         "Regional Park"
       ],
@@ -36459,6 +36693,8 @@
       "address": "246 Joost Ave",
       "zipcode": "94131",
       "neighborhood": "West of Twin Peaks",
+      "acres": 0.14135551000000002,
+      "squareFeet": 6157.47062377,
       "placeTypes": [
         "Mini Park"
       ],
@@ -36495,6 +36731,8 @@
       "address": "2498 Folsom St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.9714546500000001,
+      "squareFeet": 42316.73401586,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -36795,6 +37033,8 @@
       "address": "601 Beach St",
       "zipcode": "94133",
       "neighborhood": "Russian Hill",
+      "acres": 0.15427579,
+      "squareFeet": 6720.28049013,
       "placeTypes": [
         "Mini Park"
       ],
@@ -36856,6 +37096,8 @@
       "address": "355 McAllister St",
       "zipcode": "94102",
       "neighborhood": "Tenderloin",
+      "acres": 5.38412296,
+      "squareFeet": 234533.33410773,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -36958,6 +37200,8 @@
       "address": "1551 Newcomb Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 0.9187404600000001,
+      "squareFeet": 40020.49466194,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -37194,6 +37438,8 @@
       "address": "300 Stonecrest Dr",
       "zipcode": "94132",
       "neighborhood": "West of Twin Peaks",
+      "acres": 1.74952259,
+      "squareFeet": 76209.50901279,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -37568,6 +37814,8 @@
       "address": "324 San Jose Ave",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.32420151999999997,
+      "squareFeet": 14122.27474002,
       "placeTypes": [
         "Mini Park"
       ],
@@ -37659,6 +37907,8 @@
       "address": "199 Kelloch Ave",
       "zipcode": "94134",
       "neighborhood": "Visitacion Valley",
+      "acres": 1.95902415,
+      "squareFeet": 85335.43323716,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -37860,6 +38110,8 @@
       "address": "45 Hoff Street",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.25956440000000003,
+      "squareFeet": 11306.67061648,
       "placeTypes": [
         "Mini Park"
       ],
@@ -37994,6 +38246,8 @@
       "address": "10 Stanton St",
       "zipcode": "94114",
       "neighborhood": "Twin Peaks",
+      "acres": 2.8734699200000002,
+      "squareFeet": 125168.85035926,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -38100,6 +38354,8 @@
       "address": "363 Page St",
       "zipcode": "94102",
       "neighborhood": "Hayes Valley",
+      "acres": 0.96157746,
+      "squareFeet": 41886.48150636,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -38263,6 +38519,8 @@
       "address": "2101 Washington St",
       "zipcode": "94109",
       "neighborhood": "Pacific Heights",
+      "acres": 12.48255602,
+      "squareFeet": 543742.31535399,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -38715,6 +38973,8 @@
       "address": "1 Harding Rd",
       "zipcode": "94132",
       "neighborhood": "Lakeshore",
+      "acres": 608.5808581199999,
+      "squareFeet": 26509888.219014,
       "placeTypes": [
         "Regional Park"
       ],
@@ -39403,6 +39663,8 @@
       "address": "799 Lakeview Ave",
       "zipcode": "94132",
       "neighborhood": "Oceanview/Merced/Ingleside",
+      "acres": 0.51492393,
+      "squareFeet": 22430.17613695,
       "placeTypes": [
         "Mini Park"
       ],
@@ -39473,6 +39735,8 @@
       "address": "251 Euclid Ave",
       "zipcode": "94118",
       "neighborhood": "Presidio Heights",
+      "acres": 1.61019533,
+      "squareFeet": 70140.38930729,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -39873,6 +40137,8 @@
       "address": "10 Lessing St",
       "zipcode": "94112",
       "neighborhood": "Outer Mission",
+      "acres": 0.16886261,
+      "squareFeet": 7355.68458007,
       "placeTypes": [
         "Mini Park"
       ],
@@ -40000,6 +40266,8 @@
       "address": "100 34th Ave",
       "zipcode": "94121",
       "neighborhood": "Lincoln Park, Outer Richmond, Seacliff",
+      "acres": 112.82207948,
+      "squareFeet": 4914549.44049736,
       "placeTypes": [
         "Regional Park"
       ],
@@ -40436,6 +40704,8 @@
       "address": null,
       "zipcode": "94134",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 1.4722266,
+      "squareFeet": 64130.44722954,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -40677,6 +40947,8 @@
       "address": "599 Yale St",
       "zipcode": "94134",
       "neighborhood": "McLaren Park",
+      "acres": 14.34392909,
+      "squareFeet": 624824.05063233,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -41337,6 +41609,8 @@
       "address": "1016 Laguna St",
       "zipcode": "94102",
       "neighborhood": "Western Addition",
+      "acres": 5.8488473999999995,
+      "squareFeet": 254776.81177915,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -41872,6 +42146,8 @@
       "address": null,
       "zipcode": "94158",
       "neighborhood": "Potrero Hill",
+      "acres": 2.65784166,
+      "squareFeet": 115776.04562545,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -41986,6 +42262,8 @@
       "address": "285 Washington St",
       "zipcode": "94111",
       "neighborhood": "Financial District/South Beach",
+      "acres": 2.01307708,
+      "squareFeet": 87689.98826612,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -42022,6 +42300,8 @@
       "address": "2354 24th Ave",
       "zipcode": "94116",
       "neighborhood": "Sunset/Parkside",
+      "acres": 7.9149034700000005,
+      "squareFeet": 344774.5743046,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -42425,6 +42705,8 @@
       "address": "2311 20th St",
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 2.86724662,
+      "squareFeet": 124897.76236096,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -42671,6 +42953,8 @@
       "address": "155 Winston Drive",
       "zipcode": "94132",
       "neighborhood": "West of Twin Peaks",
+      "acres": 0.30769532000000005,
+      "squareFeet": 13403.26170521,
       "placeTypes": [
         "Library"
       ],
@@ -42707,6 +42991,8 @@
       "address": "801 Shields St",
       "zipcode": "94132",
       "neighborhood": "Oceanview/Merced/Ingleside",
+      "acres": 1.2332518000000001,
+      "squareFeet": 53720.6634114,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -43146,6 +43432,8 @@
       "address": "1055 Greenwich St",
       "zipcode": "94133",
       "neighborhood": "Russian Hill",
+      "acres": 0.48377232000000003,
+      "squareFeet": 21073.20664737,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -43415,6 +43703,8 @@
       "address": "210 Olympia Way",
       "zipcode": "94131",
       "neighborhood": "Twin Peaks",
+      "acres": 1.61283982,
+      "squareFeet": 70255.30270939,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -43729,6 +44019,8 @@
       "address": "650 Capitol Ave",
       "zipcode": "94112",
       "neighborhood": "Oceanview/Merced/Ingleside",
+      "acres": 11.11763085,
+      "squareFeet": 484285.93683644,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -44448,6 +44740,8 @@
       "address": "25 Omar Way",
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 2.43050547,
+      "squareFeet": 105873.24193712,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -44870,6 +45164,8 @@
       "address": null,
       "zipcode": "94158",
       "neighborhood": "Mission Bay",
+      "acres": 11.62264449,
+      "squareFeet": 506284.41902987,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -45150,6 +45446,8 @@
       "address": "290 Channel St",
       "zipcode": "94158",
       "neighborhood": "Mission Bay",
+      "acres": 17.168503570000002,
+      "squareFeet": 747863.00711899,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -45472,6 +45770,8 @@
       "address": "646 Dolores St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 15.98778553,
+      "squareFeet": 696430.72322454,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -46187,6 +46487,8 @@
       "address": "3555 19th St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 2.13927288,
+      "squareFeet": 93187.09939621,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -47026,6 +47328,8 @@
       "address": "2450 Harrison St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.7079828300000001,
+      "squareFeet": 30839.85539532,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -47630,6 +47934,8 @@
       "address": "1800 Chestnut St",
       "zipcode": "94123",
       "neighborhood": "Marina",
+      "acres": 12.7320657,
+      "squareFeet": 554611.00027632,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -48532,6 +48838,8 @@
       "address": "1 11th Ave",
       "zipcode": "94118",
       "neighborhood": "Inner Richmond, Presidio",
+      "acres": 12.96241818,
+      "squareFeet": 564645.194644,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -49139,6 +49447,8 @@
       "address": "150 Dalewood Way",
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 40.71814397,
+      "squareFeet": 1773689.44609691,
       "placeTypes": [
         "Regional Park"
       ],
@@ -49214,6 +49524,8 @@
       "address": "480 Upper Terrace",
       "zipcode": "94117",
       "neighborhood": "Haight Ashbury",
+      "acres": 0.2051841,
+      "squareFeet": 8937.85500344,
       "placeTypes": [
         "Mini Park"
       ],
@@ -49250,6 +49562,8 @@
       "address": "124 Mullen Ave",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.45045589,
+      "squareFeet": 19621.93690992,
       "placeTypes": [
         "Mini Park"
       ],
@@ -49286,6 +49600,8 @@
       "address": "450 7th Ave",
       "zipcode": "94118",
       "neighborhood": "Inner Richmond",
+      "acres": 0.23791683,
+      "squareFeet": 10363.69866158,
       "placeTypes": [
         "Mini Park"
       ],
@@ -49381,6 +49697,8 @@
       "address": "1 Beaver St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 0.10643145000000001,
+      "squareFeet": 4636.17244691,
       "placeTypes": [
         "Mini Park"
       ],
@@ -49450,6 +49768,8 @@
       "address": "780 Douglass St",
       "zipcode": "94114",
       "neighborhood": "Noe Valley",
+      "acres": 1.1042326100000002,
+      "squareFeet": 48100.56493191,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -49736,6 +50056,8 @@
       "address": "3861 24th St",
       "zipcode": "94114",
       "neighborhood": "Noe Valley",
+      "acres": 0.27605287,
+      "squareFeet": 12024.9112557,
       "placeTypes": [
         "Mini Park"
       ],
@@ -49844,6 +50166,8 @@
       "address": null,
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 10.97943057,
+      "squareFeet": 478265.90867151,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -49914,6 +50238,8 @@
       "address": "700 Ogden Ave",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.16972337,
+      "squareFeet": 7393.17960041,
       "placeTypes": [
         "Community Garden"
       ],
@@ -49983,6 +50309,8 @@
       "address": "281 Page St",
       "zipcode": "94102",
       "neighborhood": "Hayes Valley",
+      "acres": 0.17920747,
+      "squareFeet": 7806.30859878,
       "placeTypes": [
         "Mini Park"
       ],
@@ -50019,6 +50347,8 @@
       "address": "438 Page St",
       "zipcode": "94102",
       "neighborhood": "Hayes Valley",
+      "acres": 0.08966064,
+      "squareFeet": 3905.63309142,
       "placeTypes": [
         "Community Garden"
       ],
@@ -50124,6 +50454,8 @@
       "address": "3601 Lyon St",
       "zipcode": "94123",
       "neighborhood": "Marina, Presidio",
+      "acres": 19.74090095,
+      "squareFeet": 859917.08514582,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -50302,6 +50634,8 @@
       "address": "500 Felton St",
       "zipcode": "94134",
       "neighborhood": "Portola",
+      "acres": 5.40622384,
+      "squareFeet": 235496.05242849,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -51046,6 +51380,8 @@
       "address": "1801 Palou Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 2.78896476,
+      "squareFeet": 121487.79109323,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -51189,6 +51525,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 2.33548912,
+      "squareFeet": 101733.90606502,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -51280,6 +51618,8 @@
       "address": null,
       "zipcode": "94118",
       "neighborhood": "Outer Richmond, Inner Richmond, Seacliff, Presidio",
+      "acres": 20.38628898,
+      "squareFeet": 888030.29992123,
       "placeTypes": [
         "Parkway"
       ],
@@ -51316,6 +51656,8 @@
       "address": null,
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.046942010000000006,
+      "squareFeet": 2044.80230273,
       "placeTypes": [
         "Community Garden"
       ],
@@ -51385,6 +51727,8 @@
       "address": "2680 28th Ave",
       "zipcode": "94132",
       "neighborhood": "Sunset/Parkside",
+      "acres": 8.851842280000001,
+      "squareFeet": 385587.79203009,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -52001,6 +52345,8 @@
       "address": "3070 23rd St",
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 0.6971327900000001,
+      "squareFeet": 30367.22596711,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -52304,6 +52650,8 @@
       "address": "489 Hayes St",
       "zipcode": "94102",
       "neighborhood": "Hayes Valley",
+      "acres": 0.47891084000000006,
+      "squareFeet": 20861.43965679,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -52452,6 +52800,8 @@
       "address": "2475 15th St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 0.82012885,
+      "squareFeet": 35724.95556551,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -52659,6 +53009,8 @@
       "address": "200 Crestlake Dr",
       "zipcode": "94132",
       "neighborhood": "Sunset/Parkside",
+      "acres": 30.767888810000002,
+      "squareFeet": 1340254.59745023,
       "placeTypes": [
         "Regional Park"
       ],
@@ -53061,6 +53413,8 @@
       "address": null,
       "zipcode": "94131",
       "neighborhood": "Noe Valley, Twin Peaks",
+      "acres": 0.8120188,
+      "squareFeet": 35371.68028509,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -53097,6 +53451,8 @@
       "address": "745 Kearny St",
       "zipcode": "94108",
       "neighborhood": "Chinatown",
+      "acres": 1.48363715,
+      "squareFeet": 64627.49263186,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -53412,6 +53768,8 @@
       "address": null,
       "zipcode": "94110",
       "neighborhood": "Mission",
+      "acres": 4.67952643,
+      "squareFeet": 203840.98654376,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -53771,6 +54129,8 @@
       "address": null,
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 0.22471632,
+      "squareFeet": 9788.68224799,
       "placeTypes": [
         "Mini Park"
       ],
@@ -53807,6 +54167,8 @@
       "address": "801 Arkansas St",
       "zipcode": "94107",
       "neighborhood": "Potrero Hill",
+      "acres": 10.07167616,
+      "squareFeet": 438723.9683969,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -54435,6 +54797,8 @@
       "address": "3200 Folsom St",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 2.24636446,
+      "squareFeet": 97852.02736866,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -54634,6 +54998,8 @@
       "address": "193 Prentiss St",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 0.06867937,
+      "squareFeet": 2991.68514679,
       "placeTypes": [
         "Mini Park"
       ],
@@ -54757,6 +55123,8 @@
       "address": "3437 Clay St",
       "zipcode": "94118",
       "neighborhood": "Presidio Heights",
+      "acres": 0.48584834,
+      "squareFeet": 21163.63841435,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -55062,6 +55430,8 @@
       "address": "3150 Sacramento St",
       "zipcode": "94115",
       "neighborhood": "Pacific Heights",
+      "acres": 0.67872105,
+      "squareFeet": 29565.20733137,
       "placeTypes": [
         "Library"
       ],
@@ -55098,6 +55468,8 @@
       "address": "3550 Pacific Ave",
       "zipcode": "94118",
       "neighborhood": "Presidio, Presidio Heights",
+      "acres": 12.383017019999999,
+      "squareFeet": 539406.37914179,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -55682,6 +56054,8 @@
       "address": "885 Le Conte Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 0.16845868000000003,
+      "squareFeet": 7338.08931434,
       "placeTypes": [
         "Mini Park"
       ],
@@ -55741,6 +56115,8 @@
       "address": "100 Randolph St",
       "zipcode": "94132",
       "neighborhood": "Oceanview/Merced/Ingleside",
+      "acres": 0.13033013,
+      "squareFeet": 5677.20328532,
       "placeTypes": [
         "Mini Park"
       ],
@@ -55833,6 +56209,8 @@
       "address": "1901 Geary Blvd",
       "zipcode": "94115",
       "neighborhood": "Western Addition",
+      "acres": 6.0195823,
+      "squareFeet": 262214.05395667,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -56255,6 +56633,8 @@
       "address": "149 18th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.92841564,
+      "squareFeet": 40441.94691315,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -56723,6 +57103,8 @@
       "address": "251 18th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.92842227,
+      "squareFeet": 40442.23579931,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -56915,6 +57297,8 @@
       "address": null,
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 0.75391193,
+      "squareFeet": 32840.53511187,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -56976,6 +57360,8 @@
       "address": "250 25th Ave",
       "zipcode": "94121",
       "neighborhood": "Outer Richmond",
+      "acres": 0.9087681300000001,
+      "squareFeet": 39586.09809633,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -57461,6 +57847,8 @@
       "address": "1800 14th Ave",
       "zipcode": "94122",
       "neighborhood": "Inner Sunset",
+      "acres": 1.67139883,
+      "squareFeet": 72806.42445975,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -57531,6 +57919,8 @@
       "address": null,
       "zipcode": "94132",
       "neighborhood": "Lakeshore",
+      "acres": 3.62274957,
+      "squareFeet": 157807.60271348,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -57674,6 +58064,8 @@
       "address": "299 Henry St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 0.38656205,
+      "squareFeet": 16838.71007538,
       "placeTypes": [
         "Mini Park"
       ],
@@ -57710,6 +58102,8 @@
       "address": "500 Jefferson St",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 1.11306613,
+      "squareFeet": 48485.35445412,
       "placeTypes": [
         "Concession"
       ],
@@ -57769,6 +58163,8 @@
       "address": "100 Larkin St",
       "zipcode": "94102",
       "neighborhood": "Tenderloin",
+      "acres": 0.08680381000000001,
+      "squareFeet": 3781.18908015,
       "placeTypes": [
         "Library"
       ],
@@ -57805,6 +58201,8 @@
       "address": "1 Zoo Rd",
       "zipcode": "94132",
       "neighborhood": "Lakeshore, Sunset/Parkside",
+      "acres": 131.53700095,
+      "squareFeet": 5729774.68050535,
       "placeTypes": [
         "Zoological Garden"
       ],
@@ -57841,6 +58239,8 @@
       "address": "70 Ord St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 0.19406325,
+      "squareFeet": 8453.4291008,
       "placeTypes": [
         "Mini Park"
       ],
@@ -57877,6 +58277,8 @@
       "address": "1321 Selby St",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 0.42040069,
+      "squareFeet": 18312.72746194,
       "placeTypes": [
         "Mini Park"
       ],
@@ -58067,6 +58469,8 @@
       "address": "70 Corwin St",
       "zipcode": "94114",
       "neighborhood": "Twin Peaks",
+      "acres": 0.41645266,
+      "squareFeet": 18140.75038695,
       "placeTypes": [
         "Mini Park"
       ],
@@ -58189,6 +58593,8 @@
       "address": "800 O'Farrell St",
       "zipcode": "94109",
       "neighborhood": "Tenderloin",
+      "acres": 0.27778728,
+      "squareFeet": 12100.46223107,
       "placeTypes": [
         "Mini Park"
       ],
@@ -58363,6 +58769,8 @@
       "address": "1 Sharp Park Rd",
       "zipcode": "94044",
       "neighborhood": null,
+      "acres": 409.75272024000003,
+      "squareFeet": 17848899.8891137,
       "placeTypes": [
         "Regional Park"
       ],
@@ -58569,6 +58977,8 @@
       "address": "100 Innes Court",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 7.95587612,
+      "squareFeet": 346557.96380079,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -58977,6 +59387,8 @@
       "address": "1 Lillian St",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 0.951628,
+      "squareFeet": 41453.08170108,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -59244,6 +59656,8 @@
       "address": "2899 19th Ave",
       "zipcode": "94132",
       "neighborhood": "Sunset/Parkside",
+      "acres": 34.77360918,
+      "squareFeet": 1514744.47488488,
       "placeTypes": [
         "Regional Park"
       ],
@@ -60256,6 +60670,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 1.99927446,
+      "squareFeet": 87088.39529485,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -60332,6 +60748,8 @@
       "address": "1700 Silver Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 5.5742696700000005,
+      "squareFeet": 242816.15830189,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -60810,6 +61228,8 @@
       "address": null,
       "zipcode": "94103",
       "neighborhood": "Mission",
+      "acres": 0.61650925,
+      "squareFeet": 26855.25032796,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -60879,6 +61299,8 @@
       "address": null,
       "zipcode": "94103",
       "neighborhood": "Mission",
+      "acres": 0.8712779300000001,
+      "squareFeet": 37953.01860041,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -60938,6 +61360,8 @@
       "address": "100 South Park St",
       "zipcode": "94107",
       "neighborhood": "Financial District/South Beach",
+      "acres": 1.1178723,
+      "squareFeet": 48694.71203046,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -61126,6 +61550,8 @@
       "address": "2601 40th Ave",
       "zipcode": "94116",
       "neighborhood": "Sunset/Parkside",
+      "acres": 4.10606077,
+      "squareFeet": 178860.7224617,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -61577,6 +62003,8 @@
       "address": "95 Justin Dr",
       "zipcode": "94110",
       "neighborhood": "Bernal Heights",
+      "acres": 13.6037164,
+      "squareFeet": 592580.25688521,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -62169,6 +62597,8 @@
       "address": "633 California St",
       "zipcode": "94108",
       "neighborhood": "Financial District/South Beach",
+      "acres": 1.44145528,
+      "squareFeet": 62790.04299174,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -62343,6 +62773,8 @@
       "address": "122 States St",
       "zipcode": "94114",
       "neighborhood": "Castro/Upper Market",
+      "acres": 2.9114282,
+      "squareFeet": 126822.31963311,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -62720,6 +63152,8 @@
       "address": "143 The Embarcadero",
       "zipcode": "94111",
       "neighborhood": "Financial District/South Beach",
+      "acres": 4.47281041,
+      "squareFeet": 194836.40101541,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -62828,6 +63262,8 @@
       "address": "236 Monterey Blvd",
       "zipcode": "94131",
       "neighborhood": "West of Twin Peaks",
+      "acres": 0.24625547,
+      "squareFeet": 10726.93121459,
       "placeTypes": [
         "Mini Park"
       ],
@@ -62954,6 +63390,8 @@
       "address": "233 Melrose Avenue",
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 2.6017107200000003,
+      "squareFeet": 113330.97215867,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -63303,6 +63741,8 @@
       "address": "501 Stanyan St",
       "zipcode": "94132",
       "neighborhood": "Sunset/Parkside",
+      "acres": 50.602438516850704,
+      "squareFeet": 2204242.22179402,
       "placeTypes": [
         "Parkway"
       ],
@@ -63701,6 +64141,8 @@
       "address": "2201 Lawton St",
       "zipcode": "94122",
       "neighborhood": "Sunset/Parkside",
+      "acres": 3.8795047200000004,
+      "squareFeet": 168991.90168571,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -64293,6 +64735,8 @@
       "address": "100 Twin Peaks Blvd",
       "zipcode": "94114",
       "neighborhood": "Inner Sunset",
+      "acres": 3.02368704,
+      "squareFeet": 131712.33431916,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -64384,6 +64828,8 @@
       "address": "1 Telegraph Hill Blvd",
       "zipcode": "94133",
       "neighborhood": "North Beach",
+      "acres": 4.81974441,
+      "squareFeet": 209948.90627223,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -64497,6 +64943,8 @@
       "address": "570 Ellis St",
       "zipcode": "94109",
       "neighborhood": "Tenderloin",
+      "acres": 0.65914847,
+      "squareFeet": 28712.62207559,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -64785,6 +65233,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 0.19654275000000002,
+      "squareFeet": 8561.4023554,
       "placeTypes": [
         "Mini Park"
       ],
@@ -64892,6 +65342,8 @@
       "address": "100 Topaz Way",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 0.91640837,
+      "squareFeet": 39918.90840771,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -64928,6 +65380,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 2.28361109,
+      "squareFeet": 99474.0989148,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -65019,6 +65473,8 @@
       "address": "201 Hyde St",
       "zipcode": "94102",
       "neighborhood": "Tenderloin",
+      "acres": 0.15400689,
+      "squareFeet": 6708.56686441,
       "placeTypes": [
         "Mini Park"
       ],
@@ -65147,6 +65603,8 @@
       "address": "501 Twin Peaks Blvd",
       "zipcode": "94131",
       "neighborhood": "Twin Peaks",
+      "acres": 32.24817773,
+      "squareFeet": 1404725.003052,
       "placeTypes": [
         "Regional Park"
       ],
@@ -65240,6 +65698,8 @@
       "address": "1150 Market St",
       "zipcode": "94102",
       "neighborhood": "Tenderloin",
+      "acres": 2.6602428600000003,
+      "squareFeet": 115880.64245954,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -65417,6 +65877,8 @@
       "address": "333 Post St",
       "zipcode": "94108",
       "neighborhood": "Financial District/South Beach",
+      "acres": 2.6001148800000005,
+      "squareFeet": 113261.45717332,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -65486,6 +65948,8 @@
       "address": "295 Day St",
       "zipcode": "94131",
       "neighborhood": "Noe Valley",
+      "acres": 2.91807067,
+      "squareFeet": 127111.66669119,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -66029,6 +66493,8 @@
       "address": "55 Sherman St",
       "zipcode": "94103",
       "neighborhood": "South of Market",
+      "acres": 2.69637816,
+      "squareFeet": 117454.70243174,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -66491,6 +66957,8 @@
       "address": "103 Tucker Ave",
       "zipcode": "94134",
       "neighborhood": "Visitacion Valley",
+      "acres": 2.4270373800000002,
+      "squareFeet": 105722.17130306,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -66656,6 +67124,8 @@
       "address": "300 Addison St",
       "zipcode": "94131",
       "neighborhood": "Glen Park",
+      "acres": 4.625647740000001,
+      "squareFeet": 201494.02147229,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -66906,6 +67376,8 @@
       "address": "301 Van Ness Ave",
       "zipcode": "94102",
       "neighborhood": "Hayes Valley",
+      "acres": 0.76530419,
+      "squareFeet": 33336.7840759,
       "placeTypes": [
         "Other Non-Park Property"
       ],
@@ -66942,6 +67414,8 @@
       "address": "1470 Washington St",
       "zipcode": "94109",
       "neighborhood": "Russian Hill",
+      "acres": 0.16129288,
+      "squareFeet": 7025.94590919,
       "placeTypes": [
         "Mini Park"
       ],
@@ -67121,6 +67595,8 @@
       "address": "600 Columbus Ave",
       "zipcode": "94133",
       "neighborhood": "North Beach, Chinatown",
+      "acres": 2.75453187,
+      "squareFeet": 119987.88811597,
       "placeTypes": [
         "Civic Plaza or Square"
       ],
@@ -67234,6 +67710,8 @@
       "address": "131 Lenox Way",
       "zipcode": "94127",
       "neighborhood": "West of Twin Peaks",
+      "acres": 1.30972879,
+      "squareFeet": 57052.01436115,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -67651,6 +68129,8 @@
       "address": "3223 Ortega St",
       "zipcode": "94116",
       "neighborhood": "Sunset/Parkside",
+      "acres": 17.78874033,
+      "squareFeet": 774880.62828374,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -68274,6 +68754,8 @@
       "address": "1550 Scott Street",
       "zipcode": "94115",
       "neighborhood": "Japantown",
+      "acres": 0.89918193,
+      "squareFeet": 39168.52174604,
       "placeTypes": [
         "Library"
       ],
@@ -68310,6 +68792,8 @@
       "address": "1620 7th Ave",
       "zipcode": "94131",
       "neighborhood": "Inner Sunset",
+      "acres": 0.4614091,
+      "squareFeet": 20099.06091196,
       "placeTypes": [
         "Community Garden"
       ],
@@ -68402,6 +68886,8 @@
       "address": "850 Sacramento St",
       "zipcode": "94108",
       "neighborhood": "Chinatown",
+      "acres": 0.65634945,
+      "squareFeet": 28590.69636611,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -68866,6 +69352,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 1.76205064,
+      "squareFeet": 76754.92567359,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -68902,6 +69390,8 @@
       "address": "922 Jackson St",
       "zipcode": "94133",
       "neighborhood": "Chinatown",
+      "acres": 0.35612707000000005,
+      "squareFeet": 15512.95730744,
       "placeTypes": [
         "Mini Park"
       ],
@@ -69106,6 +69596,8 @@
       "address": "1 Marina Green Dr",
       "zipcode": "94123",
       "neighborhood": "Marina, Presidio",
+      "acres": 165.47144441999998,
+      "squareFeet": 7207964.95092612,
       "placeTypes": [
         "Regional Park"
       ],
@@ -69364,6 +69856,8 @@
       "address": null,
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
+      "acres": 45.19309602,
+      "squareFeet": 1968611.26268815,
       "placeTypes": [
         "Regional Park"
       ],
@@ -69400,6 +69894,8 @@
       "address": "251 Leland Ave",
       "zipcode": "94134",
       "neighborhood": "Visitacion Valley",
+      "acres": 2.30918707,
+      "squareFeet": 100588.59096359,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],
@@ -69672,6 +70168,8 @@
       "address": "1398 Hudson Ave",
       "zipcode": "94124",
       "neighborhood": "Bayview Hunters Point",
+      "acres": 6.44637851,
+      "squareFeet": 280805.37126656,
       "placeTypes": [
         "Neighborhood Park or Playground"
       ],

@@ -100,7 +100,10 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
   const assetRows = assets.map((item) => item.data);
 
   const normalizedProperties = propertyRows
-    .map((row) => ({
+    .map((row) => {
+      const acres = clean(row.acres) === null ? null : Number(row.acres);
+      const sourceSquareFeet = clean(row.squarefeet) === null ? null : Number(row.squarefeet);
+      return {
       id: clean(row.property_id),
       name: clean(row.property_name),
       propertyType: clean(row.propertytype),
@@ -109,10 +112,11 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
       state: clean(row.state),
       zipcode: clean(row.zipcode),
       neighborhood: clean(row.analysis_neighborhood),
-      acres: clean(row.acres) === null ? null : Number(row.acres),
+      acres,
+      squareFeet: Number.isFinite(sourceSquareFeet) ? sourceSquareFeet : Number.isFinite(acres) ? acres * 43560 : null,
       displayPoint: displayPoint([row]),
       sourceReferences: sourceReferences([row], "datasf-rec-park-properties")
-    }))
+    }; })
     .sort((a, b) => compareText(a.name, b.name) || compareText(a.id, b.id));
 
   const propertyMap = new Map(normalizedProperties.map((item) => [item.id, item]));

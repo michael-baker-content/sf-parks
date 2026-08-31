@@ -19,9 +19,11 @@ const record = {
   filters: {
     activityIds: ["play-sports"], amenityIds: ["tennis-court"],
     amenityLabels: ["Tennis Court"],
+    areaIds: ["sunset-westside"],
     neighborhoodIds: ["golden-gate-park"], placeTypeIds: ["regional-park"],
     zipcode: "94117", coverage: "open-data-only"
-  }
+  },
+  display: { acres: 10, squareFeet: 435600 }
 };
 
 test("Explore reveals results in manageable groups", () => {
@@ -29,12 +31,18 @@ test("Explore reveals results in manageable groups", () => {
 });
 
 test("URL state preserves repeatable filters", () => {
-  const state = readState("?q=tennis&activity=play-sports&amenity=restrooms&amenity=tennis-court&zip=94117");
+  const state = readState("?q=tennis&activity=play-sports&amenity=restrooms&amenity=tennis-court&area=sunset-westside&zip=94117&minAmenities=5&minAcres=1.5");
   assert.equal(state.q, "tennis");
   assert.deepEqual(state.amenity, ["restrooms", "tennis-court"]);
   assert.deepEqual(state.zip, ["94117"]);
+  assert.deepEqual(state.area, ["sunset-westside"]);
+  assert.equal(state.minAmenities, 5);
+  assert.equal(state.minAcres, 1.5);
   assert.match(stateUrl(state, state), /amenity=restrooms/);
   assert.match(stateUrl(state, state), /zip=94117/);
+  assert.match(stateUrl(state, state), /area=sunset-westside/);
+  assert.match(stateUrl(state, state), /minAmenities=5/);
+  assert.match(stateUrl(state, state), /minAcres=1.5/);
 });
 
 test("global search reuses the Explore query URL", () => {
@@ -46,6 +54,12 @@ test("ZIP filters match only destinations in a selected ZIP code", () => {
   const base = { q: "", activity: [], amenity: [], neighborhood: [], place: [], coverage: [], sort: "relevance" };
   assert.equal(filterAndRank([record], { ...base, zip: ["94117"] }).length, 1);
   assert.equal(filterAndRank([record], { ...base, zip: ["94110"] }).length, 0);
+});
+
+test("area filters match the reviewed area grouping", () => {
+  const base = { q: "", activity: [], amenity: [], area: ["sunset-westside"], neighborhood: [], zip: [], place: [], coverage: [], sort: "relevance" };
+  assert.equal(filterAndRank([record], base).length, 1);
+  assert.equal(filterAndRank([record], { ...base, area: ["southeast-san-francisco"] }).length, 0);
 });
 
 test("hidden source aliases rank as direct matches", () => {
@@ -66,6 +80,14 @@ test("most amenities sorting uses names to break equal counts", () => {
     { ...record, publicName: "Alpha Park", filters: { ...record.filters, amenityLabels: ["One", "Two"] } }
   ];
   assert.deepEqual(filterAndRank(records, base).map(({ record: item }) => item.publicName), ["Alpha Park", "Beta Park", "Zulu Park"]);
+});
+
+test("minimum amenity and park-size thresholds require positive source evidence", () => {
+  const base = { q: "", activity: [], amenity: [], neighborhood: [], zip: [], place: [], coverage: [], sort: "relevance" };
+  assert.equal(filterAndRank([record], { ...base, minAmenities: 1, minAcres: 9 }).length, 1);
+  assert.equal(filterAndRank([record], { ...base, minAmenities: 2 }).length, 0);
+  assert.equal(filterAndRank([record], { ...base, minAcres: 11 }).length, 0);
+  assert.equal(filterAndRank([{ ...record, display: { acres: null } }], { ...base, minAcres: 1 }).length, 0);
 });
 
 test("query explanations prefer understandable amenity labels", () => {

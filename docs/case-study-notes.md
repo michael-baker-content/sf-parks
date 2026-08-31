@@ -883,7 +883,7 @@ properly attributed.
   no horizontal overflow at the 320-pixel support floor.
 
 - **Validation result:** The complete static site builds successfully, the
-  automated suite contains 94 passing tests, and focused browser checks cover
+  automated suite contains 99 passing tests, and focused browser checks cover
   the minimum-width header, global-search flow, transit selector, anchor menu,
   and ultra-wide centering.
 
@@ -908,7 +908,7 @@ properly attributed.
 
 - **Current evidence:** The prototype statically generates 249 destination
   pages, contains approved evergreen narrative records for 198 destinations,
-  normalizes 3,314 transit stops and stations across 85 routes, and passes 94
+  normalizes 3,314 transit stops and stations across 85 routes, and passes 99
   automated tests. The broader official-page report classifies 209 destinations
   as enriched because it also counts reviewed facility-directory features.
   These are measures of implementation breadth and reliability—not yet evidence
@@ -1011,5 +1011,22 @@ properly attributed.
 
 - **Current validation:** Five source records, the UI content contract, the
   15-image media manifest, and all 198 evergreen records pass their local
-  validators. The application passes 94 automated tests, TypeScript validation,
+  validators. The application passes 99 automated tests, TypeScript validation,
   and a production build that emits all 256 static routes.
+
+- **Quantitative discovery controls:** Added resident-controlled minimums for
+  amenity count and park size. The official property dataset publishes acreage,
+  so the interface avoids geometry estimates and large square-foot figures.
+  Multi-property destinations sum their member-property
+  areas, all 249 public destinations currently have area coverage, and positive
+  thresholds fail closed if a future destination lacks supporting data. The
+  active criteria and result cards make the applied limits visible rather than
+  hiding them inside ranking logic.
+
+- **Broad-area vocabulary:** Added nine optional browsing areas using familiar
+  anchors such as Richmond & Presidio, Sunset & Westside, and Mission, Bernal &
+  Noe. The interface calls these “Areas” rather than presenting them as official
+  regional boundaries. All 249 destinations map to exactly one area; six parks
+  with cross-boundary source neighborhood labels have explicit reviewed
+  assignments, while Treasure Island and the two properties outside San
+  Francisco remain distinct choices.
