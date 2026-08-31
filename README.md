@@ -35,7 +35,7 @@ in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
 - 3,314 transit stops and stations across 85 routes
 - 15 approved images across 13 destinations, with a generic placeholder used
   elsewhere rather than an unverified location image
-- 3 generated editorial illustrations supporting the programs and reservations
+- 2 generated editorial illustrations supporting the programs and reservations
   guide
 - Official park-property area available for all 249 public destinations
 - 99 passing automated tests, plus a successful TypeScript check and static

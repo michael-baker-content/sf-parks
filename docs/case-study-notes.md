@@ -965,7 +965,7 @@ properly attributed.
 
 - **Official-service pathways:** Turned the programs and reservations page into
   a clearer handoff guide for registration, aquatics, volunteering, rentals,
-  permits, and events. Three original watercolor illustrations add warmth and
+  permits, and events. Two original watercolor illustrations add warmth and
   distinguish program discovery from reservation planning without implying
   that they document a specific event.
 
