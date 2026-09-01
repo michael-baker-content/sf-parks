@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import handoffs from "../../data/content/official-service-handoffs.json";
+import { resolveMediaAsset } from "../../src/lib/media-delivery.js";
 
 export const metadata: Metadata = {
   title: "Programs and reservations",
@@ -14,6 +15,8 @@ function HandoffList({ items }: { items: (typeof handoffs.programs | typeof hand
 }
 
 export default function ProgramsAndReservationsPage() {
+  const gardeningImage = resolveMediaAsset("/media/programs-youth-gardening-watercolor.jpg", 1696, 929);
+  const pickleballImage = resolveMediaAsset("/media/programs-pickleball-watercolor.jpg", 1696, 929);
   return <article className="app-service-guide">
     <header>
       <p className="app-eyebrow">Guided official handoff</p>
@@ -27,14 +30,14 @@ export default function ProgramsAndReservationsPage() {
     <section id="programs" aria-labelledby="programs-title">
       <h2 id="programs-title">I want to join a program</h2>
       <figure className="app-service-guide__illustration">
-        <img src="/media/programs-youth-gardening-watercolor.jpg" width="1696" height="929" alt="Watercolor illustration of city youths learning to plant and water a public community garden with two adult program instructors." />
+        <img src={gardeningImage.src} srcSet={gardeningImage.srcSet} sizes="(max-width: 66rem) 100vw, 66rem" width={gardeningImage.width} height={gardeningImage.height} alt="Watercolor illustration of city youths learning to plant and water a public community garden with two adult program instructors." />
       </figure>
       <HandoffList items={handoffs.programs} />
     </section>
     <section id="reservations" aria-labelledby="reservations-title">
       <h2 id="reservations-title">I want to reserve a space or request a permit</h2>
       <figure className="app-service-guide__illustration">
-        <img src="/media/programs-pickleball-watercolor.jpg" width="1696" height="929" alt="Watercolor illustration of four mature adults enjoying a doubles pickleball game on a public park court." />
+        <img src={pickleballImage.src} srcSet={pickleballImage.srcSet} sizes="(max-width: 66rem) 100vw, 66rem" width={pickleballImage.width} height={pickleballImage.height} alt="Watercolor illustration of four mature adults enjoying a doubles pickleball game on a public park court." />
       </figure>
       <HandoffList items={handoffs.reservations} />
     </section>

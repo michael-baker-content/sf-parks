@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "provider": "vercel-blob",
+  "generatedAt": "2026-09-01T18:57:38.803Z",
+  "assets": [
+    {
+      "localPath": "/media/alamo-square-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 52360,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alamo-square-01/ebb1406d803d/640.webp",
+          "pathname": "media/alamo-square-01/ebb1406d803d/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 239102,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alamo-square-01/ebb1406d803d/1280.webp",
+          "pathname": "media/alamo-square-01/ebb1406d803d/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/alamo-square-02.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 464,
+          "bytes": 66458,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alamo-square-02/1abd2aab4078/640.webp",
+          "pathname": "media/alamo-square-02/1abd2aab4078/640.webp"
+        },
+        {
+          "width": 1238,
+          "height": 898,
+          "bytes": 209476,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alamo-square-02/1abd2aab4078/1238.webp",
+          "pathname": "media/alamo-square-02/1abd2aab4078/1238.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/alta-plaza-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 47658,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alta-plaza-park-01/00255a2b580b/640.webp",
+          "pathname": "media/alta-plaza-park-01/00255a2b580b/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 231096,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alta-plaza-park-01/00255a2b580b/1280.webp",
+          "pathname": "media/alta-plaza-park-01/00255a2b580b/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/buena-vista-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 69232,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/buena-vista-park-01/015cda369f68/640.webp",
+          "pathname": "media/buena-vista-park-01/015cda369f68/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 273910,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/buena-vista-park-01/015cda369f68/1280.webp",
+          "pathname": "media/buena-vista-park-01/015cda369f68/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/duboce-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 429,
+          "bytes": 68276,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/duboce-park-01/2381fc2c136a/640.webp",
+          "pathname": "media/duboce-park-01/2381fc2c136a/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 857,
+          "bytes": 295324,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/duboce-park-01/2381fc2c136a/1280.webp",
+          "pathname": "media/duboce-park-01/2381fc2c136a/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/golden-gate-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 360,
+          "bytes": 93262,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-park-01/7fad6b9b62bb/640.webp",
+          "pathname": "media/golden-gate-park-01/7fad6b9b62bb/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "bytes": 365636,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-park-01/7fad6b9b62bb/1280.webp",
+          "pathname": "media/golden-gate-park-01/7fad6b9b62bb/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/golden-gate-park-02.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "bytes": 74632,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-park-02/29e573283fad/640.webp",
+          "pathname": "media/golden-gate-park-02/29e573283fad/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 853,
+          "bytes": 311718,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-park-02/29e573283fad/1280.webp",
+          "pathname": "media/golden-gate-park-02/29e573283fad/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/ina-coolbrith-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "bytes": 61870,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/ina-coolbrith-park-01/83077adf8b05/640.webp",
+          "pathname": "media/ina-coolbrith-park-01/83077adf8b05/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 853,
+          "bytes": 264476,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/ina-coolbrith-park-01/83077adf8b05/1280.webp",
+          "pathname": "media/ina-coolbrith-park-01/83077adf8b05/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/kite-hill-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 113998,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/kite-hill-01/23f6a121b03e/640.webp",
+          "pathname": "media/kite-hill-01/23f6a121b03e/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 369328,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/kite-hill-01/23f6a121b03e/1280.webp",
+          "pathname": "media/kite-hill-01/23f6a121b03e/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/lafayette-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 678,
+          "bytes": 77866,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/lafayette-park-01/8a5d506adea7/640.webp",
+          "pathname": "media/lafayette-park-01/8a5d506adea7/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 1356,
+          "bytes": 314924,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/lafayette-park-01/8a5d506adea7/1280.webp",
+          "pathname": "media/lafayette-park-01/8a5d506adea7/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/lake-merced-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 144,
+          "bytes": 25746,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/lake-merced-park-01/7be2d768a261/640.webp",
+          "pathname": "media/lake-merced-park-01/7be2d768a261/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 288,
+          "bytes": 109730,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/lake-merced-park-01/7be2d768a261/1280.webp",
+          "pathname": "media/lake-merced-park-01/7be2d768a261/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/mission-dolores-park-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 44066,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/mission-dolores-park-01/8de90354750c/640.webp",
+          "pathname": "media/mission-dolores-park-01/8de90354750c/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 172806,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/mission-dolores-park-01/8de90354750c/1280.webp",
+          "pathname": "media/mission-dolores-park-01/8de90354750c/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/palace-of-fine-arts-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 58758,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/palace-of-fine-arts-01/7d70ac0e3706/640.webp",
+          "pathname": "media/palace-of-fine-arts-01/7d70ac0e3706/640.webp"
+        },
+        {
+          "width": 768,
+          "height": 576,
+          "bytes": 82564,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/palace-of-fine-arts-01/7d70ac0e3706/768.webp",
+          "pathname": "media/palace-of-fine-arts-01/7d70ac0e3706/768.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/park-image-placeholder.png",
+      "variants": [
+        {
+          "width": 640,
+          "height": 427,
+          "bytes": 57320,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/park-image-placeholder/c3fc391cfb71/640.webp",
+          "pathname": "media/park-image-placeholder/c3fc391cfb71/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 853,
+          "bytes": 167068,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/park-image-placeholder/c3fc391cfb71/1280.webp",
+          "pathname": "media/park-image-placeholder/c3fc391cfb71/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/portsmouth-square-01.jpg",
+      "variants": [
+        {
+          "width": 500,
+          "height": 333,
+          "bytes": 45338,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/portsmouth-square-01/9f21a4a81b03/500.webp",
+          "pathname": "media/portsmouth-square-01/9f21a4a81b03/500.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/programs-pickleball-watercolor.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 351,
+          "bytes": 70668,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/programs-pickleball-watercolor/67e3ed06c18a/640.webp",
+          "pathname": "media/programs-pickleball-watercolor/67e3ed06c18a/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 702,
+          "bytes": 231980,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/programs-pickleball-watercolor/67e3ed06c18a/1280.webp",
+          "pathname": "media/programs-pickleball-watercolor/67e3ed06c18a/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/programs-youth-gardening-watercolor.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 351,
+          "bytes": 80288,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/programs-youth-gardening-watercolor/679a003ab397/640.webp",
+          "pathname": "media/programs-youth-gardening-watercolor/679a003ab397/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 702,
+          "bytes": 254282,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/programs-youth-gardening-watercolor/679a003ab397/1280.webp",
+          "pathname": "media/programs-youth-gardening-watercolor/679a003ab397/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/sigmund-stern-recreation-grove-01.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 107870,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sigmund-stern-recreation-grove-01/d43c78744e30/640.webp",
+          "pathname": "media/sigmund-stern-recreation-grove-01/d43c78744e30/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 462034,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sigmund-stern-recreation-grove-01/d43c78744e30/1280.webp",
+          "pathname": "media/sigmund-stern-recreation-grove-01/d43c78744e30/1280.webp"
+        }
+      ]
+    }
+  ]
+}

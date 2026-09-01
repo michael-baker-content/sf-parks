@@ -97,6 +97,20 @@ the manifest rather than reducing these to a generic “Wikimedia” label.
 - Keep the initial gallery small and purposeful rather than presenting every
   discovered file.
 
+## Media storage and delivery
+
+- Keep camera originals in a separate personal archive rather than Git or the
+  public asset store.
+- Prepare responsive WebP derivatives locally and upload only those web-ready
+  files to the project's public Vercel Blob store.
+- Use content-hashed, immutable paths so updated photographs receive new URLs
+  instead of conflicting with long-lived browser and CDN caches.
+- Keep destination relationships, alternative text, captions, attribution,
+  license evidence, dimensions, and delivery URLs in reviewed JSON manifests
+  committed with the application.
+- Treat Blob credentials as local maintenance secrets. They must never use a
+  `NEXT_PUBLIC_` prefix or enter the browser bundle.
+
 ## Implementation sequence
 
 1. Create an empty, validated media manifest and fail-closed validator.

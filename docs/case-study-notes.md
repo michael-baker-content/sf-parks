@@ -1,6 +1,46 @@
 # SF Parks Explorer case study notes
 
 Living source document for a future PowerPoint or PDF case study.  
+
+## Session update: making progress visible
+
+- **Communication goal:** Added a public project blog where residents can see
+  when destination information, discovery tools, or other meaningful parts of
+  the experience change.
+- **Low-maintenance decision:** Each blog post lives in its own
+  version-controlled Markdown file. Content Collections validates metadata and
+  compiles the posts with the rest of the static site, avoiding a CMS
+  subscription, an editorial database, and runtime API or AI-token costs.
+- **First announcement:** Documented the new broad-area filter, amenity and
+  acreage thresholds, Most amenities sort, and shareable Explore state in
+  resident-facing language.
+- **Accessibility and trust:** Each post uses a semantic article structure,
+  visible machine-readable publication date, descriptive metadata, and a clear
+  return path to the update index.
+
+## Session update: preparing resident-contributed photography
+
+- **Storage decision:** Chose public Vercel Blob delivery for the growing image
+  library so hundreds of binary files do not accumulate in Git history. Camera
+  originals remain in a separate personal archive; the repository keeps the
+  reviewed descriptions, attribution, rights evidence, and delivery URLs.
+- **Responsive preparation:** Added a local workflow that corrects orientation
+  and creates content-hashed 640- and 1,280-pixel WebP variants without
+  upscaling small sources. The first dry run prepared 35 variants from the 18
+  existing project images and reduced 8.54 MB of source files to 5.31 MB.
+- **Verified migration:** The first upload published 35 responsive variants for
+  18 assets. Public delivery checks returned the expected WebP content type and
+  one-year cache policy, and a production build generated all 258 routes with
+  Blob-backed imagery. Existing local paths remain temporary fallbacks until
+  the source files have been copied to a separate archive.
+- **Growth safeguard:** Blob resolution now happens during the server build,
+  before data reaches interactive galleries and featured cards. This prevents
+  a future catalog of hundreds of photographs from being bundled into every
+  visitor's browser.
+- **Credential boundary:** The Blob write token is a local maintenance secret,
+  never a public browser variable. Upload paths include a source-content hash,
+  allowing year-long caching and idempotent reruns without overwriting an
+  already published image.
 Audience: product, content strategy, UX, service design, civic technology, and
 digital-program leadership.  
 Last updated: August 28, 2026.
@@ -1012,7 +1052,7 @@ properly attributed.
 - **Current validation:** Five source records, the UI content contract, the
   15-image media manifest, and all 198 evergreen records pass their local
   validators. The application passes 100 automated tests, TypeScript validation,
-  and a production build that emits all 256 static routes.
+  and a production build that emits all 258 static routes.
 
 - **Quantitative discovery controls:** Added resident-controlled minimums for
   amenity count and park size. The official property dataset publishes acreage,

@@ -20,6 +20,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <li><Link href="/explore/">Explore</Link></li>
           <li><Link href="/programs-and-reservations/">Programs &amp; reservations</Link></li>
           <li><Link href="/#activities">Activities</Link></li>
+          <li><Link href="/blog/">Blog</Link></li>
           <li><Link href="/about/">About the data</Link></li>
           <li><GlobalSearch /></li>
         </ul></nav>

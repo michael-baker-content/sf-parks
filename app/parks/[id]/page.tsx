@@ -10,6 +10,7 @@ import { NearbyDestinations } from "../../../components/NearbyDestinations";
 import { NearbyTransit } from "../../../components/NearbyTransit";
 import { nearbyDestinations } from "../../../src/lib/nearby-destinations.js";
 import { nearbyTransit } from "../../../src/lib/nearby-transit.js";
+import { resolveMediaAsset } from "../../../src/lib/media-delivery.js";
 import destinationsDocument from "../../../data/presentation/generated/destinations.json";
 import mediaManifest from "../../../data/media/media-manifest.json";
 import evergreenContent from "../../../data/content/evergreen-content.json";
@@ -65,7 +66,11 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
   const citySources = sourceRegistry.sources.filter((source) => sourceIds.has(source.id));
   const technicalIds = new Set<string>([...(destination.propertyIds as string[]), ...(destination.principalFacilityIds as string[])]);
   const sourceAliases = destination.searchableAliases.filter((alias) => alias !== destination.publicName && !technicalIds.has(alias));
-  const images = mediaManifest.images.filter((image) => image.destinationId === destination.id).sort((a, b) => a.position - b.position);
+  const images = mediaManifest.images
+    .filter((image) => image.destinationId === destination.id)
+    .sort((a, b) => a.position - b.position)
+    .map((image) => ({ ...image, ...resolveMediaAsset(image.localPath, image.width, image.height) }));
+  const placeholder = resolveMediaAsset("/media/park-image-placeholder.png", 1536, 1024);
   const evergreen = evergreenByDestination.get(destination.id);
   const nearby = nearbyDestinations(destinationsDocument.records, destination.id);
   const transit = nearbyTransit(transitDocument, destination.displayPoint);
@@ -86,7 +91,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
       <div className="app-page-nav__desktop"><strong>On this page</strong><ul>{pageLinks.map((link) => <li key={link.id}><a href={`#${link.id}`}>{link.label}</a></li>)}</ul></div>
       <details className="app-page-nav__mobile"><summary><span aria-hidden="true">☰</span> On this page</summary><ul>{pageLinks.map((link) => <li key={link.id}><a href={`#${link.id}`}>{link.label}</a></li>)}</ul></details>
     </nav>
-    <DestinationGallery name={destination.publicName} images={images} />
+    <DestinationGallery name={destination.publicName} images={images} placeholder={placeholder} />
     {evergreen && <section className="app-evergreen" id="about" aria-labelledby="about-title">
       <h2 id="about-title">About this place</h2>
       {evergreen.overview && <p className="app-evergreen__overview">{evergreen.overview.text}</p>}

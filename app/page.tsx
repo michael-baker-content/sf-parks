@@ -5,6 +5,7 @@ import destinationsDocument from "../data/presentation/generated/destinations.js
 import evergreenContent from "../data/content/evergreen-content.json";
 import mediaManifest from "../data/media/media-manifest.json";
 import { FeaturedParks } from "../components/FeaturedParks";
+import { resolveMediaAsset } from "../src/lib/media-delivery.js";
 
 const featuredIds = [
   "golden-gate-park", "mission-dolores-park", "sigmund-stern-recreation-grove", "lafayette-park",
@@ -16,12 +17,16 @@ const featuredParks = featuredIds.map((id) => ({
   neighborhood: destinationsDocument.records.find((item) => item.id === id)!.neighborhood,
   amenityCount: destinationsDocument.records.find((item) => item.id === id)!.amenities.length,
   overview: evergreenContent.records.find((item) => item.destinationId === id)!.overview.text,
-  image: mediaManifest.images.find((item) => item.destinationId === id)!,
+  image: (() => {
+    const image = mediaManifest.images.find((item) => item.destinationId === id)!;
+    return { ...image, ...resolveMediaAsset(image.localPath, image.width, image.height) };
+  })(),
 }));
 
 export default function HomePage() {
+  const heroImage = resolveMediaAsset("/media/park-image-placeholder.png", 1536, 1024);
   return <>
-    <section className="app-hero app-hero--image" aria-labelledby="home-title">
+    <section className="app-hero app-hero--image" aria-labelledby="home-title" style={{ "--app-hero-image": `url("${heroImage.src}")` } as React.CSSProperties}>
       <p className="app-eyebrow">Independent public-data prototype</p>
       <h1 id="home-title">Find a park that fits your plans</h1>
       <p className="app-lede">Explore San Francisco parks, playgrounds, recreation centers, and listed amenities.</p>

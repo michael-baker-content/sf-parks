@@ -4,6 +4,8 @@ import { useState } from "react";
 
 export type DestinationImage = {
   localPath: string;
+  src: string;
+  srcSet?: string;
   width: number;
   height: number;
   caption: string;
@@ -14,16 +16,21 @@ export type DestinationImage = {
   licenseUrl: string;
 };
 
-export function DestinationGallery({ name, images }: { name: string; images: DestinationImage[] }) {
+type DeliveredPlaceholder = { src: string; srcSet?: string; width: number; height: number };
+
+export function DestinationGallery({ name, images, placeholder }: { name: string; images: DestinationImage[]; placeholder: DeliveredPlaceholder }) {
   const [position, setPosition] = useState(0);
   const image = images[position];
-  if (!image) return <section className="app-gallery app-gallery--placeholder" aria-label={`${name} image`}>
+  if (!image) {
+    return <section className="app-gallery app-gallery--placeholder" aria-label={`${name} image`}>
     <figure>
       <div className="app-gallery__frame">
         <img
-          src="/media/park-image-placeholder.png"
-          width="1536"
-          height="1024"
+          src={placeholder.src}
+          srcSet={placeholder.srcSet}
+          sizes="(max-width: 62rem) 100vw, 62rem"
+          width={placeholder.width}
+          height={placeholder.height}
           alt="Illustration of a landscaped hillside park with a curving path, trees, benches, and bay water under coastal fog."
         />
       </div>
@@ -32,13 +39,14 @@ export function DestinationGallery({ name, images }: { name: string; images: Des
       </figcaption>
     </figure>
   </section>;
+  }
   const multiple = images.length > 1;
   const move = (offset: number) => setPosition((current) => (current + offset + images.length) % images.length);
 
   return <section className="app-gallery" aria-label={`${name} photos`} aria-roledescription="carousel">
     <figure aria-label={`${position + 1} of ${images.length}`} aria-roledescription="slide">
       <div className="app-gallery__frame">
-        <img src={image.localPath} width={image.width} height={image.height} alt={image.alt} />
+        <img src={image.src} srcSet={image.srcSet} sizes="(max-width: 62rem) 100vw, 62rem" width={image.width} height={image.height} alt={image.alt} />
       </div>
       <figcaption>
         <p>{image.caption}</p>

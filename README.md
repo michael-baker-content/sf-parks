@@ -16,6 +16,7 @@ Francisco.
   embeds
 - Build-time Muni, BART, and Caltrain guidance from 511 SF Bay
 - Official program and reservation handoffs
+- A static project blog for announcing destination enrichment and product updates
 - A rotating set of four image-supported featured parks selected from ten
   detailed destinations on each homepage load
 - Statement-level source links, with a scannable panel when an overview uses
@@ -24,6 +25,16 @@ Francisco.
 
 The current accessibility baseline and remaining manual checks are documented
 in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
+
+## Publish a blog update
+
+Create one Markdown file in `content/blog/`. Its filename becomes the page
+address, and the opening front matter supplies the title, summary, and date.
+Posts use standard Markdown, including headings, emphasis, links, quotations,
+and lists. Optional `actionLabel` and `actionHref` fields add a closing
+call-to-action button. Content Collections validates the front matter, compiles
+the Markdown, and generates the typed content used by the blog index and
+individual static pages during the next build.
 
 ## Current project status
 
@@ -38,7 +49,7 @@ in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).
 - 2 generated editorial illustrations supporting the programs and reservations
   guide
 - Official park-property area available for all 249 public destinations
-- 100 passing automated tests, plus a successful TypeScript check and static
+- 104 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally
@@ -72,6 +83,31 @@ Do not add `511_API_KEY`, `SF_PARKS_CONTACT`, or `PIXABAY_API_KEY` to Vercel.
 Those values are used only by local data-maintenance scripts, not by the public
 site or production build. The committed normalized, presentation, and search
 datasets allow Vercel and a fresh clone to build without repeating imports.
+
+## Prepare and upload images
+
+Approved images can be prepared locally and delivered from a public Vercel Blob
+store. Camera originals should remain in a separate personal archive. The
+repository retains the reviewed attribution records and the generated delivery
+URLs, but not future batches of binary photographs.
+
+Create a public Blob store for the Vercel project, then pull its
+`BLOB_READ_WRITE_TOKEN` into `.env.local`. Place a reviewed batch temporarily
+in the ignored `public/media/` intake directory. Prepare responsive WebP
+variants and upload the immutable, content-hashed files with:
+
+```sh
+npm run prepare:blob-images
+npm run upload:blob-images
+```
+
+The preparation report is ignored as reproducible output. The upload command
+updates `data/media/blob-assets.json`, which is intended to be committed after
+the uploaded images have been reviewed in the site. Image delivery is resolved
+during the static build, so expanding the registry does not send the complete
+catalog to interactive browser components. After upload and verification,
+archive the source photographs outside the repository and clear the local
+intake directory; the application does not require those source files.
 
 ## Refresh data
 

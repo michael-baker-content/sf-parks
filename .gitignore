@@ -2,6 +2,7 @@
 node_modules/
 .next/
 out/
+.content-collections/
 coverage/
 *.tsbuildinfo
 
@@ -16,6 +17,8 @@ data/imports/*
 data/content/generated/
 data/media/generated/
 public/maplibre/
+# Local image intake; published variants live in Vercel Blob.
+public/media/
 
 # Test, tool, and temporary output
 playwright-report/
@@ -23,9 +26,12 @@ test-results/
 .playwright-cli/
 /output/
 .tmp-*
+.tmp-blob-media/
 *.log
 npm-debug.log*
 
 # Operating-system files
 .DS_Store
 Thumbs.db
+
+.vercel

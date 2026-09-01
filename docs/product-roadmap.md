@@ -1,5 +1,14 @@
 # Product roadmap
 
+## Completed: project updates blog
+
+- Added a static blog index and individual update pages for announcing content
+  enrichment, new browsing tools, and other meaningful additions.
+- Kept each post in its own version-controlled Markdown file and used Content
+  Collections for schema validation, compilation, and typed build output, so
+  publishing does not require a CMS, external service, or runtime API calls.
+- Added semantic publication dates, page metadata, and a shared navigation link.
+
 ## Completed: evergreen destination content
 
 - Expanded reviewed official-page content to 133 destinations and resolved the

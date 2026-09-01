@@ -27,17 +27,25 @@
     "discover:localwiki-images": "node scripts/discover-localwiki-images.mjs",
     "discover:pixabay-images": "node scripts/discover-pixabay-images.mjs",
     "report:image-coverage": "node scripts/build-image-coverage-report.mjs",
+    "prepare:blob-images": "node scripts/prepare-blob-images.mjs",
+    "upload:blob-images": "node --env-file=.env.local scripts/upload-blob-images.mjs",
     "report:official-page-review": "node scripts/build-official-page-review-report.mjs",
     "build:directory-features": "node scripts/build-directory-feature-enrichments.mjs",
     "test": "node --test",
     "check": "tsc --noEmit"
   },
   "dependencies": {
+    "@content-collections/core": "^0.15.2",
+    "@content-collections/markdown": "^0.1.4",
+    "@content-collections/next": "^0.2.11",
     "@uswds/uswds": "latest",
+    "@vercel/blob": "^2.8.0",
     "maplibre-gl": "^6.6.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sharp": "^0.35.4",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "latest",

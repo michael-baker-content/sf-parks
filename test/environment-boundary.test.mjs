@@ -4,7 +4,7 @@ import test from "node:test";
 
 const root = new URL("../", import.meta.url);
 const deploymentVariables = ["NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY"];
-const localOnlyVariables = ["511_API_KEY", "SF_PARKS_CONTACT", "PIXABAY_API_KEY"];
+const localOnlyVariables = ["511_API_KEY", "SF_PARKS_CONTACT", "PIXABAY_API_KEY", "BLOB_READ_WRITE_TOKEN"];
 
 async function sourceFiles(directory) {
   const entries = await readdir(new URL(`${directory}/`, root), { withFileTypes: true });
