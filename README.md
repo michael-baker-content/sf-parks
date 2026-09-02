@@ -44,12 +44,12 @@ individual static pages during the next build.
 - 198 destinations with approved evergreen narrative records; the broader
   enriched total also includes reviewed facility-directory features
 - 3,314 transit stops and stations across 85 routes
-- 15 approved images across 13 destinations, with a generic placeholder used
+- 40 approved images across 23 destinations, with a generic placeholder used
   elsewhere rather than an unverified location image
 - 2 generated editorial illustrations supporting the programs and reservations
   guide
 - Official park-property area available for all 249 public destinations
-- 104 passing automated tests, plus a successful TypeScript check and static
+- 116 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally
@@ -109,6 +109,29 @@ catalog to interactive browser components. After upload and verification,
 archive the source photographs outside the repository and clear the local
 intake directory; the application does not require those source files.
 
+Blog posts use the park illustration by default. To choose another reviewed
+Blob asset for a post card, add its stable registry path and meaningful alt text
+to the Markdown frontmatter:
+
+```yaml
+image:
+  path: /media/alamo-square-01.jpg
+  alt: View across Alamo Square's lawn toward surrounding homes.
+```
+
+The path must already exist in `data/media/blob-assets.json`; an unknown path
+fails the production build rather than publishing a broken image.
+
+To add a slideshow to a post, list two or more reviewed image paths. Captions,
+alt text, creator credits, source links, and licenses are inherited from
+`data/media/media-manifest.json`:
+
+```yaml
+gallery:
+  - /media/alamo-square-01.jpg
+  - /media/sigmund-stern-recreation-grove-01.jpg
+```
+
 ## Refresh data
 
 Raw downloads are intentionally excluded from Git because they are large and
@@ -120,6 +143,15 @@ npm run normalize
 npm run build:destinations
 npm run build:search
 ```
+
+Normalization performs a coordinate-evidence review on every refresh. A usable
+source point is retained when it falls inside—or within 0.5 mile of a
+representative point derived from—the record's official geometry. A missing,
+null-island, or seriously displaced point is replaced with a deterministic
+point inside that geometry and recorded under `coordinateCorrections` in
+`data/normalized/normalization-report.json`. If neither form of evidence is
+usable, the destination receives no map or directions links. The application
+does not use an undocumented hand-entered coordinate.
 
 Refresh scheduled regional transit data with:
 

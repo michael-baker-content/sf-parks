@@ -14114,9 +14114,9 @@
         "acres": 2.33548912,
         "squareFeet": 101733.90606502,
         "displayPoint": {
-          "latitude": 37.71286858,
-          "longitude": -122.41617108,
-          "precision": "source-point"
+          "latitude": 37.81060396028523,
+          "longitude": -122.36902097597513,
+          "precision": "derived-shape-point"
         },
         "coverage": "official-page-reviewed"
       }
@@ -17254,9 +17254,9 @@
         "acres": 1.99927446,
         "squareFeet": 87088.39529485,
         "displayPoint": {
-          "latitude": 37.71286858,
-          "longitude": -122.41617108,
-          "precision": "source-point"
+          "latitude": 37.81012921972367,
+          "longitude": -122.36648679661454,
+          "precision": "derived-shape-point"
         },
         "coverage": "official-page-reviewed"
       }
@@ -18758,9 +18758,9 @@
         "acres": 0.19654275000000002,
         "squareFeet": 8561.4023554,
         "displayPoint": {
-          "latitude": 0,
-          "longitude": 0,
-          "precision": "source-point"
+          "latitude": 37.810675742300006,
+          "longitude": -122.36772958510001,
+          "precision": "derived-shape-point"
         },
         "coverage": "official-page-reviewed"
       }

@@ -108,12 +108,17 @@ the manifest rather than reducing these to a generic “Wikimedia” label.
 - Keep destination relationships, alternative text, captions, attribution,
   license evidence, dimensions, and delivery URLs in reviewed JSON manifests
   committed with the application.
+- Record project-original photographs as first-party sources, including the
+  original filename, photographer credit, an explicit reuse license, review
+  date, and a public Blob URL. For the initial contributor batch, credit
+  Michael Baker and apply CC BY 4.0.
 - Treat Blob credentials as local maintenance secrets. They must never use a
   `NEXT_PUBLIC_` prefix or enter the browser bundle.
 
 ## Implementation sequence
 
-1. Create an empty, validated media manifest and fail-closed validator.
+1. Maintain a validated media manifest and fail closed for unsupported source
+   types, incomplete provenance, or unapproved licenses.
 2. Build a narrowly scoped Wikidata candidate-discovery report without
    publishing candidates.
    Run LocalWiki discovery separately so its attribution and exception checks

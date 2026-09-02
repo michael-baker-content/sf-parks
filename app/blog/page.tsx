@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { formatBlogDate, getBlogPosts } from "../../src/lib/blog-posts";
+import { formatBlogDate, getBlogPostImage, getBlogPosts } from "../../src/lib/blog-posts";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -19,12 +19,20 @@ export default function BlogPage() {
     <section aria-labelledby="latest-updates">
       <h2 id="latest-updates">Latest updates</h2>
       <div className="app-blog-list">
-        {blogPosts.map((post) => <article className="app-blog-card" key={post.slug}>
-          <p className="app-blog-date"><time dateTime={post.publishedAt}>{formatBlogDate(post.publishedAt)}</time></p>
-          <h3><Link href={`/blog/${post.slug}/`}>{post.title}</Link></h3>
-          <p>{post.summary}</p>
-          <Link className="app-blog-card__link" href={`/blog/${post.slug}/`} aria-label={`Read ${post.title}`}>Read update <span aria-hidden="true">→</span></Link>
-        </article>)}
+        {blogPosts.map((post) => {
+          const image = getBlogPostImage(post);
+          return <article className="app-blog-card" key={post.slug}>
+            <div className="app-blog-card__image">
+              <img src={image.src} srcSet={image.srcSet} sizes="(max-width: 48rem) 100vw, 20rem" width={image.width} height={image.height} alt={image.alt} loading="lazy" />
+            </div>
+            <div className="app-blog-card__body">
+              <p className="app-blog-date"><time dateTime={post.publishedAt}>{formatBlogDate(post.publishedAt)}</time></p>
+              <h3><Link href={`/blog/${post.slug}/`}>{post.title}</Link></h3>
+              <p>{post.summary}</p>
+              <Link className="app-blog-card__link" href={`/blog/${post.slug}/`} aria-label={`Read ${post.title}`}>Read update <span aria-hidden="true">→</span></Link>
+            </div>
+          </article>;
+        })}
       </div>
     </section>
   </div>;

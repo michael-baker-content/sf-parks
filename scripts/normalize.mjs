@@ -1,6 +1,8 @@
 import { readFile, mkdir, rename, writeFile } from "node:fs/promises";
 import process from "node:process";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { geometryContainsPoint, representativeGeometryPoint } from "../src/lib/geojson-points.js";
+import { distanceMiles } from "../src/lib/nearby-destinations.js";
 
 const importsDirectory = new URL("../data/imports/", import.meta.url);
 const outputDirectory = new URL("../data/normalized/", import.meta.url);
@@ -54,16 +56,45 @@ export function fieldConflicts(rows, fields) {
   return conflicts;
 }
 
-function displayPoint(rows, parentPoint = null) {
-  const pointRow = rows.find((row) => clean(row.latitude) && clean(row.longitude));
-  if (pointRow) {
-    return {
-      latitude: Number(pointRow.latitude),
-      longitude: Number(pointRow.longitude),
-      precision: "source-point"
-    };
+export function isUsableCoordinatePair(latitudeValue, longitudeValue) {
+  const latitude = Number(latitudeValue);
+  const longitude = Number(longitudeValue);
+  return Number.isFinite(latitude)
+    && Number.isFinite(longitude)
+    && latitude >= -90
+    && latitude <= 90
+    && longitude >= -180
+    && longitude <= 180
+    && !(latitude === 0 && longitude === 0);
+}
+
+export const MAX_SOURCE_SHAPE_DISTANCE_MILES = 0.5;
+
+function displayPointReview(rows, parentPoint = null) {
+  for (const row of rows) {
+    const sourcePoint = isUsableCoordinatePair(row.latitude, row.longitude)
+      ? { latitude: Number(row.latitude), longitude: Number(row.longitude) }
+      : null;
+    if (sourcePoint && (!row.shape || geometryContainsPoint(row.shape, sourcePoint))) {
+      return { point: { ...sourcePoint, precision: "source-point" }, review: null };
+    }
+    const geometryPoint = representativeGeometryPoint(row.shape);
+    if (geometryPoint) {
+      const point = { latitude: geometryPoint.latitude, longitude: geometryPoint.longitude, precision: "derived-shape-point" };
+      if (sourcePoint && distanceMiles(sourcePoint, point) <= MAX_SOURCE_SHAPE_DISTANCE_MILES) {
+        return { point: { ...sourcePoint, precision: "source-point" }, review: null };
+      }
+      return {
+        point,
+        review: {
+          reason: sourcePoint ? "source-point-outside-shape" : "missing-or-invalid-source-point",
+          sourcePoint,
+          replacementPoint: point,
+        },
+      };
+    }
   }
-  return parentPoint ? { ...parentPoint, precision: "inherited-parent-point" } : null;
+  return { point: parentPoint ? { ...parentPoint, precision: "inherited-parent-point" } : null, review: null };
 }
 
 function exactRelationship(id, knownIds) {
@@ -103,6 +134,7 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
     .map((row) => {
       const acres = clean(row.acres) === null ? null : Number(row.acres);
       const sourceSquareFeet = clean(row.squarefeet) === null ? null : Number(row.squarefeet);
+      const location = displayPointReview([row]);
       return {
       id: clean(row.property_id),
       name: clean(row.property_name),
@@ -114,7 +146,8 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
       neighborhood: clean(row.analysis_neighborhood),
       acres,
       squareFeet: Number.isFinite(sourceSquareFeet) ? sourceSquareFeet : Number.isFinite(acres) ? acres * 43560 : null,
-      displayPoint: displayPoint([row]),
+      displayPoint: location.point,
+      ...(location.review ? { coordinateReview: location.review } : {}),
       sourceReferences: sourceReferences([row], "datasf-rec-park-properties")
     }; })
     .sort((a, b) => compareText(a.name, b.name) || compareText(a.id, b.id));
@@ -128,6 +161,7 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
     const propertyId = chooseCanonical(rows, "property_id");
     const relationship = exactRelationship(propertyId, propertyIds);
     const type = chooseCanonical(rows, "facility_type");
+    const location = displayPointReview(rows, relationship.status === "linked" ? propertyMap.get(propertyId)?.displayPoint : null);
     return {
       id,
       name: chooseCanonical(rows, "facility_name"),
@@ -137,7 +171,8 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
       address: chooseCanonical(rows, "address"),
       zipcode: chooseCanonical(rows, "zipcode"),
       neighborhood: chooseCanonical(rows, "analysis_neighborhood"),
-      displayPoint: displayPoint(rows, relationship.status === "linked" ? propertyMap.get(propertyId)?.displayPoint : null),
+      displayPoint: location.point,
+      ...(location.review ? { coordinateReview: location.review } : {}),
       componentCount: rows.length,
       conflicts: fieldConflicts(rows, ["facility_name", "facility_type", "property_id", "property_name", "address"]),
       sourceReferences: sourceReferences(rows, "datasf-rec-park-facilities")
@@ -153,6 +188,7 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
     const parentPoint = facilityRelationship.status === "linked"
       ? facilityMap.get(facilityId)?.displayPoint
       : propertyMap.get(propertyId)?.displayPoint;
+    const location = displayPointReview(rows, parentPoint);
     return {
       id,
       name: chooseCanonical(rows, "tma_name") ?? chooseCanonical(rows, "facility_name") ?? type,
@@ -160,7 +196,8 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
       publicClassification: taxonomyEntry(type, taxonomy.functionalAreaTypes),
       property: exactRelationship(propertyId, propertyIds),
       facility: facilityRelationship,
-      displayPoint: displayPoint(rows, parentPoint),
+      displayPoint: location.point,
+      ...(location.review ? { coordinateReview: location.review } : {}),
       componentCount: rows.length,
       conflicts: fieldConflicts(rows, ["tma_name", "functional_area_type", "facility_id", "property_id"]),
       sourceReferences: sourceReferences(rows, "datasf-rec-park-functional-areas")
@@ -218,6 +255,11 @@ export function normalizeDatasets({ properties, facilities, functionalAreas, ass
     conflicts: {
       facilities: normalizedFacilities.filter((item) => Object.keys(item.conflicts).length).map((item) => ({ id: item.id, conflicts: item.conflicts })),
       functionalAreas: normalizedFunctionalAreas.filter((item) => Object.keys(item.conflicts).length).map((item) => ({ id: item.id, conflicts: item.conflicts }))
+    },
+    coordinateCorrections: {
+      properties: normalizedProperties.filter((item) => item.coordinateReview).map((item) => ({ id: item.id, name: item.name, ...item.coordinateReview })),
+      facilities: normalizedFacilities.filter((item) => item.coordinateReview).map((item) => ({ id: item.id, name: item.name, ...item.coordinateReview })),
+      functionalAreas: normalizedFunctionalAreas.filter((item) => item.coordinateReview).map((item) => ({ id: item.id, name: item.name, ...item.coordinateReview })),
     },
     unmappedPublicCandidates: {
       facilityTypes: [...new Set(normalizedFacilities.filter((item) => !item.publicClassification).map((item) => item.sourceType).filter(Boolean))].sort(compareText),

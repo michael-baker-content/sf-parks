@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { chooseCanonical, fieldConflicts, groupById, normalizeDatasets } from "../scripts/normalize.mjs";
+import { chooseCanonical, fieldConflicts, groupById, isUsableCoordinatePair, normalizeDatasets } from "../scripts/normalize.mjs";
 
 test("canonical selection prefers the most familiar repeated source value", () => {
   const rows = [{ name: "Rec Center" }, { name: "Rec Center" }, { name: "Recreation Facility" }];
@@ -48,4 +48,38 @@ test("property normalization preserves source area and derives square feet only 
   const derived = normalizeDatasets({ ...base, properties: [{ data: { objectid: "2", property_id: "P2", property_name: "Park 2", acres: "2" } }] });
   assert.equal(sourced.properties[0].squareFeet, 90000);
   assert.equal(derived.properties[0].squareFeet, 87120);
+});
+
+test("normalization rejects null-island coordinates before they reach public maps", () => {
+  assert.equal(isUsableCoordinatePair("0", "0"), false);
+  assert.equal(isUsableCoordinatePair("37.823", "-122.371"), true);
+  const result = normalizeDatasets({
+    properties: [{ data: { objectid: "1", property_id: "P1", property_name: "Park", latitude: "0", longitude: "0" } }],
+    facilities: [], functionalAreas: [], assets: [],
+    taxonomy: { facilityTypes: {}, functionalAreaTypes: {}, assetTypes: {} },
+  });
+  assert.equal(result.properties[0].displayPoint, null);
+});
+
+test("normalization replaces a source point outside its official geometry", () => {
+  const shape = { type: "Polygon", coordinates: [[[-122.37, 37.80], [-122.36, 37.80], [-122.36, 37.81], [-122.37, 37.81], [-122.37, 37.80]]] };
+  const result = normalizeDatasets({
+    properties: [{ data: { objectid: "1", property_id: "P1", property_name: "Island Park", latitude: "37.71", longitude: "-122.41", shape } }],
+    facilities: [], functionalAreas: [], assets: [],
+    taxonomy: { facilityTypes: {}, functionalAreaTypes: {}, assetTypes: {} },
+  });
+  assert.equal(result.properties[0].displayPoint.precision, "derived-shape-point");
+  assert.equal(result.properties[0].coordinateReview.reason, "source-point-outside-shape");
+  assert.equal(result.report.coordinateCorrections.properties.length, 1);
+});
+
+test("normalization retains a reasonable source label point near a complex boundary", () => {
+  const shape = { type: "Polygon", coordinates: [[[-122.37, 37.80], [-122.36, 37.80], [-122.36, 37.81], [-122.37, 37.81], [-122.37, 37.80]]] };
+  const result = normalizeDatasets({
+    properties: [{ data: { objectid: "1", property_id: "P1", property_name: "Boundary Park", latitude: "37.805", longitude: "-122.3705", shape } }],
+    facilities: [], functionalAreas: [], assets: [],
+    taxonomy: { facilityTypes: {}, functionalAreaTypes: {}, assetTypes: {} },
+  });
+  assert.equal(result.properties[0].displayPoint.precision, "source-point");
+  assert.equal(result.properties[0].coordinateReview, undefined);
 });

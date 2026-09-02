@@ -10,6 +10,11 @@ const blogPosts = defineCollection({
     title: z.string().min(1),
     summary: z.string().min(1),
     publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    image: z.object({
+      path: z.string().regex(/^\/media\/[a-z0-9-]+\.(?:jpg|png|webp)$/),
+      alt: z.string().min(1),
+    }).optional(),
+    gallery: z.array(z.string().regex(/^\/media\/[a-z0-9-]+\.(?:jpg|png|webp)$/)).min(2).optional(),
     actionLabel: z.string().min(1).optional(),
     actionHref: z.string().min(1).optional(),
     content: z.string(),

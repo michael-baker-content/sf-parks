@@ -16,3 +16,10 @@ export function resolveMediaAsset(localPath, fallbackWidth, fallbackHeight) {
     height: largest.height,
   };
 }
+
+export function resolveRequiredMediaAsset(localPath) {
+  const asset = assetsByLocalPath.get(localPath);
+  if (!asset?.variants?.length) throw new Error(`No Vercel Blob asset is registered for ${localPath}.`);
+  const largest = [...asset.variants].sort((first, second) => first.width - second.width).at(-1);
+  return resolveMediaAsset(localPath, largest.width, largest.height);
+}

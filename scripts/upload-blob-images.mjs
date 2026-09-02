@@ -9,7 +9,10 @@ if (!process.env["BLOB_READ_WRITE_TOKEN"]) {
 }
 
 const plan = JSON.parse(await readFile(planUrl, "utf8"));
-const assets = [];
+const priorRegistry = await readFile(registryUrl, "utf8")
+  .then((value) => JSON.parse(value))
+  .catch(() => ({ assets: [] }));
+const assetsByPath = new Map(priorRegistry.assets.map((asset) => [asset.localPath, asset]));
 const existing = new Map();
 let cursor;
 do {
@@ -35,8 +38,10 @@ for (const asset of plan.assets) {
     variants.push({ width: variant.width, height: variant.height, bytes: variant.bytes, url: result.url, pathname: result.pathname });
     console.log(`${existing.has(variant.blobPath) ? "Reused" : "Uploaded"} ${result.pathname}`);
   }
-  assets.push({ localPath: asset.localPath, variants });
+  assetsByPath.set(asset.localPath, { localPath: asset.localPath, variants });
 }
+
+const assets = [...assetsByPath.values()].sort((a, b) => a.localPath.localeCompare(b.localPath));
 
 const registry = {
   schemaVersion: 1,
@@ -45,4 +50,4 @@ const registry = {
   assets,
 };
 await writeFile(registryUrl, `${JSON.stringify(registry, null, 2)}\n`);
-console.log(`Uploaded ${assets.flatMap((asset) => asset.variants).length} variants and updated ${registryUrl.pathname}.`);
+console.log(`Processed ${plan.assets.flatMap((asset) => asset.variants).length} variants; the registry now contains ${assets.length} assets.`);

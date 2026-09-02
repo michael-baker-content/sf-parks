@@ -35,6 +35,10 @@ export function validateMediaManifest(manifest) {
       if (!validHttpsUrl(image.filePageUrl, "localwiki.org")) errors.push(`${label}: source page must be on LocalWiki.`);
       if (!validHttpsUrl(image.imageUrl, "localwiki.org")) errors.push(`${label}: image must be served by LocalWiki.`);
       if (!validHttpsUrl(image.localwikiFileApiUrl, "localwiki.org")) errors.push(`${label}: LocalWiki file API URL is required.`);
+    } else if (sourceType === "project-original") {
+      if (!validHttpsUrl(image.filePageUrl) || !/\.public\.blob\.vercel-storage\.com$/.test(new URL(image.filePageUrl).hostname)) errors.push(`${label}: original source file must be in the project Blob store.`);
+      if (!validHttpsUrl(image.imageUrl) || !/\.public\.blob\.vercel-storage\.com$/.test(new URL(image.imageUrl).hostname)) errors.push(`${label}: original image must be served by the project Blob store.`);
+      if (typeof image.originalFilename !== "string" || !image.originalFilename.trim()) errors.push(`${label}: originalFilename is required.`);
     } else errors.push(`${label}: unsupported sourceType.`);
     if (!reusableLicense.test(image.licenseId ?? "")) errors.push(`${label}: license is not initially approved.`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(image.reviewedAt ?? "")) errors.push(`${label}: reviewedAt must use YYYY-MM-DD.`);
@@ -43,7 +47,7 @@ export function validateMediaManifest(manifest) {
     if (!Number.isInteger(image.width) || image.width < 1 || !Number.isInteger(image.height) || image.height < 1) errors.push(`${label}: valid image dimensions are required.`);
     const positionKey = `${image.destinationId}:${image.position}`;
     if (slidePositions.has(positionKey)) errors.push(`${label}: slide position must be unique within a destination.`);
-    const sourceAsset = image.commonsFileTitle ?? image.localwikiFileApiUrl;
+    const sourceAsset = image.commonsFileTitle ?? image.localwikiFileApiUrl ?? image.originalFilename;
     if (sourceAssets.has(sourceAsset)) errors.push(`${label}: source image is duplicated.`);
     slidePositions.add(positionKey);
     sourceAssets.add(sourceAsset);

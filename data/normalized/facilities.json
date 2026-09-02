@@ -15673,9 +15673,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.8198053,
-        "longitude": -122.3739576,
-        "precision": "inherited-parent-point"
+        "latitude": 37.820532813523826,
+        "longitude": -122.37399298594126,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.820532813523826,
+          "longitude": -122.37399298594126,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -15701,9 +15710,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.82033942882633,
+        "longitude": -122.37400661259635,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.82033942882633,
+          "longitude": -122.37400661259635,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 2,
       "conflicts": {
@@ -15743,9 +15761,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.819538597,
+        "longitude": -122.3739697165,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.819538597,
+          "longitude": -122.3739697165,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -15775,9 +15805,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.8198053,
-        "longitude": -122.3739576,
-        "precision": "inherited-parent-point"
+        "latitude": 37.82097604396391,
+        "longitude": -122.37457645465844,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.82097604396391,
+          "longitude": -122.37457645465844,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -23227,9 +23266,21 @@
       "zipcode": null,
       "neighborhood": "Golden Gate Park",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.77308984375,
+        "longitude": -122.441408134475,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.77308984375,
+          "longitude": -122.441408134475,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -46977,9 +47028,21 @@
       "zipcode": "94134",
       "neighborhood": "McLaren Park, Visitacion Valley, Excelsior, Portola",
       "displayPoint": {
-        "latitude": 37.71288548,
-        "longitude": -122.42548457,
-        "precision": "source-point"
+        "latitude": 37.71218906706181,
+        "longitude": -122.2873746473556,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71288548,
+          "longitude": -122.42548457
+        },
+        "replacementPoint": {
+          "latitude": 37.71218906706181,
+          "longitude": -122.2873746473556,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 2,
       "conflicts": {
@@ -49654,7 +49717,20 @@
       "address": null,
       "zipcode": null,
       "neighborhood": null,
-      "displayPoint": null,
+      "displayPoint": {
+        "latitude": 37.769796316363156,
+        "longitude": -122.44120976658064,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.769796316363156,
+          "longitude": -122.44120976658064,
+          "precision": "derived-shape-point"
+        }
+      },
       "componentCount": 1,
       "conflicts": {},
       "sourceReferences": [
@@ -50117,9 +50193,21 @@
       "zipcode": null,
       "neighborhood": "Visitacion Valley",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.71377417455,
+        "longitude": -122.4059573868,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.71377417455,
+          "longitude": -122.4059573868,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 2,
       "conflicts": {},
@@ -50706,9 +50794,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.8106721921,
+        "longitude": -122.36921025275,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.8106721921,
+          "longitude": -122.36921025275,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -50734,9 +50834,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.81040660776467,
+        "longitude": -122.368505223493,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81040660776467,
+          "longitude": -122.368505223493,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -50762,9 +50874,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "inherited-parent-point"
+        "latitude": 37.8102547067,
+        "longitude": -122.36779458085,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.8102547067,
+          "longitude": -122.36779458085,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -50790,9 +50911,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "inherited-parent-point"
+        "latitude": 37.810499454725004,
+        "longitude": -122.36891438285,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810499454725004,
+          "longitude": -122.36891438285,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -50818,9 +50948,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.81019460915,
+        "longitude": -122.368121461475,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81019460915,
+          "longitude": -122.368121461475,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -50846,9 +50988,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "inherited-parent-point"
+        "latitude": 37.810560876875,
+        "longitude": -122.3692476239,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810560876875,
+          "longitude": -122.3692476239,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -57721,9 +57872,21 @@
       "zipcode": null,
       "neighborhood": null,
       "displayPoint": {
-        "latitude": 37.62458214,
-        "longitude": -122.47687467,
-        "precision": "source-point"
+        "latitude": 37.62146870005915,
+        "longitude": -122.49417486835246,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.62458214,
+          "longitude": -122.47687467
+        },
+        "replacementPoint": {
+          "latitude": 37.62146870005915,
+          "longitude": -122.49417486835246,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 4,
       "conflicts": {},
@@ -57940,9 +58103,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.809826895475,
+        "longitude": -122.36610165697499,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.809826895475,
+          "longitude": -122.36610165697499,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -57968,9 +58143,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.81017688670965,
+        "longitude": -122.36654582028977,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81017688670965,
+          "longitude": -122.36654582028977,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -57996,9 +58183,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.809743463375,
+        "longitude": -122.365784790075,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.809743463375,
+          "longitude": -122.365784790075,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -58024,9 +58223,21 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.8097837881,
+        "longitude": -122.366135066625,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.8097837881,
+          "longitude": -122.366135066625,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -59700,9 +59911,21 @@
       "zipcode": "94132",
       "neighborhood": "Sunset/Parkside",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.7350876453,
+        "longitude": -122.47735780792499,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7350876453,
+          "longitude": -122.47735780792499,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -60345,9 +60568,21 @@
       "zipcode": "94116",
       "neighborhood": "Sunset/Parkside",
       "displayPoint": {
-        "latitude": 37.74925589,
-        "longitude": -122.50845817,
-        "precision": "source-point"
+        "latitude": 37.756469473399996,
+        "longitude": -122.50928452275,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.74925589,
+          "longitude": -122.50845817
+        },
+        "replacementPoint": {
+          "latitude": 37.756469473399996,
+          "longitude": -122.50928452275,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -63150,9 +63385,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 0,
-        "longitude": 0,
-        "precision": "inherited-parent-point"
+        "latitude": 37.81075828549121,
+        "longitude": -122.36795336485571,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.81075828549121,
+          "longitude": -122.36795336485571,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -63178,9 +63422,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 0,
-        "longitude": 0,
-        "precision": "inherited-parent-point"
+        "latitude": 37.810690389,
+        "longitude": -122.36793947494999,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810690389,
+          "longitude": -122.36793947494999,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},

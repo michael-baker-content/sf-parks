@@ -2943,6 +2943,864 @@
       }
     ]
   },
+  "coordinateCorrections": {
+    "properties": [
+      {
+        "id": "957481",
+        "name": "Panorama Park",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81060396028523,
+          "longitude": -122.36902097597513,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "957482",
+        "name": "Signal Point",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81012921972367,
+          "longitude": -122.36648679661454,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "957483",
+        "name": "The Rocks Dog Park",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810675742300006,
+          "longitude": -122.36772958510001,
+          "precision": "derived-shape-point"
+        }
+      }
+    ],
+    "facilities": [
+      {
+        "id": "981161",
+        "name": "Cityside Bioswale",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.820532813523826,
+          "longitude": -122.37399298594126,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981160",
+        "name": "Cityside Greenspace",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.82033942882633,
+          "longitude": -122.37400661259635,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981157",
+        "name": "Cityside Hardscape",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.819538597,
+          "longitude": -122.3739697165,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981159",
+        "name": "Cityside Picnic Area",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.82097604396391,
+          "longitude": -122.37457645465844,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981176",
+        "name": "GGP1 Panhandle Sculpture",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.77308984375,
+          "longitude": -122.441408134475,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "12579",
+        "name": "McLaren Natural Areas",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71288548,
+          "longitude": -122.42548457
+        },
+        "replacementPoint": {
+          "latitude": 37.71218906706181,
+          "longitude": -122.2873746473556,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "12457",
+        "name": "Natural Areas",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.769796316363156,
+          "longitude": -122.44120976658064,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981179",
+        "name": null,
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.71377417455,
+          "longitude": -122.4059573868,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981143",
+        "name": "Panorama Greenspace",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.8106721921,
+          "longitude": -122.36921025275,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981145",
+        "name": "Panorama Hardscape Area",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81040660776467,
+          "longitude": -122.368505223493,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981153",
+        "name": "Panorama Landscape",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.8102547067,
+          "longitude": -122.36779458085,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981147",
+        "name": "Panorama Park Point of Infinity Sculpture",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810499454725004,
+          "longitude": -122.36891438285,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981146",
+        "name": "Panorama Parking Lot",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81019460915,
+          "longitude": -122.368121461475,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981144",
+        "name": "Panorama Port Chicago Memorial",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810560876875,
+          "longitude": -122.3692476239,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "91402",
+        "name": "Sharp Park Natural Areas",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.62458214,
+          "longitude": -122.47687467
+        },
+        "replacementPoint": {
+          "latitude": 37.62146870005915,
+          "longitude": -122.49417486835246,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981149",
+        "name": "Signal Point ADA Parking",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.809826895475,
+          "longitude": -122.36610165697499,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981150",
+        "name": "Signal Point Greenspace",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.81017688670965,
+          "longitude": -122.36654582028977,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981148",
+        "name": "Signal Point Hardscape Area",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.809743463375,
+          "longitude": -122.365784790075,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981154",
+        "name": "Signal Point Landscape",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.8097837881,
+          "longitude": -122.366135066625,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981142",
+        "name": "Stern Grove Nature Exploration Area",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7350876453,
+          "longitude": -122.47735780792499,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981119",
+        "name": "Sunset Dunes Event Space",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.74925589,
+          "longitude": -122.50845817
+        },
+        "replacementPoint": {
+          "latitude": 37.756469473399996,
+          "longitude": -122.50928452275,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981152",
+        "name": "The Rocks Dog Park Hardscape",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.81075828549121,
+          "longitude": -122.36795336485571,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "981151",
+        "name": "The Rocks DPA",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.810690389,
+          "longitude": -122.36793947494999,
+          "precision": "derived-shape-point"
+        }
+      }
+    ],
+    "functionalAreas": [
+      {
+        "id": "1262067",
+        "name": "Ag Maint Bay East",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766056318875,
+          "longitude": -122.4712665467,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262068",
+        "name": "Ag Maint Bay West",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.7660549716,
+          "longitude": -122.47138306387501,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262076",
+        "name": "Botanical Garden Greenhouse Structure",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.7663053723,
+          "longitude": -122.471262047975,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262077",
+        "name": "Botanical Garden Greenhouse Structure",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766303397575,
+          "longitude": -122.47133240045,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262078",
+        "name": "Botanical Garden Greenhouse Structure",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.76623768605,
+          "longitude": -122.470994756925,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262079",
+        "name": "Botanical Garden Greenhouse Structure",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766309843100004,
+          "longitude": -122.47099174737501,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262081",
+        "name": "Botanical Garden Greenhouse Structure",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766236651475005,
+          "longitude": -122.471065427,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262065",
+        "name": "Botanical Garden Head House - Hort Storage",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766128854725,
+          "longitude": -122.471517592425,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1257120",
+        "name": "Crocker Amazon Picnic Area - North",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.714471669625,
+          "longitude": -122.429735418275,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1258126",
+        "name": "Custodial",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.73372176385,
+          "longitude": -122.447307387525,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1258949",
+        "name": "EHS Manager Office",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.772188747375,
+          "longitude": -122.454641800375,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1261222",
+        "name": "Genev Car Barn Bldg",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.7203913388,
+          "longitude": -122.44646027942501,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "12786",
+        "name": "Gift Shop",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.77052270695,
+          "longitude": -122.4698453145,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262074",
+        "name": "Head House - Clean Room",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.76605731395,
+          "longitude": -122.47118303185,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262080",
+        "name": "Head House - Hallway",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766095580375,
+          "longitude": -122.47115315914999,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262073",
+        "name": "Head House - Kitchen/Breakroom",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766112334525,
+          "longitude": -122.4712610796,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262093",
+        "name": "Head House - Main Office",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.7661099238,
+          "longitude": -122.471183764475,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262072",
+        "name": "Head House - Office",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.7660922677,
+          "longitude": -122.47117883225,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262069",
+        "name": "Head House - Structure",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766055886225004,
+          "longitude": -122.471059178,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1258950",
+        "name": "HR Analyst Office",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.77215019945,
+          "longitude": -122.45462052655,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "18242",
+        "name": "John F. Kennedy Drive",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.77052933,
+          "longitude": -122.4809859
+        },
+        "replacementPoint": {
+          "latitude": 37.76955578124145,
+          "longitude": -122.4956465511026,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "11875",
+        "name": "Lawn",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.75826684,
+          "longitude": -122.42906447
+        },
+        "replacementPoint": {
+          "latitude": 37.780107225500004,
+          "longitude": -122.465117168075,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1259352",
+        "name": "LL Mechanical Rm",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7336889833,
+          "longitude": -122.447267792825,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1258125",
+        "name": "LL Storage",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7337181129,
+          "longitude": -122.447263354925,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "90251",
+        "name": "Lower Great Hwy Asphalt Paths",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.74952858,
+          "longitude": -122.5082753
+        },
+        "replacementPoint": {
+          "latitude": 37.742055482175,
+          "longitude": -122.50732248615,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262066",
+        "name": "Nursery Storage",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766053698075,
+          "longitude": -122.471477374975,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "12784",
+        "name": "Pagoda",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.77009526765,
+          "longitude": -122.470418947025,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1258952",
+        "name": "Rec Support Services",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.77209783445,
+          "longitude": -122.454708746575,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262041",
+        "name": "Stern Grove CPA Lawn",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.734946222945005,
+          "longitude": -122.47749239885135,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262043",
+        "name": "Stern Grove Hardscape - Boardwalk",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.735049514399996,
+          "longitude": -122.47714854575,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262040",
+        "name": "Stern Grove Hardscape - CPA Seatwall",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7350528731,
+          "longitude": -122.47706519685,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262042",
+        "name": "Stern Grove Hardscape - CPA Stairway",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.73500753235,
+          "longitude": -122.477353021675,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262039",
+        "name": "Stern Grove Nature Exploration Area",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7350876453,
+          "longitude": -122.47735780792499,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "85736",
+        "name": "Stern Grove Planted Beds",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7349317615,
+          "longitude": -122.47727281485,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "85905",
+        "name": "Sunnyside Picnic Area",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.733620739625,
+          "longitude": -122.44742419442501,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1258951",
+        "name": "Talent Acquisition",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.772136381375,
+          "longitude": -122.4547300204,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262071",
+        "name": "Unisex Restroom East",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766133153275,
+          "longitude": -122.47117959110001,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262070",
+        "name": "Unisex Restroom West",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766116192,
+          "longitude": -122.47122759244999,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262130",
+        "name": "Vis Valley Greenway Table Seating Area",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.71377417455,
+          "longitude": -122.4059573868,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262119",
+        "name": "Women's Shower",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.737193658449996,
+          "longitude": -122.47643604835001,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262064",
+        "name": "Woodshop",
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.764311487,
+          "longitude": -122.438488904575,
+          "precision": "derived-shape-point"
+        }
+      },
+      {
+        "id": "1262075",
+        "name": "Work Room",
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.76613273865,
+          "longitude": -122.47114958827501,
+          "precision": "derived-shape-point"
+        }
+      }
+    ]
+  },
   "unmappedPublicCandidates": {
     "facilityTypes": [
       "Administration Building",

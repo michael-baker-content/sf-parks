@@ -8968,9 +8968,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.8198053,
-        "longitude": -122.3739576,
-        "precision": "inherited-parent-point"
+        "latitude": 37.820532813523826,
+        "longitude": -122.37399298594126,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.820532813523826,
+          "longitude": -122.37399298594126,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -9000,9 +9009,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 37.8198053,
-        "longitude": -122.3739576,
-        "precision": "inherited-parent-point"
+        "latitude": 37.82097604396391,
+        "longitude": -122.37457645465844,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.82097604396391,
+          "longitude": -122.37457645465844,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -15648,9 +15666,21 @@
       "zipcode": "94134",
       "neighborhood": "McLaren Park, Visitacion Valley, Excelsior, Portola",
       "displayPoint": {
-        "latitude": 37.71288548,
-        "longitude": -122.42548457,
-        "precision": "source-point"
+        "latitude": 37.71218906706181,
+        "longitude": -122.2873746473556,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71288548,
+          "longitude": -122.42548457
+        },
+        "replacementPoint": {
+          "latitude": 37.71218906706181,
+          "longitude": -122.2873746473556,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 2,
       "conflicts": {
@@ -17489,7 +17519,20 @@
       "address": null,
       "zipcode": null,
       "neighborhood": null,
-      "displayPoint": null,
+      "displayPoint": {
+        "latitude": 37.769796316363156,
+        "longitude": -122.44120976658064,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.769796316363156,
+          "longitude": -122.44120976658064,
+          "precision": "derived-shape-point"
+        }
+      },
       "componentCount": 1,
       "conflicts": {},
       "sourceReferences": [
@@ -23217,9 +23260,21 @@
       "zipcode": null,
       "neighborhood": null,
       "displayPoint": {
-        "latitude": 37.62458214,
-        "longitude": -122.47687467,
-        "precision": "source-point"
+        "latitude": 37.62146870005915,
+        "longitude": -122.49417486835246,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.62458214,
+          "longitude": -122.47687467
+        },
+        "replacementPoint": {
+          "latitude": 37.62146870005915,
+          "longitude": -122.49417486835246,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 4,
       "conflicts": {},
@@ -23968,9 +24023,21 @@
       "zipcode": "94132",
       "neighborhood": "Sunset/Parkside",
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.7350876453,
+        "longitude": -122.47735780792499,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7350876453,
+          "longitude": -122.47735780792499,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -24160,9 +24227,21 @@
       "zipcode": "94116",
       "neighborhood": "Sunset/Parkside",
       "displayPoint": {
-        "latitude": 37.74925589,
-        "longitude": -122.50845817,
-        "precision": "source-point"
+        "latitude": 37.756469473399996,
+        "longitude": -122.50928452275,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.74925589,
+          "longitude": -122.50845817
+        },
+        "replacementPoint": {
+          "latitude": 37.756469473399996,
+          "longitude": -122.50928452275,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -26478,9 +26557,18 @@
       "zipcode": "94130",
       "neighborhood": "Treasure Island",
       "displayPoint": {
-        "latitude": 0,
-        "longitude": 0,
-        "precision": "inherited-parent-point"
+        "latitude": 37.81075828549121,
+        "longitude": -122.36795336485571,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.81075828549121,
+          "longitude": -122.36795336485571,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -47879,9 +47967,21 @@
         "method": "exact-id"
       },
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.714471669625,
+        "longitude": -122.429735418275,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.714471669625,
+          "longitude": -122.429735418275,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 2,
       "conflicts": {
@@ -86023,9 +86123,21 @@
         "method": "exact-id"
       },
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.7350876453,
+        "longitude": -122.47735780792499,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.7350876453,
+          "longitude": -122.47735780792499,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -86465,9 +86577,21 @@
         "method": "exact-id"
       },
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.733620739625,
+        "longitude": -122.44742419442501,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.733620739625,
+          "longitude": -122.44742419442501,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -94146,9 +94270,18 @@
         "method": null
       },
       "displayPoint": {
-        "latitude": 37.76726835,
-        "longitude": -122.47039125,
-        "precision": "inherited-parent-point"
+        "latitude": 37.766133153275,
+        "longitude": -122.47117959110001,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766133153275,
+          "longitude": -122.47117959110001,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -94180,9 +94313,18 @@
         "method": null
       },
       "displayPoint": {
-        "latitude": 37.76726835,
-        "longitude": -122.47039125,
-        "precision": "inherited-parent-point"
+        "latitude": 37.766116192,
+        "longitude": -122.47122759244999,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "missing-or-invalid-source-point",
+        "sourcePoint": null,
+        "replacementPoint": {
+          "latitude": 37.766116192,
+          "longitude": -122.47122759244999,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -94452,9 +94594,21 @@
         "method": "exact-id"
       },
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.71377417455,
+        "longitude": -122.4059573868,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.71377417455,
+          "longitude": -122.4059573868,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -98761,9 +98915,21 @@
         "method": "exact-id"
       },
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.737193658449996,
+        "longitude": -122.47643604835001,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.737193658449996,
+          "longitude": -122.47643604835001,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},
@@ -98931,9 +99097,21 @@
         "method": "exact-id"
       },
       "displayPoint": {
-        "latitude": 37.71286858,
-        "longitude": -122.41617108,
-        "precision": "source-point"
+        "latitude": 37.764311487,
+        "longitude": -122.438488904575,
+        "precision": "derived-shape-point"
+      },
+      "coordinateReview": {
+        "reason": "source-point-outside-shape",
+        "sourcePoint": {
+          "latitude": 37.71286858,
+          "longitude": -122.41617108
+        },
+        "replacementPoint": {
+          "latitude": 37.764311487,
+          "longitude": -122.438488904575,
+          "precision": "derived-shape-point"
+        }
       },
       "componentCount": 1,
       "conflicts": {},

@@ -19,6 +19,7 @@ data/media/generated/
 public/maplibre/
 # Local image intake; published variants live in Vercel Blob.
 public/media/
+New_Photos/
 
 # Test, tool, and temporary output
 playwright-report/

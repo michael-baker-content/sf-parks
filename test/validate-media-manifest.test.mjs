@@ -8,7 +8,7 @@ const blobAssets = JSON.parse(await readFile(new URL("../data/media/blob-assets.
 
 test("the committed media manifest contains only reviewed images", () => {
   assert.deepEqual(validateMediaManifest(manifest), []);
-  assert.equal(manifest.images.length, 15);
+  assert.equal(manifest.images.length, 40);
 });
 
 test("published media requires attribution and an approved reusable license", () => {
@@ -26,6 +26,15 @@ test("LocalWiki media remains bound to reviewed LocalWiki source records", () =>
   const target = invalid.images.find((image) => image.sourceType === "localwiki");
   target.imageUrl = "https://upload.wikimedia.org/example.jpg";
   assert.ok(validateMediaManifest(invalid).some((item) => item.includes("served by LocalWiki")));
+});
+
+test("project-original media remains bound to the project Blob store", () => {
+  const originalImage = manifest.images.find((image) => image.sourceType === "project-original");
+  assert.ok(originalImage);
+  const invalid = structuredClone(manifest);
+  const target = invalid.images.find((image) => image.sourceType === "project-original");
+  target.imageUrl = "https://example.com/photo.jpg";
+  assert.ok(validateMediaManifest(invalid).some((item) => item.includes("project Blob store")));
 });
 
 test("published Blob delivery records use responsive immutable image URLs", () => {

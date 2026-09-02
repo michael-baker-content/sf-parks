@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatBlogDate, getBlogPost, getBlogPosts } from "../../../src/lib/blog-posts";
+import { BlogSlideshow } from "../../../components/BlogSlideshow";
+import { formatBlogDate, getBlogPost, getBlogPosts, getBlogPostSlides } from "../../../src/lib/blog-posts";
 
 type BlogPostPageProps = { params: Promise<{ slug: string }> };
 
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const post = getBlogPost((await params).slug);
   if (!post) notFound();
+  const slides = getBlogPostSlides(post);
 
   return <article className="app-blog-post">
     <Link className="usa-back-link" href="/blog/">Back to all updates</Link>
@@ -33,6 +35,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <p className="app-blog-date">Published <time dateTime={post.publishedAt}>{formatBlogDate(post.publishedAt)}</time></p>
       <p className="app-lede">{post.summary}</p>
     </header>
+
+    {slides.length ? <BlogSlideshow slides={slides} /> : null}
 
     <div className="app-blog-post__body" dangerouslySetInnerHTML={{ __html: post.html }} />
 

@@ -15,7 +15,7 @@ export function ResultsMap({ destinations, styleUrl, preferCoreCity = false }: {
       const viewportDestinations = initialViewportDestinations(mappedDestinations, { preferCoreCity });
       if (!mappedDestinations.length || !viewportDestinations.length) { setError(true); return; }
       const maplibre = await import("maplibre-gl"); if (disposed || !container.current) return;
-      maplibre.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
+      maplibre.setWorkerUrl("/maplibre/maplibre-gl-worker.js");
       const map = new maplibre.Map({ container: container.current, style: styleUrl, center: [-122.44, 37.76], zoom: 11, cooperativeGestures: true });
       removeMap = () => map.remove(); map.addControl(new maplibre.NavigationControl({ showCompass: false }), "top-right");
       map.on("load", () => {

@@ -2,6 +2,31 @@
 
 Living source document for a future PowerPoint or PDF case study.  
 
+## Session update: auditing map handoffs
+
+- **Full-dataset review:** Compared Google Maps search, embed, and driving
+  directions coordinates for all 249 destinations with the source-backed point
+  used by the site's core map.
+- **Roadblock found:** The City of San Francisco source record for The Rocks
+  Dog Park uses `0,0` as a coordinate placeholder. The earlier normalization
+  process treated it as a real location, which could send people toward an
+  unrelated point near Africa in Google Maps.
+- **Trust-preserving response:** The data pipeline now rejects null-island
+  coordinates. The Rocks Dog Park withholds map and directions actions until a
+  trustworthy point is available; the project does not infer a replacement.
+- **Ongoing protection:** An automated audit now confirms that all 248 mappable
+  destinations use the same coordinate for the core map and every Google Maps
+  handoff, and that each point remains tied to an associated source record.
+- **Deeper source check:** A later report of Signal Point appearing seven miles
+  away revealed that matching the source point was not enough: its scalar
+  latitude and longitude conflicted with the polygon in the same City record.
+  The normalization procedure now compares those two forms of evidence. It
+  keeps points inside or reasonably near the geometry, derives an internal
+  representative point when the discrepancy exceeds 0.5 mile, and records the
+  rejected point and reason. This corrected Signal Point, Panorama Park, and
+  the previously unmapped Rocks Dog Park, bringing all 249 destinations back
+  into the map audit without inventing coordinates outside official geometry.
+
 ## Session update: making progress visible
 
 - **Communication goal:** Added a public project blog where residents can see
@@ -31,8 +56,8 @@ Living source document for a future PowerPoint or PDF case study.
 - **Verified migration:** The first upload published 35 responsive variants for
   18 assets. Public delivery checks returned the expected WebP content type and
   one-year cache policy, and a production build generated all 258 routes with
-  Blob-backed imagery. Existing local paths remain temporary fallbacks until
-  the source files have been copied to a separate archive.
+  Blob-backed imagery. The migrated binary copies were then removed from Git;
+  logical image paths remain stable identifiers in the reviewed manifests.
 - **Growth safeguard:** Blob resolution now happens during the server build,
   before data reaches interactive galleries and featured cards. This prevents
   a future catalog of hundreds of photographs from being bundled into every
@@ -41,9 +66,19 @@ Living source document for a future PowerPoint or PDF case study.
   never a public browser variable. Upload paths include a source-content hash,
   allowing year-long caching and idempotent reruns without overwriting an
   already published image.
+- **First original-photo batch:** Reviewed and published 25 photographs taken
+  by Michael Baker across 11 park destinations. The batch added visitor-scale
+  views of paths, waterfronts, lawns, structures, signage, and landscape
+  details; every image includes a purpose-written caption and alternative text
+  and is offered under CC BY 4.0.
+- **Batch-safety correction:** Validation caught that the first version of the
+  uploader replaced the prior local delivery index when processing a new
+  batch. The earlier Blob files were unaffected. Their records were restored,
+  and the uploader now merges batches by stable logical path so future uploads
+  preserve the existing image catalog.
 Audience: product, content strategy, UX, service design, civic technology, and
 digital-program leadership.  
-Last updated: August 28, 2026.
+Last updated: September 1, 2026.
 
 ## How to use this document
 
