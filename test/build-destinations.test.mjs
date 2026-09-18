@@ -19,6 +19,21 @@ test("official enrichment may provide a verified quantity", () => {
   assert.equal(result[0].quantityStatus, "official-page-verified");
 });
 
+test("an official display-name override retains the source name as a searchable alias", () => {
+  const records = buildDestinations({
+    properties: [{ id: "1", name: "Example Parks", address: "A", acres: 1, squareFeet: 43560, displayPoint: null }],
+    facilities: [],
+    amenities: { facilities: [], functionalAreas: [], assetSummaries: [] },
+    configuration: { destinations: [] },
+    enrichments: { enrichments: [{
+      destinationId: "example-parks", publicName: "Example Park", propertyIds: ["1"], features: [],
+      reason: "Official singular name", reviewedAt: "2026-09-02", reviewedBy: "owner", sourceUrl: "https://example.test"
+    }] }
+  });
+  assert.equal(records[0].publicName, "Example Park");
+  assert.ok(records[0].searchableAliases.includes("Example Parks"));
+});
+
 test("a configured virtual destination hides member properties but keeps aliases", () => {
   const properties = [
     { id: "1", name: "Park - Section 1", address: "A", acres: 1, squareFeet: 43560, displayPoint: null },
@@ -43,6 +58,23 @@ test("a configured virtual destination hides member properties but keeps aliases
   assert.equal(records[0].acres, 3);
   assert.equal(records[0].squareFeet, 130680);
   assert.deepEqual(records[0].officialActions, [{ type: "information-page", url: "https://example.test", reviewedAt: "2026-08-26", retrievedAt: null }]);
+});
+
+test("a principal facility remains subordinate to its encompassing park", () => {
+  const records = buildDestinations({
+    properties: [{ id: "1", name: "Example Park", address: "A", acres: 2, squareFeet: 87120, displayPoint: null }],
+    facilities: [{ id: "10", name: "Example Rec Center", address: "A", displayPoint: null }],
+    amenities: { facilities: [], functionalAreas: [], assetSummaries: [] },
+    configuration: { destinations: [{
+      id: "example-park", publicName: "Example Park", kind: "property-with-principal-facility",
+      propertyIds: ["1"], principalFacilityIds: ["10"], hiddenSourceAliases: ["Example Rec Center"],
+      reason: "Park encompasses facility", reviewedAt: "2026-09-02", reviewedBy: "owner", sourceUrl: "https://example.test"
+    }] },
+    enrichments: { enrichments: [] }
+  });
+  assert.equal(records[0].publicName, "Example Park");
+  assert.deepEqual(records[0].subplaces.map((item) => item.label), ["Example Park", "Example Rec Center"]);
+  assert.ok(records[0].searchableAliases.includes("Example Rec Center"));
 });
 
 test("original amenity terminology remains searchable after labels collapse", () => {

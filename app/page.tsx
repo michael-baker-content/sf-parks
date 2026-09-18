@@ -11,14 +11,14 @@ const featuredIds = [
   "golden-gate-park", "mission-dolores-park", "sigmund-stern-recreation-grove", "lafayette-park",
   "alamo-square", "buena-vista-park", "alta-plaza-park", "duboce-park", "lake-merced-park", "palace-of-fine-arts"
 ];
-const featuredParks = featuredIds.map((id) => ({
+const featuredParks = featuredIds.filter((id) => mediaManifest.images.some((item) => item.destinationId === id && (item as { visible?: boolean }).visible !== false)).map((id) => ({
   id,
   name: destinationsDocument.records.find((item) => item.id === id)!.publicName,
   neighborhood: destinationsDocument.records.find((item) => item.id === id)!.neighborhood,
   amenityCount: destinationsDocument.records.find((item) => item.id === id)!.amenities.length,
   overview: evergreenContent.records.find((item) => item.destinationId === id)!.overview.text,
   image: (() => {
-    const image = mediaManifest.images.find((item) => item.destinationId === id)!;
+    const image = mediaManifest.images.filter((item) => item.destinationId === id && (item as { visible?: boolean }).visible !== false).sort((a, b) => a.position - b.position)[0];
     return { ...image, ...resolveMediaAsset(image.localPath, image.width, image.height) };
   })(),
 }));

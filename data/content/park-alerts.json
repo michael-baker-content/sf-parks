@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "defaultActive": false,
+  "alerts": [
+    {
+      "destinationId": "lafayette-park",
+      "active": true,
+      "title": "Test park notice — placeholder only",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. This is a layout demonstration, not a report of a closure or construction at Lafayette Park."
+    },
+    {
+      "destinationId": "sue-bierman-park",
+      "active": true,
+      "title": "Sue Bierman Park Renovation | Notice of Tree Removals",
+      "body": "Tree removals will begin on or after September 14, 2026. Once tree work begins, it is expected to last five weeks. Sections of the park and connected pathways will be closed intermittently.",
+      "expiresOn": "2026-11-01",
+      "url": "https://www.sfrecpark.org/m/newsflash/Home/Detail/3053",
+      "urlText": "Sue Bierman Park Renovation | Notice of Tree Removals"
+    }
+  ]
+}

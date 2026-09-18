@@ -2,6 +2,45 @@
 
 Living source document for a future PowerPoint or PDF case study.  
 
+## Session update: consistent presentation and navigation
+
+- Adopted Fraunces for the brand and main page headings, with a decorative
+  leaf that disappears on the smallest phones. Kept body typography unchanged.
+- Standardized compact section spacing and fixed header/footer content gaps.
+  The homepage hero now fits its content rather than forcing a full mobile screen.
+- Added mobile navigation below 880 pixels. Menu and search remain separate,
+  have readable interaction states, and close one another when opened.
+- Simplified park-page entrances by removing match explanations there while
+  retaining them in Explore. Park maps now offer a Hide map control.
+- Refined Explore so the map precedes sorting, small-screen controls fit,
+  and the heading/map button no longer change alignment at the desktop boundary.
+- Image coverage now includes 43 approved photos across 25 destinations.
+  The editor also supports optional notice links with meaningful display text.
+- Release checks passed: 123 automated tests, TypeScript, media validation,
+  and a production build generating 259 static pages. Secrets, local databases,
+  and file backups remain excluded from Git.
+
+## Session update: local editorial workflow
+
+- Built a separate local editor for park notices, photo metadata/order/visibility,
+  new photograph uploads, and individual Markdown blog posts. Official and
+  evergreen content remain read-only so editorial work cannot silently rewrite
+  the evidence-backed information.
+- Populated all 40 approved photographs, including the recent original batch.
+  Hiding and reordering retain the existing Blob files and source credits.
+- Kept publication deliberate: saves update project files immediately, while
+  the public site changes through the existing build and deployment process.
+  No editing endpoint is added to the deployed website.
+- Local SQLite records, edit history, and file backups provide a recovery trail;
+  photo review is consolidated in the editor. The former CSV workflow was
+  retired after confirming all 40 photographs were cataloged and Blob-backed,
+  with no pending replacement captions or alt text to migrate.
+- Optional notice expiration uses San Francisco dates and hides expired notices
+  in the browser even before another static deployment. This is not a live
+  closure feed; the editor remains responsible for verifying operational claims.
+- Automated checks passed (122 tests, TypeScript, and the production build). Browser review of the
+  local editor awaits owner-started server testing.
+
 ## Session update: auditing map handoffs
 
 - **Full-dataset review:** Compared Google Maps search, embed, and driving
@@ -506,13 +545,14 @@ official page to verify six tennis courts and two dog-play areas.
 **Potential visual:** Evidence stack showing facility, functional-area, and
 official-page inputs producing one amenity card.
 
-### Glen Canyon Park Recreation Center
+### Glen Canyon Park and its recreation center
 
 **Problem:** Open data captures the physical place but not familiar indoor
 activities such as climbing, pickleball, or ping pong.
 
-**Design response:** Combine the park and principal recreation center, retain
-subplaces, and add reviewed official-page enrichment with its own provenance.
+**Design response:** Present Glen Canyon Park as the encompassing destination,
+retain the recreation center as its principal facility and searchable subplace,
+and add reviewed official-page enrichment with its own provenance.
 
 **Potential visual:** Destination page with “Park” and “Recreation Center” tabs
 or sections and a visible coverage explanation.
@@ -810,7 +850,7 @@ properly attributed.
 - Piloted the evergreen extraction workflow on three already-reviewed official
   facility pages. The first publication pass added original, source-linked
   overview, highlight, physical-setting, and history content for Mission
-  Dolores Park, Glen Canyon Park Recreation Center, and Douglass Playground.
+  Dolores Park, Glen Canyon Park, its recreation center, and Douglass Playground.
   Mixed source passages were redacted to remove programs, reservations,
   schedules, fees, and other operational details before any content reached the
   destination pages.

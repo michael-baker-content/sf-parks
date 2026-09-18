@@ -12141,7 +12141,7 @@
     },
     {
       "id": "cityside-parks",
-      "publicName": "Cityside Parks",
+      "publicName": "Cityside Park",
       "kind": "property",
       "propertyIds": [
         "957484"
@@ -12333,9 +12333,21 @@
           ]
         }
       ],
-      "coverage": "open-data-only",
-      "officialActions": [],
-      "enrichment": null,
+      "coverage": "official-page-reviewed",
+      "officialActions": [
+        {
+          "type": "facility-page",
+          "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Cityside-Park-481",
+          "reviewedAt": "2026-09-02",
+          "retrievedAt": "2026-09-02"
+        }
+      ],
+      "enrichment": {
+        "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Cityside-Park-481",
+        "retrievedAt": "2026-09-02",
+        "reviewedAt": "2026-09-02",
+        "reason": "The official San Francisco Recreation and Parks page and related facility records use the singular public name; the plural DataSF property name remains a searchable alias."
+      },
       "searchableAmenityTerms": [
         "Drinking Fountain",
         "Grill",
@@ -21470,7 +21482,7 @@
     },
     {
       "id": "glen-canyon-park-recreation-center",
-      "publicName": "Glen Canyon Park Recreation Center",
+      "publicName": "Glen Canyon Park",
       "kind": "property-with-principal-facility",
       "propertyIds": [
         "1"
@@ -21504,7 +21516,6 @@
         "precision": "source-point"
       },
       "searchableAliases": [
-        "Glen Canyon Park Recreation Center",
         "Glen Canyon Park",
         "Glen Canyon Rec Center",
         "1",
@@ -22110,7 +22121,7 @@
         "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89",
         "reviewedAt": "2026-08-26",
         "reviewedBy": "project-owner",
-        "reason": "Combines the park and principal recreation center while retaining them as labeled subplaces."
+        "reason": "Presents Glen Canyon Park as the encompassing destination and retains Glen Canyon Rec Center as its principal facility and searchable subplace."
       },
       "enrichment": {
         "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89",

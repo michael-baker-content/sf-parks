@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { BackToResults } from "../../../components/BackToResults";
-import { DestinationMatch } from "../../../components/DestinationMatch";
 import { DestinationMap } from "../../../components/DestinationMap";
 import { DestinationGallery } from "../../../components/DestinationGallery";
+import { ParkAlert } from "../../../components/ParkAlert";
 import { OfficialServicePathways } from "../../../components/OfficialServicePathways";
 import { NearbyDestinations } from "../../../components/NearbyDestinations";
 import { NearbyTransit } from "../../../components/NearbyTransit";
@@ -14,6 +14,8 @@ import { resolveMediaAsset } from "../../../src/lib/media-delivery.js";
 import destinationsDocument from "../../../data/presentation/generated/destinations.json";
 import mediaManifest from "../../../data/media/media-manifest.json";
 import evergreenContent from "../../../data/content/evergreen-content.json";
+import parkAlerts from "../../../data/content/park-alerts.json";
+import { getActiveParkNotice } from "../../../src/lib/park-notices.js";
 import content from "../../../data/presentation/ui-content.json";
 import sourceRegistry from "../../../data/sources.json";
 import normalizationReport from "../../../data/normalized/normalization-report.json";
@@ -67,15 +69,17 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
   const technicalIds = new Set<string>([...(destination.propertyIds as string[]), ...(destination.principalFacilityIds as string[])]);
   const sourceAliases = destination.searchableAliases.filter((alias) => alias !== destination.publicName && !technicalIds.has(alias));
   const images = mediaManifest.images
-    .filter((image) => image.destinationId === destination.id)
+    .filter((image) => image.destinationId === destination.id && (image as { visible?: boolean }).visible !== false)
     .sort((a, b) => a.position - b.position)
     .map((image) => ({ ...image, ...resolveMediaAsset(image.localPath, image.width, image.height) }));
   const placeholder = resolveMediaAsset("/media/park-image-placeholder.png", 1536, 1024);
   const evergreen = evergreenByDestination.get(destination.id);
+  const parkNotice = getActiveParkNotice(parkAlerts, destination.id);
   const nearby = nearbyDestinations(destinationsDocument.records, destination.id);
   const transit = nearbyTransit(transitDocument, destination.displayPoint);
   const pageLinks = [
     evergreen ? { id: "about", label: "About" } : null,
+    parkNotice ? { id: "park-notice", label: "Park notice" } : null,
     destination.displayPoint ? { id: "location", label: "Location" } : null,
     { id: "amenities", label: "Amenities" },
     showSubplaces ? { id: "places", label: "Places here" } : null,
@@ -86,7 +90,6 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
   ].filter((item): item is { id: string; label: string } => Boolean(item));
   return <div className="app-destination-shell"><Suspense fallback={<LinkFallback />}><BackToResults /></Suspense><article className="app-destination">
     <header><p className="app-eyebrow">{destination.placeTypes.join(" · ")}</p><h1>{destination.publicName}</h1><p className="app-location">{[destination.neighborhood, destination.address].filter(Boolean).join(" · ")}</p></header>
-    <Suspense><DestinationMatch destinationId={destination.id} /></Suspense>
     <nav className="app-page-nav" aria-label="On this page">
       <div className="app-page-nav__desktop"><strong>On this page</strong><ul>{pageLinks.map((link) => <li key={link.id}><a href={`#${link.id}`}>{link.label}</a></li>)}</ul></div>
       <details className="app-page-nav__mobile"><summary><span aria-hidden="true">☰</span> On this page</summary><ul>{pageLinks.map((link) => <li key={link.id}><a href={`#${link.id}`}>{link.label}</a></li>)}</ul></details>
@@ -100,6 +103,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
       {evergreen.history && <><h3>History</h3><p>{evergreen.history.text}</p></>}
       <EvergreenSources record={evergreen} />
     </section>}
+    {parkNotice && <ParkAlert notice={parkNotice} />}
     {destination.displayPoint && <DestinationMap name={destination.publicName} latitude={destination.displayPoint.latitude} longitude={destination.displayPoint.longitude} apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY} />}
     <section id="amenities" aria-labelledby="amenities-title"><h2 id="amenities-title">What is listed here</h2><p className="usa-hint">{content.quantityNotice}</p><div className="app-amenity-groups">{groups.map(([id, items]) => <section key={id}><h3>{order.get(id)?.label ?? id}</h3><ul>{items.map((item) => <li key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}</ul></section>)}</div></section>
     {showSubplaces && <section id="places" aria-labelledby="subplaces-title"><h2 id="subplaces-title">Places within this destination</h2><ul>{destination.subplaces.map((item) => <li key={`${item.type}-${item.id}`}><strong>{item.label}</strong> <span className="app-muted">({item.type})</span></li>)}</ul></section>}

@@ -5,15 +5,16 @@ import { useRouter } from "next/navigation";
 import { SearchBox } from "./SearchBox";
 import { searchUrl } from "../src/lib/search-url.js";
 
-export function GlobalSearch() {
+export function GlobalSearch({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) {
   const router = useRouter();
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const query = new FormData(event.currentTarget).get("q");
     router.push(searchUrl(query));
+    onOpenChange(false);
   }
-  return <details className="app-global-search">
-    <summary>
+  return <details className="app-global-search" open={open}>
+    <summary onClick={(event) => { event.preventDefault(); onOpenChange(!open); }}>
       <span className="app-global-search__icon app-global-search__icon--closed" aria-hidden="true">⌕</span>
       <span className="app-global-search__icon app-global-search__icon--open" aria-hidden="true">×</span>
       <span className="app-global-search__label--closed">Search</span>

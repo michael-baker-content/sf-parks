@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "provider": "vercel-blob",
-  "generatedAt": "2026-09-02T00:43:00.163Z",
+  "generatedAt": "2026-09-18T18:34:56.369Z",
   "assets": [
     {
       "localPath": "/media/alamo-square-01.jpg",
@@ -810,6 +810,63 @@
           "bytes": 201556,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willow-bridge-gardens-01/c70a2c5e5ad5/1280.webp",
           "pathname": "media/willow-bridge-gardens-01/c70a2c5e5ad5/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 73012,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/640.webp",
+          "pathname": "media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 279474,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/1280.webp",
+          "pathname": "media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 61568,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/640.webp",
+          "pathname": "media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 227314,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/1280.webp",
+          "pathname": "media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 74888,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/640.webp",
+          "pathname": "media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 248752,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/1280.webp",
+          "pathname": "media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/1280.webp"
         }
       ]
     }

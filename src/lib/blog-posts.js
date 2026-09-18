@@ -16,12 +16,13 @@ export function getBlogPost(slug) {
 }
 
 export function getBlogPostImage(post) {
-  const image = post.image ?? defaultBlogImage;
+  const selected = post.image ?? defaultBlogImage;
+  const image = mediaManifest.images.some((record) => record.localPath === selected.path && record.visible === false) ? defaultBlogImage : selected;
   return { ...image, ...resolveRequiredMediaAsset(image.path) };
 }
 
 export function getBlogPostSlides(post) {
-  return (post.gallery ?? []).map((path) => {
+  return (post.gallery ?? []).filter((path) => !mediaManifest.images.some((image) => image.localPath === path && image.visible === false)).map((path) => {
     const record = mediaManifest.images.find((image) => image.localPath === path);
     if (!record) throw new Error(`No reviewed media record is available for blog gallery image ${path}.`);
     return { ...record, ...resolveRequiredMediaAsset(path) };

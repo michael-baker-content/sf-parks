@@ -13,7 +13,7 @@ test("image coverage reports every destination exactly once", () => {
 });
 
 test("image coverage summary agrees with the approved media manifest", () => {
-  const publishedDestinations = new Set(manifest.images.map((image) => image.destinationId));
+  const publishedDestinations = new Set(manifest.images.filter((image) => image.visible !== false).map((image) => image.destinationId));
   assert.equal(report.summary.placeholderOnly, destinations.length - publishedDestinations.size);
   assert.equal(report.summary.placeholderOnly + report.summary.oneApprovedImage + report.summary.multipleApprovedImages, destinations.length);
 });

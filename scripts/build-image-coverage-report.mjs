@@ -66,6 +66,7 @@ const imagesByDestination = new Map();
 const reviewsByDestination = new Map();
 
 for (const image of manifest.images) {
+  if (image.visible === false) continue;
   const images = imagesByDestination.get(image.destinationId) ?? [];
   images.push(image);
   imagesByDestination.set(image.destinationId, images);

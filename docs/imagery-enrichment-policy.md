@@ -114,6 +114,9 @@ the manifest rather than reducing these to a generic “Wikimedia” label.
   Michael Baker and apply CC BY 4.0.
 - Treat Blob credentials as local maintenance secrets. They must never use a
   `NEXT_PUBLIC_` prefix or enter the browser bundle.
+- Maintain captions and alternative text through the local editor described
+  in `docs/local-editor.md`. New uploads join the same media catalog.
+  Do not recreate the retired CSV workflow.
 
 ## Implementation sequence
 

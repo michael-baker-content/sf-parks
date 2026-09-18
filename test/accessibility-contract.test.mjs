@@ -18,9 +18,11 @@ function contrast(first, second) {
 test("the shared layout provides language, landmarks, and a skip target", async () => {
   const layout = await readFile(new URL("app/layout.tsx", root), "utf8");
 
-  assert.match(layout, /<html lang="en">/);
+  assert.match(layout, /<html lang="en"[^>]*>/);
   assert.match(layout, /href="#main-content"[^>]*>Skip to main content</);
-  assert.match(layout, /<nav aria-label="Primary">/);
+  assert.match(layout, /<HeaderControls\s*\/>/);
+  const navigation = await readFile(new URL("components/HeaderNavigation.tsx", root), "utf8");
+  assert.match(navigation, /<nav[^>]*aria-label="Primary"/);
   assert.match(layout, /<main id="main-content"[^>]*tabIndex=\{-1\}/);
 });
 

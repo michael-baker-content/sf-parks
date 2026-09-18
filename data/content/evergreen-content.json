@@ -58,7 +58,7 @@
     {
       "destinationId": "glen-canyon-park-recreation-center",
       "overview": {
-        "text": "Glen Canyon Park Recreation Center sits at the foot of Glen Canyon, connecting indoor and field recreation with one of San Francisco's distinctive natural landscapes.",
+        "text": "Glen Canyon Park encompasses a distinctive urban canyon, with its recreation center and field facilities located at the park's southern entrance.",
         "sourceRefs": ["official-facility-page"]
       },
       "history": {
@@ -94,7 +94,7 @@
         },
         {
           "label": "Setting",
-          "value": "Recreation center at the foot of an urban canyon",
+          "value": "Recreation center and fields at the park's southern entrance",
           "category": "setting",
           "sourceRefs": ["official-facility-page"]
         }

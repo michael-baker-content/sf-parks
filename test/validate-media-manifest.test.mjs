@@ -8,7 +8,8 @@ const blobAssets = JSON.parse(await readFile(new URL("../data/media/blob-assets.
 
 test("the committed media manifest contains only reviewed images", () => {
   assert.deepEqual(validateMediaManifest(manifest), []);
-  assert.equal(manifest.images.length, 40);
+  assert.ok(manifest.images.length > 0);
+  assert.equal(new Set(manifest.images.map((image) => image.localPath)).size, manifest.images.length);
 });
 
 test("published media requires attribution and an approved reusable license", () => {

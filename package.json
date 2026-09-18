@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "admin": "node --env-file-if-exists=.env.local tools/admin/server.mjs",
     "predev": "node scripts/copy-maplibre-worker.mjs",
     "import:datasf": "node scripts/import-datasf.mjs",
     "import:transit": "node --env-file=.env.local scripts/import-511-transit.mjs",

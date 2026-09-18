@@ -43,6 +43,7 @@ export function validateMediaManifest(manifest) {
     if (!reusableLicense.test(image.licenseId ?? "")) errors.push(`${label}: license is not initially approved.`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(image.reviewedAt ?? "")) errors.push(`${label}: reviewedAt must use YYYY-MM-DD.`);
     if (!/^\/media\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/.test(image.localPath ?? "")) errors.push(`${label}: invalid localPath.`);
+    if (image.visible !== undefined && typeof image.visible !== "boolean") errors.push(`${label}: visible must be a boolean.`);
     if (!Number.isInteger(image.position) || image.position < 1) errors.push(`${label}: position must be a positive integer.`);
     if (!Number.isInteger(image.width) || image.width < 1 || !Number.isInteger(image.height) || image.height < 1) errors.push(`${label}: valid image dimensions are required.`);
     const positionKey = `${image.destinationId}:${image.position}`;

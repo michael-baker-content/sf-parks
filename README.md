@@ -44,15 +44,26 @@ individual static pages during the next build.
 - 198 destinations with approved evergreen narrative records; the broader
   enriched total also includes reviewed facility-directory features
 - 3,314 transit stops and stations across 85 routes
-- 40 approved images across 23 destinations, with a generic placeholder used
+- 43 approved images across 25 destinations, with a generic placeholder used
   elsewhere rather than an unverified location image
 - 2 generated editorial illustrations supporting the programs and reservations
   guide
 - Official park-property area available for all 249 public destinations
-- 116 passing automated tests, plus a successful TypeScript check and static
+- 123 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally
+
+For local editing, run `npm run admin` with Node.js 24 and open
+`http://127.0.0.1:4180`. Manage notices, all cataloged photos, Blob uploads,
+and Markdown blog posts without exposing editing on the live site. Saves
+update project files immediately; publishing still requires building and
+deploying. See [local editor instructions](docs/local-editor.md) for backups,
+expiration dates, and image rights.
+
+Optional park-page notices are configured separately from evergreen content;
+see [park alerts](docs/park-alerts.md). Lafayette Park currently shows a clearly
+labeled placeholder notice for layout testing only.
 
 Requires Node.js 20 or newer.
 
@@ -108,6 +119,10 @@ during the static build, so expanding the registry does not send the complete
 catalog to interactive browser components. After upload and verification,
 archive the source photographs outside the repository and clear the local
 intake directory; the application does not require those source files.
+
+Manage captions, alt text, credits, visibility, and gallery order in the
+[local editor](docs/local-editor.md). All cataloged photographs appear there,
+including new uploads. The CSV review workflow has been retired.
 
 Blog posts use the park illustration by default. To choose another reviewed
 Blob asset for a post card, add its stable registry path and meaningful alt text

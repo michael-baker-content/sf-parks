@@ -47,6 +47,18 @@
       "reviewedAt": "2026-08-26",
       "reviewedBy": "project-owner",
       "reason": "Official facility page lists familiar features not represented in the open-data discovery taxonomy."
+    },
+    {
+      "destinationId": "cityside-parks",
+      "publicName": "Cityside Park",
+      "propertyIds": ["957484"],
+      "features": [],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Cityside-Park-481",
+      "actionType": "facility-page",
+      "retrievedAt": "2026-09-02",
+      "reviewedAt": "2026-09-02",
+      "reviewedBy": "project-owner",
+      "reason": "The official San Francisco Recreation and Parks page and related facility records use the singular public name; the plural DataSF property name remains a searchable alias."
     }
   ]
 }

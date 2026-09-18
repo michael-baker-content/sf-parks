@@ -3477,9 +3477,9 @@
     },
     {
       "id": "cityside-parks",
-      "publicName": "Cityside Parks",
+      "publicName": "Cityside Park",
       "normalized": {
-        "publicName": "cityside parks",
+        "publicName": "cityside park",
         "aliases": [
           "957484",
           "cityside parks"
@@ -3497,7 +3497,7 @@
           "table",
           "table seating area"
         ],
-        "combined": "cityside parks 957484 cityside parks treasure island 94130 drinking fountain grill natural area natural resource management area picnic area public art table table seating area"
+        "combined": "cityside park 957484 cityside parks treasure island 94130 drinking fountain grill natural area natural resource management area picnic area public art table table seating area"
       },
       "filters": {
         "activityIds": [
@@ -3543,7 +3543,7 @@
         "placeTypeIds": [
           "neighborhood-park-or-playground"
         ],
-        "coverage": "open-data-only"
+        "coverage": "official-page-reviewed"
       },
       "display": {
         "neighborhood": "Treasure Island",
@@ -3556,7 +3556,7 @@
           "longitude": -122.3739576,
           "precision": "source-point"
         },
-        "coverage": "open-data-only"
+        "coverage": "official-page-reviewed"
       }
     },
     {
@@ -6644,14 +6644,13 @@
     },
     {
       "id": "glen-canyon-park-recreation-center",
-      "publicName": "Glen Canyon Park Recreation Center",
+      "publicName": "Glen Canyon Park",
       "normalized": {
-        "publicName": "glen canyon park recreation center",
+        "publicName": "glen canyon park",
         "aliases": [
           "1",
           "576",
           "glen canyon park",
-          "glen canyon park recreation center",
           "glen canyon rec center"
         ],
         "neighborhood": "glen park west of twin peaks",
@@ -6688,7 +6687,7 @@
           "table seating area",
           "tennis court"
         ],
-        "combined": "glen canyon park recreation center 1 576 glen canyon park glen canyon park recreation center glen canyon rec center glen park west of twin peaks 70 elk st 94131 ball field baseball baseball field basketball court bench children s play area childrens play area climbing wall clubhouse community rooms drinking fountain indoor recreation area interior recreational interior restroom natural area natural resource management area official webpage pickleball indoor picnic area ping pong play structure rec center recreation center restrooms softball softball field table table seating area tennis court"
+        "combined": "glen canyon park 1 576 glen canyon park glen canyon rec center glen park west of twin peaks 70 elk st 94131 ball field baseball baseball field basketball court bench children s play area childrens play area climbing wall clubhouse community rooms drinking fountain indoor recreation area interior recreational interior restroom natural area natural resource management area official webpage pickleball indoor picnic area ping pong play structure rec center recreation center restrooms softball softball field table table seating area tennis court"
       },
       "filters": {
         "activityIds": [
@@ -21551,11 +21550,11 @@
     "coverage": [
       {
         "id": "official-page-reviewed",
-        "count": 72
+        "count": 73
       },
       {
         "id": "open-data-only",
-        "count": 177
+        "count": 176
       }
     ]
   }

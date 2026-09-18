@@ -79,7 +79,7 @@ are classified generically as “Indoor Recreation Area.”
 
 ### Public-site comparison
 
-The official page uses the public name **Glen Canyon Park Recreation Center**
+The official facility page is titled **Glen Canyon Park Recreation Center**
 and lists additional familiar features and activities, including basketball,
 indoor pickleball, ping pong, a climbing wall, community rooms, fitness uses,
 and scheduled drop-in activities.
@@ -94,9 +94,10 @@ into invented activities. The official facility page is an appropriate future
 enrichment source for features, hours, and schedules, each with separate
 provenance and freshness.
 
-The normalized label “Glen Canyon Rec Center” should be presented using the
-familiar official-page name, **Glen Canyon Park Recreation Center**, through an
-audited override or page enrichment—not by altering source data.
+The public destination should remain **Glen Canyon Park**. “Glen Canyon Rec
+Center” is a principal facility within that park and should remain visible and
+searchable without replacing the encompassing park's name. Official-page
+features can enrich the facility relationship without flattening the hierarchy.
 
 ## Mission Recreation Center
 
@@ -157,4 +158,3 @@ link directly to the official reservation workflow.
    own freshness and rights review.
 7. Use Mission Dolores Park as a regression fixture because its normalized
    amenities align closely with its public page.
-

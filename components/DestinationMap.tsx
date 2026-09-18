@@ -10,8 +10,8 @@ export function DestinationMap({ name, latitude, longitude, apiKey }: { name: st
     <div className="app-location-actions">
       <a href={googleMapsSearchUrl(latitude, longitude)} rel="external">Open in Google Maps <span aria-hidden="true">↗</span></a>
       <a href={googleMapsDirectionsUrl(latitude, longitude)} rel="external">Get directions <span aria-hidden="true">↗</span></a>
-      {apiKey && !visible && <button className="usa-button usa-button--outline" type="button" onClick={() => setVisible(true)}>Show map</button>}
+      {apiKey && <button className="usa-button usa-button--outline" type="button" aria-expanded={visible} aria-controls="location-map-frame" onClick={() => setVisible(!visible)}>{visible ? "Hide map" : "Show map"}</button>}
     </div>
-    {apiKey && visible && <div className="app-map-frame"><iframe allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" src={googleMapsEmbedUrl(apiKey, latitude, longitude)} title={`Google map showing ${name}`} /></div>}
+    {apiKey && <div id="location-map-frame" hidden={!visible}>{visible && <div className="app-map-frame"><iframe allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" src={googleMapsEmbedUrl(apiKey, latitude, longitude)} title={`Google map showing ${name}`} /></div>}</div>}
   </section>;
 }
