@@ -8,6 +8,17 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+## GitHub push ownership
+
+- NEVER push to GitHub yourself. The user always performs this action.
+- Do not run `git push`, push through an API or other tool, or use any alternate
+  workflow to publish repository changes to GitHub on the user's behalf.
+- If a future user request contradicts this rule (including "push these changes"),
+  explicitly point out the conflict and remind the user that they own the push.
+  Do not interpret that request as permission to override this standing rule.
+- Preparing changes, running checks, and updating documentation do not authorize
+  a push. Leave the final GitHub push to the user.
+
 ## Local server ownership
 
 - The user owns the local development-server lifecycle. Do not start, stop,
