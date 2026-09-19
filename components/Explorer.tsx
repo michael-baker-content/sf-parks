@@ -45,24 +45,24 @@ function FilterPanel({ state, expanded, onToggle, onSubmit }: { state: ReturnTyp
   return <><button className="usa-button usa-button--outline app-filter-toggle" type="button" aria-expanded={expanded} aria-controls="result-filters" onClick={onToggle}>
     {expanded ? "Hide filters" : "Show filters"}{selectionCount ? ` (${selectionCount})` : ""}
   </button><form className="app-filters" id="result-filters" action="/explore/" data-expanded={expanded} onSubmit={onSubmit}>
-    {state.q && <input type="hidden" name="q" value={state.q} />}
-    {state.view === "map" && <input type="hidden" name="view" value="map" />}
-    <h2>Filter results</h2>
-    <details><summary>Activities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Activities</legend><CheckList name="activity" items={activityItems} selected={state.activity} /></fieldset></details>
-    <details><summary>Amenities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Amenities</legend><CheckList name="amenity" items={index.facets.amenities} selected={state.amenity} /></fieldset></details>
-    <details><summary>Areas</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Areas</legend><p className="usa-hint">Broad browsing areas assembled from the neighborhoods listed in the park data.</p><CheckList name="area" items={index.facets.areas} selected={state.area} /></fieldset></details>
-    <details><summary>Neighborhoods</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Neighborhoods</legend><CheckList name="neighborhood" items={index.facets.neighborhoods} selected={state.neighborhood} /></fieldset></details>
-    <details><summary>ZIP codes</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">ZIP codes</legend><CheckList name="zip" items={index.facets.zipcodes} selected={state.zip} /></fieldset></details>
-    <details><summary>Place type</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Place type</legend><CheckList name="place" items={index.facets.placeTypes} selected={state.place} /></fieldset></details>
-    <details><summary>Minimum size and amenities</summary><fieldset className="usa-fieldset app-threshold-grid"><legend className="usa-sr-only">Minimum size and amenities</legend>
-      <label className="usa-label" htmlFor="minimum-amenities">Minimum amenities</label>
-      <input className="usa-input" id="minimum-amenities" name="minAmenities" type="number" min="0" step="1" inputMode="numeric" defaultValue={state.minAmenities} />
-      <label className="usa-label" htmlFor="minimum-acres">Minimum park size in acres</label>
-      <input className="usa-input" id="minimum-acres" name="minAcres" type="number" min="0" step="0.1" inputMode="decimal" defaultValue={state.minAcres} />
-      <p className="usa-hint">Park size comes from the official park-property dataset.</p>
-    </fieldset></details>
-    <div className="app-filter-actions"><button className="usa-button" type="submit">Apply filters</button><Link href="/explore/">Clear all</Link></div>
-  </form></>;
+      {state.q && <input type="hidden" name="q" value={state.q} />}
+      {state.view === "map" && <input type="hidden" name="view" value="map" />}
+      <h2>Filter results</h2>
+      <details><summary>Activities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Activities</legend><CheckList name="activity" items={activityItems} selected={state.activity} /></fieldset></details>
+      <details><summary>Amenities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Amenities</legend><CheckList name="amenity" items={index.facets.amenities} selected={state.amenity} /></fieldset></details>
+      <details><summary>Areas</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Areas</legend><p className="usa-hint">Broad browsing areas assembled from the neighborhoods listed in the park data.</p><CheckList name="area" items={index.facets.areas} selected={state.area} /></fieldset></details>
+      <details><summary>Neighborhoods</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Neighborhoods</legend><CheckList name="neighborhood" items={index.facets.neighborhoods} selected={state.neighborhood} /></fieldset></details>
+      <details><summary>ZIP codes</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">ZIP codes</legend><CheckList name="zip" items={index.facets.zipcodes} selected={state.zip} /></fieldset></details>
+      <details><summary>Place type</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Place type</legend><CheckList name="place" items={index.facets.placeTypes} selected={state.place} /></fieldset></details>
+      <details><summary>Minimum size and amenities</summary><fieldset className="usa-fieldset app-threshold-grid"><legend className="usa-sr-only">Minimum size and amenities</legend>
+        <label className="usa-label" htmlFor="minimum-amenities">Minimum amenities</label>
+        <input className="usa-input" id="minimum-amenities" name="minAmenities" type="number" min="0" step="1" inputMode="numeric" defaultValue={state.minAmenities} />
+        <label className="usa-label" htmlFor="minimum-acres">Minimum park size in acres</label>
+        <input className="usa-input" id="minimum-acres" name="minAcres" type="number" min="0" step="0.1" inputMode="decimal" defaultValue={state.minAcres} />
+        <p className="usa-hint">Park size comes from the official park-property dataset.</p>
+      </fieldset></details>
+      <div className="app-filter-actions"><button className="usa-button" type="submit">Apply filters</button><Link href="/explore/">Clear all</Link></div>
+    </form></>;
 }
 
 function quantityText(amenity: Amenity) {
@@ -194,7 +194,7 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
     <SearchBox id="explore-search" label="Search destinations" defaultValue={state.q} key={state.q} onSubmit={search} />
     <ActiveCriteria state={state} params={shareableParams} />
     <div className="app-explore-layout"><aside><FilterPanel state={state} expanded={filtersExpanded} onToggle={() => setFiltersExpanded((value) => !value)} onSubmit={applyFilters} /></aside><section aria-labelledby="results-title">
-      <div className="app-results-heading"><div><h1 id="results-title" ref={heading}>Explore parks and recreation</h1><p className="usa-sr-only" aria-live="polite">{results.length} destinations found</p><p aria-hidden="true">{results.length} {results.length === 1 ? "destination" : "destinations"}</p></div>
+      <div className="app-results-heading"><div><h1 id="results-title" ref={heading}>Explore San Francisco parks</h1><p className="usa-sr-only" aria-live="polite">{results.length} destinations found</p><p aria-hidden="true">{results.length} {results.length === 1 ? "destination" : "destinations"}</p></div>
         <div className="app-result-tools">{mapStyleUrl && <button className="usa-button usa-button--outline" type="button" aria-expanded={state.view === "map"} aria-controls="results-map-panel" onClick={toggleMap}>{state.view === "map" ? "Hide map" : "Show map"}</button>}</div>
       </div>
       {mapStyleUrl && state.view === "map" && <section id="results-map-panel" aria-label="Map view"><p className="usa-hint">The map shows destinations with usable listed coordinates. With no search or filters, it starts with San Francisco proper; relevant searches can expand to outlying Recreation and Parks properties. Use the complete results list below for accessible browsing.</p><ResultsMap key={params.toString()} styleUrl={mapStyleUrl} preferCoreCity={!hasSearchCriteria} destinations={results.flatMap(({ record }: { record: IndexRecord }) => { const destination = destinations.get(record.id); return destination?.displayPoint ? [{ id: destination.id, name: destination.publicName, latitude: destination.displayPoint.latitude, longitude: destination.displayPoint.longitude, amenityCount: destination.amenities.length, href: `/parks/${destination.id}/?return=${encodeURIComponent(resultReturnPath(shareableParams.toString(), destination.id))}` }] : []; })} /></section>}

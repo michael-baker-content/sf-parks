@@ -28,9 +28,10 @@ export default function HomePage() {
   return <>
     <section className="app-hero app-hero--image" aria-labelledby="home-title" style={{ "--app-hero-image": `url("${heroImage.src}")` } as React.CSSProperties}>
       <p className="app-eyebrow">Independent public-data prototype</p>
-      <h1 id="home-title">Find a park that fits your plans</h1>
-      <p className="app-lede">Explore San Francisco parks, playgrounds, recreation centers, and listed amenities.</p>
-      <SearchForm label="Find a park or recreation destination" />
+      <h1 id="home-title">The perfect SF park for any day or plan</h1>
+      <p className="app-lede">Compare San Francisco public park features, setting, size,
+        and nearby transit when planning your outing.</p>
+      <SearchForm label="Find a park or recreation spot" />
     </section>
     <section id="activities" aria-labelledby="activities-title">
       <h2 id="activities-title">What would you like to do?</h2>

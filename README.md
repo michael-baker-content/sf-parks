@@ -22,6 +22,9 @@ Francisco.
 - Statement-level source links, with a scannable panel when an overview uses
   multiple references
 - Keyboard-accessible, responsive layouts supporting 320 CSS pixels and wider
+- A responsive header with mutually exclusive Menu and Search panels below
+  880 pixels; opening either panel dims the homepage hero without animation
+  when the user prefers reduced motion
 
 The current accessibility baseline and remaining manual checks are documented
 in [`docs/accessibility-audit.md`](docs/accessibility-audit.md).

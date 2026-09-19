@@ -16,6 +16,6 @@ export function SearchBox({ id, label, defaultValue = "", onSubmit }: SearchBoxP
       <input className="usa-input app-search__input" id={id} name="q" type="search" defaultValue={defaultValue} autoComplete="off" placeholder="Try “tennis,” “Dolores,” or “94131”" />
       <button className="usa-button app-search__button" type="submit">Search</button>
     </div>
-    <p className="usa-hint app-search__hint">Search by place, neighborhood, activity, or amenity.</p>
+    <p className="usa-hint app-search__hint">Search by location, activity, or amenity.</p>
   </form>;
 }

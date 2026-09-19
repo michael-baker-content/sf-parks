@@ -24,15 +24,17 @@
 - Submissions navigate directly to `/explore` with the search term encoded in
   the existing URL state and reuse the established matching and explanation
   behavior.
-- Preserved keyboard operation, explicit labeling, and the mobile homepage's
-  full-first-viewport hero composition.
+- Preserved keyboard operation and explicit labeling. Below 880 pixels, Search
+  and Menu use compact controls, close one another, and remove focus from the
+  search field when it closes so the mobile keyboard can dismiss.
 
 ## Completed: homepage visual entry
 
 - Added a full-width hero using the generated park illustration as a temporary
   background with a contrast overlay.
-- On mobile, the header and hero occupy the first viewport and the activity
-  browsing section begins below the fold.
+- The hero now ends with its content rather than filling the first mobile
+  viewport. Opening header Search or Menu temporarily dims it with a short
+  transition that respects reduced-motion preferences.
 
 ## Completed: amenity and acreage thresholds
 

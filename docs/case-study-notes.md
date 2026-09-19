@@ -2,6 +2,19 @@
 
 Living source document for a future PowerPoint or PDF case study.  
 
+## Session update: responsive header refinement
+
+- Refined the shared mobile header so Search and Menu use consistent closed,
+  hover, and open states while remaining mutually exclusive.
+- Shortened the visible open-search label to “Close” with search icons, while
+  retaining “Close search” for assistive technology. Closing Search removes
+  focus from its field so a mobile keyboard does not remain active.
+- Added a brief homepage-hero dimming transition behind an open Search or Menu
+  panel. The effect is disabled by the site's reduced-motion rule.
+- Revised the homepage introduction to explain planning value without repeating
+  the search component's instructions, and allowed the programs-page heading
+  to use its available desktop width.
+
 ## Session update: consistent presentation and navigation
 
 - Adopted Fraunces for the brand and main page headings, with a decorative
