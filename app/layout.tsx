@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Fraunces } from "next/font/google";
 import { HeaderControls } from "../components/HeaderControls";
 import "@uswds/uswds/css/uswds.css";
-import "maplibre-gl/dist/maplibre-gl.css";
 import "./styles.css";
 
 const brandFont = Fraunces({ subsets: ["latin"], weight: "700", display: "swap", variable: "--app-brand-font" });

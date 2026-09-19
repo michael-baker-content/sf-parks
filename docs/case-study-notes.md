@@ -2,6 +2,26 @@
 
 Living source document for a future PowerPoint or PDF case study.  
 
+## Session update: faster, more consistent Explore controls
+
+- Reworked filters as a centered, accessible dialog on smaller screens and a
+  collapsible side panel on desktop. The map and filter controls now share the
+  results heading area, preserving more width for the destination list.
+- Kept the results map mounted while desktop filters open and close, then
+  resized it in place. A preparation state now prevents the initial default-map
+  flash, while a zero-result search immediately explains that there is no map
+  to display.
+- Made sorting preserve the reader's scroll position and the current map
+  instance. Relevance retains the source-backed ranking while Name and Most
+  amenities can reorder the list without rebuilding unrelated interface state.
+- Consolidated Explore URL handling, display formatting, and slideshow
+  behavior into shared modules to reduce repeated logic and future drift.
+- Limited MapLibre's large stylesheet to the Explore route, keeping it out of
+  destination pages and the rest of the site.
+- Show “Back to results” on a destination only when its URL includes a valid
+  Explore return path; direct destination visits no longer imply a search
+  journey that did not occur.
+
 ## Session update: responsive header refinement
 
 - Refined the shared mobile header so Search and Menu use consistent closed,

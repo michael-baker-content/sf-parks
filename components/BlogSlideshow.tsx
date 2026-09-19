@@ -1,27 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { ImageCredit, type CarouselImage, useCarousel } from "./CarouselShared";
 
-export type BlogSlide = {
-  localPath: string;
-  src: string;
-  srcSet?: string;
-  width: number;
-  height: number;
-  alt: string;
-  caption: string;
-  attribution: string;
-  filePageUrl: string;
-  licenseId: string;
-  licenseUrl: string;
-};
+export type BlogSlide = CarouselImage;
 
 export function BlogSlideshow({ slides }: { slides: BlogSlide[] }) {
-  const [position, setPosition] = useState(0);
-  const slide = slides[position];
+  const { item: slide, move, position } = useCarousel(slides);
   if (!slide) return null;
-
-  const move = (offset: number) => setPosition((current) => (current + offset + slides.length) % slides.length);
 
   return <section className="app-blog-slideshow" aria-labelledby="blog-gallery-title" aria-roledescription="carousel">
     <div className="app-blog-slideshow__heading">
@@ -34,7 +19,7 @@ export function BlogSlideshow({ slides }: { slides: BlogSlide[] }) {
       </div>
       <figcaption>
         <p>{slide.caption}</p>
-        <p className="app-blog-slideshow__credit"><a href={slide.filePageUrl} rel="external">{slide.attribution} <span aria-hidden="true">↗</span></a> · <a href={slide.licenseUrl} rel="license">{slide.licenseId}</a></p>
+        <ImageCredit image={slide} className="app-blog-slideshow__credit" />
       </figcaption>
     </figure>
     <div className="app-blog-slideshow__controls">

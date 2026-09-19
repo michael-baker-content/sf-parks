@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import { FormEvent, memo, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import destinationsDocument from "../data/presentation/generated/destinations.json";
 import content from "../data/presentation/ui-content.json";
 import index from "../data/search/generated/search-index.json";
 import configuration from "../data/search/search-filters.json";
 import { explainMatch, filterAndRank } from "../src/lib/search.js";
+import { readState, stateFromForm, stateParams, stateUrl, stateUrlWithout } from "../src/lib/url-state.js";
+import { acreageText, amenityQuantityText } from "../src/lib/display-format.js";
 import { resultFocusId, resultReturnPath } from "../src/lib/result-focus.js";
 import { RESULTS_PAGE_SIZE } from "../src/lib/pagination.js";
 import { SearchBox } from "./SearchBox";
@@ -15,19 +17,6 @@ import { ResultsMap } from "./ResultsMap";
 
 type Destination = (typeof destinationsDocument.records)[number];
 type IndexRecord = (typeof index.records)[number];
-type Amenity = { label: string; category: string; quantity: number | null; quantityStatus: string };
-
-function currentState(params: URLSearchParams) {
-  return {
-    q: params.get("q")?.trim() ?? "",
-    activity: params.getAll("activity"), amenity: params.getAll("amenity"), area: params.getAll("area"),
-    neighborhood: params.getAll("neighborhood"), zip: params.getAll("zip"), place: params.getAll("place"),
-    coverage: params.getAll("coverage"), sort: params.get("sort") ?? "relevance",
-    minAmenities: Math.max(0, Number.parseInt(params.get("minAmenities") ?? "0", 10) || 0),
-    minAcres: Math.max(0, Number.parseFloat(params.get("minAcres") ?? "0") || 0),
-    page: Math.max(1, Number.parseInt(params.get("page") ?? "1", 10) || 1), view: params.get("view") === "map" ? "map" : "list",
-  };
-}
 
 function CheckList({ name, items, selected }: { name: string; items: Array<{ id: string; label: string; count: number; icon?: string }>; selected: string[] }) {
   return items.map((item) => <div className="usa-checkbox" key={item.id}>
@@ -39,15 +28,17 @@ function CheckList({ name, items, selected }: { name: string; items: Array<{ id:
   </div>);
 }
 
-function FilterPanel({ state, expanded, onToggle, onSubmit }: { state: ReturnType<typeof currentState>; expanded: boolean; onToggle: () => void; onSubmit: (event: FormEvent<HTMLFormElement>) => void }) {
+function filterSelectionCount(state: ReturnType<typeof readState>) {
+  return state.activity.length + state.amenity.length + state.area.length + state.neighborhood.length + state.zip.length + state.place.length + state.coverage.length + Number(state.minAmenities > 0) + Number(state.minAcres > 0);
+}
+
+function FilterPanel({ state, stateKey, expanded, overlay, panelRef, onToggle, onSubmit }: { state: ReturnType<typeof readState>; stateKey: string; expanded: boolean; overlay: boolean; panelRef: React.RefObject<HTMLFormElement | null>; onToggle: () => void; onSubmit: (event: FormEvent<HTMLFormElement>) => void }) {
   const activityItems = configuration.activities.map((item) => ({ ...item, count: index.facets.activities.find((facet) => facet.id === item.id)?.count ?? 0 }));
-  const selectionCount = state.activity.length + state.amenity.length + state.area.length + state.neighborhood.length + state.zip.length + state.place.length + state.coverage.length + Number(state.minAmenities > 0) + Number(state.minAcres > 0);
-  return <><button className="usa-button usa-button--outline app-filter-toggle" type="button" aria-expanded={expanded} aria-controls="result-filters" onClick={onToggle}>
-    {expanded ? "Hide filters" : "Show filters"}{selectionCount ? ` (${selectionCount})` : ""}
-  </button><form className="app-filters" id="result-filters" action="/explore/" data-expanded={expanded} onSubmit={onSubmit}>
+  return <>{overlay && expanded && <button className="app-filter-backdrop" type="button" tabIndex={-1} aria-label="Close filters" onClick={onToggle} />}
+    <form key={stateKey} ref={panelRef} className="app-filters" id="result-filters" action="/explore/" data-expanded={expanded} role={overlay ? "dialog" : undefined} aria-modal={overlay ? "true" : undefined} aria-labelledby="filter-panel-title" onSubmit={onSubmit}>
       {state.q && <input type="hidden" name="q" value={state.q} />}
       {state.view === "map" && <input type="hidden" name="view" value="map" />}
-      <h2>Filter results</h2>
+      <div className="app-filter-heading"><h2 id="filter-panel-title">Filter results</h2><button className="usa-button app-filter-close" type="button" onClick={onToggle}><span aria-hidden="true">×</span> Close</button></div>
       <details><summary>Activities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Activities</legend><CheckList name="activity" items={activityItems} selected={state.activity} /></fieldset></details>
       <details><summary>Amenities</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Amenities</legend><CheckList name="amenity" items={index.facets.amenities} selected={state.amenity} /></fieldset></details>
       <details><summary>Areas</summary><fieldset className="usa-fieldset"><legend className="usa-sr-only">Areas</legend><p className="usa-hint">Broad browsing areas assembled from the neighborhoods listed in the park data.</p><CheckList name="area" items={index.facets.areas} selected={state.area} /></fieldset></details>
@@ -65,20 +56,7 @@ function FilterPanel({ state, expanded, onToggle, onSubmit }: { state: ReturnTyp
     </form></>;
 }
 
-function quantityText(amenity: Amenity) {
-  if (amenity.quantityStatus !== "official-page-verified") return amenity.label;
-  return `${amenity.quantity} ${(amenity.quantity === 1 ? amenity.label : `${amenity.label}s`).toLowerCase()}`;
-}
-
-function exploreUrlWithout(params: URLSearchParams, key: string, value?: string) {
-  const next = new URLSearchParams(params.toString());
-  next.delete("focus");
-  if (value === undefined) next.delete(key);
-  else { const remaining = next.getAll(key).filter((item) => item !== value); next.delete(key); for (const item of remaining) next.append(key, item); }
-  next.delete("page"); const query = next.toString(); return query ? `/explore/?${query}` : "/explore/";
-}
-
-function ActiveCriteria({ state, params }: { state: ReturnType<typeof currentState>; params: URLSearchParams }) {
+function ActiveCriteria({ state }: { state: ReturnType<typeof readState> }) {
   const labels = {
     activity: new Map(configuration.activities.map((item) => [item.id, item.label])),
     amenity: new Map(index.facets.amenities.map((item) => [item.id, item.label])),
@@ -94,19 +72,19 @@ function ActiveCriteria({ state, params }: { state: ReturnType<typeof currentSta
     for (const value of state[key]) criteria.push({ key, value, label: labels[key].get(value) ?? value });
   }
   if (state.minAmenities > 0) criteria.push({ key: "minAmenities", label: `At least ${state.minAmenities} amenities` });
-  if (state.minAcres > 0) criteria.push({ key: "minAcres", label: `At least ${new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(state.minAcres)} acres` });
+  if (state.minAcres > 0) criteria.push({ key: "minAcres", label: `At least ${acreageText(state.minAcres)} acres` });
   if (!criteria.length) return null;
   return <section className="app-active-criteria" aria-labelledby="active-criteria-title">
     <div className="app-active-criteria__heading"><h2 id="active-criteria-title">Your search and filters</h2><Link href="/explore/">Clear all</Link></div>
     <ul>{criteria.map((criterion) => <li key={`${criterion.key}-${criterion.value ?? criterion.label}`}>
-      <Link className="app-criterion" href={exploreUrlWithout(params, criterion.key, criterion.value)} aria-label={`Remove ${criterion.label}`}>
+      <Link className="app-criterion" href={stateUrlWithout(state, criterion.key, criterion.value)} aria-label={`Remove ${criterion.label}`}>
         <span>{criterion.label}</span><span aria-hidden="true">×</span>
       </Link>
     </li>)}</ul>
   </section>;
 }
 
-function ResultCard({ destination, record, state, returnPath }: { destination: Destination; record: IndexRecord; state: ReturnType<typeof currentState>; returnPath: string }) {
+const ResultCard = memo(function ResultCard({ destination, record, state, returnPath }: { destination: Destination; record: IndexRecord; state: ReturnType<typeof readState>; returnPath: string }) {
   const matches = new Set<string>();
   const match = explainMatch(record, destination, state, configuration);
   const queryMatches = new Set<string>(match.amenityLabels as string[]);
@@ -127,26 +105,77 @@ function ResultCard({ destination, record, state, returnPath }: { destination: D
     {match.reason && <p className="app-match-label">{match.reason}{match.reason.startsWith("Matches your") ? ":" : ""}</p>}
     {(state.minAmenities > 0 || state.minAcres > 0) && <p className="app-threshold-match">{[
       state.minAmenities > 0 ? `${destination.amenities.length} amenities` : null,
-      state.minAcres > 0 && destination.acres !== null ? `${new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(destination.acres)} acres` : null
+      state.minAcres > 0 && destination.acres !== null ? `${acreageText(destination.acres)} acres` : null
     ].filter(Boolean).join(" · ")}</p>}
     <ul className="app-chip-list" aria-label={matches.size ? "Matching and listed amenities" : "Listed amenities"}>
-      {amenities.map((item) => <li className={matches.has(item.label) ? "is-matched" : undefined} key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}
+      {amenities.map((item) => <li className={matches.has(item.label) ? "is-matched" : undefined} key={`${item.category}-${item.label}`}>{amenityQuantityText(item)}</li>)}
       {more > 0 && <li>+{more} more</li>}
     </ul>
   </article>;
-}
+});
 
 export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
   const params = useSearchParams(); const router = useRouter(); const heading = useRef<HTMLHeadingElement>(null);
   const [filtersExpanded, setFiltersExpanded] = useState(false);
-  const state = useMemo(() => currentState(new URLSearchParams(params.toString())), [params]);
+  const [filterOverlay, setFilterOverlay] = useState(false);
+  const filterTrigger = useRef<HTMLButtonElement>(null);
+  const filterPanel = useRef<HTMLFormElement>(null);
+  const paramsString = params.toString();
+  const state = useMemo(() => readState(paramsString), [paramsString]);
   const destinations = useMemo(() => new Map(destinationsDocument.records.map((item) => [item.id, item])), []);
   const results = useMemo(() => filterAndRank(index.records, state), [state]);
   const hasSearchCriteria = Boolean(state.q || state.activity.length || state.amenity.length || state.area.length || state.neighborhood.length || state.zip.length || state.place.length || state.coverage.length || state.minAmenities || state.minAcres);
-  const visible = results.slice(0, state.page * RESULTS_PAGE_SIZE);
-  const shareableParams = new URLSearchParams(params.toString()); shareableParams.delete("focus");
-  const returnPath = `/explore/${shareableParams.toString() ? `?${shareableParams.toString()}` : ""}`;
+  const selectionCount = filterSelectionCount(state);
+  const filterStateKey = JSON.stringify({ q: state.q, activity: state.activity, amenity: state.amenity, area: state.area, neighborhood: state.neighborhood, zip: state.zip, place: state.place, coverage: state.coverage, minAmenities: state.minAmenities, minAcres: state.minAcres });
+  const visible = useMemo(() => results.slice(0, state.page * RESULTS_PAGE_SIZE), [results, state.page]);
+  const shareableParams = useMemo(() => stateParams({}, state), [state]);
+  const shareableQuery = shareableParams.toString();
+  const returnPath = `/explore/${shareableQuery ? `?${shareableQuery}` : ""}`;
+  const mapDestinations = useMemo(() => results.flatMap(({ record }: { record: IndexRecord }) => {
+    const destination = destinations.get(record.id);
+    return destination?.displayPoint ? [{
+      id: destination.id,
+      name: destination.publicName,
+      latitude: destination.displayPoint.latitude,
+      longitude: destination.displayPoint.longitude,
+      amenityCount: destination.amenities.length,
+      href: `/parks/${destination.id}/?return=${encodeURIComponent(resultReturnPath(shareableQuery, destination.id))}`,
+    }] : [];
+  }), [destinations, results, shareableQuery]);
   useEffect(() => { document.title = "Explore · SF Parks Explorer"; }, []);
+  useEffect(() => {
+    const query = window.matchMedia("(max-width: 48rem)");
+    const updateMode = () => {
+      setFilterOverlay(query.matches);
+      setFiltersExpanded(!query.matches);
+    };
+    updateMode();
+    query.addEventListener("change", updateMode);
+    return () => query.removeEventListener("change", updateMode);
+  }, []);
+  useEffect(() => {
+    if (!filterOverlay || !filtersExpanded) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const panel = filterPanel.current;
+    panel?.querySelector<HTMLButtonElement>(".app-filter-close")?.focus();
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setFiltersExpanded(false);
+        filterTrigger.current?.focus();
+        return;
+      }
+      if (event.key !== "Tab" || !panel) return;
+      const focusable = [...panel.querySelectorAll<HTMLElement>('button, input, select, textarea, summary, a[href], [tabindex]:not([tabindex="-1"])')].filter((item) => !item.hasAttribute("disabled"));
+      if (!focusable.length) return;
+      const first = focusable[0]; const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => { document.body.style.overflow = previousOverflow; document.removeEventListener("keydown", handleKeyDown); };
+  }, [filterOverlay, filtersExpanded]);
   useEffect(() => {
     const cleanParams = new URLSearchParams(params.toString()); cleanParams.delete("focus");
     const currentReturnPath = `/explore/${cleanParams.toString() ? `?${cleanParams.toString()}` : ""}`;
@@ -167,38 +196,35 @@ export function Explorer({ mapStyleUrl }: { mapStyleUrl?: string }) {
   }, [params, visible.length]);
 
   function search(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault(); const next = new URLSearchParams(params.toString());
+    event.preventDefault();
     const q = String(new FormData(event.currentTarget).get("q") ?? "").trim();
-    if (q) next.set("q", q); else next.delete("q"); next.delete("focus"); next.delete("page"); router.push(`/explore/?${next}`);
+    router.push(stateUrl({ q, page: 1 }, state));
   }
   function applyFilters(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    const next = new URLSearchParams(params.toString());
-    for (const key of ["activity", "amenity", "area", "neighborhood", "zip", "place", "coverage", "minAmenities", "minAcres", "focus", "page"]) next.delete(key);
-    for (const key of ["activity", "amenity", "area", "neighborhood", "zip", "place", "coverage"]) {
-      for (const value of data.getAll(key)) next.append(key, String(value));
-    }
-    const minAmenities = Math.max(0, Number.parseInt(String(data.get("minAmenities") ?? "0"), 10) || 0);
-    const minAcres = Math.max(0, Number.parseFloat(String(data.get("minAcres") ?? "0")) || 0);
-    if (minAmenities) next.set("minAmenities", String(minAmenities));
-    if (minAcres) next.set("minAcres", String(minAcres));
-    const query = next.toString();
-    router.push(query ? `/explore/?${query}` : "/explore/");
+    if (filterOverlay) setFiltersExpanded(false);
+    const nextState = stateFromForm(event.currentTarget, state);
+    router.push(stateUrl(nextState, state));
   }
-  function sort(value: string) { const next = new URLSearchParams(params.toString()); next.delete("focus"); if (value === "relevance") next.delete("sort"); else next.set("sort", value); next.delete("page"); router.push(`/explore/?${next}`); }
-  function nextPage() { const next = new URLSearchParams(params.toString()); next.delete("focus"); next.set("page", String(state.page + 1)); router.push(`/explore/?${next}`); }
-  function toggleMap() { const next = new URLSearchParams(params.toString()); next.delete("focus"); if (state.view === "map") next.delete("view"); else next.set("view", "map"); router.push(`/explore/?${next}`, { scroll: false }); }
+  function sort(value: string) { router.push(stateUrl({ sort: value, page: 1 }, state), { scroll: false }); }
+  function nextPage() { router.push(stateUrl({ page: state.page + 1 }, state)); }
+  function toggleMap() { router.push(stateUrl({ view: state.view === "map" ? "list" : "map" }, state), { scroll: false }); }
+  function toggleFilters() {
+    if (filtersExpanded) {
+      setFiltersExpanded(false);
+      window.requestAnimationFrame(() => filterTrigger.current?.focus());
+    } else setFiltersExpanded(true);
+  }
 
   return <>
     <SearchBox id="explore-search" label="Search destinations" defaultValue={state.q} key={state.q} onSubmit={search} />
-    <ActiveCriteria state={state} params={shareableParams} />
-    <div className="app-explore-layout"><aside><FilterPanel state={state} expanded={filtersExpanded} onToggle={() => setFiltersExpanded((value) => !value)} onSubmit={applyFilters} /></aside><section aria-labelledby="results-title">
-      <div className="app-results-heading"><div><h1 id="results-title" ref={heading}>Explore San Francisco parks</h1><p className="usa-sr-only" aria-live="polite">{results.length} destinations found</p><p aria-hidden="true">{results.length} {results.length === 1 ? "destination" : "destinations"}</p></div>
-        <div className="app-result-tools">{mapStyleUrl && <button className="usa-button usa-button--outline" type="button" aria-expanded={state.view === "map"} aria-controls="results-map-panel" onClick={toggleMap}>{state.view === "map" ? "Hide map" : "Show map"}</button>}</div>
+    <ActiveCriteria state={state} />
+    <div className="app-explore-layout" data-filters-expanded={filtersExpanded}><aside className="app-filter-panel-container"><FilterPanel state={state} stateKey={filterStateKey} expanded={filtersExpanded} overlay={filterOverlay} panelRef={filterPanel} onToggle={toggleFilters} onSubmit={applyFilters} /></aside><section aria-labelledby="results-title">
+      <div className="app-results-heading"><div><h1 id="results-title" ref={heading}>Explore SF parks</h1><p className="usa-sr-only" aria-live="polite">{results.length} destinations found</p><p aria-hidden="true">{results.length} {results.length === 1 ? "destination" : "destinations"}</p></div>
+        <div className="app-result-tools">{mapStyleUrl && <button className="usa-button usa-button--outline" type="button" aria-expanded={state.view === "map"} aria-controls="results-map-panel" onClick={toggleMap}>{state.view === "map" ? "Hide map" : "Show map"}</button>}<button ref={filterTrigger} className="usa-button usa-button--outline app-filter-toggle" type="button" aria-expanded={filtersExpanded} aria-controls="result-filters" onClick={toggleFilters}>{filtersExpanded ? "Hide filters" : "Show filters"}{selectionCount ? ` (${selectionCount})` : ""}</button></div>
       </div>
-      {mapStyleUrl && state.view === "map" && <section id="results-map-panel" aria-label="Map view"><p className="usa-hint">The map shows destinations with usable listed coordinates. With no search or filters, it starts with San Francisco proper; relevant searches can expand to outlying Recreation and Parks properties. Use the complete results list below for accessible browsing.</p><ResultsMap key={params.toString()} styleUrl={mapStyleUrl} preferCoreCity={!hasSearchCriteria} destinations={results.flatMap(({ record }: { record: IndexRecord }) => { const destination = destinations.get(record.id); return destination?.displayPoint ? [{ id: destination.id, name: destination.publicName, latitude: destination.displayPoint.latitude, longitude: destination.displayPoint.longitude, amenityCount: destination.amenities.length, href: `/parks/${destination.id}/?return=${encodeURIComponent(resultReturnPath(shareableParams.toString(), destination.id))}` }] : []; })} /></section>}
-      <div className="app-results-sort"><label className="usa-label app-sort">Sort <select className="usa-select" value={state.sort} onChange={(event) => sort(event.target.value)}><option value="relevance">Relevance</option><option value="name">Name</option><option value="amenities">Most amenities</option></select></label></div>
+      {mapStyleUrl && state.view === "map" && <section id="results-map-panel" aria-label="Map view"><p className="usa-hint">The map shows destinations with usable listed coordinates. With no search or filters, it starts with San Francisco proper; relevant searches can expand to outlying Recreation and Parks properties. Use the complete results list below for accessible browsing.</p><ResultsMap styleUrl={mapStyleUrl} preferCoreCity={!hasSearchCriteria} destinations={mapDestinations} /></section>}
+      <div className="app-results-sort"><label className="usa-label app-sort"><span>Sort</span><select className="usa-select" value={state.sort} onChange={(event) => sort(event.target.value)}><option value="relevance">Relevance</option><option value="name">Name</option><option value="amenities">Most amenities</option></select></label></div>
       {results.length ? <><div className="app-result-list">{visible.map(({ record }: { record: IndexRecord }) => <ResultCard key={record.id} destination={destinations.get(record.id)!} record={record} state={state} returnPath={returnPath} />)}</div>
         {visible.length < results.length && <button className="usa-button usa-button--outline app-more" type="button" onClick={nextPage}>Show more results</button>}</>
         : <div className="app-empty"><h2>No listed matches</h2><p>No destinations are currently listed with all selected features. This may reflect incomplete data rather than confirmed absence.</p><Link href="/explore/">Clear filters</Link></div>}

@@ -1,26 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { ImageCredit, type CarouselImage, useCarousel } from "./CarouselShared";
 
-export type DestinationImage = {
-  localPath: string;
-  src: string;
-  srcSet?: string;
-  width: number;
-  height: number;
-  caption: string;
-  attribution: string;
-  alt: string;
-  filePageUrl: string;
-  licenseId: string;
-  licenseUrl: string;
-};
+export type DestinationImage = CarouselImage;
 
 type DeliveredPlaceholder = { src: string; srcSet?: string; width: number; height: number };
 
 export function DestinationGallery({ name, images, placeholder }: { name: string; images: DestinationImage[]; placeholder: DeliveredPlaceholder }) {
-  const [position, setPosition] = useState(0);
-  const image = images[position];
+  const { item: image, move, position } = useCarousel(images);
   if (!image) {
     return <section className="app-gallery app-gallery--placeholder" aria-label={`${name} image`}>
     <figure>
@@ -41,7 +28,6 @@ export function DestinationGallery({ name, images, placeholder }: { name: string
   </section>;
   }
   const multiple = images.length > 1;
-  const move = (offset: number) => setPosition((current) => (current + offset + images.length) % images.length);
 
   return <section className="app-gallery" aria-label={`${name} photos`} aria-roledescription="carousel">
     <figure aria-label={`${position + 1} of ${images.length}`} aria-roledescription="slide">
@@ -50,7 +36,7 @@ export function DestinationGallery({ name, images, placeholder }: { name: string
       </div>
       <figcaption>
         <p>{image.caption}</p>
-        <p className="app-gallery__credit"><a href={image.filePageUrl} rel="external">{image.attribution} <span aria-hidden="true">↗</span></a> · <a href={image.licenseUrl} rel="license">{image.licenseId}</a></p>
+        <ImageCredit image={image} className="app-gallery__credit" />
       </figcaption>
     </figure>
     {multiple && <div className="app-gallery__controls">

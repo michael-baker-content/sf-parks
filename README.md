@@ -9,11 +9,12 @@ Francisco.
 ## What it includes
 
 - Conventional search, 12 activity entry points, nine broad browsing areas,
-  collapsible filters, shareable URLs, minimum amenity and acreage thresholds,
-  and 15-result progressive batches
+  a collapsible desktop filter panel, an accessible mobile filter dialog,
+  shareable URLs, minimum amenity and acreage thresholds, and 15-result
+  progressive batches
 - Permanent destination pages with amenities and reviewed evergreen context
-- MapLibre results with two-size destination markers and optional Google Maps
-  embeds
+- MapLibre results with two-size destination markers, stable in-place sorting,
+  and optional Google Maps embeds
 - Build-time Muni, BART, and Caltrain guidance from 511 SF Bay
 - Official program and reservation handoffs
 - A static project blog for announcing destination enrichment and product updates
@@ -52,7 +53,7 @@ individual static pages during the next build.
 - 2 generated editorial illustrations supporting the programs and reservations
   guide
 - Official park-property area available for all 249 public destinations
-- 123 passing automated tests, plus a successful TypeScript check and static
+- 124 passing automated tests, plus a successful TypeScript check and static
   production build
 
 ## Run locally

@@ -1,5 +1,18 @@
 # Product roadmap
 
+## Completed: Explore interaction and performance refinement
+
+- Replaced the always-open wide-screen filters with a collapsible panel and
+  presented the same controls in a centered, keyboard-contained dialog on
+  smaller screens.
+- Preserved the map and page position across filter-panel and sort changes,
+  avoided the initial default-map flash, and handled zero-result maps without
+  an indefinite loading state.
+- Consolidated URL-state, formatting, and carousel behavior into shared
+  modules, and limited MapLibre styling to the Explore route.
+- Limited destination-page return links to visits carrying a valid Explore
+  return path.
+
 ## Completed: project updates blog
 
 - Added a static blog index and individual update pages for announcing content

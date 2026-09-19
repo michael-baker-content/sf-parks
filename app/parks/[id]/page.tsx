@@ -16,6 +16,7 @@ import mediaManifest from "../../../data/media/media-manifest.json";
 import evergreenContent from "../../../data/content/evergreen-content.json";
 import parkAlerts from "../../../data/content/park-alerts.json";
 import { getActiveParkNotice } from "../../../src/lib/park-notices.js";
+import { amenityQuantityText, reviewedDateText } from "../../../src/lib/display-format.js";
 import content from "../../../data/presentation/ui-content.json";
 import sourceRegistry from "../../../data/sources.json";
 import normalizationReport from "../../../data/normalized/normalization-report.json";
@@ -39,13 +40,8 @@ export function generateStaticParams() { return destinationsDocument.records.map
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const destination = destinations.get((await params).id); return { title: destination?.publicName ?? "Destination not found" };
 }
-function quantityText(amenity: Amenity) {
-  if (amenity.quantityStatus !== "official-page-verified") return amenity.label;
-  return `${amenity.quantity} ${(amenity.quantity === 1 ? amenity.label : `${amenity.label}s`).toLowerCase()}`;
-}
-function readableDate(value: string) { return new Intl.DateTimeFormat("en-US", { dateStyle: "medium" }).format(new Date(value.includes("T") ? value : `${value}T00:00:00`)); }
 function EvergreenSources({ record }: { record: EvergreenRecord }) {
-  const reviewed = <><span>Reviewed </span><time dateTime={record.review.reviewedAt}>{readableDate(record.review.reviewedAt)}</time></>;
+  const reviewed = <><span>Reviewed </span><time dateTime={record.review.reviewedAt}>{reviewedDateText(record.review.reviewedAt)}</time></>;
   if (record.sources.length === 1) {
     const source = record.sources[0];
     return <p className="usa-hint app-evergreen__sources app-evergreen__sources--single">Context from <a href={source.url} rel="external">{source.title} <span aria-hidden="true">↗</span></a> · {reviewed}</p>;
@@ -88,7 +84,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
     { id: "official", label: "Official information" },
     nearby.length ? { id: "nearby", label: "Nearby places" } : null
   ].filter((item): item is { id: string; label: string } => Boolean(item));
-  return <div className="app-destination-shell"><Suspense fallback={<LinkFallback />}><BackToResults /></Suspense><article className="app-destination">
+  return <div className="app-destination-shell"><Suspense fallback={null}><BackToResults /></Suspense><article className="app-destination">
     <header><p className="app-eyebrow">{destination.placeTypes.join(" · ")}</p><h1>{destination.publicName}</h1><p className="app-location">{[destination.neighborhood, destination.address].filter(Boolean).join(" · ")}</p></header>
     <nav className="app-page-nav" aria-label="On this page">
       <div className="app-page-nav__desktop"><strong>On this page</strong><ul>{pageLinks.map((link) => <li key={link.id}><a href={`#${link.id}`}>{link.label}</a></li>)}</ul></div>
@@ -105,13 +101,13 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
     </section>}
     {parkNotice && <ParkAlert notice={parkNotice} />}
     {destination.displayPoint && <DestinationMap name={destination.publicName} latitude={destination.displayPoint.latitude} longitude={destination.displayPoint.longitude} apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY} />}
-    <section id="amenities" aria-labelledby="amenities-title"><h2 id="amenities-title">What is listed here</h2><p className="usa-hint">{content.quantityNotice}</p><div className="app-amenity-groups">{groups.map(([id, items]) => <section key={id}><h3>{order.get(id)?.label ?? id}</h3><ul>{items.map((item) => <li key={`${item.category}-${item.label}`}>{quantityText(item)}</li>)}</ul></section>)}</div></section>
+    <section id="amenities" aria-labelledby="amenities-title"><h2 id="amenities-title">What is listed here</h2><p className="usa-hint">{content.quantityNotice}</p><div className="app-amenity-groups">{groups.map(([id, items]) => <section key={id}><h3>{order.get(id)?.label ?? id}</h3><ul>{items.map((item) => <li key={`${item.category}-${item.label}`}>{amenityQuantityText(item)}</li>)}</ul></section>)}</div></section>
     {showSubplaces && <section id="places" aria-labelledby="subplaces-title"><h2 id="subplaces-title">Places within this destination</h2><ul>{destination.subplaces.map((item) => <li key={`${item.type}-${item.id}`}><strong>{item.label}</strong> <span className="app-muted">({item.type})</span></li>)}</ul></section>}
     <NearbyTransit groups={transit} retrievedAt={transitDocument.source.retrievedAt} />
     <OfficialServicePathways amenities={destination.amenities} />
     <section className="app-official-actions" id="official" aria-labelledby="official-title">
       <h2 id="official-title">Official information and coverage</h2>
-      {destination.officialActions.length ? <><ul>{destination.officialActions.map((action) => { const definition = content.officialActions[action.type as keyof typeof content.officialActions]; return <li key={`${action.type}-${action.url}`}><a href={action.url} rel="external">{definition.label} <span aria-hidden="true">↗</span></a><p>Official SF Recreation and Parks website · Reviewed <time dateTime={action.reviewedAt}>{new Intl.DateTimeFormat("en-US", { dateStyle: "medium" }).format(new Date(`${action.reviewedAt}T00:00:00`))}</time></p></li>; })}</ul><p className="usa-hint">{content.handoffNotice}</p></> : <p>{content.emptyOfficialActions}</p>}
+      {destination.officialActions.length ? <><ul>{destination.officialActions.map((action) => { const definition = content.officialActions[action.type as keyof typeof content.officialActions]; return <li key={`${action.type}-${action.url}`}><a href={action.url} rel="external">{definition.label} <span aria-hidden="true">↗</span></a><p>Official SF Recreation and Parks website · Reviewed <time dateTime={action.reviewedAt}>{reviewedDateText(action.reviewedAt)}</time></p></li>; })}</ul><p className="usa-hint">{content.handoffNotice}</p></> : <p>{content.emptyOfficialActions}</p>}
       <div className="app-coverage-summary" aria-labelledby="coverage-detail-title"><h3 id="coverage-detail-title">About this page’s coverage</h3><p><strong>{coverage.shortLabel}</strong></p><p>{coverage.description}</p><p>{coverage.missingInformation}</p></div>
     </section>
     <NearbyDestinations destinations={nearby} />
@@ -120,10 +116,9 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
       <h2>Contributing San Francisco records</h2><ul>{destination.subplaces.map((item) => <li key={`${item.type}-${item.id}`}><strong>{item.label}</strong> — {item.type} ID {item.id}</li>)}</ul>
       {sourceAliases.length > 0 && <><h2>Other source names</h2><ul>{sourceAliases.map((alias) => <li key={alias}>{alias}</li>)}</ul></>}
       <h2>Amenity evidence</h2><ul>{destination.amenities.map((amenity) => <li key={`${amenity.category}-${amenity.label}`}><strong>{amenity.label}</strong> — {content.quantity[amenity.quantityStatus as keyof typeof content.quantity]}</li>)}</ul>
-      <h2>DataSF datasets</h2><ul className="app-source-list">{citySources.map((source) => <li key={source.id}><a href={source.sourceUrl} rel="external">{source.name} <span aria-hidden="true">↗</span></a><p>{source.attributionLabel} · Retrieved <time dateTime={retrievedAt.get(source.id)}>{readableDate(retrievedAt.get(source.id)!)}</time> · <a href={source.license.url}>License: {source.license.id}</a></p></li>)}</ul>
-      {destination.officialActions.length > 0 && <><h2>Reviewed official pages</h2><ul>{destination.officialActions.map((action) => <li key={action.url}><a href={action.url} rel="external">{content.officialActions[action.type as keyof typeof content.officialActions].label} <span aria-hidden="true">↗</span></a> — reviewed <time dateTime={action.reviewedAt}>{readableDate(action.reviewedAt)}</time></li>)}</ul></>}
+      <h2>DataSF datasets</h2><ul className="app-source-list">{citySources.map((source) => <li key={source.id}><a href={source.sourceUrl} rel="external">{source.name} <span aria-hidden="true">↗</span></a><p>{source.attributionLabel} · Retrieved <time dateTime={retrievedAt.get(source.id)}>{reviewedDateText(retrievedAt.get(source.id)!)}</time> · <a href={source.license.url}>License: {source.license.id}</a></p></li>)}</ul>
+      {destination.officialActions.length > 0 && <><h2>Reviewed official pages</h2><ul>{destination.officialActions.map((action) => <li key={action.url}><a href={action.url} rel="external">{content.officialActions[action.type as keyof typeof content.officialActions].label} <span aria-hidden="true">↗</span></a> — reviewed <time dateTime={action.reviewedAt}>{reviewedDateText(action.reviewedAt)}</time></li>)}</ul></>}
       {destination.presentationReview && <><h2>Presentation decision</h2><p>{destination.presentationReview.reason}</p></>}
     </div></details>
   </article></div>;
 }
-function LinkFallback() { return <a className="usa-back-link" href="/explore/">Back to results</a>; }

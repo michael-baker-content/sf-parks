@@ -1,8 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { explainFilterMatch, explainMatch, explainQueryMatch, filterAndRank, normalizeSearchText, scoreRecord } from "../src/lib/search.js";
-import { readState, stateUrl } from "../src/lib/url-state.js";
-import { resultFocusId, resultReturnPath } from "../src/lib/result-focus.js";
+import { readState, stateUrl, stateUrlWithout } from "../src/lib/url-state.js";
+import { resultFocusId, resultReturnPath, validResultReturnPath } from "../src/lib/result-focus.js";
 import { googleMapsDirectionsUrl, googleMapsEmbedUrl, googleMapsSearchUrl } from "../src/lib/maps.js";
 import { searchUrl } from "../src/lib/search-url.js";
 import { RESULTS_PAGE_SIZE } from "../src/lib/pagination.js";
@@ -43,6 +43,9 @@ test("URL state preserves repeatable filters", () => {
   assert.match(stateUrl(state, state), /area=sunset-westside/);
   assert.match(stateUrl(state, state), /minAmenities=5/);
   assert.match(stateUrl(state, state), /minAcres=1.5/);
+  assert.equal(stateUrl({}, readState("")), "/explore/");
+  assert.doesNotMatch(stateUrlWithout(state, "amenity", "restrooms"), /amenity=restrooms/);
+  assert.match(stateUrlWithout(state, "amenity", "restrooms"), /amenity=tennis-court/);
 });
 
 test("global search reuses the Explore query URL", () => {
@@ -123,6 +126,9 @@ test("result return state identifies the originating destination", () => {
   assert.equal(resultReturnPath("q=tennis&activity=play-sports&page=2", "golden-gate-park"),
     "/explore/?q=tennis&activity=play-sports&page=2&focus=golden-gate-park");
   assert.equal(resultFocusId("golden-gate-park"), "result-golden-gate-park");
+  assert.equal(validResultReturnPath("/explore/?q=tennis&focus=golden-gate-park"), "/explore/?q=tennis&focus=golden-gate-park");
+  assert.equal(validResultReturnPath(null), null);
+  assert.equal(validResultReturnPath("https://example.com/explore/"), null);
 });
 
 test("map links use explicit destination coordinates", () => {
