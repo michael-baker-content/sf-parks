@@ -24,7 +24,7 @@ const featuredParks = featuredIds.filter((id) => mediaManifest.images.some((item
 }));
 
 export default function HomePage() {
-  const heroImage = resolveMediaAsset("/media/park-image-placeholder.png", 1536, 1024);
+  const heroImage = resolveMediaAsset("/media/park-image-placeholder.png", 2048, 1536);
   return <>
     <section className="app-hero app-hero--image" aria-labelledby="home-title" style={{ "--app-hero-image": `url("${heroImage.src}")` } as React.CSSProperties}>
       <p className="app-eyebrow">Independent public-data prototype</p>

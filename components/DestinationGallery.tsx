@@ -18,11 +18,11 @@ export function DestinationGallery({ name, images, placeholder }: { name: string
           sizes="(max-width: 62rem) 100vw, 62rem"
           width={placeholder.width}
           height={placeholder.height}
-          alt="Illustration of a landscaped hillside park with a curving path, trees, benches, and bay water under coastal fog."
+          alt="Wide lawn at Fort Mason Park with trees, San Francisco Bay, and the Golden Gate Bridge in the distance."
         />
       </div>
       <figcaption>
-        <p>Placeholder illustration representing San Francisco parkland. A location-specific photo is not yet available.</p>
+        <p>Fort Mason Park lawn with the Golden Gate Bridge in the distance. Photo by Michael Baker. A location-specific photo is not yet available.</p>
       </figcaption>
     </figure>
   </section>;

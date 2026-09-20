@@ -2,6 +2,20 @@
 
 Living source document for a future PowerPoint or PDF case study.  
 
+## Session update: a location-neutral photographic fallback
+
+- Replaced the generated placeholder illustration with an original photograph
+  taken at Fort Mason Park, showing a broad lawn, San Francisco Bay, and the
+  Golden Gate Bridge. Fort Mason is outside the destination catalog, so the
+  image provides regional context without doubling as a destination's own
+  gallery photograph.
+- Kept the stable placeholder identifier while publishing new content-hashed,
+  responsive WebP variants through Vercel Blob. This updated the homepage hero,
+  About page, default blog cards, and destinations awaiting their own imagery
+  without duplicating image references.
+- Updated alternative text, visible captions, dimensions, and photographer
+  credit so none of the former illustration language remains in the interface.
+
 ## Session update: faster, more consistent Explore controls
 
 - Reworked filters as a centered, accessible dialog on smaller screens and a

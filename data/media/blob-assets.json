@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "provider": "vercel-blob",
-  "generatedAt": "2026-09-18T18:34:56.369Z",
+  "generatedAt": "2026-09-20T22:04:25.285Z",
   "assets": [
     {
       "localPath": "/media/alamo-square-01.jpg",
@@ -42,6 +42,44 @@
       ]
     },
     {
+      "localPath": "/media/allyne-park-6240b7e7-4d51-4464-8237-39792bd90800.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 104244,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/allyne-park-6240b7e7-4d51-4464-8237-39792bd90800/07b361d49230/640.webp",
+          "pathname": "media/allyne-park-6240b7e7-4d51-4464-8237-39792bd90800/07b361d49230/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 424180,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/allyne-park-6240b7e7-4d51-4464-8237-39792bd90800/07b361d49230/1280.webp",
+          "pathname": "media/allyne-park-6240b7e7-4d51-4464-8237-39792bd90800/07b361d49230/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/allyne-park-e382b9ec-b938-481f-9e11-41845b3e13c9.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 98392,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/allyne-park-e382b9ec-b938-481f-9e11-41845b3e13c9/bf8f383a28cc/640.webp",
+          "pathname": "media/allyne-park-e382b9ec-b938-481f-9e11-41845b3e13c9/bf8f383a28cc/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 383216,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/allyne-park-e382b9ec-b938-481f-9e11-41845b3e13c9/bf8f383a28cc/1280.webp",
+          "pathname": "media/allyne-park-e382b9ec-b938-481f-9e11-41845b3e13c9/bf8f383a28cc/1280.webp"
+        }
+      ]
+    },
+    {
       "localPath": "/media/alta-plaza-park-01.jpg",
       "variants": [
         {
@@ -57,6 +95,25 @@
           "bytes": 231096,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/alta-plaza-park-01/00255a2b580b/1280.webp",
           "pathname": "media/alta-plaza-park-01/00255a2b580b/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/betty-ann-ong-rec-center-56eabd2c-9467-4adc-9ffd-c415a92d4ef8.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 39984,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/betty-ann-ong-rec-center-56eabd2c-9467-4adc-9ffd-c415a92d4ef8/5fa074ca606e/640.webp",
+          "pathname": "media/betty-ann-ong-rec-center-56eabd2c-9467-4adc-9ffd-c415a92d4ef8/5fa074ca606e/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 107288,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/betty-ann-ong-rec-center-56eabd2c-9467-4adc-9ffd-c415a92d4ef8/5fa074ca606e/1280.webp",
+          "pathname": "media/betty-ann-ong-rec-center-56eabd2c-9467-4adc-9ffd-c415a92d4ef8/5fa074ca606e/1280.webp"
         }
       ]
     },
@@ -251,6 +308,44 @@
       ]
     },
     {
+      "localPath": "/media/collis-p-huntington-park-177754bb-f750-4c3b-820d-7ab8c0c52049.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 50578,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/collis-p-huntington-park-177754bb-f750-4c3b-820d-7ab8c0c52049/24b03936393f/640.webp",
+          "pathname": "media/collis-p-huntington-park-177754bb-f750-4c3b-820d-7ab8c0c52049/24b03936393f/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 194388,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/collis-p-huntington-park-177754bb-f750-4c3b-820d-7ab8c0c52049/24b03936393f/1280.webp",
+          "pathname": "media/collis-p-huntington-park-177754bb-f750-4c3b-820d-7ab8c0c52049/24b03936393f/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/collis-p-huntington-park-22245ecb-9c46-4ef8-a886-b729bf6b651d.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 68278,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/collis-p-huntington-park-22245ecb-9c46-4ef8-a886-b729bf6b651d/e134c3e5f0b3/640.webp",
+          "pathname": "media/collis-p-huntington-park-22245ecb-9c46-4ef8-a886-b729bf6b651d/e134c3e5f0b3/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 230040,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/collis-p-huntington-park-22245ecb-9c46-4ef8-a886-b729bf6b651d/e134c3e5f0b3/1280.webp",
+          "pathname": "media/collis-p-huntington-park-22245ecb-9c46-4ef8-a886-b729bf6b651d/e134c3e5f0b3/1280.webp"
+        }
+      ]
+    },
+    {
       "localPath": "/media/duboce-park-01.jpg",
       "variants": [
         {
@@ -266,6 +361,25 @@
           "bytes": 295324,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/duboce-park-01/2381fc2c136a/1280.webp",
           "pathname": "media/duboce-park-01/2381fc2c136a/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 73012,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/640.webp",
+          "pathname": "media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 279474,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/1280.webp",
+          "pathname": "media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/1280.webp"
         }
       ]
     },
@@ -304,6 +418,44 @@
           "bytes": 311718,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-park-02/29e573283fad/1280.webp",
           "pathname": "media/golden-gate-park-02/29e573283fad/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/helen-wills-playground-248da0e2-3a0d-4fc6-a756-e60bd2234bcf.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 39114,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/helen-wills-playground-248da0e2-3a0d-4fc6-a756-e60bd2234bcf/4360bb565a57/640.webp",
+          "pathname": "media/helen-wills-playground-248da0e2-3a0d-4fc6-a756-e60bd2234bcf/4360bb565a57/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 138380,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/helen-wills-playground-248da0e2-3a0d-4fc6-a756-e60bd2234bcf/4360bb565a57/1280.webp",
+          "pathname": "media/helen-wills-playground-248da0e2-3a0d-4fc6-a756-e60bd2234bcf/4360bb565a57/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/helen-wills-playground-91439b91-8617-41f2-ab97-82e8ecb62221.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 80942,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/helen-wills-playground-91439b91-8617-41f2-ab97-82e8ecb62221/90d2e1389758/640.webp",
+          "pathname": "media/helen-wills-playground-91439b91-8617-41f2-ab97-82e8ecb62221/90d2e1389758/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 322840,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/helen-wills-playground-91439b91-8617-41f2-ab97-82e8ecb62221/90d2e1389758/1280.webp",
+          "pathname": "media/helen-wills-playground-91439b91-8617-41f2-ab97-82e8ecb62221/90d2e1389758/1280.webp"
         }
       ]
     },
@@ -578,17 +730,17 @@
       "variants": [
         {
           "width": 640,
-          "height": 427,
-          "bytes": 57320,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/park-image-placeholder/c3fc391cfb71/640.webp",
-          "pathname": "media/park-image-placeholder/c3fc391cfb71/640.webp"
+          "height": 480,
+          "bytes": 55630,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/park-image-placeholder/f812c8e2b06a/640.webp",
+          "pathname": "media/park-image-placeholder/f812c8e2b06a/640.webp"
         },
         {
           "width": 1280,
-          "height": 853,
-          "bytes": 167068,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/park-image-placeholder/c3fc391cfb71/1280.webp",
-          "pathname": "media/park-image-placeholder/c3fc391cfb71/1280.webp"
+          "height": 960,
+          "bytes": 227210,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/park-image-placeholder/f812c8e2b06a/1280.webp",
+          "pathname": "media/park-image-placeholder/f812c8e2b06a/1280.webp"
         }
       ]
     },
@@ -662,6 +814,25 @@
       ]
     },
     {
+      "localPath": "/media/portsmouth-square-2cba9032-4dca-42bc-a810-095aac85e396.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 853,
+          "bytes": 127164,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/portsmouth-square-2cba9032-4dca-42bc-a810-095aac85e396/3452c3af05cf/640.webp",
+          "pathname": "media/portsmouth-square-2cba9032-4dca-42bc-a810-095aac85e396/3452c3af05cf/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 1707,
+          "bytes": 442688,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/portsmouth-square-2cba9032-4dca-42bc-a810-095aac85e396/3452c3af05cf/1280.webp",
+          "pathname": "media/portsmouth-square-2cba9032-4dca-42bc-a810-095aac85e396/3452c3af05cf/1280.webp"
+        }
+      ]
+    },
+    {
       "localPath": "/media/programs-pickleball-watercolor.jpg",
       "variants": [
         {
@@ -715,6 +886,82 @@
           "bytes": 462034,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sigmund-stern-recreation-grove-01/d43c78744e30/1280.webp",
           "pathname": "media/sigmund-stern-recreation-grove-01/d43c78744e30/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/st-mary-s-square-00fd5435-4b64-4a3d-8e9b-2ec3c1fea6be.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 98898,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/st-mary-s-square-00fd5435-4b64-4a3d-8e9b-2ec3c1fea6be/cd1396d0b6f7/640.webp",
+          "pathname": "media/st-mary-s-square-00fd5435-4b64-4a3d-8e9b-2ec3c1fea6be/cd1396d0b6f7/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 404338,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/st-mary-s-square-00fd5435-4b64-4a3d-8e9b-2ec3c1fea6be/cd1396d0b6f7/1280.webp",
+          "pathname": "media/st-mary-s-square-00fd5435-4b64-4a3d-8e9b-2ec3c1fea6be/cd1396d0b6f7/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/st-mary-s-square-5df0b77c-10a5-4e64-b2b7-36001aa6d39e.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 474,
+          "bytes": 77628,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/st-mary-s-square-5df0b77c-10a5-4e64-b2b7-36001aa6d39e/280b2f07cbfe/640.webp",
+          "pathname": "media/st-mary-s-square-5df0b77c-10a5-4e64-b2b7-36001aa6d39e/280b2f07cbfe/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 948,
+          "bytes": 263550,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/st-mary-s-square-5df0b77c-10a5-4e64-b2b7-36001aa6d39e/280b2f07cbfe/1280.webp",
+          "pathname": "media/st-mary-s-square-5df0b77c-10a5-4e64-b2b7-36001aa6d39e/280b2f07cbfe/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 74888,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/640.webp",
+          "pathname": "media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 248752,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/1280.webp",
+          "pathname": "media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 61568,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/640.webp",
+          "pathname": "media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 227314,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/1280.webp",
+          "pathname": "media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/1280.webp"
         }
       ]
     },
@@ -795,6 +1042,82 @@
       ]
     },
     {
+      "localPath": "/media/washington-hyde-mini-park-2a7b69c4-117e-40c3-85a0-155fce7e7088.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 57136,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/washington-hyde-mini-park-2a7b69c4-117e-40c3-85a0-155fce7e7088/82bde3fcb298/640.webp",
+          "pathname": "media/washington-hyde-mini-park-2a7b69c4-117e-40c3-85a0-155fce7e7088/82bde3fcb298/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 188002,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/washington-hyde-mini-park-2a7b69c4-117e-40c3-85a0-155fce7e7088/82bde3fcb298/1280.webp",
+          "pathname": "media/washington-hyde-mini-park-2a7b69c4-117e-40c3-85a0-155fce7e7088/82bde3fcb298/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/washington-hyde-mini-park-c8e1f9c2-958b-4126-b835-f8ff7c5cc61b.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 50182,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/washington-hyde-mini-park-c8e1f9c2-958b-4126-b835-f8ff7c5cc61b/fff5753ef7c9/640.webp",
+          "pathname": "media/washington-hyde-mini-park-c8e1f9c2-958b-4126-b835-f8ff7c5cc61b/fff5753ef7c9/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 175756,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/washington-hyde-mini-park-c8e1f9c2-958b-4126-b835-f8ff7c5cc61b/fff5753ef7c9/1280.webp",
+          "pathname": "media/washington-hyde-mini-park-c8e1f9c2-958b-4126-b835-f8ff7c5cc61b/fff5753ef7c9/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/willie-woo-woo-wong-playground-0d393780-fdbe-4eab-aee9-456a145a2144.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 67752,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willie-woo-woo-wong-playground-0d393780-fdbe-4eab-aee9-456a145a2144/d61ad536abcf/640.webp",
+          "pathname": "media/willie-woo-woo-wong-playground-0d393780-fdbe-4eab-aee9-456a145a2144/d61ad536abcf/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 222672,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willie-woo-woo-wong-playground-0d393780-fdbe-4eab-aee9-456a145a2144/d61ad536abcf/1280.webp",
+          "pathname": "media/willie-woo-woo-wong-playground-0d393780-fdbe-4eab-aee9-456a145a2144/d61ad536abcf/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/willie-woo-woo-wong-playground-f82f144e-89b6-474d-8ab1-0360f63ef5a9.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 49748,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willie-woo-woo-wong-playground-f82f144e-89b6-474d-8ab1-0360f63ef5a9/25aff100597c/640.webp",
+          "pathname": "media/willie-woo-woo-wong-playground-f82f144e-89b6-474d-8ab1-0360f63ef5a9/25aff100597c/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 193528,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willie-woo-woo-wong-playground-f82f144e-89b6-474d-8ab1-0360f63ef5a9/25aff100597c/1280.webp",
+          "pathname": "media/willie-woo-woo-wong-playground-f82f144e-89b6-474d-8ab1-0360f63ef5a9/25aff100597c/1280.webp"
+        }
+      ]
+    },
+    {
       "localPath": "/media/willow-bridge-gardens-01.jpg",
       "variants": [
         {
@@ -810,63 +1133,6 @@
           "bytes": 201556,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willow-bridge-gardens-01/c70a2c5e5ad5/1280.webp",
           "pathname": "media/willow-bridge-gardens-01/c70a2c5e5ad5/1280.webp"
-        }
-      ]
-    },
-    {
-      "localPath": "/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb.jpg",
-      "variants": [
-        {
-          "width": 640,
-          "height": 480,
-          "bytes": 73012,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/640.webp",
-          "pathname": "media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/640.webp"
-        },
-        {
-          "width": 1280,
-          "height": 960,
-          "bytes": 279474,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/1280.webp",
-          "pathname": "media/embarcadero-plaza-b55b95a5-1f2d-4134-af1d-e0207b1a0ebb/7e443a07b736/1280.webp"
-        }
-      ]
-    },
-    {
-      "localPath": "/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a.jpg",
-      "variants": [
-        {
-          "width": 640,
-          "height": 480,
-          "bytes": 61568,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/640.webp",
-          "pathname": "media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/640.webp"
-        },
-        {
-          "width": 1280,
-          "height": 960,
-          "bytes": 227314,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/1280.webp",
-          "pathname": "media/sue-bierman-park-f4e5289e-05aa-4d9d-a444-5820b78a1f1a/88468b786efc/1280.webp"
-        }
-      ]
-    },
-    {
-      "localPath": "/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a.jpg",
-      "variants": [
-        {
-          "width": 640,
-          "height": 480,
-          "bytes": 74888,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/640.webp",
-          "pathname": "media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/640.webp"
-        },
-        {
-          "width": 1280,
-          "height": 960,
-          "bytes": 248752,
-          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/1280.webp",
-          "pathname": "media/sue-bierman-park-05ce2718-157e-4cf6-a595-6c9bae57ca7a/cbd9c79e9eb5/1280.webp"
         }
       ]
     }

@@ -4,7 +4,7 @@ import { resolveMediaAsset } from "../../src/lib/media-delivery.js";
 export const metadata = { title: "About the data" };
 
 export default function AboutPage() {
-  const placeholder = resolveMediaAsset("/media/park-image-placeholder.png", 1536, 1024);
+  const placeholder = resolveMediaAsset("/media/park-image-placeholder.png", 2048, 1536);
   return <article className="app-about">
     <header className="app-about__header">
       <p className="app-eyebrow">About this project</p>
@@ -19,9 +19,9 @@ export default function AboutPage() {
         sizes="(max-width: 68rem) 100vw, 68rem"
         width={placeholder.width}
         height={placeholder.height}
-        alt="Illustration of a landscaped hillside park with a curving path, trees, benches, and bay water under coastal fog."
+        alt="Wide lawn at Fort Mason Park with trees, San Francisco Bay, and the Golden Gate Bridge in the distance."
       />
-      <figcaption>Placeholder illustration representing San Francisco parkland.</figcaption>
+      <figcaption>Fort Mason Park lawn with the Golden Gate Bridge in the distance. Photo by Michael Baker.</figcaption>
     </figure>
 
     <div className="app-about__grid">

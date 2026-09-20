@@ -4,7 +4,7 @@ import { resolveRequiredMediaAsset } from "./media-delivery.js";
 
 export const defaultBlogImage = {
   path: "/media/park-image-placeholder.png",
-  alt: "Illustration of a landscaped hillside park with a curving path, trees, benches, and bay water under coastal fog.",
+  alt: "Wide lawn at Fort Mason Park with trees, San Francisco Bay, and the Golden Gate Bridge in the distance.",
 };
 
 export function getBlogPosts() {

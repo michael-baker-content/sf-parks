@@ -43,8 +43,8 @@
 
 ## Completed: homepage visual entry
 
-- Added a full-width hero using the generated park illustration as a temporary
-  background with a contrast overlay.
+- Added a full-width hero using a location-neutral Fort Mason park photograph
+  as the shared regional fallback, with a contrast overlay.
 - The hero now ends with its content rather than filling the first mobile
   viewport. Opening header Search or Menu temporarily dims it with a short
   transition that respects reduced-motion preferences.

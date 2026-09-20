@@ -16,6 +16,15 @@
       "expiresOn": "2026-11-01",
       "url": "https://www.sfrecpark.org/m/newsflash/Home/Detail/3053",
       "urlText": "Sue Bierman Park Renovation | Notice of Tree Removals"
+    },
+    {
+      "destinationId": "portsmouth-square",
+      "active": true,
+      "title": "Portsmouth Square is closed for renovation through mid-2028",
+      "body": "The park, located above the Portsmouth Square parking garage, will receive a complete renovation.",
+      "expiresOn": "2028-07-01",
+      "url": "https://sfrecpark.org/1166/Portsmouth-Square-Improvement-Project",
+      "urlText": "Portsmouth Square Improvement Project"
     }
   ]
 }

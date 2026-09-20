@@ -68,7 +68,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ id
     .filter((image) => image.destinationId === destination.id && (image as { visible?: boolean }).visible !== false)
     .sort((a, b) => a.position - b.position)
     .map((image) => ({ ...image, ...resolveMediaAsset(image.localPath, image.width, image.height) }));
-  const placeholder = resolveMediaAsset("/media/park-image-placeholder.png", 1536, 1024);
+  const placeholder = resolveMediaAsset("/media/park-image-placeholder.png", 2048, 1536);
   const evergreen = evergreenByDestination.get(destination.id);
   const parkNotice = getActiveParkNotice(parkAlerts, destination.id);
   const nearby = nearbyDestinations(destinationsDocument.records, destination.id);
