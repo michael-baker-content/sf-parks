@@ -13341,10 +13341,10 @@
       }
     },
     {
-      "id": "noe-valley-courts",
-      "publicName": "Noe Valley Courts",
+      "id": "noe-valley-park",
+      "publicName": "Noe Valley Park",
       "normalized": {
-        "publicName": "noe valley courts",
+        "publicName": "noe valley park",
         "aliases": [
           "72",
           "noe valley courts"
@@ -13366,7 +13366,7 @@
           "restrooms",
           "tennis court"
         ],
-        "combined": "noe valley courts 72 noe valley courts noe valley 780 douglass st 94114 basketball court bench children s play area childrens play area drinking fountain interior restroom official webpage picnic area play structure restroom restrooms tennis court"
+        "combined": "noe valley park 72 noe valley courts noe valley 780 douglass st 94114 basketball court bench children s play area childrens play area drinking fountain interior restroom official webpage picnic area play structure restroom restrooms tennis court"
       },
       "filters": {
         "activityIds": [

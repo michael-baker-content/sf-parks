@@ -66,7 +66,14 @@ export async function openStore(root) {
       if (!ids.has(value.destinationId) || !Array.isArray(value.images)) throw new Error("Invalid park image collection.");
       const document = await read(files.media);
       const current = document.images.filter((image) => image.destinationId === value.destinationId);
-      if (value.images.length !== current.length || new Set(value.images.map((image) => image.localPath)).size !== current.length) throw new Error("Save must include each existing park image exactly once.");
+      const submittedPaths = new Set(value.images.map((image) => image.localPath));
+      if (submittedPaths.size !== value.images.length || value.images.some((image) => !current.some((item) => item.localPath === image.localPath))) throw new Error("Image changes contain an unknown or duplicate image.");
+      const removed = current.filter((image) => !submittedPaths.has(image.localPath));
+      if (removed.length) {
+        const posts = await blogs();
+        const references = removed.flatMap((image) => posts.filter((post) => post.markdown.includes(image.localPath)).map((post) => `${image.localPath} in ${post.slug}`));
+        if (references.length) throw new Error(`Remove these image references from the listed blog posts before removing the catalog entries: ${references.join(", ")}.`);
+      }
       const updates = new Map(value.images.map((image, index) => {
         const original = current.find((item) => item.localPath === image.localPath);
         if (!original || typeof image.visible !== "boolean") throw new Error("Invalid image identity or visibility.");
@@ -74,10 +81,13 @@ export async function openStore(root) {
         if (original.sourceType === "project-original") { updated.licenseId = text(image.licenseId, "License"); updated.licenseUrl = text(image.licenseUrl, "License URL"); }
         return [original.localPath, updated];
       }));
-      document.images = document.images.map((image) => updates.get(image.localPath) ?? image);
+      const removedPaths = new Set(removed.map((image) => image.localPath));
+      document.images = document.images.filter((image) => !removedPaths.has(image.localPath)).map((image) => updates.get(image.localPath) ?? image);
       assertManifest(document);
       await jsonSave(files.media, document);
       for (const image of updates.values()) recordEdit("image", image.localPath, image);
+      for (const image of removed) recordEdit("image", image.localPath, { ...image, removed: true, removedAt: new Date().toISOString() });
+      return { removed: removed.map((image) => image.localPath) };
     },
     async saveBlog(value) {
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value.slug ?? "")) throw new Error("Use a lowercase, hyphen-separated blog filename.");

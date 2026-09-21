@@ -20,8 +20,9 @@ no account/login system.
   remains valid through the end of that day in San Francisco. Public notices
   check expiration on page load and every minute, even on the static site.
 - All cataloged photographs, including original and second-party images:
-  captions, alt text, creator/attribution, visibility, and gallery order.
-  Existing external licenses are read-only; contributor licenses are editable.
+  captions, alt text, creator/attribution, visibility, gallery order, and
+  removal from the catalog. Existing external licenses are read-only;
+  contributor licenses are editable.
 - Blog posts: one Markdown file per post, including existing cover/gallery
   frontmatter. Full schema validation happens during the production build.
 
@@ -42,7 +43,10 @@ production build, then commit/push and deploy normally. Expired notice anchors
 may remain in older static builds until the next deployment, but the notice
 body is hidden. Hide/reorder operations never delete Blob files. Hidden park
 photographs are also excluded from blog galleries and featured cards; a hidden
-blog cover uses the default illustration.
+blog cover uses the default regional photograph. Removing an image deletes its
+media-manifest entry after confirmation but retains its Blob registry entry and
+public Blob file for recovery. The editor blocks removal while a blog post
+still references that image path.
 
 The local editor is the sole photo metadata review workflow. The former CSV
 and its scripts have been retired. All 40 CSV entries matched the current

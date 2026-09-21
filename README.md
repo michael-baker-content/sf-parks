@@ -48,7 +48,7 @@ individual static pages during the next build.
 - 198 destinations with approved evergreen narrative records; the broader
   enriched total also includes reviewed facility-directory features
 - 3,314 transit stops and stations across 85 routes
-- 57 approved images across 32 destinations, with a generic regional
+- 70 approved images across 38 destinations, with a generic regional
   photograph used elsewhere rather than an unverified location image
 - 2 generated editorial illustrations supporting the programs and reservations
   guide
@@ -124,9 +124,10 @@ catalog to interactive browser components. After upload and verification,
 archive the source photographs outside the repository and clear the local
 intake directory; the application does not require those source files.
 
-Manage captions, alt text, credits, visibility, and gallery order in the
-[local editor](docs/local-editor.md). All cataloged photographs appear there,
-including new uploads. The CSV review workflow has been retired.
+Manage captions, alt text, credits, visibility, gallery order, and catalog
+removal in the [local editor](docs/local-editor.md). Removing an entry retains
+its public Blob file for recovery. All cataloged photographs appear in the
+editor, including new uploads. The CSV review workflow has been retired.
 
 Blog posts use the Fort Mason regional park photograph by default. To choose
 another reviewed Blob asset for a post card, add its stable registry path and

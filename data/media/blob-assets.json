@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "provider": "vercel-blob",
-  "generatedAt": "2026-09-20T22:04:25.285Z",
+  "generatedAt": "2026-09-21T00:30:58.836Z",
   "assets": [
     {
       "localPath": "/media/alamo-square-01.jpg",
@@ -1133,6 +1133,481 @@
           "bytes": 201556,
           "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/willow-bridge-gardens-01/c70a2c5e5ad5/1280.webp",
           "pathname": "media/willow-bridge-gardens-01/c70a2c5e5ad5/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/corona-heights-park-b28c0198-6b94-4b6d-888c-95df82d7e4c4.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 70484,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/corona-heights-park-b28c0198-6b94-4b6d-888c-95df82d7e4c4/bc4ae013ce1c/640.webp",
+          "pathname": "media/corona-heights-park-b28c0198-6b94-4b6d-888c-95df82d7e4c4/bc4ae013ce1c/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 289914,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/corona-heights-park-b28c0198-6b94-4b6d-888c-95df82d7e4c4/bc4ae013ce1c/1280.webp",
+          "pathname": "media/corona-heights-park-b28c0198-6b94-4b6d-888c-95df82d7e4c4/bc4ae013ce1c/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/corona-heights-park-bf1fe5d3-92e3-4491-8cf3-6d42444505cb.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 59648,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/corona-heights-park-bf1fe5d3-92e3-4491-8cf3-6d42444505cb/a01cdef33bcc/640.webp",
+          "pathname": "media/corona-heights-park-bf1fe5d3-92e3-4491-8cf3-6d42444505cb/a01cdef33bcc/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 234798,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/corona-heights-park-bf1fe5d3-92e3-4491-8cf3-6d42444505cb/a01cdef33bcc/1280.webp",
+          "pathname": "media/corona-heights-park-bf1fe5d3-92e3-4491-8cf3-6d42444505cb/a01cdef33bcc/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/corona-heights-park-1be44b20-a6eb-42a6-9eba-6dd466eeaf5b.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 43202,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/corona-heights-park-1be44b20-a6eb-42a6-9eba-6dd466eeaf5b/98602403b37a/640.webp",
+          "pathname": "media/corona-heights-park-1be44b20-a6eb-42a6-9eba-6dd466eeaf5b/98602403b37a/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 198340,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/corona-heights-park-1be44b20-a6eb-42a6-9eba-6dd466eeaf5b/98602403b37a/1280.webp",
+          "pathname": "media/corona-heights-park-1be44b20-a6eb-42a6-9eba-6dd466eeaf5b/98602403b37a/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/douglass-playground-9ce2228e-d666-4faa-856c-070f755c2c69.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 59952,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/douglass-playground-9ce2228e-d666-4faa-856c-070f755c2c69/48128641c5cd/640.webp",
+          "pathname": "media/douglass-playground-9ce2228e-d666-4faa-856c-070f755c2c69/48128641c5cd/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 226504,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/douglass-playground-9ce2228e-d666-4faa-856c-070f755c2c69/48128641c5cd/1280.webp",
+          "pathname": "media/douglass-playground-9ce2228e-d666-4faa-856c-070f755c2c69/48128641c5cd/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/golden-gate-heights-park-91e74643-f9bf-465c-8dfd-f2071c3cdaba.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 64590,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-91e74643-f9bf-465c-8dfd-f2071c3cdaba/edea6d0f003c/640.webp",
+          "pathname": "media/golden-gate-heights-park-91e74643-f9bf-465c-8dfd-f2071c3cdaba/edea6d0f003c/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 217760,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-91e74643-f9bf-465c-8dfd-f2071c3cdaba/edea6d0f003c/1280.webp",
+          "pathname": "media/golden-gate-heights-park-91e74643-f9bf-465c-8dfd-f2071c3cdaba/edea6d0f003c/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/golden-gate-heights-park-cef9713b-a67f-43fc-aaa6-233928152919.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 482,
+          "bytes": 68100,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-cef9713b-a67f-43fc-aaa6-233928152919/682d18e6463f/640.webp",
+          "pathname": "media/golden-gate-heights-park-cef9713b-a67f-43fc-aaa6-233928152919/682d18e6463f/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 965,
+          "bytes": 220842,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-cef9713b-a67f-43fc-aaa6-233928152919/682d18e6463f/1280.webp",
+          "pathname": "media/golden-gate-heights-park-cef9713b-a67f-43fc-aaa6-233928152919/682d18e6463f/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/golden-gate-heights-park-72ed517e-c6bf-4d34-8f6e-09a36da85c6c.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 94962,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-72ed517e-c6bf-4d34-8f6e-09a36da85c6c/f9562da7eb9b/640.webp",
+          "pathname": "media/golden-gate-heights-park-72ed517e-c6bf-4d34-8f6e-09a36da85c6c/f9562da7eb9b/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 340286,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-72ed517e-c6bf-4d34-8f6e-09a36da85c6c/f9562da7eb9b/1280.webp",
+          "pathname": "media/golden-gate-heights-park-72ed517e-c6bf-4d34-8f6e-09a36da85c6c/f9562da7eb9b/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/golden-gate-heights-park-0ab15a07-9fd8-4159-a3f2-73fe49b99cb8.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 58148,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-0ab15a07-9fd8-4159-a3f2-73fe49b99cb8/ee1a77294a52/640.webp",
+          "pathname": "media/golden-gate-heights-park-0ab15a07-9fd8-4159-a3f2-73fe49b99cb8/ee1a77294a52/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 959,
+          "bytes": 203596,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/golden-gate-heights-park-0ab15a07-9fd8-4159-a3f2-73fe49b99cb8/ee1a77294a52/1280.webp",
+          "pathname": "media/golden-gate-heights-park-0ab15a07-9fd8-4159-a3f2-73fe49b99cb8/ee1a77294a52/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/hawk-hill-47e79246-81a0-4828-b281-7d413f0e2325.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 80796,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/hawk-hill-47e79246-81a0-4828-b281-7d413f0e2325/e644c709e809/640.webp",
+          "pathname": "media/hawk-hill-47e79246-81a0-4828-b281-7d413f0e2325/e644c709e809/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 305754,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/hawk-hill-47e79246-81a0-4828-b281-7d413f0e2325/e644c709e809/1280.webp",
+          "pathname": "media/hawk-hill-47e79246-81a0-4828-b281-7d413f0e2325/e644c709e809/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/hawk-hill-f1ec0a1b-2d23-422c-88d9-a6fe2398a7f7.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 58020,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/hawk-hill-f1ec0a1b-2d23-422c-88d9-a6fe2398a7f7/aed6b9d32218/640.webp",
+          "pathname": "media/hawk-hill-f1ec0a1b-2d23-422c-88d9-a6fe2398a7f7/aed6b9d32218/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 205294,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/hawk-hill-f1ec0a1b-2d23-422c-88d9-a6fe2398a7f7/aed6b9d32218/1280.webp",
+          "pathname": "media/hawk-hill-f1ec0a1b-2d23-422c-88d9-a6fe2398a7f7/aed6b9d32218/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/hawk-hill-6826645a-6b59-4016-a665-24c19ca3375c.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 71932,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/hawk-hill-6826645a-6b59-4016-a665-24c19ca3375c/2877acf4dd40/640.webp",
+          "pathname": "media/hawk-hill-6826645a-6b59-4016-a665-24c19ca3375c/2877acf4dd40/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 265284,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/hawk-hill-6826645a-6b59-4016-a665-24c19ca3375c/2877acf4dd40/1280.webp",
+          "pathname": "media/hawk-hill-6826645a-6b59-4016-a665-24c19ca3375c/2877acf4dd40/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/j-p-murphy-playground-590b86e7-ea89-45cd-bc45-dfada48c91e8.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 84646,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/j-p-murphy-playground-590b86e7-ea89-45cd-bc45-dfada48c91e8/c066dc346430/640.webp",
+          "pathname": "media/j-p-murphy-playground-590b86e7-ea89-45cd-bc45-dfada48c91e8/c066dc346430/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 329726,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/j-p-murphy-playground-590b86e7-ea89-45cd-bc45-dfada48c91e8/c066dc346430/1280.webp",
+          "pathname": "media/j-p-murphy-playground-590b86e7-ea89-45cd-bc45-dfada48c91e8/c066dc346430/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/j-p-murphy-playground-0273760a-55af-4ce1-9ad9-e3f023da5a6d.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 96078,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/j-p-murphy-playground-0273760a-55af-4ce1-9ad9-e3f023da5a6d/cfb69ed45b09/640.webp",
+          "pathname": "media/j-p-murphy-playground-0273760a-55af-4ce1-9ad9-e3f023da5a6d/cfb69ed45b09/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 409090,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/j-p-murphy-playground-0273760a-55af-4ce1-9ad9-e3f023da5a6d/cfb69ed45b09/1280.webp",
+          "pathname": "media/j-p-murphy-playground-0273760a-55af-4ce1-9ad9-e3f023da5a6d/cfb69ed45b09/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/mission-playground-38e4370c-3567-400f-a6b6-84fb0ef8c0e2.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 69516,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/mission-playground-38e4370c-3567-400f-a6b6-84fb0ef8c0e2/f367ebb1b07a/640.webp",
+          "pathname": "media/mission-playground-38e4370c-3567-400f-a6b6-84fb0ef8c0e2/f367ebb1b07a/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 260702,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/mission-playground-38e4370c-3567-400f-a6b6-84fb0ef8c0e2/f367ebb1b07a/1280.webp",
+          "pathname": "media/mission-playground-38e4370c-3567-400f-a6b6-84fb0ef8c0e2/f367ebb1b07a/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/noe-valley-park-85a06735-7e27-41da-8de7-50b87fa1e709.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 50110,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/noe-valley-park-85a06735-7e27-41da-8de7-50b87fa1e709/13ad180c9525/640.webp",
+          "pathname": "media/noe-valley-park-85a06735-7e27-41da-8de7-50b87fa1e709/13ad180c9525/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 195622,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/noe-valley-park-85a06735-7e27-41da-8de7-50b87fa1e709/13ad180c9525/1280.webp",
+          "pathname": "media/noe-valley-park-85a06735-7e27-41da-8de7-50b87fa1e709/13ad180c9525/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/noe-valley-park-cc1d00d2-a5c4-403e-a79e-681e800f0dae.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 56092,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/noe-valley-park-cc1d00d2-a5c4-403e-a79e-681e800f0dae/b47d85f32512/640.webp",
+          "pathname": "media/noe-valley-park-cc1d00d2-a5c4-403e-a79e-681e800f0dae/b47d85f32512/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 198228,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/noe-valley-park-cc1d00d2-a5c4-403e-a79e-681e800f0dae/b47d85f32512/1280.webp",
+          "pathname": "media/noe-valley-park-cc1d00d2-a5c4-403e-a79e-681e800f0dae/b47d85f32512/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/noe-valley-park-8959cac5-158c-416c-bdbc-e24de29de9fc.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 853,
+          "bytes": 81172,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/noe-valley-park-8959cac5-158c-416c-bdbc-e24de29de9fc/835165090e8d/640.webp",
+          "pathname": "media/noe-valley-park-8959cac5-158c-416c-bdbc-e24de29de9fc/835165090e8d/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 1707,
+          "bytes": 232082,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/noe-valley-park-8959cac5-158c-416c-bdbc-e24de29de9fc/835165090e8d/1280.webp",
+          "pathname": "media/noe-valley-park-8959cac5-158c-416c-bdbc-e24de29de9fc/835165090e8d/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/saturn-street-steps-88cc0627-f43d-4c5f-a33c-9c0ce845f8c8.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 50110,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-88cc0627-f43d-4c5f-a33c-9c0ce845f8c8/13ad180c9525/640.webp",
+          "pathname": "media/saturn-street-steps-88cc0627-f43d-4c5f-a33c-9c0ce845f8c8/13ad180c9525/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 195622,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-88cc0627-f43d-4c5f-a33c-9c0ce845f8c8/13ad180c9525/1280.webp",
+          "pathname": "media/saturn-street-steps-88cc0627-f43d-4c5f-a33c-9c0ce845f8c8/13ad180c9525/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/saturn-street-steps-910cbd22-b64b-42e8-9974-e3f35c0529a2.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 103432,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-910cbd22-b64b-42e8-9974-e3f35c0529a2/e53b0d1954c9/640.webp",
+          "pathname": "media/saturn-street-steps-910cbd22-b64b-42e8-9974-e3f35c0529a2/e53b0d1954c9/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 392764,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-910cbd22-b64b-42e8-9974-e3f35c0529a2/e53b0d1954c9/1280.webp",
+          "pathname": "media/saturn-street-steps-910cbd22-b64b-42e8-9974-e3f35c0529a2/e53b0d1954c9/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/saturn-street-steps-9aa13f96-9d53-4f5f-ae33-26f9a0c84b28.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 854,
+          "bytes": 166558,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-9aa13f96-9d53-4f5f-ae33-26f9a0c84b28/e6b789160ba6/640.webp",
+          "pathname": "media/saturn-street-steps-9aa13f96-9d53-4f5f-ae33-26f9a0c84b28/e6b789160ba6/640.webp"
+        },
+        {
+          "width": 1243,
+          "height": 1658,
+          "bytes": 473036,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-9aa13f96-9d53-4f5f-ae33-26f9a0c84b28/e6b789160ba6/1243.webp",
+          "pathname": "media/saturn-street-steps-9aa13f96-9d53-4f5f-ae33-26f9a0c84b28/e6b789160ba6/1243.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/saturn-street-steps-7a20df96-efce-4c4f-9aeb-047c76e7475d.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 117104,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-7a20df96-efce-4c4f-9aeb-047c76e7475d/708dd32cc811/640.webp",
+          "pathname": "media/saturn-street-steps-7a20df96-efce-4c4f-9aeb-047c76e7475d/708dd32cc811/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 437286,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/saturn-street-steps-7a20df96-efce-4c4f-9aeb-047c76e7475d/708dd32cc811/1280.webp",
+          "pathname": "media/saturn-street-steps-7a20df96-efce-4c4f-9aeb-047c76e7475d/708dd32cc811/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/mt-olympus-e9e02d65-a705-4e77-9671-a43eecc55e7c.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 117924,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/mt-olympus-e9e02d65-a705-4e77-9671-a43eecc55e7c/961812e62ade/640.webp",
+          "pathname": "media/mt-olympus-e9e02d65-a705-4e77-9671-a43eecc55e7c/961812e62ade/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 443102,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/mt-olympus-e9e02d65-a705-4e77-9671-a43eecc55e7c/961812e62ade/1280.webp",
+          "pathname": "media/mt-olympus-e9e02d65-a705-4e77-9671-a43eecc55e7c/961812e62ade/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/tank-hill-43ced884-23f3-4ec7-9cf0-c825fbd1d015.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 84360,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/tank-hill-43ced884-23f3-4ec7-9cf0-c825fbd1d015/f962d42c522f/640.webp",
+          "pathname": "media/tank-hill-43ced884-23f3-4ec7-9cf0-c825fbd1d015/f962d42c522f/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 324716,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/tank-hill-43ced884-23f3-4ec7-9cf0-c825fbd1d015/f962d42c522f/1280.webp",
+          "pathname": "media/tank-hill-43ced884-23f3-4ec7-9cf0-c825fbd1d015/f962d42c522f/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/tank-hill-97a38fe8-a3e9-4203-b8ef-b3a5f3c664a5.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 47208,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/tank-hill-97a38fe8-a3e9-4203-b8ef-b3a5f3c664a5/2dc58dfeb9fc/640.webp",
+          "pathname": "media/tank-hill-97a38fe8-a3e9-4203-b8ef-b3a5f3c664a5/2dc58dfeb9fc/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 178066,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/tank-hill-97a38fe8-a3e9-4203-b8ef-b3a5f3c664a5/2dc58dfeb9fc/1280.webp",
+          "pathname": "media/tank-hill-97a38fe8-a3e9-4203-b8ef-b3a5f3c664a5/2dc58dfeb9fc/1280.webp"
+        }
+      ]
+    },
+    {
+      "localPath": "/media/tank-hill-eb979f6a-e04d-4475-a42b-3a5d29ae65c7.jpg",
+      "variants": [
+        {
+          "width": 640,
+          "height": 480,
+          "bytes": 29758,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/tank-hill-eb979f6a-e04d-4475-a42b-3a5d29ae65c7/b12682b190f1/640.webp",
+          "pathname": "media/tank-hill-eb979f6a-e04d-4475-a42b-3a5d29ae65c7/b12682b190f1/640.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 104530,
+          "url": "https://yfhyoklpjmg7y4gg.public.blob.vercel-storage.com/media/tank-hill-eb979f6a-e04d-4475-a42b-3a5d29ae65c7/b12682b190f1/1280.webp",
+          "pathname": "media/tank-hill-eb979f6a-e04d-4475-a42b-3a5d29ae65c7/b12682b190f1/1280.webp"
         }
       ]
     }

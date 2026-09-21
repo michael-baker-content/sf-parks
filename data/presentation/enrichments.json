@@ -49,6 +49,18 @@
       "reason": "Official facility page lists familiar features not represented in the open-data discovery taxonomy."
     },
     {
+      "destinationId": "noe-valley-park",
+      "publicName": "Noe Valley Park",
+      "propertyIds": ["72"],
+      "features": [],
+      "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Noe-Valley-Courts-357",
+      "actionType": "facility-page",
+      "retrievedAt": "2026-09-20",
+      "reviewedAt": "2026-09-20",
+      "reviewedBy": "project-owner",
+      "reason": "The broader park includes basketball and tennis courts; the public-facing park name avoids presenting the courts as the entire destination, while the source name remains searchable."
+    },
+    {
       "destinationId": "cityside-parks",
       "publicName": "Cityside Park",
       "propertyIds": ["957484"],

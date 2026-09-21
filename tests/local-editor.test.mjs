@@ -25,7 +25,7 @@ test("notice links are optional, trimmed, and restricted to safe web addresses",
   for (const url of ["javascript:alert(1)", "data:text/html,bad", "/relative", "https://user:password@example.com"]) assert.throws(() => validateNotice({ ...notice, url }, ids));
 });
 
-test("local editor seeds all photos, preserves sources, and backs up saves without creating a CSV", async () => {
+test("local editor seeds photos, preserves sources, and safely removes catalog entries without deleting Blob records", async () => {
   const root = await mkdtemp(join(tmpdir(), "parks-editor-test-"));
   let store;
   try {
@@ -51,7 +51,16 @@ test("local editor seeds all photos, preserves sources, and backs up saves witho
     assert.equal(edited.imageUrl, drafts[0].imageUrl);
     assert.equal(after.images.length, before.images.length);
     await assert.rejects(readFile(join(root, "photo-metadata-review.csv")), { code: "ENOENT" });
-    await assert.rejects(store.saveImages({ destinationId: parkId, images: [] }));
+    await assert.rejects(store.saveImages({ destinationId: parkId, images: [{ ...drafts[0], localPath: "/media/not-cataloged.jpg" }] }), /unknown or duplicate/);
+    const removable = after.images.find((image) => !before.blogs.some((post) => post.markdown.includes(image.localPath)));
+    const removableParkImages = after.images.filter((image) => image.destinationId === removable.destinationId && image.localPath !== removable.localPath);
+    await store.saveImages({ destinationId: removable.destinationId, images: removableParkImages });
+    const afterRemoval = await store.state();
+    assert.equal(afterRemoval.images.some((image) => image.localPath === removable.localPath), false);
+    assert.equal(afterRemoval.blobAssets.some((asset) => asset.localPath === removable.localPath), true);
+    const referenced = before.images.find((image) => before.blogs.some((post) => post.markdown.includes(image.localPath)));
+    const referencedParkImages = afterRemoval.images.filter((image) => image.destinationId === referenced.destinationId && image.localPath !== referenced.localPath);
+    await assert.rejects(store.saveImages({ destinationId: referenced.destinationId, images: referencedParkImages }), /blog posts/);
     await store.saveNotice({ destinationId: parkId, active: true, title: "Test notice", body: "Test only", expiresOn: "2026-12-31", url: "https://sfrecpark.org/", urlText: "Official park update" });
     assert.equal((await store.state()).notices.find((item) => item.destinationId === parkId).urlText, "Official park update");
     assert.equal((await store.state()).notices.find((item) => item.destinationId === parkId).url, "https://sfrecpark.org/");

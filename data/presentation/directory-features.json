@@ -796,7 +796,7 @@
       "reason": "Stable CivicPlus directory features mapped to a reviewed public amenity label; quantities and accessibility are not inferred."
     },
     {
-      "destinationId": "noe-valley-courts",
+      "destinationId": "noe-valley-park",
       "features": [
         {
           "sourceFeatureId": "7",

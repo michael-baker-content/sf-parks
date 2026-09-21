@@ -49762,8 +49762,8 @@
       ]
     },
     {
-      "id": "noe-valley-courts",
-      "publicName": "Noe Valley Courts",
+      "id": "noe-valley-park",
+      "publicName": "Noe Valley Park",
       "kind": "property",
       "propertyIds": [
         "72"
@@ -50027,13 +50027,18 @@
       "coverage": "official-page-reviewed",
       "officialActions": [
         {
-          "type": "information-page",
+          "type": "facility-page",
           "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Noe-Valley-Courts-357",
-          "reviewedAt": "2026-08-27",
-          "retrievedAt": "2026-08-27"
+          "reviewedAt": "2026-09-20",
+          "retrievedAt": "2026-09-20"
         }
       ],
-      "enrichment": null,
+      "enrichment": {
+        "sourceUrl": "https://www.sfrecpark.org/Facilities/Facility/Details/Noe-Valley-Courts-357",
+        "retrievedAt": "2026-09-20",
+        "reviewedAt": "2026-09-20",
+        "reason": "The broader park includes basketball and tennis courts; the public-facing park name avoids presenting the courts as the entire destination, while the source name remains searchable."
+      },
       "searchableAmenityTerms": [
         "Basketball Court",
         "Bench",

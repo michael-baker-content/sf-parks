@@ -36,3 +36,19 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Never use suppressed networking-provider errors for server-lifecycle
   decisions. If verification methods disagree, report the uncertainty and do
   not alter a process until its identity is established.
+
+## Location rename behavior
+
+- Treat the reviewed source-data name as the default public name. If the user
+  requests a name that differs from the underlying source, pause before making
+  the change, identify the source name and source page, and explicitly explain
+  that the requested name will become a project-level presentation override.
+  Obtain the user's confirmation after that explanation; do not assume the
+  initial rename request means they already understand the divergence.
+- After a divergent rename is confirmed—or when the requested rename matches
+  the source—rename both the public-facing name and its stable route
+  identifier/URL slug.
+- Update every internal reference to the destination identifier and rebuild
+  generated destination and search data. Retain the former source name as a
+  searchable alias when it remains useful, but do not preserve the former slug
+  unless the user explicitly asks for backward compatibility.
